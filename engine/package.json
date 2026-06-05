@@ -1,0 +1,25 @@
+{
+  "name": "wc26-engine",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Self-updating prediction + data + accuracy engine for the WC2026 Prediction Machine",
+  "scripts": {
+    "verify": "tsx src/verify.ts",
+    "main-update": "tsx src/jobs/main-update.ts",
+    "lock-job": "tsx src/jobs/lock-job.ts",
+    "live-status": "tsx src/jobs/live-status.ts",
+    "daily-housekeeping": "tsx src/jobs/daily-housekeeping.ts",
+    "seed-mock": "tsx src/seedMock.ts",
+    "test": "node --import tsx --test test/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.70.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "@types/node": "^22.10.0"
+  }
+}

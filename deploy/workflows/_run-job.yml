@@ -1,0 +1,63 @@
+# Reusable workflow: run one engine job, then commit the updated /data back to main.
+# The push to main is what triggers Render to redeploy (the static site reads /data).
+name: run-engine-job
+
+on:
+  workflow_call:
+    inputs:
+      job:
+        description: "engine npm script to run (main-update | lock-job | live-status | daily-housekeeping)"
+        required: true
+        type: string
+
+# Serialise all data-writing jobs so concurrent crons never race on a push to main.
+concurrency:
+  group: wc26-data-writer
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+          cache-dependency-path: engine/package-lock.json
+
+      - name: Install engine deps
+        working-directory: engine
+        run: npm ci
+
+      - name: Run ${{ inputs.job }}
+        working-directory: engine
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
+          PREDICTION_MODEL_GROUP: ${{ secrets.PREDICTION_MODEL_GROUP }}
+          PREDICTION_MODEL_KO: ${{ secrets.PREDICTION_MODEL_KO }}
+          RENDER_DEPLOY_HOOK: ${{ secrets.RENDER_DEPLOY_HOOK }}
+        run: npm run ${{ inputs.job }}
+
+      - name: Commit updated data back to main
+        run: |
+          git config user.name  "wc26-bot"
+          git config user.email "actions@github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+            exit 0
+          fi
+          git commit -m "data: ${{ inputs.job }} update [skip ci]"
+          # Rebase onto any commit another job pushed while we ran, then push.
+          for attempt in 1 2 3; do
+            git pull --rebase --autostash origin main && git push origin HEAD:main && exit 0
+            echo "push attempt $attempt failed, retrying…"
+            sleep 5
+          done
+          echo "Failed to push after retries" && exit 1

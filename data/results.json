@@ -1,0 +1,249 @@
+[
+  {
+    "fixtureId": "1000",
+    "status": "finished",
+    "kickoff": "2026-06-11T18:00:00.000Z",
+    "stage": "groupA",
+    "homeTeam": "Mexico",
+    "awayTeam": "Croatia",
+    "actualScore": {
+      "home": 2,
+      "away": 0
+    },
+    "actualOutcome": "homeWin",
+    "machineOutcomeHit": true,
+    "marketOutcomeHit": true,
+    "exactScoreHit": true,
+    "machineBrierScore": 0.454,
+    "marketBrierScore": 0.505,
+    "resolvedAt": "2026-06-16T12:00:00.000Z"
+  },
+  {
+    "fixtureId": "1006",
+    "status": "finished",
+    "kickoff": "2026-06-11T18:00:00.000Z",
+    "stage": "groupB",
+    "homeTeam": "Canada",
+    "awayTeam": "Belgium",
+    "actualScore": {
+      "home": 2,
+      "away": 0
+    },
+    "actualOutcome": "homeWin",
+    "machineOutcomeHit": true,
+    "marketOutcomeHit": true,
+    "exactScoreHit": true,
+    "machineBrierScore": 0.454,
+    "marketBrierScore": 0.505,
+    "resolvedAt": "2026-06-16T12:00:00.000Z"
+  },
+  {
+    "fixtureId": "1001",
+    "status": "finished",
+    "kickoff": "2026-06-11T21:00:00.000Z",
+    "stage": "groupA",
+    "homeTeam": "Ecuador",
+    "awayTeam": "South Africa",
+    "actualScore": {
+      "home": 1,
+      "away": 1
+    },
+    "actualOutcome": "draw",
+    "machineOutcomeHit": false,
+    "marketOutcomeHit": false,
+    "exactScoreHit": false,
+    "machineBrierScore": 0.84,
+    "marketBrierScore": 0.765,
+    "resolvedAt": "2026-06-16T12:00:00.000Z"
+  },
+  {
+    "fixtureId": "1007",
+    "status": "finished",
+    "kickoff": "2026-06-11T21:00:00.000Z",
+    "stage": "groupB",
+    "homeTeam": "Morocco",
+    "awayTeam": "Uzbekistan",
+    "actualScore": {
+      "home": 1,
+      "away": 1
+    },
+    "actualOutcome": "draw",
+    "machineOutcomeHit": false,
+    "marketOutcomeHit": false,
+    "exactScoreHit": false,
+    "machineBrierScore": 0.84,
+    "marketBrierScore": 0.765,
+    "resolvedAt": "2026-06-16T12:00:00.000Z"
+  },
+  {
+    "fixtureId": "1002",
+    "status": "live",
+    "kickoff": "2026-06-16T18:00:00.000Z",
+    "stage": "groupA",
+    "homeTeam": "Mexico",
+    "awayTeam": "Ecuador",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1008",
+    "status": "live",
+    "kickoff": "2026-06-16T18:00:00.000Z",
+    "stage": "groupB",
+    "homeTeam": "Canada",
+    "awayTeam": "Morocco",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1003",
+    "status": "scheduled",
+    "kickoff": "2026-06-16T21:00:00.000Z",
+    "stage": "groupA",
+    "homeTeam": "South Africa",
+    "awayTeam": "Croatia",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1009",
+    "status": "scheduled",
+    "kickoff": "2026-06-16T21:00:00.000Z",
+    "stage": "groupB",
+    "homeTeam": "Uzbekistan",
+    "awayTeam": "Belgium",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1004",
+    "status": "scheduled",
+    "kickoff": "2026-06-21T18:00:00.000Z",
+    "stage": "groupA",
+    "homeTeam": "South Africa",
+    "awayTeam": "Mexico",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1010",
+    "status": "scheduled",
+    "kickoff": "2026-06-21T18:00:00.000Z",
+    "stage": "groupB",
+    "homeTeam": "Uzbekistan",
+    "awayTeam": "Canada",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1005",
+    "status": "scheduled",
+    "kickoff": "2026-06-21T21:00:00.000Z",
+    "stage": "groupA",
+    "homeTeam": "Croatia",
+    "awayTeam": "Ecuador",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1011",
+    "status": "scheduled",
+    "kickoff": "2026-06-21T21:00:00.000Z",
+    "stage": "groupB",
+    "homeTeam": "Belgium",
+    "awayTeam": "Morocco",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1012",
+    "status": "scheduled",
+    "kickoff": "2026-06-28T20:00:00.000Z",
+    "stage": "R32",
+    "homeTeam": "Winner Group A",
+    "awayTeam": "Runner-up Group B",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  }
+]

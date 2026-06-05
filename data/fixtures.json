@@ -1,0 +1,251 @@
+[
+  {
+    "fixtureId": "1000",
+    "stage": "groupA",
+    "matchday": "MD1",
+    "kickoff": "2026-06-11T18:00:00.000Z",
+    "status": "finished",
+    "homeTeam": "Mexico",
+    "awayTeam": "Croatia",
+    "homeTeamId": 16,
+    "awayTeamId": 3,
+    "homeScore": 2,
+    "awayScore": 0,
+    "elapsed": null,
+    "venue": {
+      "name": "Estadio Azteca",
+      "city": "Mexico City",
+      "country": "Mexico"
+    }
+  },
+  {
+    "fixtureId": "1006",
+    "stage": "groupB",
+    "matchday": "MD1",
+    "kickoff": "2026-06-11T18:00:00.000Z",
+    "status": "finished",
+    "homeTeam": "Canada",
+    "awayTeam": "Belgium",
+    "homeTeamId": 1531,
+    "awayTeamId": 1,
+    "homeScore": 2,
+    "awayScore": 0,
+    "elapsed": null,
+    "venue": {
+      "name": "BMO Field",
+      "city": "Toronto",
+      "country": "Canada"
+    }
+  },
+  {
+    "fixtureId": "1001",
+    "stage": "groupA",
+    "matchday": "MD1",
+    "kickoff": "2026-06-11T21:00:00.000Z",
+    "status": "finished",
+    "homeTeam": "Ecuador",
+    "awayTeam": "South Africa",
+    "homeTeamId": 2382,
+    "awayTeamId": 1530,
+    "homeScore": 1,
+    "awayScore": 1,
+    "elapsed": null,
+    "venue": {
+      "name": "Estadio Azteca",
+      "city": "Mexico City",
+      "country": "Mexico"
+    }
+  },
+  {
+    "fixtureId": "1007",
+    "stage": "groupB",
+    "matchday": "MD1",
+    "kickoff": "2026-06-11T21:00:00.000Z",
+    "status": "finished",
+    "homeTeam": "Morocco",
+    "awayTeam": "Uzbekistan",
+    "homeTeamId": 31,
+    "awayTeamId": 1568,
+    "homeScore": 1,
+    "awayScore": 1,
+    "elapsed": null,
+    "venue": {
+      "name": "BMO Field",
+      "city": "Toronto",
+      "country": "Canada"
+    }
+  },
+  {
+    "fixtureId": "1002",
+    "stage": "groupA",
+    "matchday": "MD2",
+    "kickoff": "2026-06-16T18:00:00.000Z",
+    "status": "live",
+    "homeTeam": "Mexico",
+    "awayTeam": "Ecuador",
+    "homeTeamId": 16,
+    "awayTeamId": 2382,
+    "homeScore": 1,
+    "awayScore": 0,
+    "elapsed": 63,
+    "venue": {
+      "name": "Estadio Azteca",
+      "city": "Mexico City",
+      "country": "Mexico"
+    }
+  },
+  {
+    "fixtureId": "1008",
+    "stage": "groupB",
+    "matchday": "MD2",
+    "kickoff": "2026-06-16T18:00:00.000Z",
+    "status": "live",
+    "homeTeam": "Canada",
+    "awayTeam": "Morocco",
+    "homeTeamId": 1531,
+    "awayTeamId": 31,
+    "homeScore": 1,
+    "awayScore": 0,
+    "elapsed": 63,
+    "venue": {
+      "name": "BMO Field",
+      "city": "Toronto",
+      "country": "Canada"
+    }
+  },
+  {
+    "fixtureId": "1003",
+    "stage": "groupA",
+    "matchday": "MD2",
+    "kickoff": "2026-06-16T21:00:00.000Z",
+    "status": "scheduled",
+    "homeTeam": "South Africa",
+    "awayTeam": "Croatia",
+    "homeTeamId": 1530,
+    "awayTeamId": 3,
+    "homeScore": null,
+    "awayScore": null,
+    "elapsed": null,
+    "venue": {
+      "name": "Estadio Azteca",
+      "city": "Mexico City",
+      "country": "Mexico"
+    }
+  },
+  {
+    "fixtureId": "1009",
+    "stage": "groupB",
+    "matchday": "MD2",
+    "kickoff": "2026-06-16T21:00:00.000Z",
+    "status": "scheduled",
+    "homeTeam": "Uzbekistan",
+    "awayTeam": "Belgium",
+    "homeTeamId": 1568,
+    "awayTeamId": 1,
+    "homeScore": null,
+    "awayScore": null,
+    "elapsed": null,
+    "venue": {
+      "name": "BMO Field",
+      "city": "Toronto",
+      "country": "Canada"
+    }
+  },
+  {
+    "fixtureId": "1004",
+    "stage": "groupA",
+    "matchday": "MD3",
+    "kickoff": "2026-06-21T18:00:00.000Z",
+    "status": "scheduled",
+    "homeTeam": "South Africa",
+    "awayTeam": "Mexico",
+    "homeTeamId": 1530,
+    "awayTeamId": 16,
+    "homeScore": null,
+    "awayScore": null,
+    "elapsed": null,
+    "venue": {
+      "name": "Estadio Azteca",
+      "city": "Mexico City",
+      "country": "Mexico"
+    }
+  },
+  {
+    "fixtureId": "1010",
+    "stage": "groupB",
+    "matchday": "MD3",
+    "kickoff": "2026-06-21T18:00:00.000Z",
+    "status": "scheduled",
+    "homeTeam": "Uzbekistan",
+    "awayTeam": "Canada",
+    "homeTeamId": 1568,
+    "awayTeamId": 1531,
+    "homeScore": null,
+    "awayScore": null,
+    "elapsed": null,
+    "venue": {
+      "name": "BMO Field",
+      "city": "Toronto",
+      "country": "Canada"
+    }
+  },
+  {
+    "fixtureId": "1005",
+    "stage": "groupA",
+    "matchday": "MD3",
+    "kickoff": "2026-06-21T21:00:00.000Z",
+    "status": "scheduled",
+    "homeTeam": "Croatia",
+    "awayTeam": "Ecuador",
+    "homeTeamId": 3,
+    "awayTeamId": 2382,
+    "homeScore": null,
+    "awayScore": null,
+    "elapsed": null,
+    "venue": {
+      "name": "Estadio Azteca",
+      "city": "Mexico City",
+      "country": "Mexico"
+    }
+  },
+  {
+    "fixtureId": "1011",
+    "stage": "groupB",
+    "matchday": "MD3",
+    "kickoff": "2026-06-21T21:00:00.000Z",
+    "status": "scheduled",
+    "homeTeam": "Belgium",
+    "awayTeam": "Morocco",
+    "homeTeamId": 1,
+    "awayTeamId": 31,
+    "homeScore": null,
+    "awayScore": null,
+    "elapsed": null,
+    "venue": {
+      "name": "BMO Field",
+      "city": "Toronto",
+      "country": "Canada"
+    }
+  },
+  {
+    "fixtureId": "1012",
+    "stage": "R32",
+    "matchday": null,
+    "kickoff": "2026-06-28T20:00:00.000Z",
+    "status": "scheduled",
+    "homeTeam": "Winner Group A",
+    "awayTeam": "Runner-up Group B",
+    "homeTeamId": null,
+    "awayTeamId": null,
+    "homeScore": null,
+    "awayScore": null,
+    "elapsed": null,
+    "homeSlot": "RU:A",
+    "awaySlot": "RU:B",
+    "venue": {
+      "name": "MetLife Stadium",
+      "city": "New York",
+      "country": "USA"
+    }
+  }
+]

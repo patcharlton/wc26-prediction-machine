@@ -1,0 +1,110 @@
+{
+  "groupA": [
+    {
+      "teamId": 16,
+      "team": "Mexico",
+      "rank": 1,
+      "played": 2,
+      "win": 2,
+      "draw": 0,
+      "lose": 0,
+      "goalsFor": 5,
+      "goalsAgainst": 1,
+      "goalDiff": 4,
+      "points": 6
+    },
+    {
+      "teamId": 3,
+      "team": "Croatia",
+      "rank": 2,
+      "played": 2,
+      "win": 1,
+      "draw": 1,
+      "lose": 0,
+      "goalsFor": 4,
+      "goalsAgainst": 2,
+      "goalDiff": 2,
+      "points": 4
+    },
+    {
+      "teamId": 2382,
+      "team": "Ecuador",
+      "rank": 3,
+      "played": 2,
+      "win": 0,
+      "draw": 0,
+      "lose": 1,
+      "goalsFor": 3,
+      "goalsAgainst": 3,
+      "goalDiff": 0,
+      "points": 2
+    },
+    {
+      "teamId": 1530,
+      "team": "South Africa",
+      "rank": 4,
+      "played": 2,
+      "win": 0,
+      "draw": 0,
+      "lose": 2,
+      "goalsFor": 2,
+      "goalsAgainst": 4,
+      "goalDiff": -2,
+      "points": 0
+    }
+  ],
+  "groupB": [
+    {
+      "teamId": 1531,
+      "team": "Canada",
+      "rank": 1,
+      "played": 2,
+      "win": 2,
+      "draw": 0,
+      "lose": 0,
+      "goalsFor": 5,
+      "goalsAgainst": 1,
+      "goalDiff": 4,
+      "points": 6
+    },
+    {
+      "teamId": 1,
+      "team": "Belgium",
+      "rank": 2,
+      "played": 2,
+      "win": 1,
+      "draw": 1,
+      "lose": 0,
+      "goalsFor": 4,
+      "goalsAgainst": 2,
+      "goalDiff": 2,
+      "points": 4
+    },
+    {
+      "teamId": 31,
+      "team": "Morocco",
+      "rank": 3,
+      "played": 2,
+      "win": 0,
+      "draw": 0,
+      "lose": 1,
+      "goalsFor": 3,
+      "goalsAgainst": 3,
+      "goalDiff": 0,
+      "points": 2
+    },
+    {
+      "teamId": 1568,
+      "team": "Uzbekistan",
+      "rank": 4,
+      "played": 2,
+      "win": 0,
+      "draw": 0,
+      "lose": 2,
+      "goalsFor": 2,
+      "goalsAgainst": 4,
+      "goalDiff": -2,
+      "points": 0
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+# lock-job — hourly.
+# Lock + freeze the market for any fixture within ~2h of kickoff. Uses stored
+# fixtures, so most runs spend zero API requests.
+name: lock-job
+
+on:
+  schedule:
+    - cron: "0 * * * *" # top of every hour UTC
+  workflow_dispatch:
+
+jobs:
+  run:
+    uses: ./.github/workflows/_run-job.yml
+    with:
+      job: lock-job
+    secrets: inherit

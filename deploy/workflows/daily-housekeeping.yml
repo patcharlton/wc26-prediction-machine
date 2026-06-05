@@ -1,0 +1,16 @@
+# daily-housekeeping — 06:00 UTC.
+# Full resync of fixtures + standings (captures overnight finals) and a full
+# accuracy-ledger recompute. ~2 API-Football requests.
+name: daily-housekeeping
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # 06:00 UTC daily
+  workflow_dispatch:
+
+jobs:
+  run:
+    uses: ./.github/workflows/_run-job.yml
+    with:
+      job: daily-housekeeping
+    secrets: inherit

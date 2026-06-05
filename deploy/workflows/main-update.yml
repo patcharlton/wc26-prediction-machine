@@ -1,0 +1,16 @@
+# main-update — every 6 hours.
+# Pull standings + fixtures, populate knockouts, generate predictions for fixtures
+# entering the 48h window, recompute accuracy. ~2 + N API-Football requests.
+name: main-update
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # 00:00, 06:00, 12:00, 18:00 UTC
+  workflow_dispatch:
+
+jobs:
+  run:
+    uses: ./.github/workflows/_run-job.yml
+    with:
+      job: main-update
+    secrets: inherit

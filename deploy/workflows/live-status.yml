@@ -1,0 +1,16 @@
+# live-status — every 15 minutes.
+# Self-guards on stored kickoff times: if no match is in a live window it exits
+# immediately without an API call. Only spends a request while matches are in play.
+name: live-status
+
+on:
+  schedule:
+    - cron: "*/15 * * * *" # every 15 minutes UTC
+  workflow_dispatch:
+
+jobs:
+  run:
+    uses: ./.github/workflows/_run-job.yml
+    with:
+      job: live-status
+    secrets: inherit

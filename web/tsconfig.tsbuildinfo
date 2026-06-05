@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/data.ts","./src/format.ts","./src/main.tsx","./src/types.ts","./src/vite-env.d.ts","./src/components/matchcard.tsx","./src/components/scoreboard.tsx","./src/components/standings.tsx"],"version":"5.9.3"}

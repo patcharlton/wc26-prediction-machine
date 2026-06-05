@@ -1,0 +1,100 @@
+{
+  "totals": {
+    "completed": 4,
+    "machineCorrect": 2,
+    "marketCorrect": 2,
+    "exactScoreHits": 2
+  },
+  "rates": {
+    "machineOutcomeAccuracy": 0.5,
+    "marketOutcomeAccuracy": 0.5,
+    "exactScoreAccuracy": 0.5
+  },
+  "brier": {
+    "machineAvg": 0.647,
+    "marketAvg": 0.635
+  },
+  "headToHead": {
+    "machineLead": 0,
+    "level": 4,
+    "marketLead": 0,
+    "verdict": "level"
+  },
+  "byStage": {
+    "group": {
+      "completed": 4,
+      "machineCorrect": 2,
+      "marketCorrect": 2,
+      "exactScoreHits": 2,
+      "machineBrierAvg": 0.647,
+      "marketBrierAvg": 0.635
+    },
+    "R32": {
+      "completed": 0,
+      "machineCorrect": 0,
+      "marketCorrect": 0,
+      "exactScoreHits": 0,
+      "machineBrierAvg": null,
+      "marketBrierAvg": null
+    },
+    "R16": {
+      "completed": 0,
+      "machineCorrect": 0,
+      "marketCorrect": 0,
+      "exactScoreHits": 0,
+      "machineBrierAvg": null,
+      "marketBrierAvg": null
+    },
+    "QF": {
+      "completed": 0,
+      "machineCorrect": 0,
+      "marketCorrect": 0,
+      "exactScoreHits": 0,
+      "machineBrierAvg": null,
+      "marketBrierAvg": null
+    },
+    "SF": {
+      "completed": 0,
+      "machineCorrect": 0,
+      "marketCorrect": 0,
+      "exactScoreHits": 0,
+      "machineBrierAvg": null,
+      "marketBrierAvg": null
+    },
+    "Final": {
+      "completed": 0,
+      "machineCorrect": 0,
+      "marketCorrect": 0,
+      "exactScoreHits": 0,
+      "machineBrierAvg": null,
+      "marketBrierAvg": null
+    }
+  },
+  "byMatchday": {
+    "MD1": {
+      "completed": 4,
+      "machineCorrect": 2,
+      "marketCorrect": 2,
+      "exactScoreHits": 2,
+      "machineBrierAvg": 0.647,
+      "marketBrierAvg": 0.635
+    },
+    "MD2": {
+      "completed": 0,
+      "machineCorrect": 0,
+      "marketCorrect": 0,
+      "exactScoreHits": 0,
+      "machineBrierAvg": null,
+      "marketBrierAvg": null
+    },
+    "MD3": {
+      "completed": 0,
+      "machineCorrect": 0,
+      "marketCorrect": 0,
+      "exactScoreHits": 0,
+      "machineBrierAvg": null,
+      "marketBrierAvg": null
+    }
+  },
+  "lastUpdatedAt": "2026-06-16T12:00:00.000Z"
+}

@@ -1,0 +1,23 @@
+# Render Blueprint — free static site.
+# Renders the Vite build in web/dist. The build's copy-data step pulls /data/*.json
+# (written by the GitHub Actions engine jobs and committed to the repo) into the
+# bundle, so each push to main redeploys the site with the latest predictions,
+# results and accuracy ledger. No server, no paid services.
+#
+# Setup: New → Blueprint → point at this repo. Render auto-deploys on push to main.
+# (Optional) copy the service's Deploy Hook URL into the GitHub secret
+# RENDER_DEPLOY_HOOK for belt-and-braces redeploys.
+services:
+  - type: web
+    name: wc26-prediction-machine
+    runtime: static
+    buildCommand: cd web && npm install && npm run build
+    staticPublishPath: ./web/dist
+    autoDeploy: true
+    pullRequestPreviewsEnabled: false
+    # NOTE: deliberately no catch-all rewrite to /index.html — it would shadow the
+    # /data/*.json files the frontend fetches. This is a single page, no client router.
+    headers:
+      - path: /data/*
+        name: Cache-Control
+        value: "no-cache, max-age=0, must-revalidate"
