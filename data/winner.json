@@ -1,0 +1,44 @@
+{
+  "champion": "Spain",
+  "runnerUp": "France",
+  "darkHorse": "Morocco",
+  "confidence": "Medium-Low",
+  "contenders": [
+    {
+      "team": "Spain",
+      "prob": 0.17
+    },
+    {
+      "team": "France",
+      "prob": 0.14
+    },
+    {
+      "team": "England",
+      "prob": 0.11
+    },
+    {
+      "team": "Argentina",
+      "prob": 0.1
+    },
+    {
+      "team": "Brazil",
+      "prob": 0.09
+    },
+    {
+      "team": "Portugal",
+      "prob": 0.08
+    },
+    {
+      "team": "Germany",
+      "prob": 0.05
+    },
+    {
+      "team": "Netherlands",
+      "prob": 0.035
+    }
+  ],
+  "reasoning": "Spain are the consensus pick across bookmakers and models, with the Opta supercomputer giving them a tournament-high 16.1% win chance and the only side rated more likely than not to reach the quarter-finals, backed by Euro 2024 form and a deep, youthful core around Yamal, Pedri and Rodri. France are the natural runner-up call as co-favorite, carrying back-to-back final appearances and a devastating Mbappe-led attack, though their Group I draw with Senegal, Norway and Iraq is the toughest among the elite. England, holders Argentina and Brazil headline the chasing pack, with Argentina's knockout pedigree offset by age concerns across a long, hot North American tournament. I rate Morocco as the live outsider given their 2022 semi-final run, an Achraf Hakimi-anchored squad of European-tested players, and CONMEBOL/European elites historically being vulnerable to a well-drilled outsider; the field is unusually open with no runaway favorite, hence only medium-low confidence.",
+  "basis": "pre-tournament",
+  "modelVersion": "claude-opus-4-8",
+  "updatedAt": "2026-06-05T21:29:44.362Z"
+}

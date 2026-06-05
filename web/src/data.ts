@@ -1,7 +1,7 @@
 // Loads the engine-written JSON data files (copied into /data by copy-data.mjs).
 // Cache-busted so a fresh deploy / refresh always shows current state.
 import type {
-  AppData, Fixture, Prediction, ResultRecord, Ledger, Standings, Meta,
+  AppData, Fixture, Prediction, ResultRecord, Ledger, Standings, Meta, WinnerPrediction,
 } from "./types";
 
 async function getJson<T>(name: string, fallback: T): Promise<T> {
@@ -17,13 +17,14 @@ async function getJson<T>(name: string, fallback: T): Promise<T> {
 }
 
 export async function loadAppData(): Promise<AppData> {
-  const [fixtures, predictions, results, ledger, standings, meta] = await Promise.all([
+  const [fixtures, predictions, results, ledger, standings, meta, winner] = await Promise.all([
     getJson<Fixture[]>("fixtures.json", []),
     getJson<Prediction[]>("predictions.json", []),
     getJson<ResultRecord[]>("results.json", []),
     getJson<Ledger | null>("ledger.json", null),
     getJson<Standings>("standings.json", {}),
     getJson<Meta>("meta.json", {}),
+    getJson<WinnerPrediction | null>("winner.json", null),
   ]);
 
   return {
@@ -33,5 +34,6 @@ export async function loadAppData(): Promise<AppData> {
     ledger: ledger && (ledger as Ledger).totals ? (ledger as Ledger) : null,
     standings,
     meta,
+    winner: winner && (winner as WinnerPrediction).champion ? (winner as WinnerPrediction) : null,
   };
 }

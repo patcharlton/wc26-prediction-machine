@@ -10,6 +10,7 @@ import type {
   Ledger,
   Standings,
   Meta,
+  WinnerPrediction,
 } from "./types.js";
 
 const DATA = CONFIG.dataDir;
@@ -53,6 +54,9 @@ export const store = {
 
   standings: () => readJson<Standings>("standings.json", {}),
   saveStandings: (s: Standings) => writeJson("standings.json", s),
+
+  winner: () => readJson<WinnerPrediction | null>("winner.json", null),
+  saveWinner: (w: WinnerPrediction) => writeJson("winner.json", w),
 
   meta: (): Meta =>
     readJson<Meta>("meta.json", {

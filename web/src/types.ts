@@ -102,6 +102,23 @@ export interface Meta {
   notes?: string;
 }
 
+export interface WinnerContender {
+  team: string;
+  prob: number;
+}
+
+export interface WinnerPrediction {
+  champion: string;
+  runnerUp: string | null;
+  darkHorse: string | null;
+  confidence: "Low" | "Medium-Low" | "Medium" | "Medium-High" | "High";
+  contenders: WinnerContender[];
+  reasoning: string;
+  basis: string;
+  modelVersion: string;
+  updatedAt: string;
+}
+
 export interface AppData {
   fixtures: Fixture[];
   predictions: Record<string, Prediction>;
@@ -109,4 +126,5 @@ export interface AppData {
   ledger: Ledger | null;
   standings: Standings;
   meta: Meta;
+  winner: WinnerPrediction | null;
 }

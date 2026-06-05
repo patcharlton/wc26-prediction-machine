@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import type { AppData, Fixture, Matchday } from "./types";
 import { loadAppData } from "./data";
 import { Scoreboard } from "./components/Scoreboard";
+import { WinnerBanner } from "./components/WinnerBanner";
 import { MatchCard } from "./components/MatchCard";
 import { GroupStandings } from "./components/Standings";
 import { STAGE_LABEL, KO_ORDER, groupLetter } from "./format";
@@ -76,6 +77,8 @@ export default function App() {
       {data.meta.notes && <div className="mocknote">{data.meta.notes}</div>}
 
       <Scoreboard ledger={data.ledger} />
+
+      <WinnerBanner winner={data.winner} />
 
       {/* Group stage by matchday */}
       {(Object.keys(MD_LABEL) as Matchday[]).map((md) => {

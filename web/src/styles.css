@@ -84,6 +84,29 @@ body {
 .board .strip .stat { font-size: 12px; color: var(--ink-dim); }
 .board .strip .stat b { color: var(--ink); font-family: "Space Mono"; }
 
+/* ---------- winner banner ---------- */
+.winner {
+  background: linear-gradient(135deg, rgba(215,255,62,0.10), rgba(255,93,143,0.08));
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 14px;
+  margin-bottom: 10px;
+}
+.winner-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+.winner-label { font-size: 12px; letter-spacing: 0.05em; text-transform: uppercase; color: var(--ink-dim); }
+.winner-basis { font-size: 10px; font-family: "Space Mono"; color: var(--ink-dim); text-transform: uppercase; }
+.winner-pick { display: flex; align-items: baseline; gap: 12px; }
+.winner-team { font-family: "Anton"; text-transform: uppercase; font-size: 32px; color: var(--machine); line-height: 1; }
+.winner-sub { display: flex; gap: 16px; margin-top: 6px; font-size: 12px; color: var(--ink-dim); flex-wrap: wrap; }
+.winner-sub b { color: var(--ink); }
+.winner-bars { margin-top: 12px; display: flex; flex-direction: column; gap: 5px; }
+.wb-row { display: grid; grid-template-columns: 130px 1fr 38px; gap: 8px; align-items: center; }
+.wb-team { font-size: 12px; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.wb-track { height: 12px; background: var(--bg-card-2); border-radius: 4px; overflow: hidden; }
+.wb-fill { height: 100%; background: #5a6b1f; border-radius: 4px; }
+.wb-fill.lead { background: var(--machine); }
+.wb-pct { font-size: 11px; color: var(--ink-dim); text-align: right; }
+
 /* ---------- section headers ---------- */
 .section-h {
   display: flex; align-items: baseline; justify-content: space-between;

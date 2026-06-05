@@ -145,6 +145,24 @@ export interface StandingRow {
 
 export type Standings = Record<string, StandingRow[]>; // key: "groupA".."groupL"
 
+// ---- Tournament winner forecast (re-generated as the tournament progresses) ----
+export interface WinnerContender {
+  team: string;
+  prob: number; // outright win probability in [0,1]
+}
+
+export interface WinnerPrediction {
+  champion: string;
+  runnerUp: string | null;
+  darkHorse: string | null; // a lower-probability team the model rates
+  confidence: Confidence;
+  contenders: WinnerContender[]; // top ~8, highest first
+  reasoning: string; // 3-5 sentences
+  basis: string; // "pre-tournament" | "group stage (N played)" | "knockouts" etc.
+  modelVersion: string;
+  updatedAt: string; // ISO
+}
+
 // ---- Engine run metadata ----
 export interface Meta {
   lastRun: Record<string, string>; // jobName -> ISO timestamp
