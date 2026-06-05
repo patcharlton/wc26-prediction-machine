@@ -1,14 +1,15 @@
 {
-  "lastRun": {},
+  "lastRun": {
+    "daily-housekeeping": "2026-06-05T19:40:35.167Z"
+  },
   "apiFootball": {
-    "requestsToday": 0,
-    "dayUtc": "2026-06-04",
-    "lastResetAt": "2026-06-04T19:13:33.846Z"
+    "requestsToday": 9,
+    "dayUtc": "2026-06-05",
+    "lastResetAt": "2026-06-05T19:28:56.487Z"
   },
   "tournament": {
     "startsAt": "2026-06-11T00:00:00Z",
     "leagueId": 1,
     "season": 2026
-  },
-  "notes": "MOCK DATA — replaced by live data on the first cron run."
+  }
 }

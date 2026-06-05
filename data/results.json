@@ -1,87 +1,11 @@
 [
   {
-    "fixtureId": "1000",
-    "status": "finished",
-    "kickoff": "2026-06-11T18:00:00.000Z",
+    "fixtureId": "1489369",
+    "status": "scheduled",
+    "kickoff": "2026-06-11T19:00:00.000Z",
     "stage": "groupA",
     "homeTeam": "Mexico",
-    "awayTeam": "Croatia",
-    "actualScore": {
-      "home": 2,
-      "away": 0
-    },
-    "actualOutcome": "homeWin",
-    "machineOutcomeHit": true,
-    "marketOutcomeHit": true,
-    "exactScoreHit": true,
-    "machineBrierScore": 0.454,
-    "marketBrierScore": 0.505,
-    "resolvedAt": "2026-06-16T12:00:00.000Z"
-  },
-  {
-    "fixtureId": "1006",
-    "status": "finished",
-    "kickoff": "2026-06-11T18:00:00.000Z",
-    "stage": "groupB",
-    "homeTeam": "Canada",
-    "awayTeam": "Belgium",
-    "actualScore": {
-      "home": 2,
-      "away": 0
-    },
-    "actualOutcome": "homeWin",
-    "machineOutcomeHit": true,
-    "marketOutcomeHit": true,
-    "exactScoreHit": true,
-    "machineBrierScore": 0.454,
-    "marketBrierScore": 0.505,
-    "resolvedAt": "2026-06-16T12:00:00.000Z"
-  },
-  {
-    "fixtureId": "1001",
-    "status": "finished",
-    "kickoff": "2026-06-11T21:00:00.000Z",
-    "stage": "groupA",
-    "homeTeam": "Ecuador",
     "awayTeam": "South Africa",
-    "actualScore": {
-      "home": 1,
-      "away": 1
-    },
-    "actualOutcome": "draw",
-    "machineOutcomeHit": false,
-    "marketOutcomeHit": false,
-    "exactScoreHit": false,
-    "machineBrierScore": 0.84,
-    "marketBrierScore": 0.765,
-    "resolvedAt": "2026-06-16T12:00:00.000Z"
-  },
-  {
-    "fixtureId": "1007",
-    "status": "finished",
-    "kickoff": "2026-06-11T21:00:00.000Z",
-    "stage": "groupB",
-    "homeTeam": "Morocco",
-    "awayTeam": "Uzbekistan",
-    "actualScore": {
-      "home": 1,
-      "away": 1
-    },
-    "actualOutcome": "draw",
-    "machineOutcomeHit": false,
-    "marketOutcomeHit": false,
-    "exactScoreHit": false,
-    "machineBrierScore": 0.84,
-    "marketBrierScore": 0.765,
-    "resolvedAt": "2026-06-16T12:00:00.000Z"
-  },
-  {
-    "fixtureId": "1002",
-    "status": "live",
-    "kickoff": "2026-06-16T18:00:00.000Z",
-    "stage": "groupA",
-    "homeTeam": "Mexico",
-    "awayTeam": "Ecuador",
     "actualScore": {
       "home": null,
       "away": null
@@ -95,11 +19,87 @@
     "resolvedAt": null
   },
   {
-    "fixtureId": "1008",
-    "status": "live",
-    "kickoff": "2026-06-16T18:00:00.000Z",
+    "fixtureId": "1538999",
+    "status": "scheduled",
+    "kickoff": "2026-06-12T02:00:00.000Z",
+    "stage": "groupA",
+    "homeTeam": "South Korea",
+    "awayTeam": "Czech Republic",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1539000",
+    "status": "scheduled",
+    "kickoff": "2026-06-12T19:00:00.000Z",
     "stage": "groupB",
     "homeTeam": "Canada",
+    "awayTeam": "Bosnia & Herzegovina",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489370",
+    "status": "scheduled",
+    "kickoff": "2026-06-13T01:00:00.000Z",
+    "stage": "groupD",
+    "homeTeam": "USA",
+    "awayTeam": "Paraguay",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489373",
+    "status": "scheduled",
+    "kickoff": "2026-06-13T19:00:00.000Z",
+    "stage": "groupB",
+    "homeTeam": "Qatar",
+    "awayTeam": "Switzerland",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489371",
+    "status": "scheduled",
+    "kickoff": "2026-06-13T22:00:00.000Z",
+    "stage": "groupC",
+    "homeTeam": "Brazil",
     "awayTeam": "Morocco",
     "actualScore": {
       "home": null,
@@ -114,11 +114,296 @@
     "resolvedAt": null
   },
   {
-    "fixtureId": "1003",
+    "fixtureId": "1489372",
     "status": "scheduled",
-    "kickoff": "2026-06-16T21:00:00.000Z",
-    "stage": "groupA",
-    "homeTeam": "South Africa",
+    "kickoff": "2026-06-14T01:00:00.000Z",
+    "stage": "groupC",
+    "homeTeam": "Haiti",
+    "awayTeam": "Scotland",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1539001",
+    "status": "scheduled",
+    "kickoff": "2026-06-14T04:00:00.000Z",
+    "stage": "groupD",
+    "homeTeam": "Australia",
+    "awayTeam": "Türkiye",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489374",
+    "status": "scheduled",
+    "kickoff": "2026-06-14T17:00:00.000Z",
+    "stage": "groupE",
+    "homeTeam": "Germany",
+    "awayTeam": "Curaçao",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489376",
+    "status": "scheduled",
+    "kickoff": "2026-06-14T20:00:00.000Z",
+    "stage": "groupF",
+    "homeTeam": "Netherlands",
+    "awayTeam": "Japan",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489375",
+    "status": "scheduled",
+    "kickoff": "2026-06-14T23:00:00.000Z",
+    "stage": "groupE",
+    "homeTeam": "Ivory Coast",
+    "awayTeam": "Ecuador",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1539002",
+    "status": "scheduled",
+    "kickoff": "2026-06-15T02:00:00.000Z",
+    "stage": "groupF",
+    "homeTeam": "Sweden",
+    "awayTeam": "Tunisia",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489380",
+    "status": "scheduled",
+    "kickoff": "2026-06-15T16:00:00.000Z",
+    "stage": "groupH",
+    "homeTeam": "Spain",
+    "awayTeam": "Cape Verde Islands",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489377",
+    "status": "scheduled",
+    "kickoff": "2026-06-15T19:00:00.000Z",
+    "stage": "groupG",
+    "homeTeam": "Belgium",
+    "awayTeam": "Egypt",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489379",
+    "status": "scheduled",
+    "kickoff": "2026-06-15T22:00:00.000Z",
+    "stage": "groupH",
+    "homeTeam": "Saudi Arabia",
+    "awayTeam": "Uruguay",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489378",
+    "status": "scheduled",
+    "kickoff": "2026-06-16T01:00:00.000Z",
+    "stage": "groupG",
+    "homeTeam": "Iran",
+    "awayTeam": "New Zealand",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489383",
+    "status": "scheduled",
+    "kickoff": "2026-06-16T19:00:00.000Z",
+    "stage": "groupI",
+    "homeTeam": "France",
+    "awayTeam": "Senegal",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1539016",
+    "status": "scheduled",
+    "kickoff": "2026-06-16T22:00:00.000Z",
+    "stage": "groupI",
+    "homeTeam": "Iraq",
+    "awayTeam": "Norway",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489381",
+    "status": "scheduled",
+    "kickoff": "2026-06-17T01:00:00.000Z",
+    "stage": "groupJ",
+    "homeTeam": "Argentina",
+    "awayTeam": "Algeria",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489382",
+    "status": "scheduled",
+    "kickoff": "2026-06-17T04:00:00.000Z",
+    "stage": "groupJ",
+    "homeTeam": "Austria",
+    "awayTeam": "Jordan",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1539003",
+    "status": "scheduled",
+    "kickoff": "2026-06-17T17:00:00.000Z",
+    "stage": "groupK",
+    "homeTeam": "Portugal",
+    "awayTeam": "Congo DR",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489384",
+    "status": "scheduled",
+    "kickoff": "2026-06-17T20:00:00.000Z",
+    "stage": "groupL",
+    "homeTeam": "England",
     "awayTeam": "Croatia",
     "actualScore": {
       "home": null,
@@ -133,12 +418,12 @@
     "resolvedAt": null
   },
   {
-    "fixtureId": "1009",
+    "fixtureId": "1489385",
     "status": "scheduled",
-    "kickoff": "2026-06-16T21:00:00.000Z",
-    "stage": "groupB",
-    "homeTeam": "Uzbekistan",
-    "awayTeam": "Belgium",
+    "kickoff": "2026-06-17T23:00:00.000Z",
+    "stage": "groupL",
+    "homeTeam": "Ghana",
+    "awayTeam": "Panama",
     "actualScore": {
       "home": null,
       "away": null
@@ -152,12 +437,31 @@
     "resolvedAt": null
   },
   {
-    "fixtureId": "1004",
+    "fixtureId": "1489386",
     "status": "scheduled",
-    "kickoff": "2026-06-21T18:00:00.000Z",
+    "kickoff": "2026-06-18T02:00:00.000Z",
+    "stage": "groupK",
+    "homeTeam": "Uzbekistan",
+    "awayTeam": "Colombia",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1539004",
+    "status": "scheduled",
+    "kickoff": "2026-06-18T16:00:00.000Z",
     "stage": "groupA",
-    "homeTeam": "South Africa",
-    "awayTeam": "Mexico",
+    "homeTeam": "Czech Republic",
+    "awayTeam": "South Africa",
     "actualScore": {
       "home": null,
       "away": null
@@ -171,11 +475,448 @@
     "resolvedAt": null
   },
   {
-    "fixtureId": "1010",
+    "fixtureId": "1539005",
     "status": "scheduled",
-    "kickoff": "2026-06-21T18:00:00.000Z",
+    "kickoff": "2026-06-18T19:00:00.000Z",
     "stage": "groupB",
-    "homeTeam": "Uzbekistan",
+    "homeTeam": "Switzerland",
+    "awayTeam": "Bosnia & Herzegovina",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489387",
+    "status": "scheduled",
+    "kickoff": "2026-06-18T22:00:00.000Z",
+    "stage": "groupB",
+    "homeTeam": "Canada",
+    "awayTeam": "Qatar",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489388",
+    "status": "scheduled",
+    "kickoff": "2026-06-19T01:00:00.000Z",
+    "stage": "groupA",
+    "homeTeam": "Mexico",
+    "awayTeam": "South Korea",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489391",
+    "status": "scheduled",
+    "kickoff": "2026-06-19T19:00:00.000Z",
+    "stage": "groupD",
+    "homeTeam": "USA",
+    "awayTeam": "Australia",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489390",
+    "status": "scheduled",
+    "kickoff": "2026-06-19T22:00:00.000Z",
+    "stage": "groupC",
+    "homeTeam": "Scotland",
+    "awayTeam": "Morocco",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489389",
+    "status": "scheduled",
+    "kickoff": "2026-06-20T00:30:00.000Z",
+    "stage": "groupC",
+    "homeTeam": "Brazil",
+    "awayTeam": "Haiti",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1539006",
+    "status": "scheduled",
+    "kickoff": "2026-06-20T03:00:00.000Z",
+    "stage": "groupD",
+    "homeTeam": "Türkiye",
+    "awayTeam": "Paraguay",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1539007",
+    "status": "scheduled",
+    "kickoff": "2026-06-20T17:00:00.000Z",
+    "stage": "groupF",
+    "homeTeam": "Netherlands",
+    "awayTeam": "Sweden",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489393",
+    "status": "scheduled",
+    "kickoff": "2026-06-20T20:00:00.000Z",
+    "stage": "groupE",
+    "homeTeam": "Germany",
+    "awayTeam": "Ivory Coast",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489392",
+    "status": "scheduled",
+    "kickoff": "2026-06-21T00:00:00.000Z",
+    "stage": "groupE",
+    "homeTeam": "Ecuador",
+    "awayTeam": "Curaçao",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489394",
+    "status": "scheduled",
+    "kickoff": "2026-06-21T04:00:00.000Z",
+    "stage": "groupF",
+    "homeTeam": "Tunisia",
+    "awayTeam": "Japan",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489397",
+    "status": "scheduled",
+    "kickoff": "2026-06-21T16:00:00.000Z",
+    "stage": "groupH",
+    "homeTeam": "Spain",
+    "awayTeam": "Saudi Arabia",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489395",
+    "status": "scheduled",
+    "kickoff": "2026-06-21T19:00:00.000Z",
+    "stage": "groupG",
+    "homeTeam": "Belgium",
+    "awayTeam": "Iran",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489398",
+    "status": "scheduled",
+    "kickoff": "2026-06-21T22:00:00.000Z",
+    "stage": "groupH",
+    "homeTeam": "Uruguay",
+    "awayTeam": "Cape Verde Islands",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489396",
+    "status": "scheduled",
+    "kickoff": "2026-06-22T01:00:00.000Z",
+    "stage": "groupG",
+    "homeTeam": "New Zealand",
+    "awayTeam": "Egypt",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489399",
+    "status": "scheduled",
+    "kickoff": "2026-06-22T17:00:00.000Z",
+    "stage": "groupJ",
+    "homeTeam": "Argentina",
+    "awayTeam": "Austria",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1539017",
+    "status": "scheduled",
+    "kickoff": "2026-06-22T21:00:00.000Z",
+    "stage": "groupI",
+    "homeTeam": "France",
+    "awayTeam": "Iraq",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489401",
+    "status": "scheduled",
+    "kickoff": "2026-06-23T00:00:00.000Z",
+    "stage": "groupI",
+    "homeTeam": "Norway",
+    "awayTeam": "Senegal",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489400",
+    "status": "scheduled",
+    "kickoff": "2026-06-23T03:00:00.000Z",
+    "stage": "groupJ",
+    "homeTeam": "Jordan",
+    "awayTeam": "Algeria",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489404",
+    "status": "scheduled",
+    "kickoff": "2026-06-23T17:00:00.000Z",
+    "stage": "groupK",
+    "homeTeam": "Portugal",
+    "awayTeam": "Uzbekistan",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489402",
+    "status": "scheduled",
+    "kickoff": "2026-06-23T20:00:00.000Z",
+    "stage": "groupL",
+    "homeTeam": "England",
+    "awayTeam": "Ghana",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489403",
+    "status": "scheduled",
+    "kickoff": "2026-06-23T23:00:00.000Z",
+    "stage": "groupL",
+    "homeTeam": "Panama",
+    "awayTeam": "Croatia",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1539008",
+    "status": "scheduled",
+    "kickoff": "2026-06-24T02:00:00.000Z",
+    "stage": "groupK",
+    "homeTeam": "Colombia",
+    "awayTeam": "Congo DR",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489408",
+    "status": "scheduled",
+    "kickoff": "2026-06-24T19:00:00.000Z",
+    "stage": "groupB",
+    "homeTeam": "Switzerland",
     "awayTeam": "Canada",
     "actualScore": {
       "home": null,
@@ -190,31 +931,12 @@
     "resolvedAt": null
   },
   {
-    "fixtureId": "1005",
+    "fixtureId": "1539009",
     "status": "scheduled",
-    "kickoff": "2026-06-21T21:00:00.000Z",
-    "stage": "groupA",
-    "homeTeam": "Croatia",
-    "awayTeam": "Ecuador",
-    "actualScore": {
-      "home": null,
-      "away": null
-    },
-    "actualOutcome": null,
-    "machineOutcomeHit": null,
-    "marketOutcomeHit": null,
-    "exactScoreHit": null,
-    "machineBrierScore": null,
-    "marketBrierScore": null,
-    "resolvedAt": null
-  },
-  {
-    "fixtureId": "1011",
-    "status": "scheduled",
-    "kickoff": "2026-06-21T21:00:00.000Z",
+    "kickoff": "2026-06-24T19:00:00.000Z",
     "stage": "groupB",
-    "homeTeam": "Belgium",
-    "awayTeam": "Morocco",
+    "homeTeam": "Bosnia & Herzegovina",
+    "awayTeam": "Qatar",
     "actualScore": {
       "home": null,
       "away": null
@@ -228,12 +950,411 @@
     "resolvedAt": null
   },
   {
-    "fixtureId": "1012",
+    "fixtureId": "1489405",
     "status": "scheduled",
-    "kickoff": "2026-06-28T20:00:00.000Z",
-    "stage": "R32",
-    "homeTeam": "Winner Group A",
-    "awayTeam": "Runner-up Group B",
+    "kickoff": "2026-06-24T22:00:00.000Z",
+    "stage": "groupC",
+    "homeTeam": "Morocco",
+    "awayTeam": "Haiti",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489406",
+    "status": "scheduled",
+    "kickoff": "2026-06-24T22:00:00.000Z",
+    "stage": "groupC",
+    "homeTeam": "Scotland",
+    "awayTeam": "Brazil",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1539010",
+    "status": "scheduled",
+    "kickoff": "2026-06-25T01:00:00.000Z",
+    "stage": "groupA",
+    "homeTeam": "Czech Republic",
+    "awayTeam": "Mexico",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489407",
+    "status": "scheduled",
+    "kickoff": "2026-06-25T01:00:00.000Z",
+    "stage": "groupA",
+    "homeTeam": "South Africa",
+    "awayTeam": "South Korea",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489410",
+    "status": "scheduled",
+    "kickoff": "2026-06-25T20:00:00.000Z",
+    "stage": "groupE",
+    "homeTeam": "Ecuador",
+    "awayTeam": "Germany",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489409",
+    "status": "scheduled",
+    "kickoff": "2026-06-25T20:00:00.000Z",
+    "stage": "groupE",
+    "homeTeam": "Curaçao",
+    "awayTeam": "Ivory Coast",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1539011",
+    "status": "scheduled",
+    "kickoff": "2026-06-25T23:00:00.000Z",
+    "stage": "groupF",
+    "homeTeam": "Japan",
+    "awayTeam": "Sweden",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489412",
+    "status": "scheduled",
+    "kickoff": "2026-06-25T23:00:00.000Z",
+    "stage": "groupF",
+    "homeTeam": "Tunisia",
+    "awayTeam": "Netherlands",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1539012",
+    "status": "scheduled",
+    "kickoff": "2026-06-26T02:00:00.000Z",
+    "stage": "groupD",
+    "homeTeam": "Türkiye",
+    "awayTeam": "USA",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489411",
+    "status": "scheduled",
+    "kickoff": "2026-06-26T02:00:00.000Z",
+    "stage": "groupD",
+    "homeTeam": "Paraguay",
+    "awayTeam": "Australia",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1539074",
+    "status": "scheduled",
+    "kickoff": "2026-06-26T19:00:00.000Z",
+    "stage": "groupI",
+    "homeTeam": "Senegal",
+    "awayTeam": "Iraq",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489416",
+    "status": "scheduled",
+    "kickoff": "2026-06-26T19:00:00.000Z",
+    "stage": "groupI",
+    "homeTeam": "Norway",
+    "awayTeam": "France",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489417",
+    "status": "scheduled",
+    "kickoff": "2026-06-27T00:00:00.000Z",
+    "stage": "groupH",
+    "homeTeam": "Uruguay",
+    "awayTeam": "Spain",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489413",
+    "status": "scheduled",
+    "kickoff": "2026-06-27T00:00:00.000Z",
+    "stage": "groupH",
+    "homeTeam": "Cape Verde Islands",
+    "awayTeam": "Saudi Arabia",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489414",
+    "status": "scheduled",
+    "kickoff": "2026-06-27T03:00:00.000Z",
+    "stage": "groupG",
+    "homeTeam": "Egypt",
+    "awayTeam": "Iran",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489415",
+    "status": "scheduled",
+    "kickoff": "2026-06-27T03:00:00.000Z",
+    "stage": "groupG",
+    "homeTeam": "New Zealand",
+    "awayTeam": "Belgium",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489420",
+    "status": "scheduled",
+    "kickoff": "2026-06-27T21:00:00.000Z",
+    "stage": "groupL",
+    "homeTeam": "Croatia",
+    "awayTeam": "Ghana",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489422",
+    "status": "scheduled",
+    "kickoff": "2026-06-27T21:00:00.000Z",
+    "stage": "groupL",
+    "homeTeam": "Panama",
+    "awayTeam": "England",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489419",
+    "status": "scheduled",
+    "kickoff": "2026-06-27T23:30:00.000Z",
+    "stage": "groupK",
+    "homeTeam": "Colombia",
+    "awayTeam": "Portugal",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1539013",
+    "status": "scheduled",
+    "kickoff": "2026-06-27T23:30:00.000Z",
+    "stage": "groupK",
+    "homeTeam": "Congo DR",
+    "awayTeam": "Uzbekistan",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489418",
+    "status": "scheduled",
+    "kickoff": "2026-06-28T02:00:00.000Z",
+    "stage": "groupJ",
+    "homeTeam": "Algeria",
+    "awayTeam": "Austria",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1489421",
+    "status": "scheduled",
+    "kickoff": "2026-06-28T02:00:00.000Z",
+    "stage": "groupJ",
+    "homeTeam": "Jordan",
+    "awayTeam": "Argentina",
     "actualScore": {
       "home": null,
       "away": null
