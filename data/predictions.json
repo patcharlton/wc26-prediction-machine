@@ -1,1 +1,127 @@
-[]
+[
+  {
+    "fixtureId": "1489369",
+    "probs": {
+      "homeWin": 0.64,
+      "draw": 0.24,
+      "awayWin": 0.12
+    },
+    "scoreline": {
+      "home": 2,
+      "away": 0
+    },
+    "confidence": "Medium",
+    "reasoning": "Mexico hold a commanding structural edge: co-host advantage at high-altitude Azteca, FIFA ranking 45 places above South Africa, recent CONCACAF Nations League and Gold Cup titles under Aguirre, and a squad with genuine European-level talent in Álvarez, Jiménez and Giménez. The Azteca's 2,240m altitude is a meaningful tax on South Africa, whose 19 of 26 players are domestic-based and largely unexposed to high-altitude conditions or international opposition outside Africa.",
+    "market": {
+      "homeWin": 0.668,
+      "draw": 0.223,
+      "awayWin": 0.11,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-05T20:22:34.895Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1538999",
+    "probs": {
+      "homeWin": 0.38,
+      "draw": 0.3,
+      "awayWin": 0.32
+    },
+    "scoreline": {
+      "home": 1,
+      "away": 1
+    },
+    "confidence": "Medium-Low",
+    "reasoning": "South Korea's superior FIFA ranking (#25 vs #41), deeper European-club talent pool anchored by Son and Kim Min-jae, and slight familiarity with North American conditions give them a narrow edge. However, Czech Republic arrive in strong form, enter their first World Cup in 20 years with high motivation, and pose a serious set-piece threat — Schick and Chorý's aerial presence directly challenges Korea's compact back-three. Guadalajara's moderate altitude affects both equally, and both sides deploy conservative block-and-counter shapes, making a low-scoring draw the single most likely outcome.",
+    "market": {
+      "homeWin": 0.366,
+      "draw": 0.293,
+      "awayWin": 0.342,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-05T20:22:34.895Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1539000",
+    "probs": {
+      "homeWin": 0.51,
+      "draw": 0.28,
+      "awayWin": 0.21
+    },
+    "scoreline": {
+      "home": 2,
+      "away": 1
+    },
+    "confidence": "Medium",
+    "reasoning": "Canada enjoy clear home advantage at BMO Field with a vociferous crowd, superior recent form (one loss in 16), and a balanced squad built around David, Larin, Eustáquio and Buchanan. The critical caveat is Alphonso Davies being unlikely to feature, removing Canada's most dangerous attacking outlet. Bosnia arrive in modest form (1 win in 5, three draws from their last five), but they are well-organized, defensively sturdy (0.8 goals conceded per game), and carry the menace of Džeko and Bajraktarević on the break.",
+    "market": {
+      "homeWin": 0.513,
+      "draw": 0.271,
+      "awayWin": 0.216,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-05T20:22:34.895Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489370",
+    "probs": {
+      "homeWin": 0.47,
+      "draw": 0.3,
+      "awayWin": 0.23
+    },
+    "scoreline": {
+      "home": 1,
+      "away": 0
+    },
+    "confidence": "Medium",
+    "reasoning": "USA hold clear home advantages — playing at SoFi (sea-level, familiar West Coast base) with massive crowd support, superior squad depth (Pulisic, McKennie, Adams, Balogun), and a morale-boosting 3-2 win over Senegal in the final warm-up. The key concern is Chris Richards' ankle injury keeping him out of the Germany friendly and potentially forcing a backup CB pairing against Paraguay. Paraguay are a well-drilled, counter-attacking side under Alfaro who went undefeated in 11 of 12 qualifiers, beat Argentina and Brazil, and are not without creative quality in Almirón, Enciso and Diego Gómez — making a draw or upset genuinely plausible.",
+    "market": {
+      "homeWin": 0.476,
+      "draw": 0.287,
+      "awayWin": 0.236,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-05T20:22:34.895Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489373",
+    "probs": {
+      "homeWin": 0.1,
+      "draw": 0.18,
+      "awayWin": 0.72
+    },
+    "scoreline": {
+      "home": 0,
+      "away": 2
+    },
+    "confidence": "Medium-High",
+    "reasoning": "Switzerland enter as heavy favourites on every factor: they are ranked 19th in the world with a spine of top European club talent (Akanji, Xhaka, Freuler, Embolo), went unbeaten through 2025, and cruised through UEFA qualifying with a +12 goal difference. Qatar, coached by Lopetegui in a possession-heavy 4-3-3, rely almost entirely on Qatar Stars League players and have lost four of their last five matches including a 1-0 defeat to Ireland. The venue (sea-level Santa Clara) offers no altitude edge, and rest is equal for both sides.",
+    "market": {
+      "homeWin": 0.064,
+      "draw": 0.17,
+      "awayWin": 0.766,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-05T20:22:34.895Z",
+    "locked": false,
+    "webSearchUsed": true
+  }
+]
