@@ -203,7 +203,7 @@ export async function predictFixture(inp: PredictionInputs, now: string): Promis
       away: Math.max(0, Math.round(Number(raw.scoreline?.away) || 0)),
     },
     confidence: coerceConfidence(raw.confidence),
-    reasoning: String(raw.reasoning ?? "").trim().slice(0, 600) || "No reasoning returned.",
+    reasoning: tidyReasoning(String(raw.reasoning ?? "")),
     market,
     lockedAt: null,
     modelVersion: model,
@@ -215,4 +215,16 @@ export async function predictFixture(inp: PredictionInputs, now: string): Promis
 
 function round3(n: number): number {
   return Math.round(n * 1000) / 1000;
+}
+
+// Keep reasoning tidy: trim, and if it runs long, cut at the last full sentence
+// boundary (never mid-word) so the UI never shows a dangling fragment.
+function tidyReasoning(raw: string): string {
+  const text = raw.trim();
+  if (!text) return "No reasoning returned.";
+  const MAX = 700;
+  if (text.length <= MAX) return text;
+  const head = text.slice(0, MAX);
+  const lastStop = Math.max(head.lastIndexOf(". "), head.lastIndexOf("! "), head.lastIndexOf("? "));
+  return (lastStop > 200 ? head.slice(0, lastStop + 1) : head.replace(/\s+\S*$/, "") + "…").trim();
 }
