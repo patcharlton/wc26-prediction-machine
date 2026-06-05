@@ -15,8 +15,13 @@ services:
     staticPublishPath: ./web/dist
     autoDeploy: true
     pullRequestPreviewsEnabled: false
-    # NOTE: deliberately no catch-all rewrite to /index.html — it would shadow the
-    # /data/*.json files the frontend fetches. This is a single page, no client router.
+    # Serve index.html for the root path (and any non-file path). Render serves
+    # existing static files (/assets/*, /data/*.json) directly and only applies
+    # this rewrite when no file matches — so the JSON data + JS bundle are unaffected.
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
     headers:
       - path: /data/*
         name: Cache-Control
