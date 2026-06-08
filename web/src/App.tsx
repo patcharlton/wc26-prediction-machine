@@ -42,6 +42,12 @@ export default function App() {
     };
   }, []);
 
+  // Buzz Radar brand theme applies only on the sweepstake page.
+  useEffect(() => {
+    document.body.classList.toggle("brand-buzz", view === "sweepstake");
+    return () => document.body.classList.remove("brand-buzz");
+  }, [view]);
+
   const sections = useMemo(() => {
     if (!data) return null;
     const group = data.fixtures.filter((f) => f.stage.startsWith("group"));
@@ -74,15 +80,17 @@ export default function App() {
 
   return (
     <div className="wrap">
-      <header className="masthead">
-        <h1>
-          WC2026<br />Prediction <span className="lime">Machine</span>
-        </h1>
-        <div className="sub">
-          A self-updating machine that predicts every match and scores itself against the{" "}
-          <b>betting market</b>. No manual input.
-        </div>
-      </header>
+      {view === "predictions" && (
+        <header className="masthead">
+          <h1>
+            WC2026<br />Prediction <span className="lime">Machine</span>
+          </h1>
+          <div className="sub">
+            A self-updating machine that predicts every match and scores itself against the{" "}
+            <b>betting market</b>. No manual input.
+          </div>
+        </header>
+      )}
 
       {/* Sweepstake is unlisted on the main page — reachable only via #sweepstake.
           A back link is shown only while viewing it. */}
@@ -148,12 +156,14 @@ export default function App() {
       </>
       )}
 
-      <footer className="footer">
-        <div>
-          {lastUpdated ? <>Data last recomputed <code>{new Date(lastUpdated).toUTCString()}</code></> : "Awaiting first data run."}
-        </div>
-        <div>Machine = <span style={{ color: "var(--machine)" }}>lime</span> · Market = <span style={{ color: "var(--market)" }}>pink</span> · predictions locked ~2h before kickoff.</div>
-      </footer>
+      {view === "predictions" && (
+        <footer className="footer">
+          <div>
+            {lastUpdated ? <>Data last recomputed <code>{new Date(lastUpdated).toUTCString()}</code></> : "Awaiting first data run."}
+          </div>
+          <div>Machine = <span style={{ color: "var(--machine)" }}>lime</span> · Market = <span style={{ color: "var(--market)" }}>pink</span> · predictions locked ~2h before kickoff.</div>
+        </footer>
+      )}
     </div>
   );
 }

@@ -24,9 +24,14 @@ export function Sweepstake({ data }: { data: AppData }) {
   const sb = sweep.scoring.stageBonus;
 
   return (
-    <div>
+    <div className="br-brand">
+      <div className="br-masthead">
+        <img className="br-logo" src={`${import.meta.env.BASE_URL}buzz-logo.svg`} alt="Buzz Radar" />
+        <div className="br-tagline">World Cup 2026 · Office Sweepstake</div>
+      </div>
+
       <div className="section-h">
-        <h2>{sweep.title}</h2>
+        <h2>The Draw</h2>
         <span className="count">{sweep.people.length} players · {sweep.stakes}</span>
       </div>
 
