@@ -13,7 +13,8 @@
     "Vito",
     "Immo",
     "Marius",
-    "Juan"
+    "Juan",
+    "Paola"
   ],
   "scoring": {
     "win": 3,
@@ -52,10 +53,6 @@
     {
       "person": "Marc C",
       "teams": [
-        {
-          "name": "Mexico",
-          "group": "A"
-        },
         {
           "name": "Brazil",
           "group": "C"
@@ -174,10 +171,6 @@
           "group": "F"
         },
         {
-          "name": "Senegal",
-          "group": "I"
-        },
-        {
           "name": "Colombia",
           "group": "K"
         }
@@ -209,10 +202,6 @@
       "teams": [
         {
           "name": "Bosnia & Herzegovina",
-          "group": "B"
-        },
-        {
-          "name": "Canada",
           "group": "B"
         },
         {
@@ -258,10 +247,6 @@
           "group": "A"
         },
         {
-          "name": "Haiti",
-          "group": "C"
-        },
-        {
           "name": "Egypt",
           "group": "G"
         },
@@ -271,6 +256,27 @@
         },
         {
           "name": "Norway",
+          "group": "I"
+        }
+      ]
+    },
+    {
+      "person": "Paola",
+      "teams": [
+        {
+          "name": "Mexico",
+          "group": "A"
+        },
+        {
+          "name": "Canada",
+          "group": "B"
+        },
+        {
+          "name": "Haiti",
+          "group": "C"
+        },
+        {
+          "name": "Senegal",
           "group": "I"
         }
       ]
