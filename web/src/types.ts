@@ -119,6 +119,17 @@ export interface WinnerPrediction {
   updatedAt: string;
 }
 
+export interface SweepTeam { name: string; group: string; }
+export interface SweepAssignment { person: string; teams: SweepTeam[]; }
+export interface Sweepstake {
+  title: string;
+  createdAt: string;
+  stakes: string;
+  people: string[];
+  scoring: { win: number; draw: number; stageBonus: Record<string, number> };
+  assignments: SweepAssignment[];
+}
+
 export interface AppData {
   fixtures: Fixture[];
   predictions: Record<string, Prediction>;
@@ -127,4 +138,5 @@ export interface AppData {
   standings: Standings;
   meta: Meta;
   winner: WinnerPrediction | null;
+  sweepstake: Sweepstake | null;
 }

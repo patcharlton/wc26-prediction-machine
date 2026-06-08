@@ -5,7 +5,13 @@ import { Scoreboard } from "./components/Scoreboard";
 import { WinnerBanner } from "./components/WinnerBanner";
 import { MatchCard } from "./components/MatchCard";
 import { GroupStandings } from "./components/Standings";
+import { Sweepstake } from "./components/Sweepstake";
 import { STAGE_LABEL, KO_ORDER, groupLetter } from "./format";
+
+type View = "predictions" | "sweepstake";
+function viewFromHash(): View {
+  return window.location.hash.replace("#", "") === "sweepstake" ? "sweepstake" : "predictions";
+}
 
 const MD_LABEL: Record<Matchday, string> = {
   MD1: "Matchday 1",
@@ -19,6 +25,7 @@ function byKickoff(a: Fixture, b: Fixture) {
 
 export default function App() {
   const [data, setData] = useState<AppData | null>(null);
+  const [view, setView] = useState<View>(viewFromHash());
 
   useEffect(() => {
     let alive = true;
@@ -26,9 +33,12 @@ export default function App() {
     load();
     // Re-fetch periodically so the page reflects fresh data without a manual reload.
     const id = setInterval(load, 60_000);
+    const onHash = () => setView(viewFromHash());
+    window.addEventListener("hashchange", onHash);
     return () => {
       alive = false;
       clearInterval(id);
+      window.removeEventListener("hashchange", onHash);
     };
   }, []);
 
@@ -74,6 +84,15 @@ export default function App() {
         </div>
       </header>
 
+      <nav className="tabs">
+        <a className={`tab ${view === "predictions" ? "active" : ""}`} href="#predictions">🤖 Predictions</a>
+        <a className={`tab ${view === "sweepstake" ? "active" : ""}`} href="#sweepstake">🏆 Office Sweepstake</a>
+      </nav>
+
+      {view === "sweepstake" ? (
+        <Sweepstake data={data} />
+      ) : (
+      <>
       {data.meta.notes && <div className="mocknote">{data.meta.notes}</div>}
 
       <Scoreboard ledger={data.ledger} />
@@ -122,6 +141,8 @@ export default function App() {
             return <GroupStandings key={key} letter={letter} rows={data.standings[key]!} />;
           })}
         </section>
+      )}
+      </>
       )}
 
       <footer className="footer">

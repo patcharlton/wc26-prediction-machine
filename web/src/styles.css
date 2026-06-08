@@ -84,6 +84,35 @@ body {
 .board .strip .stat { font-size: 12px; color: var(--ink-dim); }
 .board .strip .stat b { color: var(--ink); font-family: "Space Mono"; }
 
+/* ---------- nav tabs ---------- */
+.tabs { display: flex; gap: 8px; margin: 6px 0 12px; }
+.tab {
+  flex: 1; text-align: center; text-decoration: none;
+  padding: 10px; border-radius: 10px; font-size: 13px; font-weight: 600;
+  background: var(--bg-card); border: 1px solid var(--line); color: var(--ink-dim);
+}
+.tab.active { color: var(--bg); background: var(--machine); border-color: var(--machine); }
+
+/* ---------- sweepstake ---------- */
+.sweep-row { padding: 12px 14px; }
+.sweep-row.leader { border-color: rgba(215,255,62,0.45); }
+.sweep-top { display: grid; grid-template-columns: 30px 1fr auto auto; gap: 10px; align-items: center; cursor: pointer; }
+.sweep-rank { font-family: "Anton"; font-size: 18px; text-align: center; }
+.sweep-name { font-weight: 700; font-size: 16px; }
+.sweep-meta { font-size: 11px; color: var(--ink-dim); }
+.sweep-points { font-family: "Space Mono"; font-size: 22px; font-weight: 700; color: var(--machine); }
+.sweep-points small { font-size: 11px; color: var(--ink-dim); margin-left: 2px; }
+.sweep-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.chip {
+  font-size: 11px; padding: 3px 8px; border-radius: 6px; background: var(--bg-card-2);
+  border: 1px solid var(--line); color: var(--ink-dim); display: inline-flex; gap: 5px; align-items: center;
+}
+.chip b { color: var(--ink); font-family: "Space Mono"; }
+.chip.live { border-color: rgba(215,255,62,0.4); color: var(--ink); }
+.chip.live b { color: var(--machine); }
+.chip.champ { background: rgba(215,255,62,0.18); border-color: var(--machine); color: var(--machine); }
+.chip.out { opacity: 0.45; text-decoration: line-through; }
+
 /* ---------- winner banner ---------- */
 .winner {
   background: linear-gradient(135deg, rgba(215,255,62,0.10), rgba(255,93,143,0.08));

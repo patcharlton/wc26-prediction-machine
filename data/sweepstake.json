@@ -1,0 +1,279 @@
+{
+  "title": "Buzz Radar Office Sweepstake",
+  "createdAt": "2026-06-08T14:57:13.959Z",
+  "stakes": "Bragging rights",
+  "people": [
+    "Marc B",
+    "Marc C",
+    "Patrick",
+    "Olga",
+    "Lynsey",
+    "Theodora",
+    "Jamie",
+    "Vito",
+    "Immo",
+    "Marius",
+    "Juan"
+  ],
+  "scoring": {
+    "win": 3,
+    "draw": 1,
+    "stageBonus": {
+      "R32": 1,
+      "R16": 3,
+      "QF": 6,
+      "SF": 10,
+      "Final": 15,
+      "Champion": 25
+    }
+  },
+  "assignments": [
+    {
+      "person": "Marc B",
+      "teams": [
+        {
+          "name": "Scotland",
+          "group": "C"
+        },
+        {
+          "name": "New Zealand",
+          "group": "G"
+        },
+        {
+          "name": "Spain",
+          "group": "H"
+        },
+        {
+          "name": "Portugal",
+          "group": "K"
+        }
+      ]
+    },
+    {
+      "person": "Marc C",
+      "teams": [
+        {
+          "name": "Mexico",
+          "group": "A"
+        },
+        {
+          "name": "Brazil",
+          "group": "C"
+        },
+        {
+          "name": "Paraguay",
+          "group": "D"
+        },
+        {
+          "name": "Japan",
+          "group": "F"
+        },
+        {
+          "name": "Austria",
+          "group": "J"
+        }
+      ]
+    },
+    {
+      "person": "Patrick",
+      "teams": [
+        {
+          "name": "Curaçao",
+          "group": "E"
+        },
+        {
+          "name": "Netherlands",
+          "group": "F"
+        },
+        {
+          "name": "Uzbekistan",
+          "group": "K"
+        },
+        {
+          "name": "Panama",
+          "group": "L"
+        }
+      ]
+    },
+    {
+      "person": "Olga",
+      "teams": [
+        {
+          "name": "Iran",
+          "group": "G"
+        },
+        {
+          "name": "Cape Verde Islands",
+          "group": "H"
+        },
+        {
+          "name": "France",
+          "group": "I"
+        },
+        {
+          "name": "Croatia",
+          "group": "L"
+        }
+      ]
+    },
+    {
+      "person": "Lynsey",
+      "teams": [
+        {
+          "name": "USA",
+          "group": "D"
+        },
+        {
+          "name": "Iraq",
+          "group": "I"
+        },
+        {
+          "name": "Jordan",
+          "group": "J"
+        },
+        {
+          "name": "Algeria",
+          "group": "J"
+        }
+      ]
+    },
+    {
+      "person": "Theodora",
+      "teams": [
+        {
+          "name": "Switzerland",
+          "group": "B"
+        },
+        {
+          "name": "Türkiye",
+          "group": "D"
+        },
+        {
+          "name": "Sweden",
+          "group": "F"
+        },
+        {
+          "name": "Belgium",
+          "group": "G"
+        }
+      ]
+    },
+    {
+      "person": "Jamie",
+      "teams": [
+        {
+          "name": "Czech Republic",
+          "group": "A"
+        },
+        {
+          "name": "Morocco",
+          "group": "C"
+        },
+        {
+          "name": "Tunisia",
+          "group": "F"
+        },
+        {
+          "name": "Senegal",
+          "group": "I"
+        },
+        {
+          "name": "Colombia",
+          "group": "K"
+        }
+      ]
+    },
+    {
+      "person": "Vito",
+      "teams": [
+        {
+          "name": "Qatar",
+          "group": "B"
+        },
+        {
+          "name": "Ecuador",
+          "group": "E"
+        },
+        {
+          "name": "Germany",
+          "group": "E"
+        },
+        {
+          "name": "Ghana",
+          "group": "L"
+        }
+      ]
+    },
+    {
+      "person": "Immo",
+      "teams": [
+        {
+          "name": "Bosnia & Herzegovina",
+          "group": "B"
+        },
+        {
+          "name": "Canada",
+          "group": "B"
+        },
+        {
+          "name": "Ivory Coast",
+          "group": "E"
+        },
+        {
+          "name": "Congo DR",
+          "group": "K"
+        },
+        {
+          "name": "England",
+          "group": "L"
+        }
+      ]
+    },
+    {
+      "person": "Marius",
+      "teams": [
+        {
+          "name": "South Korea",
+          "group": "A"
+        },
+        {
+          "name": "Australia",
+          "group": "D"
+        },
+        {
+          "name": "Uruguay",
+          "group": "H"
+        },
+        {
+          "name": "Argentina",
+          "group": "J"
+        }
+      ]
+    },
+    {
+      "person": "Juan",
+      "teams": [
+        {
+          "name": "South Africa",
+          "group": "A"
+        },
+        {
+          "name": "Haiti",
+          "group": "C"
+        },
+        {
+          "name": "Egypt",
+          "group": "G"
+        },
+        {
+          "name": "Saudi Arabia",
+          "group": "H"
+        },
+        {
+          "name": "Norway",
+          "group": "I"
+        }
+      ]
+    }
+  ]
+}
