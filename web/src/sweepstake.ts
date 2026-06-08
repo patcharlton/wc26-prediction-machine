@@ -1,7 +1,7 @@
 // Client-side sweepstake scoring. Computes the leaderboard from results + fixtures,
 // so it auto-updates whenever the engine commits new results (no engine changes).
 import type {
-  Sweepstake, ResultRecord, Fixture, WinnerPrediction,
+  Sweepstake, ResultRecord, Fixture,
 } from "./types";
 
 export type TeamStatus = "champion" | "eliminated" | "active" | "pending";
@@ -32,8 +32,7 @@ export interface SweepResult {
   rows: SweepRow[];
   champion: string | null; // actual champion once the final is decided
   championOwner: string | null;
-  projectedChampion: string | null; // from the winner forecast (pre/in-progress)
-  projectedOwner: string | null;
+  started: boolean; // true once any match has finished
 }
 
 const KO_STAGES = ["R32", "R16", "QF", "SF", "Final"] as const;
@@ -59,8 +58,7 @@ function findChampion(results: Record<string, ResultRecord>, fixtures: Fixture[]
 export function computeSweepstake(
   sweep: Sweepstake,
   resultsArr: ResultRecord[],
-  fixtures: Fixture[],
-  winner: WinnerPrediction | null
+  fixtures: Fixture[]
 ): SweepResult {
   const results: Record<string, ResultRecord> = Object.fromEntries(resultsArr.map((r) => [r.fixtureId, r]));
   const finished = resultsArr.filter((r) => r.status === "finished" && r.actualOutcome);
@@ -125,15 +123,16 @@ export function computeSweepstake(
     };
   });
 
-  rows.sort((a, b) => b.points - a.points || b.goalsFor - a.goalsFor || b.teamsAlive - a.teamsAlive);
-
-  const projectedChampion = winner?.champion && winner.champion !== "TBD" ? winner.champion : null;
+  // Only rank once the tournament has started; before that keep the original
+  // draw order so everyone appears equal (no leader, no implied standing).
+  if (tournamentStarted) {
+    rows.sort((a, b) => b.points - a.points || b.goalsFor - a.goalsFor || b.teamsAlive - a.teamsAlive);
+  }
 
   return {
     rows,
     champion,
     championOwner: champion ? ownerOf(sweep, champion) : null,
-    projectedChampion,
-    projectedOwner: projectedChampion ? ownerOf(sweep, projectedChampion) : null,
+    started: tournamentStarted,
   };
 }

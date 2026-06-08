@@ -14,8 +14,8 @@ export function Sweepstake({ data }: { data: AppData }) {
 
   const result = useMemo(() => {
     if (!sweep) return null;
-    return computeSweepstake(sweep, Object.values(data.results), data.fixtures, data.winner);
-  }, [sweep, data.results, data.fixtures, data.winner]);
+    return computeSweepstake(sweep, Object.values(data.results), data.fixtures);
+  }, [sweep, data.results, data.fixtures]);
 
   if (!sweep || !result) {
     return <div className="empty">The sweepstake draw hasn't been published yet.</div>;
@@ -30,11 +30,11 @@ export function Sweepstake({ data }: { data: AppData }) {
         <span className="count">{sweep.people.length} players · {sweep.stakes}</span>
       </div>
 
-      {/* Cup prize tracker */}
+      {/* Cup prize tracker — neutral until the final is actually played */}
       <div className="winner">
         <div className="winner-head">
           <span className="winner-label">🏆 Cup prize</span>
-          <span className="winner-basis">{result.champion ? "decided" : "projected"}</span>
+          <span className="winner-basis">{result.champion ? "decided" : "to be won"}</span>
         </div>
         {result.champion ? (
           <>
@@ -45,17 +45,10 @@ export function Sweepstake({ data }: { data: AppData }) {
               <span>won the cup with <b>{result.champion}</b> 🎉</span>
             </div>
           </>
-        ) : result.projectedChampion ? (
-          <>
-            <div className="winner-pick">
-              <span className="winner-team">{result.projectedOwner ?? "—"}</span>
-            </div>
-            <div className="winner-sub">
-              <span>on track — the machine's predicted champion <b>{result.projectedChampion}</b> is theirs. All to play for.</span>
-            </div>
-          </>
         ) : (
-          <div className="winner-sub"><span>Cup winner TBD.</span></div>
+          <div className="winner-sub">
+            <span>Goes to whoever drew the team that lifts the trophy. To be decided once the final is played.</span>
+          </div>
         )}
       </div>
 
@@ -63,11 +56,13 @@ export function Sweepstake({ data }: { data: AppData }) {
       {result.rows.map((row, i) => {
         const open = openPerson === row.person;
         return (
-          <div className={`card sweep-row ${i === 0 ? "leader" : ""}`} key={row.person}>
+          <div className={`card sweep-row ${result.started && i === 0 ? "leader" : ""}`} key={row.person}>
             <div className="sweep-top" onClick={() => setOpenPerson(open ? null : row.person)}>
-              <span className="sweep-rank">{MEDALS[i] ?? `${i + 1}`}</span>
+              <span className="sweep-rank">{result.started ? (MEDALS[i] ?? `${i + 1}`) : "•"}</span>
               <span className="sweep-name">{row.person}</span>
-              <span className="sweep-meta num">{row.teamsAlive} alive · {row.goalsFor} GF</span>
+              {result.started && (
+                <span className="sweep-meta num">{row.teamsAlive} alive · {row.goalsFor} GF</span>
+              )}
               <span className="sweep-points num">{row.points}<small>pts</small></span>
             </div>
             <div className="sweep-chips">
