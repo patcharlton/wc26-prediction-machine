@@ -84,10 +84,13 @@ export default function App() {
         </div>
       </header>
 
-      <nav className="tabs">
-        <a className={`tab ${view === "predictions" ? "active" : ""}`} href="#predictions">🤖 Predictions</a>
-        <a className={`tab ${view === "sweepstake" ? "active" : ""}`} href="#sweepstake">🏆 Office Sweepstake</a>
-      </nav>
+      {/* Sweepstake is unlisted on the main page — reachable only via #sweepstake.
+          A back link is shown only while viewing it. */}
+      {view === "sweepstake" && (
+        <nav className="tabs">
+          <a className="tab" href="#predictions">← Back to Predictions</a>
+        </nav>
+      )}
 
       {view === "sweepstake" ? (
         <Sweepstake data={data} />
