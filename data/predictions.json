@@ -1,1 +1,602 @@
-[]
+[
+  {
+    "fixtureId": "1489369",
+    "probs": {
+      "homeWin": 0.65,
+      "draw": 0.24,
+      "awayWin": 0.11
+    },
+    "scoreline": {
+      "home": 2,
+      "away": 0
+    },
+    "confidence": "Medium-High",
+    "reasoning": "Mexico arrive on an eight-game unbeaten run in 2026, having beaten Serbia 5-1 and conceded only twice across the entire year, with a settled defensive partnership and dangerous set-piece threat via Montes and Vásquez. The Estadio Azteca altitude (~2,240m) is a genuine physical tax on South Africa, who are a sea-level team returning to the World Cup after a 16-year absence and whose pre-tournament warmups produced only a draw with Nicaragua and a draw with Jamaica.",
+    "market": {
+      "homeWin": 0.67,
+      "draw": 0.218,
+      "awayWin": 0.112,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-08T21:21:51.792Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1538999",
+    "probs": {
+      "homeWin": 0.4,
+      "draw": 0.29,
+      "awayWin": 0.31
+    },
+    "scoreline": {
+      "home": 1,
+      "away": 0
+    },
+    "confidence": "Medium-Low",
+    "reasoning": "South Korea hold a modest edge rooted in superior warm-up form (6-0 over two friendlies vs Czech's 5-2), stronger top-end squad quality around Son Heung-min and Kim Min-jae, and a meaningful altitude advantage at Guadalajara (~1,566m) where Czech Republic, based in sea-level Dallas, face acclimatisation costs. Czech defensive fragility was exposed even against non-qualifier Guatemala, and their 20-year World Cup absence adds pressure, though Schick and Soucek make them a genuine set-piece threat. The match remains close — a draw is nearly as likely as a Korea win — and the 1-0 scoreline reflects a tight, low-scoring opener where a single moment of Son or Lee Kang-in quality tips the balance.",
+    "market": {
+      "homeWin": 0.366,
+      "draw": 0.293,
+      "awayWin": 0.342,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-08T21:21:51.792Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1539000",
+    "probs": {
+      "homeWin": 0.49,
+      "draw": 0.28,
+      "awayWin": 0.23
+    },
+    "scoreline": {
+      "home": 2,
+      "away": 1
+    },
+    "confidence": "Medium",
+    "reasoning": "Canada hold the edge as co-hosts with home crowd, strong attack (David, Larin) and solid recent form, but their defence is badly disrupted by Bombito's tournament-ending injury and Davies' likely absence from the opener, leaving a 20-year-old De Fougerolles partnering Cornelius at CB. Bosnia are a resilient, physical side who kept it tight in qualifying (only one loss) and carry genuine threat through the Džeko-Demerovic partnership and Bajraktarevic's creativity, and arrive without known injury concerns.",
+    "market": {
+      "homeWin": 0.513,
+      "draw": 0.271,
+      "awayWin": 0.216,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-08T21:23:57.417Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489370",
+    "probs": {
+      "homeWin": 0.48,
+      "draw": 0.3,
+      "awayWin": 0.22
+    },
+    "scoreline": {
+      "home": 1,
+      "away": 0
+    },
+    "confidence": "Medium",
+    "reasoning": "USA hold clear squad-quality and home-venue edges at a sea-level SoFi Stadium in front of a frenzied home crowd, with talismans Pulisic, Adams, McKennie and Balogun all available; the main concern is Chris Richards' ankle (doubtful) leaving a shakier CB pairing of McKenzie and Ream. Paraguay lose their most creative and dangerous attacker, Julio Enciso, who is confirmed out for this opener, blunting the one area where they could have truly hurt the US on the counter. Paraguay's qualifier résumé (beat Argentina and Brazil at home) demands respect — they are a compact, hard-to-break-down side — but the Enciso absence, long travel, and the hostile LA crowd all weigh against them.",
+    "market": {
+      "homeWin": 0.467,
+      "draw": 0.297,
+      "awayWin": 0.236,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-08T21:23:57.417Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489373",
+    "probs": {
+      "homeWin": 0.06,
+      "draw": 0.18,
+      "awayWin": 0.76
+    },
+    "scoreline": {
+      "home": 0,
+      "away": 2
+    },
+    "confidence": "Medium-High",
+    "reasoning": "Switzerland (FIFA #19) hold a commanding advantage over Qatar (FIFA #55) in squad quality, European club depth, and tournament experience, having reached the knockout rounds in each of their last three World Cups. Qatar's final warm-up was a tepid 0-0 draw vs El Salvador, while Switzerland dominated Australia before settling for a 1-1 — both squads appear fully fit with no injury/suspension concerns. The neutral sea-level venue removes any home advantage for Qatar, and Lopetegui's side will struggle to contain Xhaka, Ndoye, and Embolo across 90 minutes.",
+    "market": {
+      "homeWin": 0.064,
+      "draw": 0.17,
+      "awayWin": 0.766,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-08T21:23:57.417Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489371",
+    "probs": {
+      "homeWin": 0.54,
+      "draw": 0.28,
+      "awayWin": 0.18
+    },
+    "scoreline": {
+      "home": 1,
+      "away": 0
+    },
+    "confidence": "Medium",
+    "reasoning": "Brazil enter with superior squad quality (Vinicius Jr, Raphinha, deep midfield), strong pre-tournament form (6-2 vs Panama, 2-1 vs Egypt) and a settled Ancelotti XI, though key absences at right-back (Wesley, Militao) and in attack (Rodrygo, Estevao) thin their depth. Morocco are genuinely dangerous — ranked 8th globally, with Hakimi, Brahim Diaz and goalkeeper Bounou — but are disrupted by the near-certain loss of Ezzalzouli (knee) plus a new coach (Ouahbi) making his first senior major-tournament debut.",
+    "market": {
+      "homeWin": 0.575,
+      "draw": 0.255,
+      "awayWin": 0.169,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-08T21:23:57.417Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489372",
+    "probs": {
+      "homeWin": 0.12,
+      "draw": 0.22,
+      "awayWin": 0.66
+    },
+    "scoreline": {
+      "home": 0,
+      "away": 2
+    },
+    "confidence": "Medium",
+    "reasoning": "Scotland enter in red-hot form — 8 goals across two pre-tournament friendlies including a 4-0 thrashing of Bolivia — and hold a large FIFA ranking advantage (43rd vs 83rd) with top-club talent in McTominay, Robertson, and a fit Ché Adams. The loss of Billy Gilmour to a knee injury is a genuine blow to midfield creativity, but the squad has sufficient depth to absorb it. Haiti showed attacking promise (4-0 vs New Zealand, Wilson Isidor scoring), but their inability to manage a lead against Peru exposed defensive fragility against top-50 opposition; Scotland (ranked 43rd) present a clear step up.",
+    "market": {
+      "homeWin": 0.144,
+      "draw": 0.228,
+      "awayWin": 0.628,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-08T21:23:57.417Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1539001",
+    "probs": {
+      "homeWin": 0.2,
+      "draw": 0.27,
+      "awayWin": 0.53
+    },
+    "scoreline": {
+      "home": 0,
+      "away": 2
+    },
+    "confidence": "Medium",
+    "reasoning": "Türkiye carry clear squad quality superiority with top-European-club talent in Güler (Real Madrid, fit and playing vs Venezuela), Çalhanoğlu, Yıldız (calf concern but expected available), Kökçü and Kadıoğlu, and they arrive in form after beating Venezuela 2-1 in their final tune-up. Australia are missing first-choice right wing-back Nathanael Atkinson to injury, midfield anchor Aiden O'Neill carries an ankle concern, and their pre-tournament form showed a 1-0 loss to Mexico followed by a 1-1 draw with Switzerland — conceding first in both games and struggling to create in opening halves.",
+    "market": {
+      "homeWin": 0.216,
+      "draw": 0.259,
+      "awayWin": 0.525,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-08T21:23:57.417Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489374",
+    "probs": {
+      "homeWin": 0.925,
+      "draw": 0.055,
+      "awayWin": 0.02
+    },
+    "scoreline": {
+      "home": 4,
+      "away": 0
+    },
+    "confidence": "High",
+    "reasoning": "Germany arrive with elite squad depth — Neuer (fit to start per Nagelsmann), Kimmich, Rüdiger, Tah, Goretzka/Pavlović in midfield, and a front three of Wirtz, Musiala and Havertz — having beaten the USA 2-1 in their final warm-up and qualifying with five wins from six. Curaçao, making their historic first World Cup appearance, lost all three post-qualification friendlies including a 5-1 thrashing by Australia and a 4-1 defeat to Scotland, and carry pre-tournament managerial instability with Advocaat only returning weeks before the tournament.",
+    "market": {
+      "homeWin": 0.909,
+      "draw": 0.059,
+      "awayWin": 0.032,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-08T21:23:57.417Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489376",
+    "probs": {
+      "homeWin": 0.46,
+      "draw": 0.29,
+      "awayWin": 0.25
+    },
+    "scoreline": {
+      "home": 1,
+      "away": 0
+    },
+    "confidence": "Medium",
+    "reasoning": "Netherlands hold clear advantages in squad depth and FIFA ranking (7th vs 19th), but arrive with significant absences — Xavi Simons (ACL), Jurrien Timber (groin, tournament out), and de Ligt — blunting their creativity and defensive options. Japan enter in exceptional form with six consecutive friendly wins, including a historic 1-0 win over England, and retain Endo, Kubo, and Kamada despite losing Mitoma and Minamino. The AT&T Stadium's indoor, sea-level setting neutralises any environmental edge.",
+    "market": {
+      "homeWin": 0.48,
+      "draw": 0.264,
+      "awayWin": 0.256,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-08T21:23:57.417Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489375",
+    "probs": {
+      "homeWin": 0.27,
+      "draw": 0.31,
+      "awayWin": 0.42
+    },
+    "scoreline": {
+      "home": 1,
+      "away": 1
+    },
+    "confidence": "Medium",
+    "reasoning": "Ecuador arrive in excellent shape — a 19-match unbeaten run, the meanest defence in CONMEBOL qualifying (5 goals conceded in 18 games), and elite spine in Caicedo, Pacho, and Hincapié all fit — making them rightful favourites despite being the nominal away side. Ivory Coast are dangerous on the counter with Amad Diallo and Simon Adingra, and their morale is sky-high after beating France 2-1 in their final tune-up, but they lack a clinical No.9 (Haller omitted) and have historically struggled in the World Cup group stage.",
+    "market": {
+      "homeWin": 0.275,
+      "draw": 0.321,
+      "awayWin": 0.404,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-08T21:23:57.417Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1539002",
+    "probs": {
+      "homeWin": 0.5,
+      "draw": 0.27,
+      "awayWin": 0.23
+    },
+    "scoreline": {
+      "home": 2,
+      "away": 0
+    },
+    "confidence": "Medium",
+    "reasoning": "Sweden hold a meaningful squad quality edge, pairing Alexander Isak and Viktor Gyökeres — the latter scoring four goals across the qualifying play-offs — in the same forward line, while the only notable absentee is the long-injured Kulusevski; Emil Holm was replaced in the squad but the XI remains strong. Tunisia enter on poor recent form, having been thrashed 5-0 by Belgium in their final pre-tournament friendly (also reduced to ten men), and their squad depth outside the Hannibal Mejbri–Skhiri midfield axis is modest.",
+    "market": {
+      "homeWin": 0.497,
+      "draw": 0.275,
+      "awayWin": 0.228,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-08T21:23:57.417Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489380",
+    "probs": {
+      "homeWin": 0.877,
+      "draw": 0.123,
+      "awayWin": 0
+    },
+    "scoreline": {
+      "home": 3,
+      "away": 0
+    },
+    "confidence": "High",
+    "reasoning": "Spain are reigning European champions with a world-class squad built around Yamal, Pedri, Rodri and Nico Williams, entered the tournament unbeaten in their last 10+ matches and are heavy favourites in every metric; their only notable injury absentee is Fermín López (fractured metatarsal), while Yamal and Nico Williams were rested as a precaution in the final warm-up but are expected fit for MD1. Cape Verde are first-time World Cup participants ranked 69th, lack individual star power or a world-class striker, and face a massive quality gap; their pre-tournament form (3-0 vs Bermuda, 3-0 vs Serbia) is encouraging but the level of opposition is incomparable.",
+    "market": {
+      "homeWin": 0.859,
+      "draw": 0.104,
+      "awayWin": 0.037,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-08T21:23:57.417Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489377",
+    "probs": {
+      "homeWin": 0.57,
+      "draw": 0.25,
+      "awayWin": 0.18
+    },
+    "scoreline": {
+      "home": 2,
+      "away": 0
+    },
+    "confidence": "Medium",
+    "reasoning": "Belgium arrive in their best pre-tournament form in years — a 13-match unbeaten run capped by a 5-0 demolition of Tunisia and a 2-0 win over Croatia — with De Bruyne fit and operating as the creative hub of a strong 4-2-3-1. Egypt are well-organised, countered Brazil effectively in the first half of their final friendly, and carry genuine threats through Salah and Marmoush, but over half their squad plays domestically and Salah is being carefully managed.",
+    "market": {
+      "homeWin": 0.565,
+      "draw": 0.249,
+      "awayWin": 0.186,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-08T21:23:57.417Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489379",
+    "probs": {
+      "homeWin": 0.15,
+      "draw": 0.27,
+      "awayWin": 0.58
+    },
+    "scoreline": {
+      "home": 0,
+      "away": 1
+    },
+    "confidence": "Medium",
+    "reasoning": "Uruguay hold a clear squad-quality edge with Valverde, Ugarte and a La Liga-calibre defence, and the market's ~63% away probability is broadly justified. However, two significant factors compress the gap: Saudi Arabia arrive with genuine upset pedigree (Argentina 2022) and a new coach Donis who favours defensive solidity, while Uruguay enter the tournament with a chronic goalscoring crisis — just 2 goals in their last 360 minutes — and Ronald Araújo almost certainly absent through injury for this opener. Both sides have won just 1 of their last 5 matches, and Bielsa's high-press 4-3-3 versus a disciplined Saudi low-block is a recipe for a tight, low-scoring game.",
+    "market": {
+      "homeWin": 0.138,
+      "draw": 0.227,
+      "awayWin": 0.634,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-08T21:23:57.417Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489378",
+    "probs": {
+      "homeWin": 0.52,
+      "draw": 0.27,
+      "awayWin": 0.21
+    },
+    "scoreline": {
+      "home": 1,
+      "away": 0
+    },
+    "confidence": "Medium",
+    "reasoning": "Iran (FIFA ~20th) carry a significant quality edge over New Zealand (85th), with Taremi leading a settled, experienced attack and a defensively solid qualifying record of 11 wins in 16 games. New Zealand will sit deep — as they did in 2010 when they drew all three group games — but a 4-0 pre-tournament friendly loss to Haiti raises real questions about their ceiling against better opposition, and defender Pijnaker is a fitness concern. Iran's off-pitch disruptions (Tijuana base camp, visa saga, Azmoun's political exclusion) introduce marginal uncertainty, nudging the win probability only slightly above the book's 49.4%.",
+    "market": {
+      "homeWin": 0.494,
+      "draw": 0.279,
+      "awayWin": 0.228,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-08T21:23:57.417Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489383",
+    "probs": {
+      "homeWin": 0.62,
+      "draw": 0.25,
+      "awayWin": 0.13
+    },
+    "scoreline": {
+      "home": 2,
+      "away": 0
+    },
+    "confidence": "Medium",
+    "reasoning": "France enter as the world's top-ranked side with a historically deep squad headlined by Mbappé, Dembélé, and Olise, though they are without Ekitike (Achilles), Kamara (knee surgery), and Ferland Mendy. Senegal are no pushovers — unbeaten in qualifying, beat England 3-1 at Wembley, and boast Mané, Jackson, and a disciplined defensive structure — but the individual quality gap is significant. The 2002 upset precedent adds psychological texture, and Senegal's compact block could frustrate France early, keeping the draw probability meaningfully above the market's 22%.",
+    "market": {
+      "homeWin": 0.655,
+      "draw": 0.223,
+      "awayWin": 0.122,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-08T21:23:57.417Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1539016",
+    "probs": {
+      "homeWin": 0.08,
+      "draw": 0.15,
+      "awayWin": 0.77
+    },
+    "scoreline": {
+      "home": 0,
+      "away": 2
+    },
+    "confidence": "Medium-High",
+    "reasoning": "Norway hold a massive structural edge: a perfect 8-from-8 qualifying record with 37 goals scored, plus a Haaland-Ødegaard axis (both reported fully fit) that overwhelms any AFC-level defensive block. Iraq arrive with genuine momentum — a 1-1 friendly draw against Spain (with most starters rested) and a last-five form of D-D-W-W-W shows Arnold's disciplined 4-4-2 low block is functional — but Gillette Stadium (sea-level, humid June) offers no altitude edge, and Norway's width via Nusa and Sørloth will stretch an Iraqi backline missing starting LB Ahmed Yahya with a hamstring injury.",
+    "market": {
+      "homeWin": 0.081,
+      "draw": 0.146,
+      "awayWin": 0.773,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-08T21:23:57.417Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489381",
+    "probs": {
+      "homeWin": 0.66,
+      "draw": 0.22,
+      "awayWin": 0.12
+    },
+    "scoreline": {
+      "home": 2,
+      "away": 0
+    },
+    "confidence": "Medium",
+    "reasoning": "Argentina are heavy favourites as defending world champions with a deep squad featuring Lautaro Martínez, Mac Allister, Romero and Di María-era depth, though Messi is managing a left hamstring strain and did not feature in the 2-0 win over Honduras, while Balerdi has been ruled out entirely — if Messi is fit by June 17 this line-up is elite, if not it still outclasses Algeria by a wide margin.",
+    "market": {
+      "homeWin": 0.681,
+      "draw": 0.215,
+      "awayWin": 0.104,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-08T21:23:57.417Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489382",
+    "probs": {
+      "homeWin": 0.68,
+      "draw": 0.2,
+      "awayWin": 0.12
+    },
+    "scoreline": {
+      "home": 2,
+      "away": 0
+    },
+    "confidence": "Medium",
+    "reasoning": "Austria hold a decisive squad quality and tactical edge — a FIFA top-25 side with top Bundesliga talent, led by Rangnick's high-pressing 4-2-3-1 — against Jordan's World Cup debutants whose spine is largely domestic-league based. The loss of Baumgartner (thigh, warm-up injury) trims Austria's midfield quality, while Jordan are also missing their top scorer Alnemat (ACL), partially offset by Olwan's recovery. Jordan's compact 5-2-3 defensive block and Al-Tamari-led counters give them a credible upset path, nudging the draw probability slightly above the book line, but Austria's superior depth, organization, and high stakes motivation make a comfortable win the most likely outcome.",
+    "market": {
+      "homeWin": 0.719,
+      "draw": 0.183,
+      "awayWin": 0.097,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-08T21:23:57.417Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1539003",
+    "probs": {
+      "homeWin": 0.73,
+      "draw": 0.19,
+      "awayWin": 0.08
+    },
+    "scoreline": {
+      "home": 2,
+      "away": 0
+    },
+    "confidence": "Medium-High",
+    "reasoning": "Portugal enter as reigning Nations League champions ranked 5th globally, with an elite midfield quartet of Fernandes, Bernardo Silva, Vitinha and João Neves and unbeaten in 12 of their last 13 matches including a 2-0 win over the USA and 2-1 over Chile; no significant injury absentees confirmed. DR Congo return to the World Cup for the first time in 52 years with a diaspora-built squad ranked 46th — Wissa's pace and Mbemba's defensive leadership are real threats but the squad quality gap is vast.",
+    "market": {
+      "homeWin": 0.751,
+      "draw": 0.171,
+      "awayWin": 0.078,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-08T21:23:57.417Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489385",
+    "probs": {
+      "homeWin": 0.42,
+      "draw": 0.31,
+      "awayWin": 0.27
+    },
+    "scoreline": {
+      "home": 1,
+      "away": 0
+    },
+    "confidence": "Medium-Low",
+    "reasoning": "Ghana hold a clear squad-quality edge on paper — Semenyo, Iñaki Williams, Partey and Ayew outclass Panama's roster in individual talent — but their availability crisis (Kudus, Salisu, Djiku all absent; Partey carrying a groin concern) and dire recent form (one draw, five losses since October 2025) substantially erode that advantage. Panama arrive better-prepared, having played Brazil, Bosnia and the Dominican Republic in warm-ups, while Ghana's final tune-up vs Honduras was cancelled; Panama's low-block style at BMO Field (sea-level Toronto, no venue edge for either side) will make this tight and hard to break down.",
+    "market": {
+      "homeWin": 0.468,
+      "draw": 0.288,
+      "awayWin": 0.243,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-08T21:23:57.417Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489386",
+    "probs": {
+      "homeWin": 0.1,
+      "draw": 0.23,
+      "awayWin": 0.67
+    },
+    "scoreline": {
+      "home": 0,
+      "away": 2
+    },
+    "confidence": "Medium",
+    "reasoning": "Colombia carry a decisive squad quality edge — Luis Díaz (26 goals/23 assists at Bayern), James Rodríguez, and a settled Néstor Lorenzo system that went 28 games unbeaten and reached the 2024 Copa América final — against a World Cup debutant side whose pre-tournament form is patchy (lost 2-0 to Canada, trailed Netherlands 1-0 at 66' on June 8). The Azteca's 2,250m altitude is a genuine equaliser that rewards compact defending and counters, marginally inflating the draw probability versus sea level, but neither side is particularly altitude-adapted so the edge is mild.",
+    "market": {
+      "homeWin": 0.114,
+      "draw": 0.21,
+      "awayWin": 0.676,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-08T21:23:57.417Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489384",
+    "probs": {
+      "homeWin": 0.5,
+      "draw": 0.3,
+      "awayWin": 0.2
+    },
+    "scoreline": {
+      "home": 1,
+      "away": 0
+    },
+    "confidence": "Medium",
+    "reasoning": "England hold a clear squad-quality edge — ranked 4th globally with Kane, Saka, Bellingham, and Rice all available — but come in with an unsettled system, notable absentees (Foden, Palmer, TAA), and a modest pre-tournament record including friendly losses to Senegal and Japan. Croatia are formidable tournament opponents with a historically over-performing mentality, though key players Modrić (cheekbone, game-day doubt) and Gvardiol (returning from five months out) are less than fully sharp. The indoor AT&T Stadium neutralises heat/altitude factors for both sides.",
+    "market": {
+      "homeWin": 0.546,
+      "draw": 0.259,
+      "awayWin": 0.195,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-08T21:42:34.855Z",
+    "locked": false,
+    "webSearchUsed": true
+  }
+]
