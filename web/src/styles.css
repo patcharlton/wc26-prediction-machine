@@ -173,6 +173,7 @@ body {
 .scorebox .pred-score { font-family: "Space Mono"; font-size: 13px; color: var(--ink-dim); }
 .scorebox .pred-score b { color: var(--ink); }
 .scorebox .label { font-size: 9px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-dim); margin-top: 2px; }
+.scorebox .pred-after { font-family: "Space Mono"; font-size: 10px; color: var(--ink-dim); margin-top: 3px; white-space: nowrap; }
 
 /* prob bars */
 .bars { margin-top: 12px; display: flex; flex-direction: column; gap: 7px; }

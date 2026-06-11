@@ -99,6 +99,11 @@ export function MatchCard({
                 {fixture.homeScore}–{fixture.awayScore}
               </div>
               <div className="label">{finished ? "Result" : "Live"}</div>
+              {prediction && (
+                <div className="pred-after">
+                  predicted {prediction.scoreline.home}–{prediction.scoreline.away}
+                </div>
+              )}
             </>
           ) : prediction ? (
             <>
