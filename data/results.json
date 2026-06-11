@@ -1,22 +1,22 @@
 [
   {
     "fixtureId": "1489369",
-    "status": "scheduled",
+    "status": "finished",
     "kickoff": "2026-06-11T19:00:00.000Z",
     "stage": "groupA",
     "homeTeam": "Mexico",
     "awayTeam": "South Africa",
     "actualScore": {
-      "home": null,
-      "away": null
+      "home": 2,
+      "away": 0
     },
-    "actualOutcome": null,
-    "machineOutcomeHit": null,
-    "marketOutcomeHit": null,
-    "exactScoreHit": null,
-    "machineBrierScore": null,
-    "marketBrierScore": null,
-    "resolvedAt": null
+    "actualOutcome": "homeWin",
+    "machineOutcomeHit": true,
+    "marketOutcomeHit": true,
+    "exactScoreHit": true,
+    "machineBrierScore": 0.192,
+    "marketBrierScore": 0.169,
+    "resolvedAt": "2026-06-11T22:52:08.497Z"
   },
   {
     "fixtureId": "1538999",
