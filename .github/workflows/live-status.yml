@@ -8,6 +8,9 @@ on:
     - cron: "*/15 * * * *" # every 15 minutes UTC
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   run:
     uses: ./.github/workflows/_run-job.yml

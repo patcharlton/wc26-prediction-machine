@@ -15,8 +15,9 @@ concurrency:
   group: wc26-data-writer
   cancel-in-progress: false
 
-permissions:
-  contents: write
+# NOTE: no workflow-level `permissions:` here — GitHub fails the run at startup
+# (startup_failure) when a workflow_call target declares them. The callers grant
+# `contents: write` and this workflow inherits it.
 
 jobs:
   run:
