@@ -86,17 +86,17 @@
       "away": 0
     },
     "confidence": "Medium",
-    "reasoning": "USA hold clear squad-quality and home-venue edges at a sea-level SoFi Stadium in front of a frenzied home crowd, with talismans Pulisic, Adams, McKennie and Balogun all available; the main concern is Chris Richards' ankle (doubtful) leaving a shakier CB pairing of McKenzie and Ream. Paraguay lose their most creative and dangerous attacker, Julio Enciso, who is confirmed out for this opener, blunting the one area where they could have truly hurt the US on the counter. Paraguay's qualifier résumé (beat Argentina and Brazil at home) demands respect — they are a compact, hard-to-break-down side — but the Enciso absence, long travel, and the hostile LA crowd all weigh against them.",
+    "reasoning": "USA hold a meaningful edge at home at SoFi with the crowd, a superior FIFA ranking, and a recent 2-1 friendly win over this same Paraguay side. The likely absence of Julio Enciso — Paraguay's most dangerous attacker — blunts their already limited creativity (fewest CONMEBOL qualifying goals), while Chris Richards returning to anchor the US backline is a further boost. However, Paraguay's ultra-defensive 4-2-3-1 under Alfaro makes them hard to break down, World Cup group openers frequently end level, and USA's pre-tournament defensive leakiness (conceding 4 in the two friendlies without Richards) warrants caution on backing a comfortable home win.",
     "market": {
-      "homeWin": 0.467,
-      "draw": 0.297,
-      "awayWin": 0.236,
+      "homeWin": 0.453,
+      "draw": 0.299,
+      "awayWin": 0.248,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-06-12T23:06:30.712Z",
     "modelVersion": "claude-sonnet-4-6",
-    "generatedAt": "2026-06-08T21:23:57.417Z",
-    "locked": false,
+    "generatedAt": "2026-06-12T23:06:30.712Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {
