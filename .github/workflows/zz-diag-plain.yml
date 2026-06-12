@@ -1,0 +1,7 @@
+name: zz-diag-plain
+on: push
+jobs:
+  t:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo plain-ok
