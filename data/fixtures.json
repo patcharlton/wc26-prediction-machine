@@ -47,9 +47,9 @@
     "awayTeam": "Bosnia & Herzegovina",
     "homeTeamId": 5529,
     "awayTeamId": 1113,
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 1,
-    "elapsed": 45,
+    "elapsed": 90,
     "venue": {
       "name": "BMO Field",
       "city": "Toronto",
