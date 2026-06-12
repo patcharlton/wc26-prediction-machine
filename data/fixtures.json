@@ -48,8 +48,8 @@
     "homeTeamId": 5529,
     "awayTeamId": 1113,
     "homeScore": 0,
-    "awayScore": 0,
-    "elapsed": 19,
+    "awayScore": 1,
+    "elapsed": 24,
     "venue": {
       "name": "BMO Field",
       "city": "Toronto",
