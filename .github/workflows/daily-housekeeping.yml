@@ -11,6 +11,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: wc26-data-writer
+  cancel-in-progress: false
+
 jobs:
   run:
     uses: ./.github/workflows/_run-job.yml

@@ -1,19 +1,30 @@
-// Loads the engine-written JSON data files (copied into /data by copy-data.mjs).
-// Cache-busted so a fresh deploy / refresh always shows current state.
+// Loads the engine-written JSON data files. In production they're fetched
+// straight from the repo's main branch (visible seconds after each data commit —
+// no site rebuild needed); the copy bundled by copy-data.mjs is the fallback,
+// and the only source in dev so seeded local data keeps working.
 import type {
   AppData, Fixture, Prediction, ResultRecord, Ledger, Standings, Meta, WinnerPrediction, Sweepstake,
 } from "./types";
 
+const RAW_BASE =
+  "https://raw.githubusercontent.com/patcharlton/wc26-prediction-machine/main/data/";
+
 async function getJson<T>(name: string, fallback: T): Promise<T> {
-  try {
-    const res = await fetch(`${import.meta.env.BASE_URL}data/${name}?t=${Date.now()}`, {
-      cache: "no-store",
-    });
-    if (!res.ok) return fallback;
-    return (await res.json()) as T;
-  } catch {
-    return fallback;
+  const bases = import.meta.env.DEV
+    ? [`${import.meta.env.BASE_URL}data/`]
+    : [RAW_BASE, `${import.meta.env.BASE_URL}data/`];
+  for (const base of bases) {
+    try {
+      const res = await fetch(`${base}${name}?t=${Date.now()}`, {
+        cache: "no-store",
+      });
+      if (!res.ok) continue;
+      return (await res.json()) as T;
+    } catch {
+      // try the next source
+    }
   }
+  return fallback;
 }
 
 export async function loadAppData(): Promise<AppData> {

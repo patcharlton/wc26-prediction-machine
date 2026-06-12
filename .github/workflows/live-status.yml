@@ -1,6 +1,6 @@
-# live-status — every 15 minutes.
-# Self-guards on stored kickoff times: if no match is in a live window it exits
-# immediately without an API call. Only spends a request while matches are in play.
+# live-status — cron every 15 minutes; while a match is in play each run becomes
+# a polling session (see _run-job.yml) pushing score changes every ~5 minutes.
+# Self-guards on stored kickoff times: idle ticks exit without an API call.
 name: live-status
 
 on:
@@ -10,6 +10,10 @@ on:
 
 permissions:
   contents: write
+
+concurrency:
+  group: wc26-live-session
+  cancel-in-progress: false
 
 jobs:
   run:

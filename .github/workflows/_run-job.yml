@@ -1,5 +1,6 @@
 # Reusable workflow: run one engine job, then commit the updated /data back to main.
-# The push to main is what triggers Render to redeploy (the static site reads /data).
+# The frontend reads /data straight from the repo, so a push makes it live in
+# seconds (the Render rebuild is only needed for code changes).
 name: run-engine-job
 
 on:
@@ -10,14 +11,11 @@ on:
         required: true
         type: string
 
-# Serialise all data-writing jobs so concurrent crons never race on a push to main.
-concurrency:
-  group: wc26-data-writer
-  cancel-in-progress: false
-
-# NOTE: no workflow-level `permissions:` here — GitHub fails the run at startup
-# (startup_failure) when a workflow_call target declares them. The callers grant
-# `contents: write` and this workflow inherits it.
+# NOTE: no workflow-level `permissions:` or `concurrency:` here — GitHub fails
+# the run at startup (startup_failure) when a workflow_call target declares
+# workflow-level permissions, and concurrency must live in the callers anyway so
+# the long-running live-status session doesn't block the other jobs. Callers
+# grant `contents: write` and pick their own concurrency group.
 
 jobs:
   run:
@@ -36,6 +34,7 @@ jobs:
         run: npm ci
 
       - name: Run ${{ inputs.job }}
+        if: inputs.job != 'live-status'
         working-directory: engine
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -44,6 +43,41 @@ jobs:
           PREDICTION_MODEL_KO: ${{ secrets.PREDICTION_MODEL_KO }}
           RENDER_DEPLOY_HOOK: ${{ secrets.RENDER_DEPLOY_HOOK }}
         run: npm run ${{ inputs.job }}
+
+      # While a match is in play, live-status runs as a session: poll, push each
+      # change immediately, sleep the budget-aware interval the job wrote to
+      # .live-session, repeat. Capped at ~55 min so a queued cron tick takes over
+      # on a fresh runner; the job stops writing the flag when nothing is live.
+      - name: Live session — poll while matches are in play
+        if: inputs.job == 'live-status'
+        working-directory: engine
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
+          PREDICTION_MODEL_GROUP: ${{ secrets.PREDICTION_MODEL_GROUP }}
+          PREDICTION_MODEL_KO: ${{ secrets.PREDICTION_MODEL_KO }}
+          RENDER_DEPLOY_HOOK: ${{ secrets.RENDER_DEPLOY_HOOK }}
+        run: |
+          git config user.name  "wc26-bot"
+          git config user.email "actions@github.com"
+          end=$(( SECONDS + 3300 ))
+          while true; do
+            npm run live-status
+            if ! git diff --quiet ../data/; then
+              git add ../data/
+              git commit -m "data: live-status update [skip ci]"
+              for attempt in 1 2 3; do
+                git pull --rebase --autostash origin main && git push origin HEAD:main && break
+                echo "push attempt $attempt failed, retrying…"
+                sleep 5
+              done
+            fi
+            [ -f .live-session ] || { echo "No live window — session over."; break; }
+            [ "$SECONDS" -ge "$end" ] && { echo "Session cap reached — next cron tick continues."; break; }
+            interval=$(cat .live-session)
+            echo "Live session: sleeping ${interval}s…"
+            sleep "$interval"
+          done
 
       - name: Commit updated data back to main
         run: |
