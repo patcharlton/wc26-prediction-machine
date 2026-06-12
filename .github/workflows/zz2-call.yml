@@ -1,0 +1,13 @@
+name: zz2-call
+on: push
+permissions:
+  contents: write
+concurrency:
+  group: zz2-test
+  cancel-in-progress: false
+jobs:
+  run:
+    uses: ./.github/workflows/zz2-callee.yml
+    with:
+      job: live-status
+    secrets: inherit

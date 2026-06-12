@@ -1,0 +1,13 @@
+name: zz2-callee
+on:
+  workflow_call:
+    inputs:
+      job:
+        required: true
+        type: string
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "job=${{ inputs.job }}"
