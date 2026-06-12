@@ -16,6 +16,9 @@ import type { Fixture } from "../types.js";
 const HOUR = 3600_000;
 // Jobs always run from engine/ via npm, so this lands next to package.json.
 const SESSION_FLAG = path.join(process.cwd(), ".live-session");
+// Epoch seconds of the next future kickoff — the workflow heartbeat uses it to
+// sleep until just before a match starts instead of polling blind.
+const NEXT_KICKOFF_FLAG = path.join(process.cwd(), ".next-kickoff");
 
 // Plausibly in-play: kicked off, not finished, within ~3h of kickoff.
 function inLiveWindow(fixtures: Fixture[], nowMs: number): boolean {
@@ -41,10 +44,23 @@ function pollIntervalSeconds(nowIso: string): number {
   return 600;
 }
 
+function writeNextKickoff(fixtures: Fixture[], nowMs: number): void {
+  const future = fixtures
+    .filter((f) => f.status !== "finished")
+    .map((f) => new Date(f.kickoff).getTime())
+    .filter((t) => t > nowMs);
+  if (future.length) {
+    fs.writeFileSync(NEXT_KICKOFF_FLAG, String(Math.floor(Math.min(...future) / 1000)));
+  } else {
+    fs.rmSync(NEXT_KICKOFF_FLAG, { force: true });
+  }
+}
+
 runJob("live-status", async (now) => {
   fs.rmSync(SESSION_FLAG, { force: true });
   const fixtures = store.fixtures();
   const nowMs = new Date(now).getTime();
+  writeNextKickoff(fixtures, nowMs);
 
   if (!inLiveWindow(fixtures, nowMs)) {
     return { changed: false, summary: "no matches in a live window — skipped API call." };

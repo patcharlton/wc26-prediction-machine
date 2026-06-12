@@ -15,6 +15,7 @@ on:
 
 permissions:
   contents: write
+  actions: write # the heartbeat dispatches this workflow's next run
 
 concurrency:
   group: wc26-live-session

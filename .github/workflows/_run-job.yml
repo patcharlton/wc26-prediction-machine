@@ -73,11 +73,41 @@ jobs:
               done
             fi
             [ -f .live-session ] || { echo "No live window — session over."; break; }
-            [ "$SECONDS" -ge "$end" ] && { echo "Session cap reached — next cron tick continues."; break; }
+            [ "$SECONDS" -ge "$end" ] && { echo "Session cap reached — successor takes over."; break; }
             interval=$(cat .live-session)
             echo "Live session: sleeping ${interval}s…"
             sleep "$interval"
           done
+
+      # Self-chain: GitHub's cron scheduler is unreliable for this repo (gaps of
+      # hours), so each live-status run dispatches its own successor. A capped
+      # live session respawns at once; an idle run sleeps until just before the
+      # next kickoff (max ~25 min per hop, so the chain also re-checks often).
+      # Cron + push triggers remain as backstops if a dispatch ever fails.
+      - name: Heartbeat — dispatch next live-status run
+        if: inputs.job == 'live-status'
+        working-directory: engine
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          wait=1500
+          if [ -f .live-session ]; then
+            wait=5
+          elif [ -f .next-kickoff ]; then
+            now=$(date +%s); ko=$(cat .next-kickoff)
+            wait=$(( ko - now - 120 ))
+            [ "$wait" -lt 30 ] && wait=30
+            [ "$wait" -gt 1500 ] && wait=1500
+          fi
+          echo "Heartbeat: sleeping ${wait}s before dispatching successor…"
+          sleep "$wait"
+          curl -sf -X POST \
+            -H "Authorization: Bearer ${GH_TOKEN}" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/workflows/live-status.yml/dispatches" \
+            -d '{"ref":"main"}' \
+            && echo "Successor dispatched." \
+            || echo "Dispatch failed — cron/push triggers will pick up."
 
       - name: Commit updated data back to main
         run: |
