@@ -1,0 +1,7 @@
+name: zz-diag-call-b
+on: push
+jobs:
+  run:
+    uses: ./.github/workflows/zz-diag-callee.yml
+    with:
+      job: live-status
