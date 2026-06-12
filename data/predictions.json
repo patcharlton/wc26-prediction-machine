@@ -52,26 +52,26 @@
   {
     "fixtureId": "1539000",
     "probs": {
-      "homeWin": 0.49,
-      "draw": 0.28,
-      "awayWin": 0.23
+      "homeWin": 0.5,
+      "draw": 0.29,
+      "awayWin": 0.21
     },
     "scoreline": {
-      "home": 2,
-      "away": 1
+      "home": 1,
+      "away": 0
     },
     "confidence": "Medium",
-    "reasoning": "Canada hold the edge as co-hosts with home crowd, strong attack (David, Larin) and solid recent form, but their defence is badly disrupted by Bombito's tournament-ending injury and Davies' likely absence from the opener, leaving a 20-year-old De Fougerolles partnering Cornelius at CB. Bosnia are a resilient, physical side who kept it tight in qualifying (only one loss) and carry genuine threat through the Džeko-Demerovic partnership and Bajraktarevic's creativity, and arrive without known injury concerns.",
+    "reasoning": "Canada enter as the stronger side on paper (FIFA rank ~31 vs. Bosnia's 65) with home-crowd backing at a sold-out BMO Field where they have lost just once in 28 matches, and key attackers Jonathan David and Cyle Larin fully fit; however, captain Alphonso Davies is officially ruled out and Moïse Bombito is also absent, stripping the back-line and left flank of real quality.",
     "market": {
-      "homeWin": 0.513,
-      "draw": 0.271,
-      "awayWin": 0.216,
+      "homeWin": 0.51,
+      "draw": 0.275,
+      "awayWin": 0.215,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-06-12T18:57:42.416Z",
     "modelVersion": "claude-sonnet-4-6",
-    "generatedAt": "2026-06-08T21:23:57.417Z",
-    "locked": false,
+    "generatedAt": "2026-06-12T18:57:42.416Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {
