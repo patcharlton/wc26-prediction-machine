@@ -7,6 +7,11 @@ on:
   schedule:
     - cron: "*/15 * * * *" # every 15 minutes UTC
   workflow_dispatch:
+  # Any code push to main also kickstarts a session (data commits carry
+  # [skip ci] so the engine's own pushes never retrigger it). Cheap insurance
+  # against GitHub's laggy cron scheduler: idle ticks exit without an API call.
+  push:
+    branches: [main]
 
 permissions:
   contents: write

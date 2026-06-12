@@ -20,22 +20,22 @@
   },
   {
     "fixtureId": "1538999",
-    "status": "scheduled",
+    "status": "finished",
     "kickoff": "2026-06-12T02:00:00.000Z",
     "stage": "groupA",
     "homeTeam": "South Korea",
     "awayTeam": "Czech Republic",
     "actualScore": {
-      "home": null,
-      "away": null
+      "home": 2,
+      "away": 1
     },
-    "actualOutcome": null,
-    "machineOutcomeHit": null,
-    "marketOutcomeHit": null,
-    "exactScoreHit": null,
-    "machineBrierScore": null,
-    "marketBrierScore": null,
-    "resolvedAt": null
+    "actualOutcome": "homeWin",
+    "machineOutcomeHit": true,
+    "marketOutcomeHit": true,
+    "exactScoreHit": false,
+    "machineBrierScore": 0.54,
+    "marketBrierScore": 0.605,
+    "resolvedAt": "2026-06-12T17:17:36.025Z"
   },
   {
     "fixtureId": "1539000",
