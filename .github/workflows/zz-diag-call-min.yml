@@ -1,5 +1,0 @@
-name: zz-diag-call-min
-on: push
-jobs:
-  run:
-    uses: ./.github/workflows/zz-diag-callee-min.yml

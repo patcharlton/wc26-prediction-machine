@@ -1,8 +1,0 @@
-name: zz-diag-action
-on: push
-jobs:
-  t:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - run: echo action-ok

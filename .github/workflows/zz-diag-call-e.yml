@@ -1,7 +1,0 @@
-name: zz-diag-call-e
-on: push
-permissions:
-  contents: write
-jobs:
-  run:
-    uses: ./.github/workflows/zz-diag-callee-min.yml

@@ -1,8 +1,0 @@
-name: zz-diag-call-a
-on: push
-jobs:
-  run:
-    uses: ./.github/workflows/zz-diag-callee-a.yml
-    with:
-      job: live-status
-    secrets: inherit

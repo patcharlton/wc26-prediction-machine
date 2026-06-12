@@ -1,5 +1,0 @@
-name: zz-diag-call-d
-on: push
-jobs:
-  run:
-    uses: ./.github/workflows/zz-diag-callee-d.yml
