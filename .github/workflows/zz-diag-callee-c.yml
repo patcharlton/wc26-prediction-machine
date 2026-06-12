@@ -1,0 +1,12 @@
+name: zz-diag-callee-c
+on:
+  workflow_call:
+    inputs:
+      job:
+        required: true
+        type: string
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "job=${{ inputs.job }}"
