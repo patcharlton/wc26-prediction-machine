@@ -111,17 +111,17 @@
       "away": 2
     },
     "confidence": "Medium-High",
-    "reasoning": "Switzerland (FIFA #19) hold a commanding advantage over Qatar (FIFA #55) in squad quality, European club depth, and tournament experience, having reached the knockout rounds in each of their last three World Cups. Qatar's final warm-up was a tepid 0-0 draw vs El Salvador, while Switzerland dominated Australia before settling for a 1-1 — both squads appear fully fit with no injury/suspension concerns. The neutral sea-level venue removes any home advantage for Qatar, and Lopetegui's side will struggle to contain Xhaka, Ndoye, and Embolo across 90 minutes.",
+    "reasoning": "Switzerland hold a commanding edge across every factor: a 37-place FIFA ranking gap, a settled top-club core (Akanji, Xhaka, Freuler, Embolo, Kobel) with no injury concerns, and an unbeaten qualifying run conceding just two goals. Qatar arrive in dire form — winless in their last five, scoreless over 373 minutes, with key March friendlies cancelled and a squad almost entirely drawn from the Qatari domestic league. The venue is neutral and at sea level, removing any thermal/altitude equaliser.",
     "market": {
-      "homeWin": 0.064,
-      "draw": 0.17,
-      "awayWin": 0.766,
+      "homeWin": 0.07,
+      "draw": 0.157,
+      "awayWin": 0.773,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-06-13T17:09:23.227Z",
     "modelVersion": "claude-sonnet-4-6",
-    "generatedAt": "2026-06-08T21:23:57.417Z",
-    "locked": false,
+    "generatedAt": "2026-06-13T17:09:23.227Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {
