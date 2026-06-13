@@ -67,8 +67,8 @@
     "homeTeamId": 2384,
     "awayTeamId": 2380,
     "homeScore": 3,
-    "awayScore": 0,
-    "elapsed": 73,
+    "awayScore": 1,
+    "elapsed": 78,
     "venue": {
       "name": "SoFi Stadium",
       "city": "Los Angeles",
