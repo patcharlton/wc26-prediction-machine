@@ -127,26 +127,26 @@
   {
     "fixtureId": "1489371",
     "probs": {
-      "homeWin": 0.54,
-      "draw": 0.28,
-      "awayWin": 0.18
+      "homeWin": 0.51,
+      "draw": 0.3,
+      "awayWin": 0.19
     },
     "scoreline": {
       "home": 1,
       "away": 0
     },
-    "confidence": "Medium",
-    "reasoning": "Brazil enter with superior squad quality (Vinicius Jr, Raphinha, deep midfield), strong pre-tournament form (6-2 vs Panama, 2-1 vs Egypt) and a settled Ancelotti XI, though key absences at right-back (Wesley, Militao) and in attack (Rodrygo, Estevao) thin their depth. Morocco are genuinely dangerous — ranked 8th globally, with Hakimi, Brahim Diaz and goalkeeper Bounou — but are disrupted by the near-certain loss of Ezzalzouli (knee) plus a new coach (Ouahbi) making his first senior major-tournament debut.",
+    "confidence": "Medium-Low",
+    "reasoning": "Brazil hold a genuine talent edge with Vinicius Jr., Raphinha and Alisson, but the losses of Rodrygo, Estêvão and Militão meaningfully thin their attacking and defensive depth, and Neymar's fitness at 34 is uncertain. Morocco arrive as AFCON champions, unbeaten in 29 matches, with an elite defensive structure and Hakimi fit after his Champions League triumph — though they too are weakened by the last-minute losses of Aguerd and Ezzalzouli.",
     "market": {
-      "homeWin": 0.575,
-      "draw": 0.255,
-      "awayWin": 0.169,
+      "homeWin": 0.561,
+      "draw": 0.262,
+      "awayWin": 0.178,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-06-13T21:01:10.540Z",
     "modelVersion": "claude-sonnet-4-6",
-    "generatedAt": "2026-06-08T21:23:57.417Z",
-    "locked": false,
+    "generatedAt": "2026-06-13T21:01:10.540Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {
