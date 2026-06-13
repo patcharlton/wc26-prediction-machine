@@ -39,22 +39,22 @@
   },
   {
     "fixtureId": "1539000",
-    "status": "live",
+    "status": "finished",
     "kickoff": "2026-06-12T19:00:00.000Z",
     "stage": "groupB",
     "homeTeam": "Canada",
     "awayTeam": "Bosnia & Herzegovina",
     "actualScore": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 1
     },
-    "actualOutcome": null,
-    "machineOutcomeHit": null,
-    "marketOutcomeHit": null,
-    "exactScoreHit": null,
-    "machineBrierScore": null,
-    "marketBrierScore": null,
-    "resolvedAt": null
+    "actualOutcome": "draw",
+    "machineOutcomeHit": false,
+    "marketOutcomeHit": false,
+    "exactScoreHit": false,
+    "machineBrierScore": 0.798,
+    "marketBrierScore": 0.832,
+    "resolvedAt": "2026-06-13T02:53:00.338Z"
   },
   {
     "fixtureId": "1489370",

@@ -28,7 +28,7 @@
     },
     {
       "teamId": 770,
-      "team": "Czech Republic",
+      "team": "Czechia",
       "rank": 3,
       "played": 1,
       "win": 0,
@@ -58,27 +58,27 @@
       "teamId": 5529,
       "team": "Canada",
       "rank": 1,
-      "played": 0,
+      "played": 1,
       "win": 0,
-      "draw": 0,
+      "draw": 1,
       "lose": 0,
-      "goalsFor": 0,
-      "goalsAgainst": 0,
+      "goalsFor": 1,
+      "goalsAgainst": 1,
       "goalDiff": 0,
-      "points": 0
+      "points": 1
     },
     {
       "teamId": 1113,
       "team": "Bosnia & Herzegovina",
       "rank": 2,
-      "played": 0,
+      "played": 1,
       "win": 0,
-      "draw": 0,
+      "draw": 1,
       "lose": 0,
-      "goalsFor": 0,
-      "goalsAgainst": 0,
+      "goalsFor": 1,
+      "goalsAgainst": 1,
       "goalDiff": 0,
-      "points": 0
+      "points": 1
     },
     {
       "teamId": 1569,

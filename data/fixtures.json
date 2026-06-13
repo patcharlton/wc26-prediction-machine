@@ -42,7 +42,7 @@
     "stage": "groupB",
     "matchday": "MD1",
     "kickoff": "2026-06-12T19:00:00.000Z",
-    "status": "live",
+    "status": "finished",
     "homeTeam": "Canada",
     "awayTeam": "Bosnia & Herzegovina",
     "homeTeamId": 5529,
@@ -68,10 +68,10 @@
     "awayTeamId": 2380,
     "homeScore": 3,
     "awayScore": 1,
-    "elapsed": 84,
+    "elapsed": 89,
     "venue": {
       "name": "SoFi Stadium",
-      "city": "Los Angeles",
+      "city": "Inglewood",
       "country": null
     }
   },

@@ -1,33 +1,33 @@
 {
   "totals": {
-    "completed": 2,
+    "completed": 3,
     "machineCorrect": 2,
     "marketCorrect": 2,
     "exactScoreHits": 1
   },
   "rates": {
-    "machineOutcomeAccuracy": 1,
-    "marketOutcomeAccuracy": 1,
-    "exactScoreAccuracy": 0.5
+    "machineOutcomeAccuracy": 0.667,
+    "marketOutcomeAccuracy": 0.667,
+    "exactScoreAccuracy": 0.333
   },
   "brier": {
-    "machineAvg": 0.366,
-    "marketAvg": 0.387
+    "machineAvg": 0.51,
+    "marketAvg": 0.535
   },
   "headToHead": {
     "machineLead": 0,
-    "level": 2,
+    "level": 3,
     "marketLead": 0,
     "verdict": "level"
   },
   "byStage": {
     "group": {
-      "completed": 2,
+      "completed": 3,
       "machineCorrect": 2,
       "marketCorrect": 2,
       "exactScoreHits": 1,
-      "machineBrierAvg": 0.366,
-      "marketBrierAvg": 0.387
+      "machineBrierAvg": 0.51,
+      "marketBrierAvg": 0.535
     },
     "R32": {
       "completed": 0,
@@ -72,12 +72,12 @@
   },
   "byMatchday": {
     "MD1": {
-      "completed": 2,
+      "completed": 3,
       "machineCorrect": 2,
       "marketCorrect": 2,
       "exactScoreHits": 1,
-      "machineBrierAvg": 0.366,
-      "marketBrierAvg": 0.387
+      "machineBrierAvg": 0.51,
+      "marketBrierAvg": 0.535
     },
     "MD2": {
       "completed": 0,
@@ -96,5 +96,5 @@
       "marketBrierAvg": null
     }
   },
-  "lastUpdatedAt": "2026-06-13T02:52:11.184Z"
+  "lastUpdatedAt": "2026-06-13T02:53:00.338Z"
 }
