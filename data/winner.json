@@ -10,23 +10,23 @@
     },
     {
       "team": "France",
-      "prob": 0.14
+      "prob": 0.165
     },
     {
       "team": "England",
-      "prob": 0.11
-    },
-    {
-      "team": "Argentina",
-      "prob": 0.1
+      "prob": 0.105
     },
     {
       "team": "Brazil",
-      "prob": 0.09
+      "prob": 0.08
+    },
+    {
+      "team": "Argentina",
+      "prob": 0.075
     },
     {
       "team": "Portugal",
-      "prob": 0.08
+      "prob": 0.065
     },
     {
       "team": "Germany",
@@ -34,11 +34,11 @@
     },
     {
       "team": "Netherlands",
-      "prob": 0.035
+      "prob": 0.04
     }
   ],
-  "reasoning": "Spain are the consensus pick across bookmakers and models, with the Opta supercomputer giving them a tournament-high 16.1% win chance and the only side rated more likely than not to reach the quarter-finals, backed by Euro 2024 form and a deep, youthful core around Yamal, Pedri and Rodri. France are the natural runner-up call as co-favorite, carrying back-to-back final appearances and a devastating Mbappe-led attack, though their Group I draw with Senegal, Norway and Iraq is the toughest among the elite. England, holders Argentina and Brazil headline the chasing pack, with Argentina's knockout pedigree offset by age concerns across a long, hot North American tournament. I rate Morocco as the live outsider given their 2022 semi-final run, an Achraf Hakimi-anchored squad of European-tested players, and CONMEBOL/European elites historically being vulnerable to a well-drilled outsider; the field is unusually open with no runaway favorite, hence only medium-low confidence.",
-  "basis": "pre-tournament",
+  "reasoning": "Spain and France sit as clear co-favorites, with markets pricing Spain marginally ahead — Kalshi has Spain at 16.5% and France at 16.3%, and Spain enters on a 31-game unbeaten streak that underlines La Roja's depth and cohesion. France match that quality with Mbappé leading an elite spine, though both face injury caveats, and both still have group games to navigate before knockouts. England are the next tier but opened with a tough Croatia test in Group L, while Brazil's case is dented by losing Estêvão and Rodrygo to injury, thinning their attacking depth. Morocco is the standout live outsider given their 2022 semifinal core and Regragui's tactical discipline, making them dangerous against bigger names despite a difficult Group C with Brazil and Scotland.",
+  "basis": "group stage (4 matches played)",
   "modelVersion": "claude-opus-4-8",
-  "updatedAt": "2026-06-05T21:29:44.362Z"
+  "updatedAt": "2026-06-13T08:48:33.278Z"
 }

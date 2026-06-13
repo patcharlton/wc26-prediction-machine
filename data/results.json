@@ -58,22 +58,22 @@
   },
   {
     "fixtureId": "1489370",
-    "status": "live",
+    "status": "finished",
     "kickoff": "2026-06-13T01:00:00.000Z",
     "stage": "groupD",
     "homeTeam": "USA",
     "awayTeam": "Paraguay",
     "actualScore": {
-      "home": null,
-      "away": null
+      "home": 4,
+      "away": 1
     },
-    "actualOutcome": null,
-    "machineOutcomeHit": null,
-    "marketOutcomeHit": null,
-    "exactScoreHit": null,
-    "machineBrierScore": null,
-    "marketBrierScore": null,
-    "resolvedAt": null
+    "actualOutcome": "homeWin",
+    "machineOutcomeHit": true,
+    "marketOutcomeHit": true,
+    "exactScoreHit": false,
+    "machineBrierScore": 0.409,
+    "marketBrierScore": 0.45,
+    "resolvedAt": "2026-06-13T08:48:33.278Z"
   },
   {
     "fixtureId": "1489373",
