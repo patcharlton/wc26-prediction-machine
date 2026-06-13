@@ -152,26 +152,26 @@
   {
     "fixtureId": "1489372",
     "probs": {
-      "homeWin": 0.12,
-      "draw": 0.22,
-      "awayWin": 0.66
+      "homeWin": 0.16,
+      "draw": 0.26,
+      "awayWin": 0.58
     },
     "scoreline": {
       "home": 0,
       "away": 2
     },
     "confidence": "Medium",
-    "reasoning": "Scotland enter in red-hot form — 8 goals across two pre-tournament friendlies including a 4-0 thrashing of Bolivia — and hold a large FIFA ranking advantage (43rd vs 83rd) with top-club talent in McTominay, Robertson, and a fit Ché Adams. The loss of Billy Gilmour to a knee injury is a genuine blow to midfield creativity, but the squad has sufficient depth to absorb it. Haiti showed attacking promise (4-0 vs New Zealand, Wilson Isidor scoring), but their inability to manage a lead against Peru exposed defensive fragility against top-50 opposition; Scotland (ranked 43rd) present a clear step up.",
+    "reasoning": "Scotland arrive in dominant form — back-to-back 4-0 wins over Curacao and Bolivia — with Ché Adams, McTominay and Shankland all firing, and hold a 45-place FIFA ranking advantage over Haiti. However, Scotland are missing five first-choice players (Gilmour, Hickey, Doak, Souttar, Christie), which hollows out both their best XI and bench depth. Haiti showed they can be dangerous on the counter with pace, and their motivation to take three points from their most winnable group game is acute. The draw probability is nudged above the market line to reflect Scotland's injury-hit squad and Haiti's potential to nick something via transition play, but Scotland's class should ultimately prevail.",
     "market": {
-      "homeWin": 0.144,
-      "draw": 0.228,
-      "awayWin": 0.628,
+      "homeWin": 0.168,
+      "draw": 0.224,
+      "awayWin": 0.608,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-06-13T23:57:01.894Z",
     "modelVersion": "claude-sonnet-4-6",
-    "generatedAt": "2026-06-08T21:23:57.417Z",
-    "locked": false,
+    "generatedAt": "2026-06-13T23:57:01.894Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {
