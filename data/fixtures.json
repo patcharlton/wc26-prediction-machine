@@ -66,9 +66,9 @@
     "awayTeam": "Paraguay",
     "homeTeamId": 2384,
     "awayTeamId": 2380,
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 0,
-    "elapsed": 4,
+    "elapsed": 9,
     "venue": {
       "name": "SoFi Stadium",
       "city": "Los Angeles",
