@@ -105,8 +105,8 @@
     "homeTeamId": 6,
     "awayTeamId": 31,
     "homeScore": 0,
-    "awayScore": 0,
-    "elapsed": 14,
+    "awayScore": 1,
+    "elapsed": 24,
     "venue": {
       "name": "MetLife Stadium",
       "city": "New York New Jersey",
