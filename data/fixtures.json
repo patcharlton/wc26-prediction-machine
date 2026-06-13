@@ -104,9 +104,9 @@
     "awayTeam": "Morocco",
     "homeTeamId": 6,
     "awayTeamId": 31,
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 1,
-    "elapsed": 24,
+    "elapsed": 34,
     "venue": {
       "name": "MetLife Stadium",
       "city": "New York New Jersey",
