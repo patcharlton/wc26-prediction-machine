@@ -142,9 +142,9 @@
     "awayTeam": "Türkiye",
     "homeTeamId": 20,
     "awayTeamId": 777,
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 0,
-    "elapsed": 24,
+    "elapsed": 32,
     "venue": {
       "name": "BC Place",
       "city": "Vancouver",
