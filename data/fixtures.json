@@ -162,8 +162,8 @@
     "homeTeamId": 25,
     "awayTeamId": 5530,
     "homeScore": 1,
-    "awayScore": 0,
-    "elapsed": 19,
+    "awayScore": 1,
+    "elapsed": 29,
     "venue": {
       "name": "NRG Stadium",
       "city": "Houston",
