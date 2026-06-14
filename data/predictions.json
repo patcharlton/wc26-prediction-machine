@@ -177,26 +177,26 @@
   {
     "fixtureId": "1539001",
     "probs": {
-      "homeWin": 0.2,
+      "homeWin": 0.17,
       "draw": 0.27,
-      "awayWin": 0.53
+      "awayWin": 0.56
     },
     "scoreline": {
       "home": 0,
-      "away": 2
+      "away": 1
     },
     "confidence": "Medium",
-    "reasoning": "Türkiye carry clear squad quality superiority with top-European-club talent in Güler (Real Madrid, fit and playing vs Venezuela), Çalhanoğlu, Yıldız (calf concern but expected available), Kökçü and Kadıoğlu, and they arrive in form after beating Venezuela 2-1 in their final tune-up. Australia are missing first-choice right wing-back Nathanael Atkinson to injury, midfield anchor Aiden O'Neill carries an ankle concern, and their pre-tournament form showed a 1-0 loss to Mexico followed by a 1-1 draw with Switzerland — conceding first in both games and struggling to create in opening halves.",
+    "reasoning": "Türkiye hold a clear edge in squad quality — a rated attack of 79 vs Australia's 67, with Güler fit and Çalhanoğlu available — and arrive in better recent form (W-W-D-L-W vs Australia's W-D-L-W-D). Australia's injury list is meaningful: the absences of first-choice midfielder McGree and wing-back Miller disrupt Popovic's preferred XI, while Souttar returns from 18 months out and is match-rusty. Vancouver's sea-level, neutral venue cancels any climate edge, and both sides face equivalent travel.",
     "market": {
-      "homeWin": 0.216,
-      "draw": 0.259,
-      "awayWin": 0.525,
+      "homeWin": 0.176,
+      "draw": 0.27,
+      "awayWin": 0.554,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-06-14T02:59:04.166Z",
     "modelVersion": "claude-sonnet-4-6",
-    "generatedAt": "2026-06-08T21:23:57.417Z",
-    "locked": false,
+    "generatedAt": "2026-06-14T02:59:04.166Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {
