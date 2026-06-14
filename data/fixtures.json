@@ -80,17 +80,17 @@
     "stage": "groupB",
     "matchday": "MD1",
     "kickoff": "2026-06-13T19:00:00.000Z",
-    "status": "live",
+    "status": "finished",
     "homeTeam": "Qatar",
     "awayTeam": "Switzerland",
     "homeTeamId": 1569,
     "awayTeamId": 15,
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 1,
-    "elapsed": 88,
+    "elapsed": 90,
     "venue": {
       "name": "Levi's Stadium",
-      "city": "San Francisco Bay Area",
+      "city": "Santa Clara",
       "country": null
     }
   },
@@ -99,7 +99,7 @@
     "stage": "groupC",
     "matchday": "MD1",
     "kickoff": "2026-06-13T22:00:00.000Z",
-    "status": "live",
+    "status": "finished",
     "homeTeam": "Brazil",
     "awayTeam": "Morocco",
     "homeTeamId": 6,
@@ -109,7 +109,7 @@
     "elapsed": 90,
     "venue": {
       "name": "MetLife Stadium",
-      "city": "New York New Jersey",
+      "city": "East Rutherford",
       "country": null
     }
   },
@@ -118,7 +118,7 @@
     "stage": "groupC",
     "matchday": "MD1",
     "kickoff": "2026-06-14T01:00:00.000Z",
-    "status": "live",
+    "status": "finished",
     "homeTeam": "Haiti",
     "awayTeam": "Scotland",
     "homeTeamId": 2386,
