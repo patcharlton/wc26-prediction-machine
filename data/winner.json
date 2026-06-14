@@ -6,39 +6,39 @@
   "contenders": [
     {
       "team": "Spain",
-      "prob": 0.17
+      "prob": 0.18
     },
     {
       "team": "France",
-      "prob": 0.165
-    },
-    {
-      "team": "England",
-      "prob": 0.105
-    },
-    {
-      "team": "Brazil",
-      "prob": 0.08
-    },
-    {
-      "team": "Argentina",
-      "prob": 0.075
+      "prob": 0.17
     },
     {
       "team": "Portugal",
-      "prob": 0.065
+      "prob": 0.11
+    },
+    {
+      "team": "England",
+      "prob": 0.11
+    },
+    {
+      "team": "Argentina",
+      "prob": 0.09
+    },
+    {
+      "team": "Brazil",
+      "prob": 0.07
     },
     {
       "team": "Germany",
-      "prob": 0.05
+      "prob": 0.06
     },
     {
       "team": "Netherlands",
-      "prob": 0.04
+      "prob": 0.05
     }
   ],
-  "reasoning": "Spain and France sit as clear co-favorites, with markets pricing Spain marginally ahead — Kalshi has Spain at 16.5% and France at 16.3%, and Spain enters on a 31-game unbeaten streak that underlines La Roja's depth and cohesion. France match that quality with Mbappé leading an elite spine, though both face injury caveats, and both still have group games to navigate before knockouts. England are the next tier but opened with a tough Croatia test in Group L, while Brazil's case is dented by losing Estêvão and Rodrygo to injury, thinning their attacking depth. Morocco is the standout live outsider given their 2022 semifinal core and Regragui's tactical discipline, making them dangerous against bigger names despite a difficult Group C with Brazil and Scotland.",
-  "basis": "group stage (4 matches played)",
+  "reasoning": "Spain and France are virtual co-favorites on prediction markets, with Spain edging ahead at roughly 17.7% versus France's 17.1%, and Spain riding a 31-game unbeaten streak plus a Euro 2024 title under a settled, deep squad. France's blend of elite talent (Mbappe, Dembele, Tchouameni) and back-to-back final appearances makes them the clearest threat, with Portugal having jumped England into third on the board. Brazil look shaky after a 1-1 draw with Morocco and Neymar fitness doubts, while Spain's main concern is Yamal managing a knock and the loss of Fermin Lopez to depth. Morocco are the standout live outsider: 2022 semifinalists with much of that core intact and Regragui's discipline, though their tough Group C path (Brazil, Scotland) is a hurdle. With the pre-tournament favorite winning only once in the last six editions and just eight matches played, confidence is necessarily tempered.",
+  "basis": "group stage (8 matches played)",
   "modelVersion": "claude-opus-4-8",
-  "updatedAt": "2026-06-13T08:48:33.278Z"
+  "updatedAt": "2026-06-14T09:20:23.650Z"
 }

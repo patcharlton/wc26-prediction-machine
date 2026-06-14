@@ -134,22 +134,22 @@
   },
   {
     "fixtureId": "1539001",
-    "status": "live",
+    "status": "finished",
     "kickoff": "2026-06-14T04:00:00.000Z",
     "stage": "groupD",
     "homeTeam": "Australia",
     "awayTeam": "Türkiye",
     "actualScore": {
-      "home": null,
-      "away": null
+      "home": 2,
+      "away": 0
     },
-    "actualOutcome": null,
-    "machineOutcomeHit": null,
-    "marketOutcomeHit": null,
-    "exactScoreHit": null,
-    "machineBrierScore": null,
-    "marketBrierScore": null,
-    "resolvedAt": null
+    "actualOutcome": "homeWin",
+    "machineOutcomeHit": false,
+    "marketOutcomeHit": false,
+    "exactScoreHit": false,
+    "machineBrierScore": 1.075,
+    "marketBrierScore": 1.059,
+    "resolvedAt": "2026-06-14T09:20:23.650Z"
   },
   {
     "fixtureId": "1489374",
