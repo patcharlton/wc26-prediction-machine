@@ -202,26 +202,26 @@
   {
     "fixtureId": "1489374",
     "probs": {
-      "homeWin": 0.925,
-      "draw": 0.055,
-      "awayWin": 0.02
+      "homeWin": 0.9,
+      "draw": 0.07,
+      "awayWin": 0.03
     },
     "scoreline": {
       "home": 4,
       "away": 0
     },
-    "confidence": "High",
-    "reasoning": "Germany arrive with elite squad depth — Neuer (fit to start per Nagelsmann), Kimmich, Rüdiger, Tah, Goretzka/Pavlović in midfield, and a front three of Wirtz, Musiala and Havertz — having beaten the USA 2-1 in their final warm-up and qualifying with five wins from six. Curaçao, making their historic first World Cup appearance, lost all three post-qualification friendlies including a 5-1 thrashing by Australia and a 4-1 defeat to Scotland, and carry pre-tournament managerial instability with Advocaat only returning weeks before the tournament.",
+    "confidence": "Medium-High",
+    "reasoning": "Germany enter on a nine-match winning run with an elite attacking trident of Wirtz, Musiala and Havertz fully fit, and Neuer confirmed available after a calf scare. Curaçao (FIFA 82nd) are World Cup debutants whose preparation included a 4-1 loss to Scotland; their plan will be a deep low block, but the quality and depth gap is enormous. Houston is sea-level and neutral to both sides, offering Germany no venue penalty.",
     "market": {
-      "homeWin": 0.909,
-      "draw": 0.059,
-      "awayWin": 0.032,
+      "homeWin": 0.916,
+      "draw": 0.054,
+      "awayWin": 0.03,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-06-14T15:05:56.485Z",
     "modelVersion": "claude-sonnet-4-6",
-    "generatedAt": "2026-06-08T21:23:57.417Z",
-    "locked": false,
+    "generatedAt": "2026-06-14T15:05:56.485Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {
