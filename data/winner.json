@@ -2,15 +2,15 @@
   "champion": "Spain",
   "runnerUp": "France",
   "darkHorse": "Morocco",
-  "confidence": "Medium-Low",
+  "confidence": "Low",
   "contenders": [
     {
       "team": "Spain",
-      "prob": 0.18
+      "prob": 0.17
     },
     {
       "team": "France",
-      "prob": 0.17
+      "prob": 0.16
     },
     {
       "team": "Portugal",
@@ -18,27 +18,27 @@
     },
     {
       "team": "England",
-      "prob": 0.11
+      "prob": 0.1
     },
     {
       "team": "Argentina",
-      "prob": 0.09
+      "prob": 0.1
     },
     {
       "team": "Brazil",
-      "prob": 0.07
+      "prob": 0.08
     },
     {
       "team": "Germany",
       "prob": 0.06
     },
     {
-      "team": "Netherlands",
-      "prob": 0.05
+      "team": "Japan",
+      "prob": 0.03
     }
   ],
-  "reasoning": "Spain and France are virtual co-favorites on prediction markets, with Spain edging ahead at roughly 17.7% versus France's 17.1%, and Spain riding a 31-game unbeaten streak plus a Euro 2024 title under a settled, deep squad. France's blend of elite talent (Mbappe, Dembele, Tchouameni) and back-to-back final appearances makes them the clearest threat, with Portugal having jumped England into third on the board. Brazil look shaky after a 1-1 draw with Morocco and Neymar fitness doubts, while Spain's main concern is Yamal managing a knock and the loss of Fermin Lopez to depth. Morocco are the standout live outsider: 2022 semifinalists with much of that core intact and Regragui's discipline, though their tough Group C path (Brazil, Scotland) is a hurdle. With the pre-tournament favorite winning only once in the last six editions and just eight matches played, confidence is necessarily tempered.",
-  "basis": "group stage (8 matches played)",
+  "reasoning": "Spain has edged ahead of France atop the prediction markets at roughly 17% to win, carrying Euro 2024 momentum, the highest floor of any contender, and a possession style that travels well in tournament football around Lamine Yamal and Pedri. France remains a co-favorite with the deepest forward line and Mbappé as a knockout-tie decider, but they were drawn into the Group of Death alongside a strong Senegal and Haaland's Norway, raising their early variance. The market is extremely tight with no runaway favorite—Portugal, England, Argentina, Brazil and a Curaçao-thrashing Germany all sit within striking distance—so confidence is genuinely Low this early in the group stage. Key injuries have reshaped the field (Brazil without Rodrygo and Estêvão, Netherlands without Timber/Simons, Spain losing Fermín López), while Morocco, a recent semifinalist who held Brazil to a draw, profiles as the most credible live outsider with a knockout-ready spine.",
+  "basis": "group stage (12 matches played)",
   "modelVersion": "claude-opus-4-8",
-  "updatedAt": "2026-06-14T09:20:23.650Z"
+  "updatedAt": "2026-06-15T11:49:15.495Z"
 }
