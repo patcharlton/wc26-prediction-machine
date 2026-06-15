@@ -256,9 +256,9 @@
     "awayTeam": "Egypt",
     "homeTeamId": 1,
     "awayTeamId": 32,
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 1,
-    "elapsed": 64,
+    "elapsed": 75,
     "venue": {
       "name": "Lumen Field",
       "city": "Seattle",
