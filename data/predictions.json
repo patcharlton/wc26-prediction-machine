@@ -327,26 +327,26 @@
   {
     "fixtureId": "1489377",
     "probs": {
-      "homeWin": 0.57,
-      "draw": 0.25,
-      "awayWin": 0.18
+      "homeWin": 0.575,
+      "draw": 0.265,
+      "awayWin": 0.16
     },
     "scoreline": {
       "home": 2,
       "away": 0
     },
     "confidence": "Medium",
-    "reasoning": "Belgium arrive in their best pre-tournament form in years — a 13-match unbeaten run capped by a 5-0 demolition of Tunisia and a 2-0 win over Croatia — with De Bruyne fit and operating as the creative hub of a strong 4-2-3-1. Egypt are well-organised, countered Brazil effectively in the first half of their final friendly, and carry genuine threats through Salah and Marmoush, but over half their squad plays domestically and Salah is being carefully managed.",
+    "reasoning": "Belgium enter on a 13-game unbeaten run, including a 5-0 warm-up rout of Tunisia, and boast clear squad superiority through De Bruyne, Doku, and Tielemans. However, Lukaku's severe lack of match fitness and De Bruyne's recent return from surgery introduce real attacking bluntness, while Courtois remains a doubt. Egypt arrive with an elite counter-attacking pairing in a less-than-fully-fit Salah and a sharp Marmoush, backed by a defence that conceded only twice in 10 qualifying matches — a setup tailor-made to frustrate and punish on the break.",
     "market": {
-      "homeWin": 0.565,
-      "draw": 0.249,
-      "awayWin": 0.186,
+      "homeWin": 0.597,
+      "draw": 0.239,
+      "awayWin": 0.164,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-06-15T17:50:25.739Z",
     "modelVersion": "claude-sonnet-4-6",
-    "generatedAt": "2026-06-08T21:23:57.417Z",
-    "locked": false,
+    "generatedAt": "2026-06-15T17:50:25.739Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {
