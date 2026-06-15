@@ -199,9 +199,9 @@
     "awayTeam": "Ecuador",
     "homeTeamId": 1501,
     "awayTeamId": 2382,
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 0,
-    "elapsed": 86,
+    "elapsed": 90,
     "venue": {
       "name": "Lincoln Financial Field",
       "city": "Philadelphia",
