@@ -277,26 +277,26 @@
   {
     "fixtureId": "1539002",
     "probs": {
-      "homeWin": 0.5,
-      "draw": 0.27,
-      "awayWin": 0.23
+      "homeWin": 0.48,
+      "draw": 0.3,
+      "awayWin": 0.22
     },
     "scoreline": {
       "home": 2,
       "away": 0
     },
     "confidence": "Medium",
-    "reasoning": "Sweden hold a meaningful squad quality edge, pairing Alexander Isak and Viktor Gyökeres — the latter scoring four goals across the qualifying play-offs — in the same forward line, while the only notable absentee is the long-injured Kulusevski; Emil Holm was replaced in the squad but the XI remains strong. Tunisia enter on poor recent form, having been thrashed 5-0 by Belgium in their final pre-tournament friendly (also reduced to ten men), and their squad depth outside the Hannibal Mejbri–Skhiri midfield axis is modest.",
+    "reasoning": "Sweden hold a clear squad quality edge, with Gyökeres and Isak forming one of the tournament's most dangerous strike partnerships, and their play-off wins over Ukraine and Poland showed they can score freely in competitive pressure matches. Tunisia's warm-up form is genuinely alarming — a 5-0 loss to Belgium (admittedly with 10 men for 30 minutes) and a 1-0 defeat to Austria — raising real questions about their defensive readiness against European pace and pressing. However, Tunisia's flawless CAF qualifying record (10 clean sheets in 10) shows their defensive structure is real in competitive contexts, and MD1 opener caution means a tighter match is plausible.",
     "market": {
-      "homeWin": 0.497,
-      "draw": 0.275,
-      "awayWin": 0.228,
+      "homeWin": 0.493,
+      "draw": 0.284,
+      "awayWin": 0.223,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-06-15T00:00:18.123Z",
     "modelVersion": "claude-sonnet-4-6",
-    "generatedAt": "2026-06-08T21:23:57.417Z",
-    "locked": false,
+    "generatedAt": "2026-06-15T00:00:18.123Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {
