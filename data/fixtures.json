@@ -219,8 +219,8 @@
     "homeTeamId": 5,
     "awayTeamId": 28,
     "homeScore": 2,
-    "awayScore": 0,
-    "elapsed": 42,
+    "awayScore": 1,
+    "elapsed": 45,
     "venue": {
       "name": "Estadio BBVA",
       "city": "Monterrey",
