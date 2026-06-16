@@ -294,9 +294,9 @@
     "awayTeam": "New Zealand",
     "homeTeamId": 22,
     "awayTeamId": 4673,
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 1,
-    "elapsed": 29,
+    "elapsed": 35,
     "venue": {
       "name": "SoFi Stadium",
       "city": "Los Angeles",
