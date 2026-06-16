@@ -598,5 +598,30 @@
     "generatedAt": "2026-06-08T21:42:34.855Z",
     "locked": false,
     "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1539004",
+    "probs": {
+      "homeWin": 0.54,
+      "draw": 0.24,
+      "awayWin": 0.22
+    },
+    "scoreline": {
+      "home": 2,
+      "away": 0
+    },
+    "confidence": "Medium",
+    "reasoning": "Czechia hold a meaningful squad-quality edge and enter with a full complement of available players, while South Africa are severely weakened by the suspensions of both Sithole and Zwane (red cards vs. Mexico), losing key defensive and creative personnel simultaneously. Mokoena carries a yellow card, adding further pressure on Bafana's already-depleted midfield, and South Africa failed to score or seriously threaten vs. Mexico even with 11 men. Atlanta is a sea-level, neutral venue that provides no altitude edge for either side, and the 7-day rest gap is equal.",
+    "market": {
+      "homeWin": 0.531,
+      "draw": 0.263,
+      "awayWin": 0.205,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-16T16:41:11.296Z",
+    "locked": false,
+    "webSearchUsed": true
   }
 ]
