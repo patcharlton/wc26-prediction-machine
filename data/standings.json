@@ -325,9 +325,35 @@
   ],
   "groupG": [
     {
+      "teamId": 4673,
+      "team": "New Zealand",
+      "rank": 1,
+      "played": 1,
+      "win": 0,
+      "draw": 1,
+      "lose": 0,
+      "goalsFor": 2,
+      "goalsAgainst": 2,
+      "goalDiff": 0,
+      "points": 1
+    },
+    {
+      "teamId": 22,
+      "team": "Iran",
+      "rank": 2,
+      "played": 1,
+      "win": 0,
+      "draw": 1,
+      "lose": 0,
+      "goalsFor": 2,
+      "goalsAgainst": 2,
+      "goalDiff": 0,
+      "points": 1
+    },
+    {
       "teamId": 1,
       "team": "Belgium",
-      "rank": 1,
+      "rank": 3,
       "played": 1,
       "win": 0,
       "draw": 1,
@@ -340,7 +366,7 @@
     {
       "teamId": 32,
       "team": "Egypt",
-      "rank": 2,
+      "rank": 4,
       "played": 1,
       "win": 0,
       "draw": 1,
@@ -349,32 +375,6 @@
       "goalsAgainst": 1,
       "goalDiff": 0,
       "points": 1
-    },
-    {
-      "teamId": 22,
-      "team": "Iran",
-      "rank": 3,
-      "played": 0,
-      "win": 0,
-      "draw": 0,
-      "lose": 0,
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "goalDiff": 0,
-      "points": 0
-    },
-    {
-      "teamId": 4673,
-      "team": "New Zealand",
-      "rank": 4,
-      "played": 0,
-      "win": 0,
-      "draw": 0,
-      "lose": 0,
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "goalDiff": 0,
-      "points": 0
     }
   ],
   "groupH": [
