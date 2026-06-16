@@ -333,8 +333,8 @@
     "homeTeamId": 1567,
     "awayTeamId": 1090,
     "homeScore": 0,
-    "awayScore": 0,
-    "elapsed": 21,
+    "awayScore": 1,
+    "elapsed": 31,
     "venue": {
       "name": "Gillette Stadium",
       "city": "Boston",
