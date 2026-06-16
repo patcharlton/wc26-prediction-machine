@@ -427,8 +427,8 @@
   {
     "fixtureId": "1539016",
     "probs": {
-      "homeWin": 0.08,
-      "draw": 0.15,
+      "homeWin": 0.07,
+      "draw": 0.16,
       "awayWin": 0.77
     },
     "scoreline": {
@@ -436,17 +436,17 @@
       "away": 2
     },
     "confidence": "Medium-High",
-    "reasoning": "Norway hold a massive structural edge: a perfect 8-from-8 qualifying record with 37 goals scored, plus a Haaland-Ødegaard axis (both reported fully fit) that overwhelms any AFC-level defensive block. Iraq arrive with genuine momentum — a 1-1 friendly draw against Spain (with most starters rested) and a last-five form of D-D-W-W-W shows Arnold's disciplined 4-4-2 low block is functional — but Gillette Stadium (sea-level, humid June) offers no altitude edge, and Norway's width via Nusa and Sørloth will stretch an Iraqi backline missing starting LB Ahmed Yahya with a hamstring injury.",
+    "reasoning": "Norway arrive with a fully fit squad including Haaland and a recently recovered Ødegaard, a perfect 8-win qualifying campaign, and superior quality at every position. Iraq's entire 26-man squad is available and their defensive shape under Arnold is disciplined, but the talent gap is enormous — Norway are 26 FIFA ranking places higher with a frontline of Haaland, Sørloth, and Nusa that Iraq have no answer for. The market's ~76% Norway win probability aligns tightly with the form, availability, and style-matchup evidence; a slight upward nudge to 77% is warranted given Ødegaard's confirmed fitness.",
     "market": {
-      "homeWin": 0.081,
-      "draw": 0.146,
-      "awayWin": 0.773,
+      "homeWin": 0.078,
+      "draw": 0.161,
+      "awayWin": 0.761,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-06-16T20:35:51.860Z",
     "modelVersion": "claude-sonnet-4-6",
-    "generatedAt": "2026-06-08T21:23:57.417Z",
-    "locked": false,
+    "generatedAt": "2026-06-16T20:35:51.860Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {
