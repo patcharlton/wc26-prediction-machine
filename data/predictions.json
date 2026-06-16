@@ -623,5 +623,30 @@
     "generatedAt": "2026-06-16T16:41:11.296Z",
     "locked": false,
     "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1539005",
+    "probs": {
+      "homeWin": 0.54,
+      "draw": 0.26,
+      "awayWin": 0.2
+    },
+    "scoreline": {
+      "home": 2,
+      "away": 1
+    },
+    "confidence": "Medium",
+    "reasoning": "Switzerland are the clearly superior side on squad depth and tournament pedigree, but their MD1 performance (dominant yet conceding a 94th-minute own goal vs Qatar) reveals a tendency to sit back and invite pressure. Bosnia are a disciplined, low-block side with genuine set-piece threat who took the lead against Canada — they are no pushover. The book's 60.7% implied Swiss win probability looks slightly generous given Switzerland's unconvincing form (one win in their last four pre-tournament matches, a 4-3 loss to Germany) and Bosnia's organization; I trim Switzerland fractionally and redistribute toward draw and Bosnia.",
+    "market": {
+      "homeWin": 0.607,
+      "draw": 0.243,
+      "awayWin": 0.151,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-16T20:44:24.841Z",
+    "locked": false,
+    "webSearchUsed": true
   }
 ]
