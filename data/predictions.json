@@ -403,25 +403,25 @@
     "fixtureId": "1489383",
     "probs": {
       "homeWin": 0.62,
-      "draw": 0.25,
-      "awayWin": 0.13
+      "draw": 0.245,
+      "awayWin": 0.135
     },
     "scoreline": {
       "home": 2,
-      "away": 0
+      "away": 1
     },
     "confidence": "Medium",
-    "reasoning": "France enter as the world's top-ranked side with a historically deep squad headlined by Mbappé, Dembélé, and Olise, though they are without Ekitike (Achilles), Kamara (knee surgery), and Ferland Mendy. Senegal are no pushovers — unbeaten in qualifying, beat England 3-1 at Wembley, and boast Mané, Jackson, and a disciplined defensive structure — but the individual quality gap is significant. The 2002 upset precedent adds psychological texture, and Senegal's compact block could frustrate France early, keeping the draw probability meaningfully above the market's 22%.",
+    "reasoning": "France possess a generational talent advantage — Mbappe, Dembele, Olise and Doue give Deschamps one of the most dangerous attacks in the tournament, and their pre-tournament wins over Brazil and Colombia confirm elite-level readiness. Senegal, however, are no pushover: Mane leads a disciplined, physically imposing side that has historically troubled France (2-0 all-time H2H), and their counter-attacking pace via Sarr and Mane can punish a French defence that conceded in both warm-up games.",
     "market": {
-      "homeWin": 0.655,
-      "draw": 0.223,
-      "awayWin": 0.122,
+      "homeWin": 0.647,
+      "draw": 0.22,
+      "awayWin": 0.133,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-06-16T17:53:38.609Z",
     "modelVersion": "claude-sonnet-4-6",
-    "generatedAt": "2026-06-08T21:23:57.417Z",
-    "locked": false,
+    "generatedAt": "2026-06-16T17:53:38.609Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {
