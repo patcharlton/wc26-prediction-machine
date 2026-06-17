@@ -370,9 +370,9 @@
     "awayTeam": "Jordan",
     "homeTeamId": 775,
     "awayTeamId": 1548,
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 0,
-    "elapsed": 20,
+    "elapsed": 28,
     "venue": {
       "name": "Levi's Stadium",
       "city": "San Francisco Bay Area",
