@@ -351,9 +351,9 @@
     "awayTeam": "Algeria",
     "homeTeamId": 26,
     "awayTeamId": 1532,
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 0,
-    "elapsed": 16,
+    "elapsed": 21,
     "venue": {
       "name": "Arrowhead Stadium",
       "city": "Kansas City",
