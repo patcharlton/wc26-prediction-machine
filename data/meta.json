@@ -1,12 +1,12 @@
 {
   "lastRun": {
     "daily-housekeeping": "2026-06-17T10:28:40.293Z",
-    "live-status": "2026-06-17T17:00:38.090Z",
+    "live-status": "2026-06-17T17:10:40.063Z",
     "lock-job": "2026-06-16T20:35:51.860Z",
     "main-update": "2026-06-17T15:15:05.857Z"
   },
   "apiFootball": {
-    "requestsToday": 79,
+    "requestsToday": 80,
     "dayUtc": "2026-06-17",
     "lastResetAt": "2026-06-17T00:07:58.643Z"
   },
