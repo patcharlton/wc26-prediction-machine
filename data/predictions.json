@@ -648,5 +648,55 @@
     "generatedAt": "2026-06-16T20:44:24.841Z",
     "locked": false,
     "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489387",
+    "probs": {
+      "homeWin": 0.67,
+      "draw": 0.21,
+      "awayWin": 0.12
+    },
+    "scoreline": {
+      "home": 2,
+      "away": 0
+    },
+    "confidence": "Medium",
+    "reasoning": "Canada are the clear quality side at home in Vancouver with Jonathan David, Cyle Larin and a potentially returning Alphonso Davies all available, and the partisan BC Place crowd provides a significant intangible edge; the book's 73% home-win implied probability is broadly sound but nudged down slightly given Canada's recent clinical struggles — they dominated Bosnia yet needed a late Larin substitute appearance to salvage a draw, and Davies remains a fitness doubt.",
+    "market": {
+      "homeWin": 0.734,
+      "draw": 0.179,
+      "awayWin": 0.087,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-17T10:46:35.183Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489388",
+    "probs": {
+      "homeWin": 0.44,
+      "draw": 0.3,
+      "awayWin": 0.26
+    },
+    "scoreline": {
+      "home": 1,
+      "away": 0
+    },
+    "confidence": "Medium-Low",
+    "reasoning": "Mexico hold a meaningful venue edge at Estadio Akron (1,567m altitude, hostile crowd), both teams come in on three points and full confidence after MD1 wins, but Mexico absorb the suspension of Montes while South Korea carry minor injury doubts around Lee Kang-In and Bae Jun-Ho. South Korea's 3-4-2-1 with Son, Lee Kang-In and Hwang In-beom is a genuine counter-attacking threat that can exploit Mexico's transitional moments, compressing the gap between the sides.",
+    "market": {
+      "homeWin": 0.467,
+      "draw": 0.291,
+      "awayWin": 0.242,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-17T10:46:35.183Z",
+    "locked": false,
+    "webSearchUsed": true
   }
 ]
