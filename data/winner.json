@@ -1,32 +1,32 @@
 {
   "champion": "France",
   "runnerUp": "Spain",
-  "darkHorse": "Morocco",
-  "confidence": "Low",
+  "darkHorse": "Norway",
+  "confidence": "Medium",
   "contenders": [
     {
       "team": "France",
-      "prob": 0.18
+      "prob": 0.2
     },
     {
       "team": "Spain",
-      "prob": 0.15
-    },
-    {
-      "team": "Portugal",
-      "prob": 0.1
+      "prob": 0.17
     },
     {
       "team": "England",
-      "prob": 0.1
+      "prob": 0.13
     },
     {
       "team": "Argentina",
-      "prob": 0.09
+      "prob": 0.11
     },
     {
       "team": "Brazil",
-      "prob": 0.07
+      "prob": 0.09
+    },
+    {
+      "team": "Portugal",
+      "prob": 0.08
     },
     {
       "team": "Germany",
@@ -34,11 +34,11 @@
     },
     {
       "team": "Netherlands",
-      "prob": 0.04
+      "prob": 0.05
     }
   ],
-  "reasoning": "France has moved to clear favorite on the prediction markets at roughly 17-18% after Spain's flat 0-0 draw with Cape Verde, and Les Bleus backed it up with a convincing 3-1 win over Senegal that showed Mbappe in form and Saliba fit. Spain remains the most talented squad and only a marginal underdog, but the scoreless opener and lingering doubts over Yamal's fitness slightly dent confidence. Portugal, England, Argentina, Brazil and a ruthless 7-1 Germany are all live, so this race is wide open and confidence is low this early. Morocco is the standout dark horse: the 2022 semifinalists kept their core together under Regragui and, despite a tough Group C, profit from familiarity with North American conditions. Main threats to France are Spain's superior depth and the chaos of a 48-team bracket where altitude, travel and the expanded knockout path can derail any favorite.",
-  "basis": "group stage (20 matches played)",
+  "reasoning": "France have surged to clear outright favorites after a convincing 3-1 win over Senegal in which Mbappe scored twice, displacing Spain, who were held to a shock 0-0 draw by Cape Verde and whose attack looked blunt without a fully fit Lamine Yamal. France boast arguably the deepest squad in the field, with Mbappe, Dembele, Olise, Doue and Cherki offering elite firepower and proven final pedigree from 2018 and 2022, though a tricky group path featuring Haaland's Norway and Senegal is a genuine threat. Spain remain the most talented possession side and clear co-favorite to reach the final, with England, holders Argentina (boosted by Messi's hat-trick) and Brazil rounding out the leading contenders. Norway is the standout dark horse: with Haaland in form and a chance to upset France in the group, they have the star power to spring a deep run.",
+  "basis": "group stage (24 matches played)",
   "modelVersion": "claude-opus-4-8",
-  "updatedAt": "2026-06-17T10:28:40.293Z"
+  "updatedAt": "2026-06-18T10:08:31.151Z"
 }
