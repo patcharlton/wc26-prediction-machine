@@ -1,9 +1,10 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-// base "/" — the site is hosted at the domain root on Render. Absolute asset
-// paths are robust regardless of the request path the SPA rewrite serves.
+// base "/" on Render (domain root). For a GitHub Pages project site the path is
+// /<repo>/, so the Pages workflow sets BASE_PATH=/wc26-prediction-machine/.
+// Same source serves both hosts; data is fetched from raw GitHub either way.
 export default defineConfig({
   plugins: [react()],
-  base: "/",
+  base: process.env.BASE_PATH ?? "/",
 });
