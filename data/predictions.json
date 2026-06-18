@@ -698,5 +698,105 @@
     "generatedAt": "2026-06-17T10:46:35.183Z",
     "locked": false,
     "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489391",
+    "probs": {
+      "homeWin": 0.55,
+      "draw": 0.27,
+      "awayWin": 0.18
+    },
+    "scoreline": {
+      "home": 2,
+      "away": 1
+    },
+    "confidence": "Medium",
+    "reasoning": "USA carry clear advantages in squad quality, home support, and attacking firepower (Balogun, Pulisic expected fit), having dismantled Paraguay 4-1. However, Australia's deep 3-4-2-1 low-block blueprint — which limited Turkey to 9 shots and produced a clean sheet via eight Beach saves — is specifically suited to neutralising USA's high-press; the Socceroos are dangerous on the counter through Irankunda and Toure. Both teams have near-full squads available, rest is essentially equal, and Australia are comfortable taking a draw that still suits their qualification arithmetic, adding meaningful weight to the draw line above the book's 0.233.",
+    "market": {
+      "homeWin": 0.59,
+      "draw": 0.233,
+      "awayWin": 0.177,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-18T09:24:03.848Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489390",
+    "probs": {
+      "homeWin": 0.16,
+      "draw": 0.27,
+      "awayWin": 0.57
+    },
+    "scoreline": {
+      "home": 0,
+      "away": 1
+    },
+    "confidence": "Medium",
+    "reasoning": "Morocco (FIFA #8) carry materially superior squad quality headlined by Hakimi, Brahim Diaz, Amrabat and Saibari, and their 1-1 draw with Brazil demonstrated they belong in elite company; Scotland (FIFA #43) ground out a narrow 1-0 win over Haiti and are without key creator Billy Gilmour (knee, tournament-ending). Morocco absorbed two pre-tournament injury blows of their own — centre-back Aguerd and winger Ezzalzouli are out — which slightly weakens their defensive structure and wide attacking depth, narrowing the talent gap marginally.",
+    "market": {
+      "homeWin": 0.187,
+      "draw": 0.271,
+      "awayWin": 0.543,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-18T09:24:03.848Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489389",
+    "probs": {
+      "homeWin": 0.84,
+      "draw": 0.1,
+      "awayWin": 0.06
+    },
+    "scoreline": {
+      "home": 3,
+      "away": 0
+    },
+    "confidence": "Medium-High",
+    "reasoning": "Brazil are overwhelming favorites here: a five-time world champion squad with elite European club talent against a Haiti side ranked 82nd who lost their opener to Scotland. The class gap is enormous, and Brazil will be highly motivated to respond to a stuttering draw against Morocco. The key caveats are Neymar's fitness doubt (calf injury, possible return), Casemiro's poor MD1 performance, and confirmed absences of Rodrygo, Estêvão and Militão, which leave Brazil a little light on the wings. Haiti's disciplined 4-4-2 block with Bellegarde and Isidor could frustrate briefly, but Brazil's depth — Vinicius Jr., Raphinha, Martinelli, Gabriel Jesus — should comfortably overwhelm them.",
+    "market": {
+      "homeWin": 0.844,
+      "draw": 0.103,
+      "awayWin": 0.054,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-18T09:24:03.848Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1539006",
+    "probs": {
+      "homeWin": 0.5,
+      "draw": 0.27,
+      "awayWin": 0.23
+    },
+    "scoreline": {
+      "home": 2,
+      "away": 1
+    },
+    "confidence": "Medium",
+    "reasoning": "Turkey hold a clear squad-quality edge with elite European club talent (Güler, Çalhanoğlu, Yıldız), dominated Australia territorially with 30 shots but were wasteful — expect improved conversion against a Paraguay backline that conceded four to the USA and has five players on yellow-card tightropes. Paraguay's two injury doubts (Caballero, Sosa) further thin their options, and they historically lose half their World Cup games against UEFA nations.",
+    "market": {
+      "homeWin": 0.467,
+      "draw": 0.287,
+      "awayWin": 0.246,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-18T09:24:03.848Z",
+    "locked": false,
+    "webSearchUsed": true
   }
 ]
