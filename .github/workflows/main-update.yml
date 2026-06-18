@@ -7,6 +7,11 @@ on:
   schedule:
     - cron: "0 */6 * * *" # 00:00, 06:00, 12:00, 18:00 UTC
   workflow_dispatch:
+  # TEMP: one-off trigger to reconcile stale data + fire the Render deploy hook.
+  # Removed in the immediately-following commit.
+  push:
+    branches: [main]
+    paths: [".github/workflows/main-update.yml"]
 
 permissions:
   contents: write
