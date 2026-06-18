@@ -37,8 +37,45 @@ export interface SweepResult {
 
 const KO_STAGES = ["R32", "R16", "QF", "SF", "Final"] as const;
 
+// The API feed and the draw sometimes spell the same nation differently
+// (e.g. "Czechia" vs "Czech Republic"). Scoring matches teams by name, so an
+// unnormalised mismatch silently zeroes a team forever. Normalise both sides:
+// lowercase, strip accents/punctuation, and fold known aliases to one key.
+const NAME_ALIASES: Record<string, string> = {
+  czechia: "czech republic",
+  "korea republic": "south korea",
+  "republic of korea": "south korea",
+  "ir iran": "iran",
+  "iran islamic republic": "iran",
+  "united states": "usa",
+  "united states of america": "usa",
+  "usmnt": "usa",
+  "cote divoire": "ivory coast",
+  "turkiye": "turkiye",
+  turkey: "turkiye",
+  "dr congo": "congo dr",
+  "congo dr": "congo dr",
+  "cape verde": "cape verde islands",
+  "bosnia and herzegovina": "bosnia & herzegovina",
+};
+
+function norm(name: string): string {
+  const base = name
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "") // strip diacritics
+    .toLowerCase()
+    .replace(/[^a-z0-9& ]/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+  return NAME_ALIASES[base] ?? base;
+}
+
+function sameTeam(a: string, b: string): boolean {
+  return norm(a) === norm(b);
+}
+
 function ownerOf(sweep: Sweepstake, team: string): string | null {
-  for (const a of sweep.assignments) if (a.teams.some((t) => t.name === team)) return a.person;
+  for (const a of sweep.assignments) if (a.teams.some((t) => sameTeam(t.name, team))) return a.person;
   return null;
 }
 
@@ -64,20 +101,21 @@ export function computeSweepstake(
   const finished = resultsArr.filter((r) => r.status === "finished" && r.actualOutcome);
 
   // Teams that reached each knockout stage (appear in a fixture of that stage).
+  // Stored normalised so lookups are spelling-agnostic.
   const reached: Record<string, Set<string>> = {};
   for (const s of KO_STAGES) reached[s] = new Set();
   for (const f of fixtures) {
     if ((KO_STAGES as readonly string[]).includes(f.stage)) {
-      if (f.homeTeamId) reached[f.stage]!.add(f.homeTeam);
-      if (f.awayTeamId) reached[f.stage]!.add(f.awayTeam);
+      if (f.homeTeamId) reached[f.stage]!.add(norm(f.homeTeam));
+      if (f.awayTeamId) reached[f.stage]!.add(norm(f.awayTeam));
     }
   }
 
-  // Teams eliminated = losers of a finished knockout match.
+  // Teams eliminated = losers of a finished knockout match (stored normalised).
   const eliminated = new Set<string>();
   for (const r of finished) {
     if ((KO_STAGES as readonly string[]).includes(r.stage) && r.actualOutcome !== "draw") {
-      eliminated.add(r.actualOutcome === "homeWin" ? r.awayTeam : r.homeTeam);
+      eliminated.add(norm(r.actualOutcome === "homeWin" ? r.awayTeam : r.homeTeam));
     }
   }
 
@@ -87,8 +125,8 @@ export function computeSweepstake(
   const teamStat = (name: string, group: string): TeamStat => {
     let played = 0, w = 0, d = 0, l = 0, gf = 0;
     for (const r of finished) {
-      const isHome = r.homeTeam === name;
-      const isAway = r.awayTeam === name;
+      const isHome = sameTeam(r.homeTeam, name);
+      const isAway = sameTeam(r.awayTeam, name);
       if (!isHome && !isAway) continue;
       played++;
       const myGoals = isHome ? r.actualScore.home! : r.actualScore.away!;
@@ -100,12 +138,12 @@ export function computeSweepstake(
     }
     const matchPoints = w * sweep.scoring.win + d * sweep.scoring.draw;
     let bonus = 0;
-    for (const s of KO_STAGES) if (reached[s]!.has(name)) bonus += sweep.scoring.stageBonus[s] ?? 0;
-    if (champion === name) bonus += sweep.scoring.stageBonus.Champion ?? 0;
+    for (const s of KO_STAGES) if (reached[s]!.has(norm(name))) bonus += sweep.scoring.stageBonus[s] ?? 0;
+    if (champion && sameTeam(champion, name)) bonus += sweep.scoring.stageBonus.Champion ?? 0;
 
     let status: TeamStatus = tournamentStarted ? "active" : "pending";
-    if (champion === name) status = "champion";
-    else if (eliminated.has(name)) status = "eliminated";
+    if (champion && sameTeam(champion, name)) status = "champion";
+    else if (eliminated.has(norm(name))) status = "eliminated";
 
     return { name, group, played, w, d, l, goalsFor: gf, matchPoints, bonusPoints: bonus, points: matchPoints + bonus, status };
   };
