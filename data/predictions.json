@@ -602,26 +602,26 @@
   {
     "fixtureId": "1539004",
     "probs": {
-      "homeWin": 0.54,
-      "draw": 0.24,
-      "awayWin": 0.22
+      "homeWin": 0.52,
+      "draw": 0.27,
+      "awayWin": 0.21
     },
     "scoreline": {
       "home": 2,
       "away": 0
     },
     "confidence": "Medium",
-    "reasoning": "Czechia hold a meaningful squad-quality edge and enter with a full complement of available players, while South Africa are severely weakened by the suspensions of both Sithole and Zwane (red cards vs. Mexico), losing key defensive and creative personnel simultaneously. Mokoena carries a yellow card, adding further pressure on Bafana's already-depleted midfield, and South Africa failed to score or seriously threaten vs. Mexico even with 11 men. Atlanta is a sea-level, neutral venue that provides no altitude edge for either side, and the 7-day rest gap is equal.",
+    "reasoning": "Czechia carry a clear availability edge: they report zero injuries or suspensions while South Africa are missing two key midfielders (Sphephelo Sithole and Themba Zwane both suspended) and have a doubtful left-back in Modiba, which strips Bafana Bafana of experienced central presence and forces untested cover. Czechia's squad quality — Schick, Soucek, Coufal, Hlozek — is meaningfully higher at club level, and the stakes are mirror-image must-win for both sides after MD1 losses, so Czech pressure is no greater. The Atlanta venue is sea-level with no altitude handicap for either team, and both squads are on similar six-day rest cycles.",
     "market": {
-      "homeWin": 0.531,
-      "draw": 0.263,
-      "awayWin": 0.205,
+      "homeWin": 0.513,
+      "draw": 0.275,
+      "awayWin": 0.212,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-06-18T14:43:30.586Z",
     "modelVersion": "claude-sonnet-4-6",
-    "generatedAt": "2026-06-16T16:41:11.296Z",
-    "locked": false,
+    "generatedAt": "2026-06-18T14:43:30.586Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {
