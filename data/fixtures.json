@@ -447,8 +447,8 @@
     "homeTeamId": 1568,
     "awayTeamId": 8,
     "homeScore": 0,
-    "awayScore": 0,
-    "elapsed": 38,
+    "awayScore": 1,
+    "elapsed": 43,
     "venue": {
       "name": "Estadio Azteca",
       "city": "Mexico City",
