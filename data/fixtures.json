@@ -541,9 +541,9 @@
     "awayTeam": "Australia",
     "homeTeamId": 2384,
     "awayTeamId": 20,
-    "homeScore": 1,
+    "homeScore": 2,
     "awayScore": 0,
-    "elapsed": 42,
+    "elapsed": 45,
     "venue": {
       "name": "Lumen Field",
       "city": "Seattle",
