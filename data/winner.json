@@ -1,8 +1,8 @@
 {
   "champion": "France",
   "runnerUp": "Spain",
-  "darkHorse": "Norway",
-  "confidence": "Medium",
+  "darkHorse": "Morocco",
+  "confidence": "Medium-Low",
   "contenders": [
     {
       "team": "France",
@@ -22,11 +22,11 @@
     },
     {
       "team": "Brazil",
-      "prob": 0.09
+      "prob": 0.08
     },
     {
       "team": "Portugal",
-      "prob": 0.08
+      "prob": 0.07
     },
     {
       "team": "Germany",
@@ -37,8 +37,8 @@
       "prob": 0.05
     }
   ],
-  "reasoning": "France have surged to clear outright favorites after a convincing 3-1 win over Senegal in which Mbappe scored twice, displacing Spain, who were held to a shock 0-0 draw by Cape Verde and whose attack looked blunt without a fully fit Lamine Yamal. France boast arguably the deepest squad in the field, with Mbappe, Dembele, Olise, Doue and Cherki offering elite firepower and proven final pedigree from 2018 and 2022, though a tricky group path featuring Haaland's Norway and Senegal is a genuine threat. Spain remain the most talented possession side and clear co-favorite to reach the final, with England, holders Argentina (boosted by Messi's hat-trick) and Brazil rounding out the leading contenders. Norway is the standout dark horse: with Haaland in form and a chance to upset France in the group, they have the star power to spring a deep run.",
-  "basis": "group stage (24 matches played)",
+  "reasoning": "France have surged to clear favorites after a convincing 3-1 win over Senegal with Mbappé scoring twice, and they boast the deepest squad and best knockout pedigree in the field while leading FIFA's ranking. Spain remain co-favorites on talent (Yamal, Pedri) but a flat 0-0 opener against Cape Verde tempered momentum, leaving them just behind. England (4-2 over Croatia under Tuchel) and Messi's Argentina are the prime challengers, with Brazil and a dipped Portugal (after a shock draw with DR Congo) close behind. Morocco is the live outsider: their competitive draw with Brazil shortened their odds sharply and they have the cohesion to spring a deep run, while altitude/travel and the expanded 32-team knockout path add volatility that keeps confidence modest this early.",
+  "basis": "group stage (28 matches played)",
   "modelVersion": "claude-opus-4-8",
-  "updatedAt": "2026-06-18T10:08:31.151Z"
+  "updatedAt": "2026-06-19T10:15:02.048Z"
 }
