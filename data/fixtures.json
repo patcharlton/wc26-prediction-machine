@@ -522,9 +522,9 @@
     "awayTeam": "South Korea",
     "homeTeamId": 16,
     "awayTeamId": 17,
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 0,
-    "elapsed": 48,
+    "elapsed": 54,
     "venue": {
       "name": "Estadio Akron",
       "city": "Guadalajara",
