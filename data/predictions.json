@@ -677,26 +677,26 @@
   {
     "fixtureId": "1489388",
     "probs": {
-      "homeWin": 0.44,
-      "draw": 0.3,
-      "awayWin": 0.26
+      "homeWin": 0.42,
+      "draw": 0.34,
+      "awayWin": 0.24
     },
     "scoreline": {
       "home": 1,
-      "away": 0
+      "away": 1
     },
-    "confidence": "Medium-Low",
-    "reasoning": "Mexico hold a meaningful venue edge at Estadio Akron (1,567m altitude, hostile crowd), both teams come in on three points and full confidence after MD1 wins, but Mexico absorb the suspension of Montes while South Korea carry minor injury doubts around Lee Kang-In and Bae Jun-Ho. South Korea's 3-4-2-1 with Son, Lee Kang-In and Hwang In-beom is a genuine counter-attacking threat that can exploit Mexico's transitional moments, compressing the gap between the sides.",
+    "confidence": "Medium",
+    "reasoning": "Mexico carry a genuine altitude and home-crowd edge at Estadio Akron (1,566m), but the loss of CB César Montes to suspension forces a defensive reshuffle with Edson Álvarez dropping back and a teenager into midfield, moderately weakening their shape. South Korea arrive fully fit, with Son, Lee Kang-In and a proven counter-attacking threat that neutralises much of Mexico's home advantage. Crucially, a draw clinches near-certain qualification for both teams, creating strong tactical incentives to avoid defeat — pushing draw probability above the market's 0.295. The market's slight lean toward Mexico is preserved but narrowed, and the most likely single outcome is a 1-1 draw.",
     "market": {
       "homeWin": 0.467,
-      "draw": 0.291,
-      "awayWin": 0.242,
+      "draw": 0.295,
+      "awayWin": 0.239,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-06-19T00:19:24.490Z",
     "modelVersion": "claude-sonnet-4-6",
-    "generatedAt": "2026-06-17T10:46:35.183Z",
-    "locked": false,
+    "generatedAt": "2026-06-19T00:19:24.490Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {
