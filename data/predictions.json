@@ -702,26 +702,26 @@
   {
     "fixtureId": "1489391",
     "probs": {
-      "homeWin": 0.55,
-      "draw": 0.27,
-      "awayWin": 0.18
+      "homeWin": 0.57,
+      "draw": 0.24,
+      "awayWin": 0.19
     },
     "scoreline": {
       "home": 2,
-      "away": 1
+      "away": 0
     },
     "confidence": "Medium",
-    "reasoning": "USA carry clear advantages in squad quality, home support, and attacking firepower (Balogun, Pulisic expected fit), having dismantled Paraguay 4-1. However, Australia's deep 3-4-2-1 low-block blueprint — which limited Turkey to 9 shots and produced a clean sheet via eight Beach saves — is specifically suited to neutralising USA's high-press; the Socceroos are dangerous on the counter through Irankunda and Toure. Both teams have near-full squads available, rest is essentially equal, and Australia are comfortable taking a draw that still suits their qualification arithmetic, adding meaningful weight to the draw line above the book's 0.233.",
+    "reasoning": "USA are the clear favorites at home in Seattle with a full squad available — Pulisic's calf concern appears manageable and no suspensions cloud the XI — after a dominant 4-1 opener that showcased depth and European-level attacking quality under Pochettino. Australia deserve genuine respect: their 2-0 shock over Turkey was backed by a disciplined 3-4-2-1 shape and eight saves from young keeper Beach, but Toure carries a calf doubt and the Socceroos face a significant step up in opponent quality with less margin for the low-block counter they exploited against Turkey.",
     "market": {
-      "homeWin": 0.59,
-      "draw": 0.233,
-      "awayWin": 0.177,
+      "homeWin": 0.582,
+      "draw": 0.222,
+      "awayWin": 0.196,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-06-19T17:10:30.343Z",
     "modelVersion": "claude-sonnet-4-6",
-    "generatedAt": "2026-06-18T09:24:03.848Z",
-    "locked": false,
+    "generatedAt": "2026-06-19T17:10:30.343Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {
