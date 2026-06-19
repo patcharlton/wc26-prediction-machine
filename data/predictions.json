@@ -727,26 +727,26 @@
   {
     "fixtureId": "1489390",
     "probs": {
-      "homeWin": 0.16,
+      "homeWin": 0.14,
       "draw": 0.27,
-      "awayWin": 0.57
+      "awayWin": 0.59
     },
     "scoreline": {
       "home": 0,
-      "away": 1
+      "away": 2
     },
     "confidence": "Medium",
-    "reasoning": "Morocco (FIFA #8) carry materially superior squad quality headlined by Hakimi, Brahim Diaz, Amrabat and Saibari, and their 1-1 draw with Brazil demonstrated they belong in elite company; Scotland (FIFA #43) ground out a narrow 1-0 win over Haiti and are without key creator Billy Gilmour (knee, tournament-ending). Morocco absorbed two pre-tournament injury blows of their own — centre-back Aguerd and winger Ezzalzouli are out — which slightly weakens their defensive structure and wide attacking depth, narrowing the talent gap marginally.",
+    "reasoning": "Morocco (FIFA #6) carry a significant squad quality edge over Scotland, and their controlled 1-1 draw with Brazil showed genuine tournament-level capability; their 30-game unbeaten run is a powerful prior. Scotland's availability situation is worse than headlines suggest — Gannon-Doak, Gilmour, Souttar, and Christie are all out, blunting their creative depth — while Morocco's core (Hakimi, Saibari, Díaz, Bouaddi) appears largely intact despite the confirmed absences of Aguerd and Ezzalzouli. The venue (sea-level Boston, neutral crowd) removes any meaningful 'home' advantage for Scotland, and Morocco's superior individual quality across the pitch should translate into sustained pressure.",
     "market": {
-      "homeWin": 0.187,
-      "draw": 0.271,
-      "awayWin": 0.543,
+      "homeWin": 0.167,
+      "draw": 0.267,
+      "awayWin": 0.566,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-06-19T21:00:07.502Z",
     "modelVersion": "claude-sonnet-4-6",
-    "generatedAt": "2026-06-18T09:24:03.848Z",
-    "locked": false,
+    "generatedAt": "2026-06-19T21:00:07.502Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {
