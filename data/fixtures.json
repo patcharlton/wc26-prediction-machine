@@ -579,9 +579,9 @@
     "awayTeam": "Haiti",
     "homeTeamId": 6,
     "awayTeamId": 2386,
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 0,
-    "elapsed": 20,
+    "elapsed": 25,
     "venue": {
       "name": "Lincoln Financial Field",
       "city": "Philadelphia",
