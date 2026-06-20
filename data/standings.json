@@ -109,9 +109,22 @@
   ],
   "groupC": [
     {
+      "teamId": 6,
+      "team": "Brazil",
+      "rank": 1,
+      "played": 2,
+      "win": 1,
+      "draw": 1,
+      "lose": 0,
+      "goalsFor": 4,
+      "goalsAgainst": 1,
+      "goalDiff": 3,
+      "points": 4
+    },
+    {
       "teamId": 31,
       "team": "Morocco",
-      "rank": 1,
+      "rank": 2,
       "played": 2,
       "win": 1,
       "draw": 1,
@@ -124,7 +137,7 @@
     {
       "teamId": 1108,
       "team": "Scotland",
-      "rank": 2,
+      "rank": 3,
       "played": 2,
       "win": 1,
       "draw": 0,
@@ -135,29 +148,16 @@
       "points": 3
     },
     {
-      "teamId": 6,
-      "team": "Brazil",
-      "rank": 3,
-      "played": 1,
-      "win": 0,
-      "draw": 1,
-      "lose": 0,
-      "goalsFor": 1,
-      "goalsAgainst": 1,
-      "goalDiff": 0,
-      "points": 1
-    },
-    {
       "teamId": 2386,
       "team": "Haiti",
       "rank": 4,
-      "played": 1,
+      "played": 2,
       "win": 0,
       "draw": 0,
-      "lose": 1,
+      "lose": 2,
       "goalsFor": 0,
-      "goalsAgainst": 1,
-      "goalDiff": -1,
+      "goalsAgainst": 4,
+      "goalDiff": -4,
       "points": 0
     }
   ],
@@ -189,28 +189,28 @@
       "points": 3
     },
     {
-      "teamId": 777,
-      "team": "Türkiye",
-      "rank": 3,
-      "played": 1,
-      "win": 0,
-      "draw": 0,
-      "lose": 1,
-      "goalsFor": 0,
-      "goalsAgainst": 2,
-      "goalDiff": -2,
-      "points": 0
-    },
-    {
       "teamId": 2380,
       "team": "Paraguay",
-      "rank": 4,
-      "played": 1,
-      "win": 0,
+      "rank": 3,
+      "played": 2,
+      "win": 1,
       "draw": 0,
       "lose": 1,
-      "goalsFor": 1,
+      "goalsFor": 2,
       "goalsAgainst": 4,
+      "goalDiff": -2,
+      "points": 3
+    },
+    {
+      "teamId": 777,
+      "team": "Türkiye",
+      "rank": 4,
+      "played": 2,
+      "win": 0,
+      "draw": 0,
+      "lose": 2,
+      "goalsFor": 0,
+      "goalsAgainst": 3,
       "goalDiff": -3,
       "points": 0
     }

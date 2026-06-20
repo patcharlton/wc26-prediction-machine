@@ -590,22 +590,22 @@
   },
   {
     "fixtureId": "1539006",
-    "status": "live",
+    "status": "finished",
     "kickoff": "2026-06-20T03:00:00.000Z",
     "stage": "groupD",
     "homeTeam": "Türkiye",
     "awayTeam": "Paraguay",
     "actualScore": {
-      "home": null,
-      "away": null
+      "home": 0,
+      "away": 1
     },
-    "actualOutcome": null,
-    "machineOutcomeHit": null,
-    "marketOutcomeHit": null,
-    "exactScoreHit": null,
-    "machineBrierScore": null,
-    "marketBrierScore": null,
-    "resolvedAt": null
+    "actualOutcome": "awayWin",
+    "machineOutcomeHit": false,
+    "marketOutcomeHit": false,
+    "exactScoreHit": false,
+    "machineBrierScore": 0.916,
+    "marketBrierScore": 0.869,
+    "resolvedAt": "2026-06-20T08:43:19.180Z"
   },
   {
     "fixtureId": "1539007",

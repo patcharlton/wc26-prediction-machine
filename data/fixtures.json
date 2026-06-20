@@ -593,7 +593,7 @@
     "stage": "groupD",
     "matchday": "MD2",
     "kickoff": "2026-06-20T03:00:00.000Z",
-    "status": "live",
+    "status": "finished",
     "homeTeam": "Türkiye",
     "awayTeam": "Paraguay",
     "homeTeamId": 777,
@@ -603,7 +603,7 @@
     "elapsed": 90,
     "venue": {
       "name": "Levi's Stadium",
-      "city": "San Francisco Bay Area",
+      "city": "Santa Clara",
       "country": null
     }
   },
