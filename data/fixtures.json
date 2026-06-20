@@ -617,9 +617,9 @@
     "awayTeam": "Sweden",
     "homeTeamId": 1118,
     "awayTeamId": 5,
-    "homeScore": 1,
+    "homeScore": 2,
     "awayScore": 0,
-    "elapsed": 10,
+    "elapsed": 21,
     "venue": {
       "name": "NRG Stadium",
       "city": "Houston",
