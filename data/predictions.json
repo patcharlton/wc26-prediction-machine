@@ -802,26 +802,26 @@
   {
     "fixtureId": "1539007",
     "probs": {
-      "homeWin": 0.5,
-      "draw": 0.28,
-      "awayWin": 0.22
+      "homeWin": 0.44,
+      "draw": 0.27,
+      "awayWin": 0.29
     },
     "scoreline": {
       "home": 2,
       "away": 1
     },
-    "confidence": "Medium",
-    "reasoning": "Netherlands hold clear squad-depth and ranking advantages but carry real defensive fragility after conceding twice to Japan, and are missing five key players including Timber, de Ligt and Xavi Simons. Sweden arrive in excellent spirits off a 5-1 demolition of Tunisia, with the Gyokeres-Isak partnership capable of exposing a high Dutch line on the counter. The stakes asymmetry — Netherlands must win while Sweden can settle for a draw — nudges the draw probability slightly above the market. A narrow Dutch win remains most likely given the class gap, but a goal-laden game with genuine Swedish menace is the most plausible scenario.",
+    "confidence": "Medium-Low",
+    "reasoning": "Netherlands hold squad-depth and FIFA-ranking edges (ranked 7th, core of De Jong, Van Dijk, Gakpo, Reijnders intact) but their defensive fragility — five games without a clean sheet and two conceded to Japan — is a serious concern against the tournament's most dangerous strike pairing. Sweden's Isak and Gyökeres clicked immediately in their only competitive start together, and Potter's side arrive fully fit, high on confidence, and with genuine tactical discipline in a 3-5-2 that could suffocate the Dutch midfield.",
     "market": {
-      "homeWin": 0.552,
-      "draw": 0.252,
-      "awayWin": 0.196,
+      "homeWin": 0.548,
+      "draw": 0.245,
+      "awayWin": 0.207,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-06-20T16:17:29.676Z",
     "modelVersion": "claude-sonnet-4-6",
-    "generatedAt": "2026-06-19T03:48:21.758Z",
-    "locked": false,
+    "generatedAt": "2026-06-20T16:17:29.676Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {
