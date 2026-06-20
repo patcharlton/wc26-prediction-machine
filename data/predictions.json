@@ -827,26 +827,26 @@
   {
     "fixtureId": "1489393",
     "probs": {
-      "homeWin": 0.57,
-      "draw": 0.25,
-      "awayWin": 0.18
+      "homeWin": 0.6,
+      "draw": 0.24,
+      "awayWin": 0.16
     },
     "scoreline": {
       "home": 2,
       "away": 0
     },
     "confidence": "Medium",
-    "reasoning": "Germany enter as clear favourites with a fully fit, world-class front four (Wirtz, Musiala, Sanė, Havertz) in scintillating form after their 7-1 MD1 opener, while Ivory Coast are weakened by Elye Wahi's travel ban and Evan Ndicka's hamstring doubt. However, Ivory Coast's disciplined 4-3-3 demonstrated genuine defensive resilience against Ecuador, and Diomande and Amad Diallo carry a credible counter-punch that lifts the draw probability above the market's prior. A 2-0 Germany win is the modal outcome, but a tight 1-0 or 1-1 cannot be ruled out, keeping confidence at Medium.",
+    "reasoning": "Germany's squad quality, attacking firepower (Musiala, Havertz, Sane) and blistering 10-match win streak make them strong favourites, and Toronto at sea level offers no altitude penalty for either side. Ivory Coast are dangerous — Amad Diallo's late winner vs Ecuador and a pre-tournament scalp over France show genuine quality — but they carry a defensive concern in the doubtful Evan Ndicka and a thin, inexperienced strike corps without Haller. Germany's structured pressing shape exploits exactly the kind of transitional vulnerability Ivory Coast's attack-minded flanks leave behind.",
     "market": {
-      "homeWin": 0.599,
-      "draw": 0.217,
-      "awayWin": 0.183,
+      "homeWin": 0.636,
+      "draw": 0.213,
+      "awayWin": 0.151,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-06-20T18:04:04.874Z",
     "modelVersion": "claude-sonnet-4-6",
-    "generatedAt": "2026-06-19T03:48:21.758Z",
-    "locked": false,
+    "generatedAt": "2026-06-20T18:04:04.874Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {
