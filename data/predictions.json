@@ -948,5 +948,55 @@
     "generatedAt": "2026-06-19T19:42:18.750Z",
     "locked": false,
     "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489398",
+    "probs": {
+      "homeWin": 0.6,
+      "draw": 0.26,
+      "awayWin": 0.14
+    },
+    "scoreline": {
+      "home": 2,
+      "away": 0
+    },
+    "confidence": "Medium",
+    "reasoning": "Uruguay carry a clear class advantage — Valverde, Ugarte, Bentancur, Núñez and Giménez/R.Araújo form a squad well above Cape Verde's level — but two notable injury absences (Ronald Araújo and De Arrascaeta per bet365 team news) blunt their best XI somewhat, and their recent form is uninspiring (one win in five, including a 1-1 against Saudi Arabia).",
+    "market": {
+      "homeWin": 0.637,
+      "draw": 0.234,
+      "awayWin": 0.129,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-20T02:51:31.037Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489396",
+    "probs": {
+      "homeWin": 0.17,
+      "draw": 0.26,
+      "awayWin": 0.57
+    },
+    "scoreline": {
+      "home": 0,
+      "away": 2
+    },
+    "confidence": "Medium",
+    "reasoning": "Egypt's 56-place FIFA ranking advantage, elite attacking pair of Salah and Marmoush, and a strong recent record including a draw with Belgium and near-miss against Brazil make them clear favourites, broadly validating the market. New Zealand showed real spirit against Iran — Elijah Just's brace demonstrated unexpected attacking threat and competitive mettle — but they have yet to keep a clean sheet and lack the squad depth to sustain defensive shape against Salah. Both teams have full squads and near-equal rest; Vancouver's sea-level venue offers no edge either way.",
+    "market": {
+      "homeWin": 0.179,
+      "draw": 0.245,
+      "awayWin": 0.575,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-20T02:51:31.037Z",
+    "locked": false,
+    "webSearchUsed": true
   }
 ]

@@ -109,30 +109,30 @@
   ],
   "groupC": [
     {
-      "teamId": 1108,
-      "team": "Scotland",
-      "rank": 1,
-      "played": 1,
-      "win": 1,
-      "draw": 0,
-      "lose": 0,
-      "goalsFor": 1,
-      "goalsAgainst": 0,
-      "goalDiff": 1,
-      "points": 3
-    },
-    {
       "teamId": 31,
       "team": "Morocco",
-      "rank": 2,
-      "played": 1,
-      "win": 0,
+      "rank": 1,
+      "played": 2,
+      "win": 1,
       "draw": 1,
       "lose": 0,
+      "goalsFor": 2,
+      "goalsAgainst": 1,
+      "goalDiff": 1,
+      "points": 4
+    },
+    {
+      "teamId": 1108,
+      "team": "Scotland",
+      "rank": 2,
+      "played": 2,
+      "win": 1,
+      "draw": 0,
+      "lose": 1,
       "goalsFor": 1,
       "goalsAgainst": 1,
       "goalDiff": 0,
-      "points": 1
+      "points": 3
     },
     {
       "teamId": 6,
@@ -166,26 +166,26 @@
       "teamId": 2384,
       "team": "USA",
       "rank": 1,
-      "played": 1,
-      "win": 1,
+      "played": 2,
+      "win": 2,
       "draw": 0,
       "lose": 0,
-      "goalsFor": 4,
+      "goalsFor": 6,
       "goalsAgainst": 1,
-      "goalDiff": 3,
-      "points": 3
+      "goalDiff": 5,
+      "points": 6
     },
     {
       "teamId": 20,
       "team": "Australia",
       "rank": 2,
-      "played": 1,
+      "played": 2,
       "win": 1,
       "draw": 0,
-      "lose": 0,
+      "lose": 1,
       "goalsFor": 2,
-      "goalsAgainst": 0,
-      "goalDiff": 2,
+      "goalsAgainst": 2,
+      "goalDiff": 0,
       "points": 3
     },
     {
