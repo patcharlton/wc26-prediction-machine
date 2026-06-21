@@ -902,26 +902,26 @@
   {
     "fixtureId": "1489397",
     "probs": {
-      "homeWin": 0.78,
-      "draw": 0.14,
-      "awayWin": 0.08
+      "homeWin": 0.76,
+      "draw": 0.15,
+      "awayWin": 0.09
     },
     "scoreline": {
       "home": 2,
       "away": 0
     },
     "confidence": "Medium-High",
-    "reasoning": "Spain enter this match under genuine pressure after a shock 0-0 draw with Cape Verde, but upgrade significantly in attack: Lamine Yamal and Nico Williams are both expected to start from the first whistle having been eased in as late substitutes in MD1, giving La Roja a genuine wide threat that was absent against Cape Verde. No injury concerns are confirmed for either side ahead of kick-off. Saudi Arabia showed resilience drawing 1-1 with Uruguay, but their compact 4-4-2/4-1-4-1 low block is the exact shape Spain struggled to break down last time, and Atlanta's sea-level heat-humidity is a neutral factor with no altitude edge for either team.",
+    "reasoning": "Spain are a class above Saudi Arabia on every structural metric — squad depth, FIFA ranking, top-club talent — and face a side whose only win in five came against Puerto Rico. The 0-0 opener against Cabo Verde is a genuine alarm bell for De la Fuente, creating a pressure cooker that should unlock a more aggressive, front-footed Spain with Yamal expected to feature more prominently; that urgency sharpens rather than derails them. Atlanta (sea level, summer heat) offers no altitude edge to either side and is neutral on rest, both teams having played six days prior.",
     "market": {
-      "homeWin": 0.849,
+      "homeWin": 0.851,
       "draw": 0.096,
-      "awayWin": 0.055,
+      "awayWin": 0.053,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-06-21T15:44:59.284Z",
     "modelVersion": "claude-sonnet-4-6",
-    "generatedAt": "2026-06-19T19:42:18.750Z",
-    "locked": false,
+    "generatedAt": "2026-06-21T15:44:59.284Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {
