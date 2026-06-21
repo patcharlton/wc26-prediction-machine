@@ -693,9 +693,9 @@
     "awayTeam": "Saudi Arabia",
     "homeTeamId": 9,
     "awayTeamId": 23,
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 0,
-    "elapsed": 10,
+    "elapsed": 20,
     "venue": {
       "name": "Mercedes-Benz Stadium",
       "city": "Atlanta",
