@@ -666,22 +666,22 @@
   },
   {
     "fixtureId": "1489394",
-    "status": "live",
+    "status": "finished",
     "kickoff": "2026-06-21T04:00:00.000Z",
     "stage": "groupF",
     "homeTeam": "Tunisia",
     "awayTeam": "Japan",
     "actualScore": {
-      "home": null,
-      "away": null
+      "home": 0,
+      "away": 4
     },
-    "actualOutcome": null,
-    "machineOutcomeHit": null,
-    "marketOutcomeHit": null,
-    "exactScoreHit": null,
-    "machineBrierScore": null,
-    "marketBrierScore": null,
-    "resolvedAt": null
+    "actualOutcome": "awayWin",
+    "machineOutcomeHit": true,
+    "marketOutcomeHit": true,
+    "exactScoreHit": false,
+    "machineBrierScore": 0.224,
+    "marketBrierScore": 0.189,
+    "resolvedAt": "2026-06-21T09:38:27.202Z"
   },
   {
     "fixtureId": "1489397",

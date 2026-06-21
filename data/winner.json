@@ -2,15 +2,15 @@
   "champion": "France",
   "runnerUp": "Spain",
   "darkHorse": "Morocco",
-  "confidence": "Low",
+  "confidence": "Medium",
   "contenders": [
     {
       "team": "France",
-      "prob": 0.17
+      "prob": 0.19
     },
     {
       "team": "Spain",
-      "prob": 0.16
+      "prob": 0.13
     },
     {
       "team": "England",
@@ -26,19 +26,19 @@
     },
     {
       "team": "Portugal",
-      "prob": 0.06
+      "prob": 0.07
     },
     {
       "team": "Germany",
-      "prob": 0.05
+      "prob": 0.06
     },
     {
-      "team": "Morocco",
-      "prob": 0.03
+      "team": "Netherlands",
+      "prob": 0.04
     }
   ],
-  "reasoning": "France sit atop the outright market after a convincing opener, with the deepest forward line in the field and Mbappe as the player most likely to win a knockout tie alone, while Spain remain co-favorites despite a flat scoreless draw with Cape Verde and key midfield injuries to Fermin Lopez and doubts over Merino. England (Kane in form after a 4-2 win over Croatia) plus reigning champions Argentina and five-time winners Brazil headline the chasing pack, so the title race remains tightly bunched this early. I lean France for their balance of squad depth, knockout pedigree under Deschamps and a manageable remaining group, with Spain as runner-up given their elite young core.",
-  "basis": "group stage (32 matches played)",
+  "reasoning": "France lead the market after a convincing 3-1 win over Senegal, with Mbappé in form, the tournament's deepest forward line and a soft remaining group path against Norway and Iraq, even with Saliba's back issue cleared and Ekitiké out. Spain remain the next-best despite their flat 0-0 opener with Cape Verde, carrying a long unbeaten run and elite young talent in Yamal and Pedri, but their lack of a guaranteed goalscorer keeps them just behind. England, defending champions Argentina (Messi already scoring), and a Brazil side weakened by Rodrygo and Estêvão injuries form the chasing pack, while a strong, settled Germany lurks. Morocco are the live outsider after holding Brazil to a draw, building on their 2022 semifinal run with Hakimi and real knockout pedigree. The main threats to France are knockout-tie variance in the expanded 48-team bracket and the perennial questions about squad focus over a long tournament.",
+  "basis": "group stage (36 matches played)",
   "modelVersion": "claude-opus-4-8",
-  "updatedAt": "2026-06-20T08:43:19.180Z"
+  "updatedAt": "2026-06-21T09:38:27.202Z"
 }

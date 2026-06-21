@@ -284,9 +284,22 @@
       "points": 4
     },
     {
+      "teamId": 12,
+      "team": "Japan",
+      "rank": 2,
+      "played": 2,
+      "win": 1,
+      "draw": 1,
+      "lose": 0,
+      "goalsFor": 6,
+      "goalsAgainst": 2,
+      "goalDiff": 4,
+      "points": 4
+    },
+    {
       "teamId": 5,
       "team": "Sweden",
-      "rank": 2,
+      "rank": 3,
       "played": 2,
       "win": 1,
       "draw": 0,
@@ -297,29 +310,16 @@
       "points": 3
     },
     {
-      "teamId": 12,
-      "team": "Japan",
-      "rank": 3,
-      "played": 1,
-      "win": 0,
-      "draw": 1,
-      "lose": 0,
-      "goalsFor": 2,
-      "goalsAgainst": 2,
-      "goalDiff": 0,
-      "points": 1
-    },
-    {
       "teamId": 28,
       "team": "Tunisia",
       "rank": 4,
-      "played": 1,
+      "played": 2,
       "win": 0,
       "draw": 0,
-      "lose": 1,
+      "lose": 2,
       "goalsFor": 1,
-      "goalsAgainst": 5,
-      "goalDiff": -4,
+      "goalsAgainst": 9,
+      "goalDiff": -8,
       "points": 0
     }
   ],
