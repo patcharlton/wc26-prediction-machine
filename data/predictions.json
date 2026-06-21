@@ -998,5 +998,105 @@
     "generatedAt": "2026-06-20T02:51:31.037Z",
     "locked": false,
     "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489399",
+    "probs": {
+      "homeWin": 0.61,
+      "draw": 0.24,
+      "awayWin": 0.15
+    },
+    "scoreline": {
+      "home": 2,
+      "away": 0
+    },
+    "confidence": "Medium",
+    "reasoning": "Argentina are overwhelming favourites on every structural dimension: Messi (hat-trick MD1, levelling Klose's all-time World Cup goals record), a settled 4-3-3/4-4-2 with top-club depth across all lines, and a five-game winning streak in which they have scored 12 goals and conceded one. Austria carry a meaningful injury loss in Baumgartner (their most creative midfielder), though Alaba, Laimer, Sabitzer and Seiwald give Rangnick a solid compact 4-2-3-1 that will press high and frustrate — Austria beat Jordan 3-1 but Jordan are a far weaker test.",
+    "market": {
+      "homeWin": 0.6,
+      "draw": 0.249,
+      "awayWin": 0.151,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-21T03:35:53.683Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1539017",
+    "probs": {
+      "homeWin": 0.86,
+      "draw": 0.09,
+      "awayWin": 0.05
+    },
+    "scoreline": {
+      "home": 3,
+      "away": 0
+    },
+    "confidence": "High",
+    "reasoning": "France possess an overwhelming squad advantage, are in prolific goalscoring form (net in 14 straight matches with Mbappé already on 2 WC goals), and face an Iraq side that shipped 4 to Norway and is making only their second-ever World Cup appearance. No meaningful injury concerns exist for either side; Deschamps is rotating lightly (Digne, Koné in) without compromising quality. Iraq showed some fight in the first 70 minutes vs Norway but their defensive shape collapses under sustained European pressure, and France's pace-and-transition attack is precisely the threat that exploits their backline.",
+    "market": {
+      "homeWin": 0.855,
+      "draw": 0.105,
+      "awayWin": 0.041,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-21T03:35:53.683Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489401",
+    "probs": {
+      "homeWin": 0.44,
+      "draw": 0.27,
+      "awayWin": 0.29
+    },
+    "scoreline": {
+      "home": 2,
+      "away": 1
+    },
+    "confidence": "Medium",
+    "reasoning": "Norway enter with the clearer momentum — a 4-1 opening win and Haaland/Ødegaard both fit and firing — while Senegal must bounce back from a 3-1 loss to France. Norway's high-press 4-3-3 is well-suited to dominating the midfield, but Senegal's pace-heavy trio of Sarr, Jackson and Mané poses a genuine counter-attacking threat that could exploit Norway's known defensive frailties. Both sides are fully rested with 7 days since MD1, and the sea-level MetLife venue offers no atmospheric edge to either. A narrow Norway win is the most likely outcome, but Senegal's direct attacking quality keeps a draw or away win firmly on the table, consistent with the market's compressed spread.",
+    "market": {
+      "homeWin": 0.42,
+      "draw": 0.274,
+      "awayWin": 0.306,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-21T03:35:53.683Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489400",
+    "probs": {
+      "homeWin": 0.14,
+      "draw": 0.22,
+      "awayWin": 0.64
+    },
+    "scoreline": {
+      "home": 0,
+      "away": 2
+    },
+    "confidence": "Medium",
+    "reasoning": "Algeria hold a clear edge on squad quality — Mahrez, Amoura, Bensebaini, Ait-Nouri and Maza represent far superior European-club depth to Jordan's largely domestic roster — and their pre-tournament form (7-0 vs Guatemala, 4-0 vs Bolivia, 1-0 vs Netherlands) is significantly stronger than Jordan's run of losses against Switzerland and Colombia. Jordan's MD1 performance against Austria was spirited — matching them in shots (11 vs 11) and equalising before late experience told — but their defence conceded three and has not kept a clean sheet in any of their last five matches, while Algeria's attack has the set-piece and wide-channel tools to exploit exactly those frailties.",
+    "market": {
+      "homeWin": 0.156,
+      "draw": 0.24,
+      "awayWin": 0.604,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-21T03:35:53.683Z",
+    "locked": false,
+    "webSearchUsed": true
   }
 ]
