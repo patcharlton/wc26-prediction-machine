@@ -878,25 +878,25 @@
     "fixtureId": "1489394",
     "probs": {
       "homeWin": 0.13,
-      "draw": 0.22,
-      "awayWin": 0.65
+      "draw": 0.25,
+      "awayWin": 0.62
     },
     "scoreline": {
       "home": 0,
       "away": 2
     },
     "confidence": "Medium",
-    "reasoning": "Japan enter this match as a clearly superior side (FIFA #18) and showed genuine quality and resilience in drawing 2-2 with Netherlands, twice coming from behind. Tunisia were not just beaten but humiliated by Sweden (xG 0.28 vs 1.36), and the mid-tournament sacking of coach Lamouchi and appointment of Hervé Renard injects enormous tactical and psychological instability heading into MD2. Japan's key absences (Mitoma, Minamino, Endo) are a real handicap but are already baked into their MD1 performance; Tunisia have no corresponding organizational coherence right now.",
+    "reasoning": "Japan hold a clear structural edge in squad quality and FIFA ranking (18th vs 45th) and showed resilience drawing 2-2 with the Netherlands, but cumulative injuries to Endo, Mitoma, and now Kubo have meaningfully dented their attacking options. Tunisia's morale shock from a 5-1 hammering by Sweden is partially offset by the Renard appointment, which historically galvanises squads, and the Eagles have nothing to lose. However, a brand-new coaching staff with just days of preparation and a historically poor World Cup record make a Tunisian win very unlikely; Japan's superior organisation and depth should see them control the match and convert enough chances to win.",
     "market": {
-      "homeWin": 0.151,
-      "draw": 0.249,
-      "awayWin": 0.6,
+      "homeWin": 0.12,
+      "draw": 0.229,
+      "awayWin": 0.651,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-06-21T02:35:51.692Z",
     "modelVersion": "claude-sonnet-4-6",
-    "generatedAt": "2026-06-19T10:19:17.607Z",
-    "locked": false,
+    "generatedAt": "2026-06-21T02:35:51.692Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {
