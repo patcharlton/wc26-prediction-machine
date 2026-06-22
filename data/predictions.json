@@ -1198,5 +1198,30 @@
     "generatedAt": "2026-06-22T03:40:11.906Z",
     "locked": false,
     "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489408",
+    "probs": {
+      "homeWin": 0.37,
+      "draw": 0.34,
+      "awayWin": 0.29
+    },
+    "scoreline": {
+      "home": 1,
+      "away": 1
+    },
+    "confidence": "Medium",
+    "reasoning": "Switzerland arrive fully fit with no injury or suspension concerns, backed by a five-match unbeaten run and strong defensive organisation, whereas Canada are missing Ismael Koné (broken leg, tournament over) and Alphonso Davies remains a serious doubt with a hamstring strain, creating a meaningful availability gap. BC Place home support is a real edge for Canada, but Switzerland's experience at this stage, their record of never losing to a CONCACAF side at a World Cup, and their ability to exploit space behind Canada's high press are significant counterweights.",
+    "market": {
+      "homeWin": 0.38,
+      "draw": 0.341,
+      "awayWin": 0.279,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-22T20:38:48.037Z",
+    "locked": false,
+    "webSearchUsed": true
   }
 ]

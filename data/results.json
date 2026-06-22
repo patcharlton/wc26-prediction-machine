@@ -761,22 +761,22 @@
   },
   {
     "fixtureId": "1489399",
-    "status": "live",
+    "status": "finished",
     "kickoff": "2026-06-22T17:00:00.000Z",
     "stage": "groupJ",
     "homeTeam": "Argentina",
     "awayTeam": "Austria",
     "actualScore": {
-      "home": null,
-      "away": null
+      "home": 2,
+      "away": 0
     },
-    "actualOutcome": null,
-    "machineOutcomeHit": null,
-    "marketOutcomeHit": null,
-    "exactScoreHit": null,
-    "machineBrierScore": null,
-    "marketBrierScore": null,
-    "resolvedAt": null
+    "actualOutcome": "homeWin",
+    "machineOutcomeHit": true,
+    "marketOutcomeHit": true,
+    "exactScoreHit": true,
+    "machineBrierScore": 0.232,
+    "marketBrierScore": 0.245,
+    "resolvedAt": "2026-06-22T20:38:48.037Z"
   },
   {
     "fixtureId": "1539017",
