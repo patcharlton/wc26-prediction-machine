@@ -2,7 +2,7 @@
   "champion": "France",
   "runnerUp": "Spain",
   "darkHorse": "Morocco",
-  "confidence": "Medium",
+  "confidence": "Low",
   "contenders": [
     {
       "team": "France",
@@ -10,35 +10,35 @@
     },
     {
       "team": "Spain",
-      "prob": 0.13
+      "prob": 0.15
     },
     {
       "team": "England",
-      "prob": 0.12
+      "prob": 0.13
     },
     {
       "team": "Argentina",
-      "prob": 0.1
+      "prob": 0.11
     },
     {
       "team": "Brazil",
-      "prob": 0.09
-    },
-    {
-      "team": "Portugal",
-      "prob": 0.07
+      "prob": 0.1
     },
     {
       "team": "Germany",
-      "prob": 0.06
+      "prob": 0.08
     },
     {
       "team": "Netherlands",
+      "prob": 0.06
+    },
+    {
+      "team": "Portugal",
       "prob": 0.04
     }
   ],
-  "reasoning": "France lead the market after a convincing 3-1 win over Senegal, with Mbappé in form, the tournament's deepest forward line and a soft remaining group path against Norway and Iraq, even with Saliba's back issue cleared and Ekitiké out. Spain remain the next-best despite their flat 0-0 opener with Cape Verde, carrying a long unbeaten run and elite young talent in Yamal and Pedri, but their lack of a guaranteed goalscorer keeps them just behind. England, defending champions Argentina (Messi already scoring), and a Brazil side weakened by Rodrygo and Estêvão injuries form the chasing pack, while a strong, settled Germany lurks. Morocco are the live outsider after holding Brazil to a draw, building on their 2022 semifinal run with Hakimi and real knockout pedigree. The main threats to France are knockout-tie variance in the expanded 48-team bracket and the perennial questions about squad focus over a long tournament.",
-  "basis": "group stage (36 matches played)",
+  "reasoning": "France has been installed as outright favorite after a convincing opening win over Senegal and Spain's shock 0-0 draw with Cape Verde, with Les Bleus combining elite depth (Mbappé plus emerging talents Cherki, Barcola and Doué) and a fit Saliba anchoring one of the tournament's strongest defenses. Spain remains the co-second favorite with England despite losing Fermín López to injury and dropping points early, as the Euro 2024 champions retain Yamal, Rodri and Nico Williams. England's win over Croatia and a soft remaining path under Tuchel keep them live, while holders Argentina (Messi hat-trick start) and a deep but inconsistent Brazil missing Rodrygo and Estêvão round out the top tier. Morocco is the dark horse after holding Brazil to a draw and reaching the 2022 semis, but the host advantage and altitude in Mexico, plus a forgiving 48-team bracket, make this an unusually open field — hence low confidence in any single pick this early.",
+  "basis": "group stage (40 matches played)",
   "modelVersion": "claude-opus-4-8",
-  "updatedAt": "2026-06-21T09:38:27.202Z"
+  "updatedAt": "2026-06-22T11:38:03.852Z"
 }

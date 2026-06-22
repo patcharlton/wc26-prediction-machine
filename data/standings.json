@@ -325,9 +325,22 @@
   ],
   "groupG": [
     {
+      "teamId": 32,
+      "team": "Egypt",
+      "rank": 1,
+      "played": 2,
+      "win": 1,
+      "draw": 1,
+      "lose": 0,
+      "goalsFor": 4,
+      "goalsAgainst": 2,
+      "goalDiff": 2,
+      "points": 4
+    },
+    {
       "teamId": 22,
       "team": "Iran",
-      "rank": 1,
+      "rank": 2,
       "played": 2,
       "win": 0,
       "draw": 2,
@@ -340,7 +353,7 @@
     {
       "teamId": 1,
       "team": "Belgium",
-      "rank": 2,
+      "rank": 3,
       "played": 2,
       "win": 0,
       "draw": 2,
@@ -353,27 +366,14 @@
     {
       "teamId": 4673,
       "team": "New Zealand",
-      "rank": 3,
-      "played": 1,
-      "win": 0,
-      "draw": 1,
-      "lose": 0,
-      "goalsFor": 2,
-      "goalsAgainst": 2,
-      "goalDiff": 0,
-      "points": 1
-    },
-    {
-      "teamId": 32,
-      "team": "Egypt",
       "rank": 4,
-      "played": 1,
+      "played": 2,
       "win": 0,
       "draw": 1,
-      "lose": 0,
-      "goalsFor": 1,
-      "goalsAgainst": 1,
-      "goalDiff": 0,
+      "lose": 1,
+      "goalsFor": 3,
+      "goalsAgainst": 5,
+      "goalDiff": -2,
       "points": 1
     }
   ],
