@@ -1027,26 +1027,26 @@
   {
     "fixtureId": "1539017",
     "probs": {
-      "homeWin": 0.86,
-      "draw": 0.09,
-      "awayWin": 0.05
+      "homeWin": 0.868,
+      "draw": 0.095,
+      "awayWin": 0.037
     },
     "scoreline": {
-      "home": 3,
+      "home": 4,
       "away": 0
     },
     "confidence": "High",
-    "reasoning": "France possess an overwhelming squad advantage, are in prolific goalscoring form (net in 14 straight matches with Mbappé already on 2 WC goals), and face an Iraq side that shipped 4 to Norway and is making only their second-ever World Cup appearance. No meaningful injury concerns exist for either side; Deschamps is rotating lightly (Digne, Koné in) without compromising quality. Iraq showed some fight in the first 70 minutes vs Norway but their defensive shape collapses under sustained European pressure, and France's pace-and-transition attack is precisely the threat that exploits their backline.",
+    "reasoning": "France are a class apart: ranked 3rd globally vs Iraq's 57th, deploying Mbappé (14 WC career goals, brace vs Senegal), Olise, Dembélé and Barcola in attack against a defence that leaked four to Norway and ranks among the worst at this tournament by xG-against. The only meaningful France concern is Saliba managing a knock, but he is confirmed to start. Iraq lost left-back Ahmed Yahya to a hamstring pre-tournament, their goalkeeper situation is uncertain with Jalal Hassan absent, and they arrive having conceded 4-1 in MD1 with no wins in their last three matches.",
     "market": {
-      "homeWin": 0.855,
-      "draw": 0.105,
+      "homeWin": 0.856,
+      "draw": 0.104,
       "awayWin": 0.041,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-06-22T20:32:06.587Z",
     "modelVersion": "claude-sonnet-4-6",
-    "generatedAt": "2026-06-21T03:35:53.683Z",
-    "locked": false,
+    "generatedAt": "2026-06-22T20:32:06.587Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {
