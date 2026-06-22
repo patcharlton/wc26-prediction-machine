@@ -1098,5 +1098,105 @@
     "generatedAt": "2026-06-21T03:35:53.683Z",
     "locked": false,
     "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489404",
+    "probs": {
+      "homeWin": 0.76,
+      "draw": 0.15,
+      "awayWin": 0.09
+    },
+    "scoreline": {
+      "home": 2,
+      "away": 1
+    },
+    "confidence": "Medium",
+    "reasoning": "Portugal are overwhelming favourites in squad quality, experience and motivation — they need three points to control their group destiny — but the DR Congo draw exposed real concerns: Ronaldo's form is alarming (10 major-competition games without a goal, just 25 touches vs. Congo), Rúben Dias remains out defensively, and the team struggled to convert dominance (75% possession, one shot on target). Uzbekistan are a compact, well-drilled debutant side under Cannavaro who have shown they can score against better teams (Netherlands, Colombia) despite losing Masharipov to injury; their counter-threat and Portugal's set-piece vulnerability keeps the 'clean sheet' probability modest.",
+    "market": {
+      "homeWin": 0.781,
+      "draw": 0.159,
+      "awayWin": 0.06,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-22T03:40:11.906Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489402",
+    "probs": {
+      "homeWin": 0.804,
+      "draw": 0.196,
+      "awayWin": 0
+    },
+    "scoreline": {
+      "home": 3,
+      "away": 0
+    },
+    "confidence": "Medium-High",
+    "reasoning": "England are heavily favoured on all seven factors: superior squad depth with Kane, Bellingham and a near-full complement fit (Rice and Rashford cleared training, only Saka is benched), dominant recent form with a 4-2 win over Croatia setting a World Cup record for shots inside the box, and a sea-level US venue that neutralises any altitude edge. Ghana arrive missing two automatic starters in Kudus (quad injury) and Salisu (ACL), Partey returns from his Canada visa ban but is carrying a groin issue and has no match sharpness, and their weakened defensive spine faces an England attack in confident, high-volume form.",
+    "market": {
+      "homeWin": 0.765,
+      "draw": 0.161,
+      "awayWin": 0.075,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-22T03:40:11.906Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489403",
+    "probs": {
+      "homeWin": 0.13,
+      "draw": 0.24,
+      "awayWin": 0.63
+    },
+    "scoreline": {
+      "home": 0,
+      "away": 2
+    },
+    "confidence": "Medium-High",
+    "reasoning": "Croatia hold a decisive edge in squad quality, tournament pedigree, and midfield creativity through Modrić and Kovačić, while Panama failed to score against Ghana and lack the individual firepower to trouble a motivated Croatian defence. Both sides are under must-win pressure, which slightly inflates draw probability but ultimately favours Croatia's superior technical quality in a direct elimination-style showdown. The market's ~62% Croatia win probability is well-supported; a small discount is applied given Panama's defensive discipline and the organisational strength Christiansen has instilled, leaving a realistic chance of a low-scoring draw.",
+    "market": {
+      "homeWin": 0.146,
+      "draw": 0.237,
+      "awayWin": 0.616,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-22T03:40:11.906Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1539008",
+    "probs": {
+      "homeWin": 0.61,
+      "draw": 0.24,
+      "awayWin": 0.15
+    },
+    "scoreline": {
+      "home": 2,
+      "away": 0
+    },
+    "confidence": "Medium",
+    "reasoning": "Colombia are the clear class act here — a fully fit squad, clinical 3-1 MD1 win with three different scorers, Luis Díaz at peak form, and the altitude/heat of Guadalajara favoring the CONMEBOL side over a DR Congo squad based primarily in Europe. DR Congo's 1-1 draw with Portugal shows real defensive organisation and counter-attacking threat via Bakambu and Wissa, so a shutout is not guaranteed, but Congo need a win themselves which may open them up.",
+    "market": {
+      "homeWin": 0.615,
+      "draw": 0.246,
+      "awayWin": 0.139,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-22T03:40:11.906Z",
+    "locked": false,
+    "webSearchUsed": true
   }
 ]
