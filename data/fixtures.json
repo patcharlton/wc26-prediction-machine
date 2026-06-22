@@ -769,9 +769,9 @@
     "awayTeam": "Austria",
     "homeTeamId": 26,
     "awayTeamId": 775,
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 0,
-    "elapsed": 32,
+    "elapsed": 42,
     "venue": {
       "name": "AT&T Stadium",
       "city": "Arlington",
