@@ -977,26 +977,26 @@
   {
     "fixtureId": "1489396",
     "probs": {
-      "homeWin": 0.17,
-      "draw": 0.26,
-      "awayWin": 0.57
+      "homeWin": 0.16,
+      "draw": 0.24,
+      "awayWin": 0.6
     },
     "scoreline": {
-      "home": 0,
+      "home": 1,
       "away": 2
     },
     "confidence": "Medium",
-    "reasoning": "Egypt's 56-place FIFA ranking advantage, elite attacking pair of Salah and Marmoush, and a strong recent record including a draw with Belgium and near-miss against Brazil make them clear favourites, broadly validating the market. New Zealand showed real spirit against Iran — Elijah Just's brace demonstrated unexpected attacking threat and competitive mettle — but they have yet to keep a clean sheet and lack the squad depth to sustain defensive shape against Salah. Both teams have full squads and near-equal rest; Vancouver's sea-level venue offers no edge either way.",
+    "reasoning": "Egypt hold a clear squad-quality edge anchored by Salah (67 international goals, confirmed to start) and Marmoush, while New Zealand's attack leans heavily on Chris Wood and set-pieces; Egypt are unbeaten in all three prior H2H meetings and bring a rock-solid defensive record (only two goals conceded in their last six matches vs. New Zealand going 12 games without a clean sheet). Both sides are fully fit — New Zealand's only squad concern is the pre-tournament loss of Garbett (hamstring) — and the stakes sharpen the fixture as a genuine six-pointer, which slightly suppresses both teams' attacking intent and keeps draw probability meaningful.",
     "market": {
-      "homeWin": 0.179,
-      "draw": 0.245,
-      "awayWin": 0.575,
+      "homeWin": 0.17,
+      "draw": 0.246,
+      "awayWin": 0.584,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-06-22T00:11:51.880Z",
     "modelVersion": "claude-sonnet-4-6",
-    "generatedAt": "2026-06-20T02:51:31.037Z",
-    "locked": false,
+    "generatedAt": "2026-06-22T00:11:51.880Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {
