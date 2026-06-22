@@ -750,9 +750,9 @@
     "awayTeam": "Egypt",
     "homeTeamId": 4673,
     "awayTeamId": 32,
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 0,
-    "elapsed": 13,
+    "elapsed": 18,
     "venue": {
       "name": "BC Place",
       "city": "Vancouver",
