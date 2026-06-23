@@ -1102,26 +1102,26 @@
   {
     "fixtureId": "1489404",
     "probs": {
-      "homeWin": 0.76,
+      "homeWin": 0.78,
       "draw": 0.15,
-      "awayWin": 0.09
+      "awayWin": 0.07
     },
     "scoreline": {
       "home": 2,
-      "away": 1
+      "away": 0
     },
-    "confidence": "Medium",
-    "reasoning": "Portugal are overwhelming favourites in squad quality, experience and motivation — they need three points to control their group destiny — but the DR Congo draw exposed real concerns: Ronaldo's form is alarming (10 major-competition games without a goal, just 25 touches vs. Congo), Rúben Dias remains out defensively, and the team struggled to convert dominance (75% possession, one shot on target). Uzbekistan are a compact, well-drilled debutant side under Cannavaro who have shown they can score against better teams (Netherlands, Colombia) despite losing Masharipov to injury; their counter-threat and Portugal's set-piece vulnerability keeps the 'clean sheet' probability modest.",
+    "confidence": "Medium-High",
+    "reasoning": "Portugal's squad quality overwhelms Uzbekistan's first-ever World Cup squad, and the return of Ruben Dias shores up a defense that leaked a sloppy equalizer in MD1. However, Portugal managed only one shot on target against DR Congo's deep block — a tactical profile Uzbekistan will replicate — introducing genuine draw risk that the market slightly underprices. Martinez's side carries a 'must-win' mentality and the pressure to respond, while Uzbekistan, after failing to touch the ball in Colombia's box in the first half of MD1, look short of the attacking quality needed to nick anything from this game.",
     "market": {
-      "homeWin": 0.781,
-      "draw": 0.159,
-      "awayWin": 0.06,
+      "homeWin": 0.824,
+      "draw": 0.123,
+      "awayWin": 0.053,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-06-23T16:19:24.726Z",
     "modelVersion": "claude-sonnet-4-6",
-    "generatedAt": "2026-06-22T03:40:11.906Z",
-    "locked": false,
+    "generatedAt": "2026-06-23T16:19:24.726Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {
