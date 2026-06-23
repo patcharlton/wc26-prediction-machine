@@ -788,9 +788,9 @@
     "awayTeam": "Iraq",
     "homeTeamId": 2,
     "awayTeamId": 1567,
-    "homeScore": 1,
+    "homeScore": 2,
     "awayScore": 0,
-    "elapsed": 50,
+    "elapsed": 55,
     "venue": {
       "name": "Lincoln Financial Field",
       "city": "Philadelphia",
@@ -809,7 +809,7 @@
     "awayTeamId": 13,
     "homeScore": 0,
     "awayScore": 0,
-    "elapsed": 6,
+    "elapsed": 11,
     "venue": {
       "name": "MetLife Stadium",
       "city": "New York New Jersey",
