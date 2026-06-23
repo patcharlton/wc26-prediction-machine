@@ -1323,5 +1323,30 @@
     "generatedAt": "2026-06-23T02:45:18.344Z",
     "locked": false,
     "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489406",
+    "probs": {
+      "homeWin": 0.11,
+      "draw": 0.22,
+      "awayWin": 0.67
+    },
+    "scoreline": {
+      "home": 0,
+      "away": 2
+    },
+    "confidence": "Medium",
+    "reasoning": "Brazil enter as heavy favourites with four points already secured and Vinicius Junior on the scoresheet in both games, though they lose Raphinha to a hamstring injury and Raphinha's replacement is the uncapped teenager Rayan; Neymar is fit enough only for a cameo at best, while Rodrygo and Estêvão are absent for the tournament. Scotland sit on three points and need at minimum a draw to keep knockout hopes alive, giving them unusual attacking intent, but they have never beaten Brazil (D2 L8 all-time) and their best creative outlet is the McTominay-McGinn axis against a still-deep Brazilian midfield of Casemiro, Bruno Guimarães and Paquetá.",
+    "market": {
+      "homeWin": 0.114,
+      "draw": 0.208,
+      "awayWin": 0.678,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-23T09:29:50.284Z",
+    "locked": false,
+    "webSearchUsed": true
   }
 ]
