@@ -827,8 +827,8 @@
     "homeTeamId": 1548,
     "awayTeamId": 1532,
     "homeScore": 1,
-    "awayScore": 0,
-    "elapsed": 67,
+    "awayScore": 1,
+    "elapsed": 75,
     "venue": {
       "name": "Levi's Stadium",
       "city": "Santa Clara",
