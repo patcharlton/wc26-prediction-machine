@@ -1,12 +1,12 @@
 {
   "champion": "France",
   "runnerUp": "Spain",
-  "darkHorse": "Morocco",
-  "confidence": "Low",
+  "darkHorse": "Norway",
+  "confidence": "Medium",
   "contenders": [
     {
       "team": "France",
-      "prob": 0.19
+      "prob": 0.2
     },
     {
       "team": "Spain",
@@ -14,31 +14,31 @@
     },
     {
       "team": "England",
-      "prob": 0.13
+      "prob": 0.12
     },
     {
       "team": "Argentina",
-      "prob": 0.11
+      "prob": 0.12
     },
     {
       "team": "Brazil",
-      "prob": 0.1
-    },
-    {
-      "team": "Germany",
       "prob": 0.08
     },
     {
-      "team": "Netherlands",
+      "team": "Portugal",
       "prob": 0.06
     },
     {
-      "team": "Portugal",
+      "team": "Germany",
+      "prob": 0.06
+    },
+    {
+      "team": "Norway",
       "prob": 0.04
     }
   ],
-  "reasoning": "France has been installed as outright favorite after a convincing opening win over Senegal and Spain's shock 0-0 draw with Cape Verde, with Les Bleus combining elite depth (Mbappé plus emerging talents Cherki, Barcola and Doué) and a fit Saliba anchoring one of the tournament's strongest defenses. Spain remains the co-second favorite with England despite losing Fermín López to injury and dropping points early, as the Euro 2024 champions retain Yamal, Rodri and Nico Williams. England's win over Croatia and a soft remaining path under Tuchel keep them live, while holders Argentina (Messi hat-trick start) and a deep but inconsistent Brazil missing Rodrygo and Estêvão round out the top tier. Morocco is the dark horse after holding Brazil to a draw and reaching the 2022 semis, but the host advantage and altitude in Mexico, plus a forgiving 48-team bracket, make this an unusually open field — hence low confidence in any single pick this early.",
-  "basis": "group stage (40 matches played)",
+  "reasoning": "France has overtaken Spain as the clear market favorite after a commanding 3-1 win over Senegal and 3-0 win over Iraq, combining Mbappé's elite form, Olise's creativity, and exceptional squad depth that lets Deschamps rotate through a brutal expanded format. Spain remains the most talented ceiling with Yamal and Pedri but their shock 0-0 draw with Cape Verde exposed finishing issues, and the engineered bracket keeps the top four (Spain, Argentina, France, England) apart until the semis, so France's path is favorable as long as they navigate the Friday Norway decider. The chief threats are a peaking Spain, an England side cruising after beating Croatia, and reigning champions Argentina, who won their group behind a Messi hat-trick but carry an aging spine. Norway is the live outsider: a perfect group stage, Haaland's goalscoring, and momentum make them a genuine knockout danger, while heat, altitude and travel across the host nations add variance that can punish any favorite.",
+  "basis": "group stage (44 matches played)",
   "modelVersion": "claude-opus-4-8",
-  "updatedAt": "2026-06-22T11:38:03.852Z"
+  "updatedAt": "2026-06-23T09:24:52.879Z"
 }

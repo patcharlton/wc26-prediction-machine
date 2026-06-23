@@ -818,22 +818,22 @@
   },
   {
     "fixtureId": "1489400",
-    "status": "live",
+    "status": "finished",
     "kickoff": "2026-06-23T03:00:00.000Z",
     "stage": "groupJ",
     "homeTeam": "Jordan",
     "awayTeam": "Algeria",
     "actualScore": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 2
     },
-    "actualOutcome": null,
-    "machineOutcomeHit": null,
-    "marketOutcomeHit": null,
-    "exactScoreHit": null,
-    "machineBrierScore": null,
-    "marketBrierScore": null,
-    "resolvedAt": null
+    "actualOutcome": "awayWin",
+    "machineOutcomeHit": true,
+    "marketOutcomeHit": true,
+    "exactScoreHit": false,
+    "machineBrierScore": 0.198,
+    "marketBrierScore": 0.239,
+    "resolvedAt": "2026-06-23T09:24:52.879Z"
   },
   {
     "fixtureId": "1489404",
