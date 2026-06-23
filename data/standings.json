@@ -433,9 +433,22 @@
   ],
   "groupI": [
     {
+      "teamId": 2,
+      "team": "France",
+      "rank": 1,
+      "played": 2,
+      "win": 2,
+      "draw": 0,
+      "lose": 0,
+      "goalsFor": 6,
+      "goalsAgainst": 1,
+      "goalDiff": 5,
+      "points": 6
+    },
+    {
       "teamId": 1090,
       "team": "Norway",
-      "rank": 1,
+      "rank": 2,
       "played": 1,
       "win": 1,
       "draw": 0,
@@ -443,19 +456,6 @@
       "goalsFor": 4,
       "goalsAgainst": 1,
       "goalDiff": 3,
-      "points": 3
-    },
-    {
-      "teamId": 2,
-      "team": "France",
-      "rank": 2,
-      "played": 1,
-      "win": 1,
-      "draw": 0,
-      "lose": 0,
-      "goalsFor": 3,
-      "goalsAgainst": 1,
-      "goalDiff": 2,
       "points": 3
     },
     {
@@ -475,13 +475,13 @@
       "teamId": 1567,
       "team": "Iraq",
       "rank": 4,
-      "played": 1,
+      "played": 2,
       "win": 0,
       "draw": 0,
-      "lose": 1,
+      "lose": 2,
       "goalsFor": 1,
-      "goalsAgainst": 4,
-      "goalDiff": -3,
+      "goalsAgainst": 7,
+      "goalDiff": -6,
       "points": 0
     }
   ],

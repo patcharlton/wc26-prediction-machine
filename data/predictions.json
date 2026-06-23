@@ -1223,5 +1223,105 @@
     "generatedAt": "2026-06-22T20:38:48.037Z",
     "locked": false,
     "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1539009",
+    "probs": {
+      "homeWin": 0.6,
+      "draw": 0.2,
+      "awayWin": 0.2
+    },
+    "scoreline": {
+      "home": 2,
+      "away": 0
+    },
+    "confidence": "Medium",
+    "reasoning": "Bosnia are the stronger squad on paper (FIFA #64 vs #57, but far greater European top-flight depth) and carry a desperate must-win need, yet they lose their best centre-back Muharemović to suspension after his red card vs Switzerland, weakening a defence that already conceded four. Qatar are also ravaged by suspensions — both Homam Al-Amin and Assim Madibo are banned after the 6-0 Canada humiliation — gutting their midfield and defensive options, which further tips the balance toward Bosnia.",
+    "market": {
+      "homeWin": 0.655,
+      "draw": 0.199,
+      "awayWin": 0.146,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-23T02:45:18.344Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489405",
+    "probs": {
+      "homeWin": 0.78,
+      "draw": 0.15,
+      "awayWin": 0.07
+    },
+    "scoreline": {
+      "home": 2,
+      "away": 0
+    },
+    "confidence": "Medium-High",
+    "reasoning": "Morocco are a class apart in this fixture: top-club talent across the XI (Hakimi, Saibari, El Khannouss), unbeaten in five with only two goals conceded, and a settled system that already held Brazil. Haiti are eliminated regardless of result, have lost both WC matches (0-1 vs Scotland, 0-3 vs Brazil), rank 83rd in the world, and carry no meaningful attacking threat beyond Isidor and Bellegarde against a well-organized Moroccan backline. Atlanta is sea-level, neutral venue with no altitude or travel edge for either side, and both teams have had standard 4-5 days rest; Morocco may rotate fringe players but should still control the match comfortably.",
+    "market": {
+      "homeWin": 0.792,
+      "draw": 0.151,
+      "awayWin": 0.057,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-23T02:45:18.344Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1539010",
+    "probs": {
+      "homeWin": 0.43,
+      "draw": 0.27,
+      "awayWin": 0.3
+    },
+    "scoreline": {
+      "home": 1,
+      "away": 0
+    },
+    "confidence": "Medium-Low",
+    "reasoning": "Mexico enter as heavy altitude-and-form favourites — perfect 6/6 points, unbeaten at home in 26 straight internationals, and with captain Montes back from suspension — but Aguirre is expected to rotate significantly with top spot already secured, narrowing the gap versus a desperate Czechia side. Czechia's key injury concern is full-back Jurasek, while the altitude at the Azteca (~2,240m) is a genuine physical tax on European legs and tilts the venue factor firmly toward Mexico.",
+    "market": {
+      "homeWin": 0.274,
+      "draw": 0.252,
+      "awayWin": 0.474,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-23T02:45:18.344Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489407",
+    "probs": {
+      "homeWin": 0.17,
+      "draw": 0.23,
+      "awayWin": 0.6
+    },
+    "scoreline": {
+      "home": 0,
+      "away": 1
+    },
+    "confidence": "Medium-High",
+    "reasoning": "South Korea hold every structural advantage: superior squad headlined by Son, Kim Min-jae and Lee Kang-in; three points already banked meaning a draw qualifies them; and no injuries or suspensions. South Africa, by contrast, are shorn of midfield linchpin Mokoena (suspended) alongside Zwane, have scored just once in two World Cup matches, and are winless in six. The stakes asymmetry is decisive: South Africa must open up to win, handing Korea's pace in transition ideal conditions to exploit. A narrow Korean victory — likely 1-0 or 1-1 — is the most probable outcome, with the draw kept alive only by South Africa's desperation creating brief moments of pressure.",
+    "market": {
+      "homeWin": 0.183,
+      "draw": 0.256,
+      "awayWin": 0.56,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-23T02:45:18.344Z",
+    "locked": false,
+    "webSearchUsed": true
   }
 ]
