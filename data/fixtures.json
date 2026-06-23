@@ -826,9 +826,9 @@
     "awayTeam": "Algeria",
     "homeTeamId": 1548,
     "awayTeamId": 1532,
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 0,
-    "elapsed": 32,
+    "elapsed": 40,
     "venue": {
       "name": "Levi's Stadium",
       "city": "Santa Clara",
