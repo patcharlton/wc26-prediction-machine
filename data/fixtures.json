@@ -808,8 +808,8 @@
     "homeTeamId": 1090,
     "awayTeamId": 13,
     "homeScore": 2,
-    "awayScore": 0,
-    "elapsed": 52,
+    "awayScore": 1,
+    "elapsed": 57,
     "venue": {
       "name": "MetLife Stadium",
       "city": "New York New Jersey",
