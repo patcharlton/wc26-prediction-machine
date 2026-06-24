@@ -1,14 +1,14 @@
 {
   "lastRun": {
     "daily-housekeeping": "2026-06-23T09:24:52.879Z",
-    "live-status": "2026-06-23T17:50:52.645Z",
+    "live-status": "2026-06-24T00:16:20.022Z",
     "lock-job": "2026-06-23T22:58:20.954Z",
     "main-update": "2026-06-23T14:38:14.148Z"
   },
   "apiFootball": {
-    "requestsToday": 83,
-    "dayUtc": "2026-06-23",
-    "lastResetAt": "2026-06-23T00:00:31.715Z"
+    "requestsToday": 1,
+    "dayUtc": "2026-06-24",
+    "lastResetAt": "2026-06-24T00:16:20.024Z"
   },
   "tournament": {
     "startsAt": "2026-06-11T00:00:00Z",
