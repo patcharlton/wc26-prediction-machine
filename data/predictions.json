@@ -1202,8 +1202,8 @@
   {
     "fixtureId": "1489408",
     "probs": {
-      "homeWin": 0.37,
-      "draw": 0.34,
+      "homeWin": 0.38,
+      "draw": 0.33,
       "awayWin": 0.29
     },
     "scoreline": {
@@ -1211,42 +1211,42 @@
       "away": 1
     },
     "confidence": "Medium",
-    "reasoning": "Switzerland arrive fully fit with no injury or suspension concerns, backed by a five-match unbeaten run and strong defensive organisation, whereas Canada are missing Ismael Koné (broken leg, tournament over) and Alphonso Davies remains a serious doubt with a hamstring strain, creating a meaningful availability gap. BC Place home support is a real edge for Canada, but Switzerland's experience at this stage, their record of never losing to a CONCACAF side at a World Cup, and their ability to exploit space behind Canada's high press are significant counterweights.",
+    "reasoning": "Both teams are level on points with Canada ahead only on goal difference, so a draw serves Canada's interests (they advance in first) while Switzerland must win to top the group — creating asymmetric pressure that slightly favours the Swiss in attacking intent. Canada lose Ismael Kone (fractured leg) and Alfie Jones (ankle), while Alphonso Davies is available only off the bench after his hamstring lay-off, marginally weakening Canada's depth. Switzerland arrive fully fit, five-match unbeaten, and have never conceded in the first half in that run, but BC Place's indoor, climate-controlled conditions eliminate any travel/venue tax and the roaring home crowd is a genuine Canadian edge.",
     "market": {
-      "homeWin": 0.38,
-      "draw": 0.341,
-      "awayWin": 0.279,
+      "homeWin": 0.404,
+      "draw": 0.312,
+      "awayWin": 0.284,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-06-24T18:26:58.143Z",
     "modelVersion": "claude-sonnet-4-6",
-    "generatedAt": "2026-06-22T20:38:48.037Z",
-    "locked": false,
+    "generatedAt": "2026-06-24T18:26:58.143Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {
     "fixtureId": "1539009",
     "probs": {
-      "homeWin": 0.6,
+      "homeWin": 0.62,
       "draw": 0.2,
-      "awayWin": 0.2
+      "awayWin": 0.18
     },
     "scoreline": {
       "home": 2,
-      "away": 0
+      "away": 1
     },
     "confidence": "Medium",
-    "reasoning": "Bosnia are the stronger squad on paper (FIFA #64 vs #57, but far greater European top-flight depth) and carry a desperate must-win need, yet they lose their best centre-back Muharemović to suspension after his red card vs Switzerland, weakening a defence that already conceded four. Qatar are also ravaged by suspensions — both Homam Al-Amin and Assim Madibo are banned after the 6-0 Canada humiliation — gutting their midfield and defensive options, which further tips the balance toward Bosnia.",
+    "reasoning": "Bosnia carry a meaningful squad quality edge over a Qatar side that is severely disrupted — two key players (Madibo, Ahmed) suspended after the 6-0 Canada meltdown, a worrying defensive record, and zero wins in their last five. Bosnia also have one suspension (Muharemovic) but their replacement options are adequate, and Dzeko/Demirovic provide genuine attacking threat. Critically, both teams are level on one point and a draw almost certainly eliminates them both, so Qatar will attack — narrowing the draw probability and keeping this contest competitive.",
     "market": {
-      "homeWin": 0.655,
-      "draw": 0.199,
-      "awayWin": 0.146,
+      "homeWin": 0.673,
+      "draw": 0.197,
+      "awayWin": 0.13,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-06-24T18:26:58.143Z",
     "modelVersion": "claude-sonnet-4-6",
-    "generatedAt": "2026-06-23T02:45:18.344Z",
-    "locked": false,
+    "generatedAt": "2026-06-24T18:26:58.143Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {
