@@ -541,9 +541,22 @@
   ],
   "groupK": [
     {
+      "teamId": 8,
+      "team": "Colombia",
+      "rank": 1,
+      "played": 2,
+      "win": 2,
+      "draw": 0,
+      "lose": 0,
+      "goalsFor": 4,
+      "goalsAgainst": 1,
+      "goalDiff": 3,
+      "points": 6
+    },
+    {
       "teamId": 27,
       "team": "Portugal",
-      "rank": 1,
+      "rank": 2,
       "played": 2,
       "win": 1,
       "draw": 1,
@@ -554,29 +567,16 @@
       "points": 4
     },
     {
-      "teamId": 8,
-      "team": "Colombia",
-      "rank": 2,
-      "played": 1,
-      "win": 1,
-      "draw": 0,
-      "lose": 0,
-      "goalsFor": 3,
-      "goalsAgainst": 1,
-      "goalDiff": 2,
-      "points": 3
-    },
-    {
       "teamId": 1508,
       "team": "Congo DR",
       "rank": 3,
-      "played": 1,
+      "played": 2,
       "win": 0,
       "draw": 1,
-      "lose": 0,
+      "lose": 1,
       "goalsFor": 1,
-      "goalsAgainst": 1,
-      "goalDiff": 0,
+      "goalsAgainst": 2,
+      "goalDiff": -1,
       "points": 1
     },
     {
