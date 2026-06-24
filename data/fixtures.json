@@ -923,7 +923,7 @@
     "awayTeamId": 5529,
     "homeScore": 0,
     "awayScore": 0,
-    "elapsed": 21,
+    "elapsed": 30,
     "venue": {
       "name": "BC Place",
       "city": "Vancouver",
@@ -940,9 +940,9 @@
     "awayTeam": "Qatar",
     "homeTeamId": 1113,
     "awayTeamId": 1569,
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 0,
-    "elapsed": 20,
+    "elapsed": 30,
     "venue": {
       "name": "Lumen Field",
       "city": "Seattle",
