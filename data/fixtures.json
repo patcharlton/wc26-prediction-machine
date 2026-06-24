@@ -902,9 +902,9 @@
     "awayTeam": "Congo DR",
     "homeTeamId": 8,
     "awayTeamId": 1508,
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 0,
-    "elapsed": 76,
+    "elapsed": 84,
     "venue": {
       "name": "Estadio Akron",
       "city": "Guadalajara",
