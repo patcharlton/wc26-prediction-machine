@@ -1348,5 +1348,155 @@
     "generatedAt": "2026-06-23T09:29:50.284Z",
     "locked": false,
     "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489410",
+    "probs": {
+      "homeWin": 0.19,
+      "draw": 0.21,
+      "awayWin": 0.6
+    },
+    "scoreline": {
+      "home": 1,
+      "away": 2
+    },
+    "confidence": "Medium-High",
+    "reasoning": "Germany are the dominant side on every factor: superior squad depth (Havertz, Wirtz, Musiala, Sane), flawless form (9 goals in two WC games), and already qualified — Nagelsmann may rotate but his bench exceeds Ecuador's starting XI. Ecuador's only noteworthy injury news is the loss of Germany's Nico Schlotterbeck (ankle/MCL) for the rest of the tournament, which forces one enforced defensive change; Ecuador themselves carry no confirmed absentees but have scored zero goals in two World Cup matches (vs Ivory Coast and Curaçao), suggesting a serious attacking dysfunction.",
+    "market": {
+      "homeWin": 0.267,
+      "draw": 0.242,
+      "awayWin": 0.491,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-24T02:45:51.244Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489409",
+    "probs": {
+      "homeWin": 0.05,
+      "draw": 0.14,
+      "awayWin": 0.81
+    },
+    "scoreline": {
+      "home": 0,
+      "away": 2
+    },
+    "confidence": "Medium-High",
+    "reasoning": "Ivory Coast need only a draw (or even a loss depending on the Ecuador-Germany result) to advance, but a win locks up second place with zero anxiety, giving Faé every incentive to field a full-strength side; no injuries or suspensions are reported for either team. Curaçao's heroic 0-0 vs Ecuador was built almost entirely on Eloy Room's 15-save masterclass and a deep defensive block — they have scored just once across two group games and conceded eight, while Ivory Coast's squad depth (Amad Diallo, Kessié, Singo, Bonny) far outclasses a Curaçao side that lost 7-1 to Germany.",
+    "market": {
+      "homeWin": 0.057,
+      "draw": 0.137,
+      "awayWin": 0.806,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-24T02:45:51.244Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1539011",
+    "probs": {
+      "homeWin": 0.5,
+      "draw": 0.26,
+      "awayWin": 0.24
+    },
+    "scoreline": {
+      "home": 2,
+      "away": 1
+    },
+    "confidence": "Medium",
+    "reasoning": "This is effectively a knockout game: Japan (4 pts) need a win to guarantee top-two and can seal Group F leadership, while Sweden (3 pts) must win to qualify automatically. Japan carry the significant absentees of Endo, Mitoma (both tournament-ruled-out), and the in-tournament knee injury to Kubo, yet showed ruthless form in a 4-0 hammering of Tunisia. Sweden's Gyokeres–Isak strike duo is world-class, but the team just absorbed a historically bad 5-1 defeat to the Netherlands (four days' rest), which creates a confidence and fatigue headwind. AT&T Stadium in Dallas is a neutral-friendly indoor turf with no altitude factor, slightly neutralising Japan's typical Asian-climate edge.",
+    "market": {
+      "homeWin": 0.492,
+      "draw": 0.275,
+      "awayWin": 0.234,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-24T02:45:51.244Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489412",
+    "probs": {
+      "homeWin": 0.05,
+      "draw": 0.1,
+      "awayWin": 0.85
+    },
+    "scoreline": {
+      "home": 0,
+      "away": 3
+    },
+    "confidence": "High",
+    "reasoning": "Netherlands enter as massive favourites with elite squad depth, 5-1 recent form, a settled XI, and a strong incentive to run up the score to protect their goal difference over Japan. Tunisia are in historic disarray: eliminated, managerless mid-tournament (Renard yet to inspire), scoreless against Japan, and having conceded 15 goals in five matches. No suspensions or injuries alter the outlook. The market's 83% Dutch win probability is well-supported and our own assessment nudges slightly higher given Tunisia's dead-rubber motivation deficit and the Dutch goal-difference incentive.",
+    "market": {
+      "homeWin": 0.055,
+      "draw": 0.116,
+      "awayWin": 0.829,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-24T02:45:51.244Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1539012",
+    "probs": {
+      "homeWin": 0.22,
+      "draw": 0.26,
+      "awayWin": 0.52
+    },
+    "scoreline": {
+      "home": 0,
+      "away": 2
+    },
+    "confidence": "Medium-High",
+    "reasoning": "The USA enter this dead-rubber finale having already clinched top spot in Group D with back-to-back wins (4-1 vs Paraguay, 2-0 vs Australia), playing in their de facto home stadium at SoFi in Los Angeles with massive crowd support. Türkiye are already eliminated after losing both group games without scoring a single goal, exposing a complete failure of their vaunted attack on American soil.",
+    "market": {
+      "homeWin": 0.271,
+      "draw": 0.243,
+      "awayWin": 0.487,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-24T02:45:51.244Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489411",
+    "probs": {
+      "homeWin": 0.29,
+      "draw": 0.38,
+      "awayWin": 0.33
+    },
+    "scoreline": {
+      "home": 1,
+      "away": 1
+    },
+    "confidence": "Medium",
+    "reasoning": "The single biggest factor shifting this away from the market is Miguel Almiron's confirmed suspension after his red card vs Turkey — he is Paraguay's top scorer and primary creative engine, and his absence materially weakens their ability to break down Australia's organised 3/5-back block. Australia carry a minor injury concern over Mathew Leckie (muscle issue vs USA) but have no suspensions and superior FIFA ranking (27th vs 41st), better goal difference, and stronger head-to-head record.",
+    "market": {
+      "homeWin": 0.328,
+      "draw": 0.416,
+      "awayWin": 0.256,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-24T02:45:51.244Z",
+    "locked": false,
+    "webSearchUsed": true
   }
 ]

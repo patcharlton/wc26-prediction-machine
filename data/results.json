@@ -837,60 +837,60 @@
   },
   {
     "fixtureId": "1489404",
-    "status": "live",
+    "status": "finished",
     "kickoff": "2026-06-23T17:00:00.000Z",
     "stage": "groupK",
     "homeTeam": "Portugal",
     "awayTeam": "Uzbekistan",
     "actualScore": {
-      "home": null,
-      "away": null
+      "home": 5,
+      "away": 0
     },
-    "actualOutcome": null,
-    "machineOutcomeHit": null,
-    "marketOutcomeHit": null,
-    "exactScoreHit": null,
-    "machineBrierScore": null,
-    "marketBrierScore": null,
-    "resolvedAt": null
+    "actualOutcome": "homeWin",
+    "machineOutcomeHit": true,
+    "marketOutcomeHit": true,
+    "exactScoreHit": false,
+    "machineBrierScore": 0.076,
+    "marketBrierScore": 0.049,
+    "resolvedAt": "2026-06-24T02:45:51.244Z"
   },
   {
     "fixtureId": "1489402",
-    "status": "scheduled",
+    "status": "finished",
     "kickoff": "2026-06-23T20:00:00.000Z",
     "stage": "groupL",
     "homeTeam": "England",
     "awayTeam": "Ghana",
     "actualScore": {
-      "home": null,
-      "away": null
+      "home": 0,
+      "away": 0
     },
-    "actualOutcome": null,
-    "machineOutcomeHit": null,
-    "marketOutcomeHit": null,
-    "exactScoreHit": null,
-    "machineBrierScore": null,
-    "marketBrierScore": null,
-    "resolvedAt": null
+    "actualOutcome": "draw",
+    "machineOutcomeHit": false,
+    "marketOutcomeHit": false,
+    "exactScoreHit": false,
+    "machineBrierScore": 1.293,
+    "marketBrierScore": 1.295,
+    "resolvedAt": "2026-06-24T02:45:51.244Z"
   },
   {
     "fixtureId": "1489403",
-    "status": "live",
+    "status": "finished",
     "kickoff": "2026-06-23T23:00:00.000Z",
     "stage": "groupL",
     "homeTeam": "Panama",
     "awayTeam": "Croatia",
     "actualScore": {
-      "home": null,
-      "away": null
+      "home": 0,
+      "away": 1
     },
-    "actualOutcome": null,
-    "machineOutcomeHit": null,
-    "marketOutcomeHit": null,
-    "exactScoreHit": null,
-    "machineBrierScore": null,
-    "marketBrierScore": null,
-    "resolvedAt": null
+    "actualOutcome": "awayWin",
+    "machineOutcomeHit": true,
+    "marketOutcomeHit": true,
+    "exactScoreHit": false,
+    "machineBrierScore": 0.211,
+    "marketBrierScore": 0.225,
+    "resolvedAt": "2026-06-24T02:45:51.244Z"
   },
   {
     "fixtureId": "1539008",
