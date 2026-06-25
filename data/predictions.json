@@ -1548,5 +1548,55 @@
     "generatedAt": "2026-06-24T19:39:17.761Z",
     "locked": false,
     "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489417",
+    "probs": {
+      "homeWin": 0.17,
+      "draw": 0.3,
+      "awayWin": 0.53
+    },
+    "scoreline": {
+      "home": 1,
+      "away": 2
+    },
+    "confidence": "Medium",
+    "reasoning": "Spain's squad quality and form are clearly superior — a dominant 4-0 win over Saudi Arabia vs. Uruguay's back-to-back draws — and the market correctly makes them heavy favorites. However, Estadio Akron sits at 1,566m altitude, a genuine physiological burden for a sea-level European side, while South American Uruguay adapts more naturally; this compresses the gap meaningfully. Bielsa's Uruguay will be ultra-motivated (elimination pressure) and is tactically disciplined, capable of absorbing pressure with Valverde, Ugarte, and Bentancur in midfield.",
+    "market": {
+      "homeWin": 0.144,
+      "draw": 0.242,
+      "awayWin": 0.614,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-25T02:46:02.429Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489413",
+    "probs": {
+      "homeWin": 0.43,
+      "draw": 0.27,
+      "awayWin": 0.3
+    },
+    "scoreline": {
+      "home": 1,
+      "away": 0
+    },
+    "confidence": "Medium",
+    "reasoning": "Cape Verde enter as the form side on merit: unbeaten in both World Cup matches (0-0 vs Spain, 2-2 vs Uruguay) and have lost only once in their last 17 games across 90 minutes, while Saudi Arabia have just one win in their last eight and were hammered 4-0 by Spain. A key suspension bites Cape Verde — Sidny Lopes Cabral is banned, thinning their defensive cover — but Saudi Arabia carry their own wound: Salem Al-Dawsari and Mohamed Kanno both picked up yellows vs Spain and must stay disciplined, and a manager change mid-tournament (Georgios Donis replaced Renard in April) adds tactical uncertainty.",
+    "market": {
+      "homeWin": 0.386,
+      "draw": 0.279,
+      "awayWin": 0.336,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-25T02:46:02.429Z",
+    "locked": false,
+    "webSearchUsed": true
   }
 ]
