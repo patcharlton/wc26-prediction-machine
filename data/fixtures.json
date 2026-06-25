@@ -1037,7 +1037,7 @@
     "awayTeamId": 25,
     "homeScore": 1,
     "awayScore": 1,
-    "elapsed": 51,
+    "elapsed": 71,
     "venue": {
       "name": "MetLife Stadium",
       "city": "East Rutherford",
@@ -1055,8 +1055,8 @@
     "homeTeamId": 5530,
     "awayTeamId": 1501,
     "homeScore": 0,
-    "awayScore": 1,
-    "elapsed": 50,
+    "awayScore": 2,
+    "elapsed": 70,
     "venue": {
       "name": "Lincoln Financial Field",
       "city": "Philadelphia",
