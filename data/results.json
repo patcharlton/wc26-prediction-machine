@@ -1027,7 +1027,7 @@
   },
   {
     "fixtureId": "1489410",
-    "status": "scheduled",
+    "status": "live",
     "kickoff": "2026-06-25T20:00:00.000Z",
     "stage": "groupE",
     "homeTeam": "Ecuador",
@@ -1046,7 +1046,7 @@
   },
   {
     "fixtureId": "1489409",
-    "status": "scheduled",
+    "status": "live",
     "kickoff": "2026-06-25T20:00:00.000Z",
     "stage": "groupE",
     "homeTeam": "Curaçao",
