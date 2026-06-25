@@ -989,41 +989,41 @@
   },
   {
     "fixtureId": "1539010",
-    "status": "live",
+    "status": "finished",
     "kickoff": "2026-06-25T01:00:00.000Z",
     "stage": "groupA",
     "homeTeam": "Czechia",
     "awayTeam": "Mexico",
     "actualScore": {
-      "home": null,
-      "away": null
+      "home": 0,
+      "away": 3
     },
-    "actualOutcome": null,
-    "machineOutcomeHit": null,
-    "marketOutcomeHit": null,
-    "exactScoreHit": null,
-    "machineBrierScore": null,
-    "marketBrierScore": null,
-    "resolvedAt": null
+    "actualOutcome": "awayWin",
+    "machineOutcomeHit": false,
+    "marketOutcomeHit": true,
+    "exactScoreHit": false,
+    "machineBrierScore": 0.748,
+    "marketBrierScore": 0.415,
+    "resolvedAt": "2026-06-25T08:49:45.051Z"
   },
   {
     "fixtureId": "1489407",
-    "status": "live",
+    "status": "finished",
     "kickoff": "2026-06-25T01:00:00.000Z",
     "stage": "groupA",
     "homeTeam": "South Africa",
     "awayTeam": "South Korea",
     "actualScore": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 0
     },
-    "actualOutcome": null,
-    "machineOutcomeHit": null,
-    "marketOutcomeHit": null,
-    "exactScoreHit": null,
-    "machineBrierScore": null,
-    "marketBrierScore": null,
-    "resolvedAt": null
+    "actualOutcome": "homeWin",
+    "machineOutcomeHit": false,
+    "marketOutcomeHit": false,
+    "exactScoreHit": false,
+    "machineBrierScore": 1.102,
+    "marketBrierScore": 1.047,
+    "resolvedAt": "2026-06-25T08:49:45.051Z"
   },
   {
     "fixtureId": "1489410",
@@ -1355,6 +1355,25 @@
     "stage": "groupJ",
     "homeTeam": "Jordan",
     "awayTeam": "Argentina",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1561329",
+    "status": "scheduled",
+    "kickoff": "2026-06-28T19:00:00.000Z",
+    "stage": "R32",
+    "homeTeam": "South Africa",
+    "awayTeam": "Canada",
     "actualScore": {
       "home": null,
       "away": null

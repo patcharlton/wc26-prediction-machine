@@ -13,7 +13,7 @@
     "awayScore": 0,
     "elapsed": 90,
     "venue": {
-      "name": "Estadio Azteca",
+      "name": "Estadio Banorte",
       "city": "Mexico City",
       "country": null
     }
@@ -33,7 +33,7 @@
     "elapsed": 90,
     "venue": {
       "name": "Estadio Akron",
-      "city": "Guadalajara",
+      "city": "Zapopan",
       "country": null
     }
   },
@@ -450,7 +450,7 @@
     "awayScore": 3,
     "elapsed": 90,
     "venue": {
-      "name": "Estadio Azteca",
+      "name": "Estadio Banorte",
       "city": "Mexico City",
       "country": null
     }
@@ -527,7 +527,7 @@
     "elapsed": 90,
     "venue": {
       "name": "Estadio Akron",
-      "city": "Guadalajara",
+      "city": "Zapopan",
       "country": null
     }
   },
@@ -907,7 +907,7 @@
     "elapsed": 90,
     "venue": {
       "name": "Estadio Akron",
-      "city": "Guadalajara",
+      "city": "Zapopan",
       "country": null
     }
   },
@@ -992,16 +992,16 @@
     "stage": "groupA",
     "matchday": "MD3",
     "kickoff": "2026-06-25T01:00:00.000Z",
-    "status": "live",
+    "status": "finished",
     "homeTeam": "Czechia",
     "awayTeam": "Mexico",
     "homeTeamId": 770,
     "awayTeamId": 16,
     "homeScore": 0,
-    "awayScore": 2,
+    "awayScore": 3,
     "elapsed": 90,
     "venue": {
-      "name": "Estadio Azteca",
+      "name": "Estadio Banorte",
       "city": "Mexico City",
       "country": null
     }
@@ -1011,7 +1011,7 @@
     "stage": "groupA",
     "matchday": "MD3",
     "kickoff": "2026-06-25T01:00:00.000Z",
-    "status": "live",
+    "status": "finished",
     "homeTeam": "South Africa",
     "awayTeam": "South Korea",
     "homeTeamId": 1531,
@@ -1192,7 +1192,7 @@
     "elapsed": null,
     "venue": {
       "name": "Estadio Akron",
-      "city": "Guadalajara",
+      "city": "Zapopan",
       "country": null
     }
   },
@@ -1366,5 +1366,26 @@
       "city": "Dallas",
       "country": null
     }
+  },
+  {
+    "fixtureId": "1561329",
+    "stage": "R32",
+    "matchday": null,
+    "kickoff": "2026-06-28T19:00:00.000Z",
+    "status": "scheduled",
+    "homeTeam": "South Africa",
+    "awayTeam": "Canada",
+    "homeTeamId": 1531,
+    "awayTeamId": 5529,
+    "homeScore": null,
+    "awayScore": null,
+    "elapsed": null,
+    "venue": {
+      "name": "SoFi Stadium",
+      "city": null,
+      "country": null
+    },
+    "homeSlot": "RU:A",
+    "awaySlot": "RU:B"
   }
 ]
