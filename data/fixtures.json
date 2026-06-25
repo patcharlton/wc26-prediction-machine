@@ -999,7 +999,7 @@
     "awayTeamId": 16,
     "homeScore": 0,
     "awayScore": 2,
-    "elapsed": 63,
+    "elapsed": 68,
     "venue": {
       "name": "Estadio Azteca",
       "city": "Mexico City",
@@ -1016,9 +1016,9 @@
     "awayTeam": "South Korea",
     "homeTeamId": 1531,
     "awayTeamId": 17,
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 0,
-    "elapsed": 63,
+    "elapsed": 68,
     "venue": {
       "name": "Estadio BBVA",
       "city": "Monterrey",
