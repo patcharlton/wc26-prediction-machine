@@ -1598,5 +1598,55 @@
     "generatedAt": "2026-06-25T02:46:02.429Z",
     "locked": false,
     "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489414",
+    "probs": {
+      "homeWin": 0.41,
+      "draw": 0.35,
+      "awayWin": 0.24
+    },
+    "scoreline": {
+      "home": 1,
+      "away": 0
+    },
+    "confidence": "Medium",
+    "reasoning": "Egypt enter as group leaders with 4 points, superior goal difference (+2 vs 0), a full squad, and genuine momentum after their first-ever World Cup win. Their 4-2-3-1 with Salah, Marmoush and Ashour is the highest-quality attack in this group. Iran are unbeaten but their 0-0 and 2-2 results reflect a compact, counter-punching side that have been without captain Jahanbakhsh and are again hampered by US travel restrictions limiting preparation time to two days. The stakes cut both ways—Iran must win to guarantee progress, which forces them to be more open than usual and slightly reduces their structural solidity.",
+    "market": {
+      "homeWin": 0.385,
+      "draw": 0.366,
+      "awayWin": 0.249,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-25T08:53:16.137Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1489415",
+    "probs": {
+      "homeWin": 0.07,
+      "draw": 0.13,
+      "awayWin": 0.8
+    },
+    "scoreline": {
+      "home": 0,
+      "away": 2
+    },
+    "confidence": "Medium-High",
+    "reasoning": "Belgium's squad quality — Courtois, De Bruyne, Lukaku, and a returning Doku — dwarfs New Zealand's, and the suspension of Ngoy is offset by Theate stepping in. New Zealand have conceded five goals in two WC games and won only once in their last 13 matches, while Belgium's backs-against-the-wall must-win situation (a draw may not be enough to advance) should finally unlock their muted attack. The sole moderating factor is Belgium's alarming inability to score from open play so far — just one goal in 180 WC minutes — and New Zealand's demonstrated ability to take early leads, which keeps the draw probability slightly above the bookmaker's implied ~13%.",
+    "market": {
+      "homeWin": 0.072,
+      "draw": 0.131,
+      "awayWin": 0.797,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-sonnet-4-6",
+    "generatedAt": "2026-06-25T08:53:16.137Z",
+    "locked": false,
+    "webSearchUsed": true
   }
 ]
