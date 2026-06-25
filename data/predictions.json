@@ -1403,50 +1403,50 @@
     "fixtureId": "1539011",
     "probs": {
       "homeWin": 0.5,
-      "draw": 0.26,
-      "awayWin": 0.24
+      "draw": 0.25,
+      "awayWin": 0.25
     },
     "scoreline": {
       "home": 2,
       "away": 1
     },
     "confidence": "Medium",
-    "reasoning": "This is effectively a knockout game: Japan (4 pts) need a win to guarantee top-two and can seal Group F leadership, while Sweden (3 pts) must win to qualify automatically. Japan carry the significant absentees of Endo, Mitoma (both tournament-ruled-out), and the in-tournament knee injury to Kubo, yet showed ruthless form in a 4-0 hammering of Tunisia. Sweden's Gyokeres–Isak strike duo is world-class, but the team just absorbed a historically bad 5-1 defeat to the Netherlands (four days' rest), which creates a confidence and fatigue headwind. AT&T Stadium in Dallas is a neutral-friendly indoor turf with no altitude factor, slightly neutralising Japan's typical Asian-climate edge.",
+    "reasoning": "Japan enter in sharper form (4-0 win vs Tunisia, unbeaten in five) while Sweden were routed 5-1 by the Netherlands, exposing defensive frailties. Japan's pre-tournament losses of Mitoma, Endo, and now Kubo in-tournament dent their attacking ceiling, but their system under Moriyasu remains cohesive. Sweden's Isak/Gyokeres pairing is elite and makes a shutout unlikely, but their defensive backline looked vulnerable against pace — exactly what Japan's wing-backs and Kamada provide. The market's slight Japan lean is justified; we align closely with it but shade the draw slightly lower given Sweden's pressing need to attack after the Netherlands hammering.",
     "market": {
       "homeWin": 0.492,
       "draw": 0.275,
       "awayWin": 0.234,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-06-25T21:20:31.271Z",
     "modelVersion": "claude-sonnet-4-6",
-    "generatedAt": "2026-06-24T02:45:51.244Z",
-    "locked": false,
+    "generatedAt": "2026-06-25T21:20:31.271Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {
     "fixtureId": "1489412",
     "probs": {
-      "homeWin": 0.05,
+      "homeWin": 0.04,
       "draw": 0.1,
-      "awayWin": 0.85
+      "awayWin": 0.86
     },
     "scoreline": {
       "home": 0,
       "away": 3
     },
     "confidence": "High",
-    "reasoning": "Netherlands enter as massive favourites with elite squad depth, 5-1 recent form, a settled XI, and a strong incentive to run up the score to protect their goal difference over Japan. Tunisia are in historic disarray: eliminated, managerless mid-tournament (Renard yet to inspire), scoreless against Japan, and having conceded 15 goals in five matches. No suspensions or injuries alter the outlook. The market's 83% Dutch win probability is well-supported and our own assessment nudges slightly higher given Tunisia's dead-rubber motivation deficit and the Dutch goal-difference incentive.",
+    "reasoning": "Tunisia are mathematically eliminated, playing under interim manager Hervé Renard after two heavy defeats (1-5, 0-4) with zero shots on target against Japan, signalling a side in total disarray. Netherlands are full of confidence after a 5-1 demolition of Sweden and boast a far superior squad headlined by Van Dijk, De Jong, Gakpo and Dumfries. No suspensions or major injuries affect either side ahead of this fixture, and the Dutch have never lost a World Cup game against an African team. The market's ~85% Dutch win probability is well-supported; we align closely and lean toward a comfortable Netherlands victory.",
     "market": {
-      "homeWin": 0.055,
-      "draw": 0.116,
-      "awayWin": 0.829,
+      "homeWin": 0.044,
+      "draw": 0.108,
+      "awayWin": 0.847,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-06-25T21:20:31.271Z",
     "modelVersion": "claude-sonnet-4-6",
-    "generatedAt": "2026-06-24T02:45:51.244Z",
-    "locked": false,
+    "generatedAt": "2026-06-25T21:20:31.271Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {
