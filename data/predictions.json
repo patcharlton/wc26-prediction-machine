@@ -1352,51 +1352,51 @@
   {
     "fixtureId": "1489410",
     "probs": {
-      "homeWin": 0.19,
-      "draw": 0.21,
-      "awayWin": 0.6
+      "homeWin": 0.18,
+      "draw": 0.2,
+      "awayWin": 0.62
     },
     "scoreline": {
-      "home": 1,
+      "home": 0,
       "away": 2
     },
-    "confidence": "Medium-High",
-    "reasoning": "Germany are the dominant side on every factor: superior squad depth (Havertz, Wirtz, Musiala, Sane), flawless form (9 goals in two WC games), and already qualified — Nagelsmann may rotate but his bench exceeds Ecuador's starting XI. Ecuador's only noteworthy injury news is the loss of Germany's Nico Schlotterbeck (ankle/MCL) for the rest of the tournament, which forces one enforced defensive change; Ecuador themselves carry no confirmed absentees but have scored zero goals in two World Cup matches (vs Ivory Coast and Curaçao), suggesting a serious attacking dysfunction.",
+    "confidence": "Medium",
+    "reasoning": "Germany are a clearly superior side (FIFA top-10, Bundesliga/elite-club depth) who have already qualified as Group E winners after back-to-back wins over Curaçao (7-1) and Ivory Coast (2-1), and they carry strong momentum. Ecuador are winless (0-1 L, 0-0 D), have not scored a single goal in the tournament, and desperately need a win to have any hope of advancing — that desperation opens them up tactically. Germany lose Schlotterbeck to a tournament-ending ankle injury, but Nagelsmann has Rüdiger, Tah, Anton and Thiaw as cover, and may rotate heavily; however, manager comments suggest changes will be limited to forced ones, meaning Germany will still field a competitive XI.",
     "market": {
-      "homeWin": 0.267,
-      "draw": 0.242,
-      "awayWin": 0.491,
+      "homeWin": 0.213,
+      "draw": 0.21,
+      "awayWin": 0.577,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-06-25T19:00:36.452Z",
     "modelVersion": "claude-sonnet-4-6",
-    "generatedAt": "2026-06-24T02:45:51.244Z",
-    "locked": false,
+    "generatedAt": "2026-06-25T19:00:36.452Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {
     "fixtureId": "1489409",
     "probs": {
-      "homeWin": 0.05,
-      "draw": 0.14,
-      "awayWin": 0.81
+      "homeWin": 0.07,
+      "draw": 0.17,
+      "awayWin": 0.76
     },
     "scoreline": {
       "home": 0,
       "away": 2
     },
     "confidence": "Medium-High",
-    "reasoning": "Ivory Coast need only a draw (or even a loss depending on the Ecuador-Germany result) to advance, but a win locks up second place with zero anxiety, giving Faé every incentive to field a full-strength side; no injuries or suspensions are reported for either team. Curaçao's heroic 0-0 vs Ecuador was built almost entirely on Eloy Room's 15-save masterclass and a deep defensive block — they have scored just once across two group games and conceded eight, while Ivory Coast's squad depth (Amad Diallo, Kessié, Singo, Bonny) far outclasses a Curaçao side that lost 7-1 to Germany.",
+    "reasoning": "Ivory Coast hold a massive quality edge — AFCON champions with Premier League and Serie A talent throughout, needing only a draw to advance — generating extreme asymmetry in motivation and execution. Curaçao showed gritty defensive resilience (15 saves from Room, 0-0 vs Ecuador), but their 5-4-1 low-block is unlikely to contain Ivory Coast's attack for 90 minutes when the Elephants are pressing for three points to guarantee second place. The minor defensive disruptions for CIV (Singo out, N'Dicka uncertain) are partly offset by Doue slotting in at right-back, and the Philadelphia sea-level venue is neutral for both sides.",
     "market": {
-      "homeWin": 0.057,
-      "draw": 0.137,
-      "awayWin": 0.806,
+      "homeWin": 0.067,
+      "draw": 0.116,
+      "awayWin": 0.817,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-06-25T19:00:36.452Z",
     "modelVersion": "claude-sonnet-4-6",
-    "generatedAt": "2026-06-24T02:45:51.244Z",
-    "locked": false,
+    "generatedAt": "2026-06-25T19:00:36.452Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {
