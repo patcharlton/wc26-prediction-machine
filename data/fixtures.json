@@ -1111,9 +1111,9 @@
     "awayTeam": "USA",
     "homeTeamId": 777,
     "awayTeamId": 2384,
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 1,
-    "elapsed": 7,
+    "elapsed": 12,
     "venue": {
       "name": "SoFi Stadium",
       "city": "Los Angeles",
@@ -1132,7 +1132,7 @@
     "awayTeamId": 20,
     "homeScore": 0,
     "awayScore": 0,
-    "elapsed": 7,
+    "elapsed": 12,
     "venue": {
       "name": "Levi's Stadium",
       "city": "San Francisco Bay Area",
