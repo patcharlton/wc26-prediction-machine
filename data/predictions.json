@@ -1502,51 +1502,51 @@
   {
     "fixtureId": "1539074",
     "probs": {
-      "homeWin": 0.7,
-      "draw": 0.17,
-      "awayWin": 0.13
+      "homeWin": 0.71,
+      "draw": 0.18,
+      "awayWin": 0.11
     },
     "scoreline": {
       "home": 2,
-      "away": 1
+      "away": 0
     },
     "confidence": "Medium",
-    "reasoning": "Senegal are clear class favourites but enter with a significant injury cluster — Mendy (GK, likely out), Jackson, Ismaïla Sarr and Pape Gueye all missed training under medical supervision, meaningfully weakening their first-choice XI. Iraq have been badly outclassed in both matches (-7 GD) but carry no major reported injuries, travel light on pressure, and Amir Al-Ammari's yellow card is the only availability concern. With both teams needing a win and goal difference mattering for best-third-place spots, this should be an open, attacking game rather than a cagey draw — marginally lifting Iraq's upset probability above the market's 0.085 but keeping Senegal as strong favourites.",
+    "reasoning": "Senegal are significantly stronger on paper and carry enormous desperation — they need a big win to have any realistic chance of advancing as a best third-place team. However, injury concerns to Mendy, Jackson, Sarr and Pape Gueye, combined with an already rattled defensive record (6 goals conceded in 2 games), temper confidence. Iraq are eliminated and may rotate, reducing their threat and defensive resolve, which tips the contest firmly toward Senegal. The market's 74.6% home-win probability is broadly aligned, but we shade slightly lower to account for Senegal's injury-disrupted build-up and psychological fragility.",
     "market": {
-      "homeWin": 0.754,
-      "draw": 0.161,
-      "awayWin": 0.085,
+      "homeWin": 0.746,
+      "draw": 0.155,
+      "awayWin": 0.099,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-06-26T18:21:37.657Z",
     "modelVersion": "claude-sonnet-4-6",
-    "generatedAt": "2026-06-24T19:39:17.761Z",
-    "locked": false,
+    "generatedAt": "2026-06-26T18:21:37.657Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {
     "fixtureId": "1489416",
     "probs": {
       "homeWin": 0.2,
-      "draw": 0.24,
-      "awayWin": 0.56
+      "draw": 0.22,
+      "awayWin": 0.58
     },
     "scoreline": {
       "home": 1,
       "away": 2
     },
     "confidence": "Medium",
-    "reasoning": "France's class advantage — elite defensive organisation (one goal conceded in two games), Mbappé in peak form with four tournament goals, and historic pedigree — makes them clear favourites, and the market's ~56% implied win probability is well-supported. Norway are genuinely dangerous: Haaland has scored in every competitive game for Norway since October 2024, and Ødegaard's creativity can exploit France's high line, making a shutout unlikely. However, Haaland himself has downplayed stakes and Norway face a massive step-up in defensive quality (Saliba/Upamecano or Konaté) compared to Iraq and Senegal.",
+    "reasoning": "France's squad depth, defensive solidity (two clean sheets in the group), and Mbappé's form make them clear favourites, broadly aligned with the market's 0.598 away probability. Norway are genuinely dangerous — Haaland's four goals show their direct attacking system works — and both sides are already through, which historically inflates draw likelihood slightly; however, with first place and the Golden Boot on the line for both star forwards, neither camp has strong incentive to coast. The Deschamps absence (Guy Stephan deputising) introduces a minor psychological unknown for France but is unlikely to affect tactical shape or squad selection.",
     "market": {
-      "homeWin": 0.211,
-      "draw": 0.228,
-      "awayWin": 0.561,
+      "homeWin": 0.194,
+      "draw": 0.207,
+      "awayWin": 0.598,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-06-26T18:21:37.657Z",
     "modelVersion": "claude-sonnet-4-6",
-    "generatedAt": "2026-06-24T19:39:17.761Z",
-    "locked": false,
+    "generatedAt": "2026-06-26T18:21:37.657Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {
