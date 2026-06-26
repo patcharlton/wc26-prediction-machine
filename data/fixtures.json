@@ -1151,7 +1151,7 @@
     "awayTeamId": 1567,
     "homeScore": 1,
     "awayScore": 0,
-    "elapsed": 28,
+    "elapsed": 38,
     "venue": {
       "name": "BMO Field",
       "city": "Toronto",
@@ -1169,8 +1169,8 @@
     "homeTeamId": 1090,
     "awayTeamId": 2,
     "homeScore": 1,
-    "awayScore": 2,
-    "elapsed": 29,
+    "awayScore": 3,
+    "elapsed": 39,
     "venue": {
       "name": "Gillette Stadium",
       "city": "Boston",
