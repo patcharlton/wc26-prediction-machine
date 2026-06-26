@@ -1074,8 +1074,8 @@
     "homeTeamId": 12,
     "awayTeamId": 5,
     "homeScore": 1,
-    "awayScore": 0,
-    "elapsed": 60,
+    "awayScore": 1,
+    "elapsed": 65,
     "venue": {
       "name": "AT&T Stadium",
       "city": "Dallas",
@@ -1093,8 +1093,8 @@
     "homeTeamId": 28,
     "awayTeamId": 1118,
     "homeScore": 1,
-    "awayScore": 2,
-    "elapsed": 62,
+    "awayScore": 3,
+    "elapsed": 67,
     "venue": {
       "name": "Arrowhead Stadium",
       "city": "Kansas City",
