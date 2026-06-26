@@ -1065,7 +1065,7 @@
   },
   {
     "fixtureId": "1539011",
-    "status": "scheduled",
+    "status": "live",
     "kickoff": "2026-06-25T23:00:00.000Z",
     "stage": "groupF",
     "homeTeam": "Japan",
@@ -1084,7 +1084,7 @@
   },
   {
     "fixtureId": "1489412",
-    "status": "scheduled",
+    "status": "live",
     "kickoff": "2026-06-25T23:00:00.000Z",
     "stage": "groupF",
     "homeTeam": "Tunisia",
