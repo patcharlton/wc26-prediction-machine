@@ -1141,7 +1141,7 @@
   },
   {
     "fixtureId": "1539074",
-    "status": "scheduled",
+    "status": "live",
     "kickoff": "2026-06-26T19:00:00.000Z",
     "stage": "groupI",
     "homeTeam": "Senegal",
@@ -1160,7 +1160,7 @@
   },
   {
     "fixtureId": "1489416",
-    "status": "scheduled",
+    "status": "live",
     "kickoff": "2026-06-26T19:00:00.000Z",
     "stage": "groupI",
     "homeTeam": "Norway",
