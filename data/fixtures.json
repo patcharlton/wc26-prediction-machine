@@ -1144,14 +1144,14 @@
     "stage": "groupI",
     "matchday": "MD3",
     "kickoff": "2026-06-26T19:00:00.000Z",
-    "status": "live",
+    "status": "finished",
     "homeTeam": "Senegal",
     "awayTeam": "Iraq",
     "homeTeamId": 13,
     "awayTeamId": 1567,
-    "homeScore": 1,
+    "homeScore": 5,
     "awayScore": 0,
-    "elapsed": 45,
+    "elapsed": 90,
     "venue": {
       "name": "BMO Field",
       "city": "Toronto",
@@ -1163,14 +1163,14 @@
     "stage": "groupI",
     "matchday": "MD3",
     "kickoff": "2026-06-26T19:00:00.000Z",
-    "status": "live",
+    "status": "finished",
     "homeTeam": "Norway",
     "awayTeam": "France",
     "homeTeamId": 1090,
     "awayTeamId": 2,
     "homeScore": 1,
-    "awayScore": 3,
-    "elapsed": 47,
+    "awayScore": 4,
+    "elapsed": 90,
     "venue": {
       "name": "Gillette Stadium",
       "city": "Boston",
@@ -1182,7 +1182,7 @@
     "stage": "groupH",
     "matchday": "MD3",
     "kickoff": "2026-06-27T00:00:00.000Z",
-    "status": "live",
+    "status": "finished",
     "homeTeam": "Uruguay",
     "awayTeam": "Spain",
     "homeTeamId": 7,
@@ -1201,7 +1201,7 @@
     "stage": "groupH",
     "matchday": "MD3",
     "kickoff": "2026-06-27T00:00:00.000Z",
-    "status": "live",
+    "status": "finished",
     "homeTeam": "Cape Verde Islands",
     "awayTeam": "Saudi Arabia",
     "homeTeamId": 1533,
@@ -1431,6 +1431,27 @@
     "awaySlot": "RU:C"
   },
   {
+    "fixtureId": "1564789",
+    "stage": "R32",
+    "matchday": null,
+    "kickoff": "2026-06-30T17:00:00.000Z",
+    "status": "scheduled",
+    "homeTeam": "Ivory Coast",
+    "awayTeam": "Norway",
+    "homeTeamId": 1501,
+    "awayTeamId": 1090,
+    "homeScore": null,
+    "awayScore": null,
+    "elapsed": null,
+    "venue": {
+      "name": null,
+      "city": null,
+      "country": null
+    },
+    "homeSlot": "W:C",
+    "awaySlot": "RU:F"
+  },
+  {
     "fixtureId": "1562586",
     "stage": "R32",
     "matchday": null,
@@ -1448,7 +1469,7 @@
       "city": null,
       "country": null
     },
-    "homeSlot": "W:C",
-    "awaySlot": "RU:F"
+    "homeSlot": "W:I",
+    "awaySlot": "3:C/D/F/G/H"
   }
 ]
