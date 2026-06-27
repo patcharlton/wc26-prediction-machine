@@ -1,44 +1,44 @@
 {
   "champion": "France",
-  "runnerUp": "Spain",
+  "runnerUp": "Argentina",
   "darkHorse": "Morocco",
   "confidence": "Medium",
   "contenders": [
     {
       "team": "France",
-      "prob": 0.2
-    },
-    {
-      "team": "Spain",
-      "prob": 0.16
+      "prob": 0.21
     },
     {
       "team": "Argentina",
-      "prob": 0.13
+      "prob": 0.15
+    },
+    {
+      "team": "Spain",
+      "prob": 0.14
     },
     {
       "team": "England",
-      "prob": 0.11
-    },
-    {
-      "team": "Portugal",
-      "prob": 0.09
+      "prob": 0.1
     },
     {
       "team": "Brazil",
       "prob": 0.08
     },
     {
-      "team": "Germany",
-      "prob": 0.06
+      "team": "Portugal",
+      "prob": 0.07
     },
     {
-      "team": "Mexico",
-      "prob": 0.04
+      "team": "Netherlands",
+      "prob": 0.05
+    },
+    {
+      "team": "Germany",
+      "prob": 0.05
     }
   ],
-  "reasoning": "France is the solo betting favorite after a perfect group stage, cementing top spot with a 3-1 win over Senegal and a 3-0 win over Iraq despite losing Ekitiké, and they have elite depth around Mbappé with Saliba fit. Spain is the clear second choice; despite an opening draw with Cape Verde they bounced back with a 4-0 win over Saudi Arabia and carry Euro 2024-winning pedigree with Yamal fit, though midfield injuries (Fermín López, Xavi Simons-type losses elsewhere) trim their depth. Argentina (Messi scoring all five of their goals), England and Portugal (revived by a 5-0 thrashing of Uzbekistan) are the chief threats, while Brazil look vulnerable having lost Rodrygo, Estêvão and Militão to injury. Hosts Mexico (perfect, no goals conceded, altitude edge) and the USA are genuine live outsiders, but Morocco — 2022 semifinalists who again topped a group with seven points — are the dark horse with the squad and tournament savvy to reach the semis.",
-  "basis": "group stage (54 matches played)",
+  "reasoning": "France is the clear and lengthening outright favorite after sweeping Group I 10-2, with the market pricing them around +360 and roughly a 20% title chance; their attacking depth (Mbappé plus Ballon d'Or winner Dembélé, who scored a 32-minute hat trick against Norway) and an elite Maignan-Saliba-Upamecano spine make them the strongest squad on paper. Argentina, the defending champions led by an in-form Messi, have surged to second favorite on the back of confident wins and a favorable Round-of-32 draw against Cape Verde, making a 2022 final rematch a live possibility. Spain (Euro 2024 champions) and England round out the top tier, with Brazil under Ancelotti finding form after a slow start but still carrying defensive question marks. Morocco is my dark horse: they topped a group containing Brazil-level competition on 7 points and reached the 2022 semifinals, giving them the pedigree to upset a heavyweight.",
+  "basis": "group stage (66 matches played)",
   "modelVersion": "claude-opus-4-8",
-  "updatedAt": "2026-06-25T08:49:45.051Z"
+  "updatedAt": "2026-06-27T08:27:56.669Z"
 }
