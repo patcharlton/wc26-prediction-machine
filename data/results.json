@@ -1255,7 +1255,7 @@
   },
   {
     "fixtureId": "1489420",
-    "status": "scheduled",
+    "status": "live",
     "kickoff": "2026-06-27T21:00:00.000Z",
     "stage": "groupL",
     "homeTeam": "Croatia",
@@ -1274,7 +1274,7 @@
   },
   {
     "fixtureId": "1489422",
-    "status": "scheduled",
+    "status": "live",
     "kickoff": "2026-06-27T21:00:00.000Z",
     "stage": "groupL",
     "homeTeam": "Panama",
