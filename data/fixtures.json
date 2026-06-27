@@ -1225,9 +1225,9 @@
     "awayTeam": "Iran",
     "homeTeamId": 32,
     "awayTeamId": 22,
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 0,
-    "elapsed": 5,
+    "elapsed": 13,
     "venue": {
       "name": "Lumen Field",
       "city": "Seattle",
@@ -1246,7 +1246,7 @@
     "awayTeamId": 1,
     "homeScore": 0,
     "awayScore": 0,
-    "elapsed": 4,
+    "elapsed": 12,
     "venue": {
       "name": "BC Place",
       "city": "Vancouver",
