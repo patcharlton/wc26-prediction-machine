@@ -1702,26 +1702,26 @@
   {
     "fixtureId": "1489419",
     "probs": {
-      "homeWin": 0.26,
-      "draw": 0.27,
-      "awayWin": 0.47
+      "homeWin": 0.3,
+      "draw": 0.29,
+      "awayWin": 0.41
     },
     "scoreline": {
       "home": 1,
       "away": 2
     },
     "confidence": "Medium",
-    "reasoning": "Portugal's superior squad depth, firepower (Ronaldo, Fernandes, Leao, Neves) and urgent need for a win to claim top spot make them narrow favourites, broadly in line with the market's 0.503. Colombia are well-organised, fully fit, and tactically incentivised to sit deep and counter — their two clean-sheet-adjacent wins in the group and the compact style of Lorenzo's side mean a draw is a very live outcome. Hard Rock Stadium (sea level, Miami heat) offers no meaningful altitude edge, and both sides had similar rest windows (3-4 days).",
+    "reasoning": "Portugal's superior squad depth, elite midfield, and explosive recent form (5-0, 11 goals in last 5) make them mild favourites, but Colombia enter with a perfect 6-point record and a massive partisan Miami crowd that Martinez himself acknowledges is 'away from home' for Portugal. Colombia only need a draw for group victory, allowing Lorenzo to set up a disciplined low-block counter-attacking structure that suits Luis Díaz perfectly, inflating the draw probability above the market's 25.7%. Both squads are injury-free, stakes asymmetry slightly blunts Portugal's attacking urgency and compresses the away-win probability modestly versus the book's 45.9%.",
     "market": {
-      "homeWin": 0.234,
-      "draw": 0.263,
-      "awayWin": 0.503,
+      "homeWin": 0.284,
+      "draw": 0.257,
+      "awayWin": 0.459,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-06-27T21:52:47.888Z",
     "modelVersion": "claude-sonnet-4-6",
-    "generatedAt": "2026-06-26T02:50:46.433Z",
-    "locked": false,
+    "generatedAt": "2026-06-27T21:52:47.888Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {
