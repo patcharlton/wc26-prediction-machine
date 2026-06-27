@@ -1823,5 +1823,30 @@
     "generatedAt": "2026-06-26T19:41:20.390Z",
     "locked": false,
     "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1562344",
+    "probs": {
+      "homeWin": 0.58,
+      "draw": 0.24,
+      "awayWin": 0.18
+    },
+    "scoreline": {
+      "home": 2,
+      "away": 1
+    },
+    "confidence": "Medium",
+    "reasoning": "Brazil have the stronger, deeper squad under Ancelotti and topped their group with two clean-sheet wins, with Vinícius Jr, Raphinha and Martinelli all available despite injuries to Estêvão, Rodrygo and Militão. Japan are in good form and have history of beating big sides, but they lost captain Endō and Mitoma before the tournament and Kubo injured his knee against the Netherlands, blunting their best attacking threats. Japan's pressing can make this competitive and a knockout match always carries upset and draw risk, but Brazil's quality edge makes them clear favorites. A narrow 2-1 Brazil win is the most likely outcome.",
+    "market": {
+      "homeWin": 0.564,
+      "draw": 0.253,
+      "awayWin": 0.183,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-opus-4-8",
+    "generatedAt": "2026-06-27T19:13:07.234Z",
+    "locked": false,
+    "webSearchUsed": true
   }
 ]
