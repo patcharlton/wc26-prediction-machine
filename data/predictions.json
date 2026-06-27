@@ -1602,51 +1602,51 @@
   {
     "fixtureId": "1489414",
     "probs": {
-      "homeWin": 0.41,
-      "draw": 0.35,
-      "awayWin": 0.24
+      "homeWin": 0.42,
+      "draw": 0.37,
+      "awayWin": 0.21
     },
     "scoreline": {
       "home": 1,
       "away": 0
     },
     "confidence": "Medium",
-    "reasoning": "Egypt enter as group leaders with 4 points, superior goal difference (+2 vs 0), a full squad, and genuine momentum after their first-ever World Cup win. Their 4-2-3-1 with Salah, Marmoush and Ashour is the highest-quality attack in this group. Iran are unbeaten but their 0-0 and 2-2 results reflect a compact, counter-punching side that have been without captain Jahanbakhsh and are again hampered by US travel restrictions limiting preparation time to two days. The stakes cut both ways—Iran must win to guarantee progress, which forces them to be more open than usual and slightly reduces their structural solidity.",
+    "reasoning": "Egypt lead Group G on 4 points and need only a draw to guarantee historic first-ever knockout qualification, while Iran (2 pts) ultimately need a win to feel safe. Egypt's attacking quality via Salah and Marmoush is a clear differential and their xG/shot metrics vastly outperform Iran's across the tournament; however, two Egyptian defensive starters (Fathi, Abdelmaguid) are ruled out, slightly softening the backline. Iran's ultra-defensive 5-4-1 shape, Beiranvand's heroics in goal, and the oldest starting XI in World Cup history suggest a low-scoring, cagey affair.",
     "market": {
-      "homeWin": 0.385,
-      "draw": 0.366,
-      "awayWin": 0.249,
+      "homeWin": 0.383,
+      "draw": 0.374,
+      "awayWin": 0.243,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-06-27T02:04:11.950Z",
     "modelVersion": "claude-sonnet-4-6",
-    "generatedAt": "2026-06-25T08:53:16.137Z",
-    "locked": false,
+    "generatedAt": "2026-06-27T02:04:11.950Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {
     "fixtureId": "1489415",
     "probs": {
       "homeWin": 0.07,
-      "draw": 0.13,
-      "awayWin": 0.8
+      "draw": 0.16,
+      "awayWin": 0.77
     },
     "scoreline": {
       "home": 0,
       "away": 2
     },
-    "confidence": "Medium-High",
-    "reasoning": "Belgium's squad quality — Courtois, De Bruyne, Lukaku, and a returning Doku — dwarfs New Zealand's, and the suspension of Ngoy is offset by Theate stepping in. New Zealand have conceded five goals in two WC games and won only once in their last 13 matches, while Belgium's backs-against-the-wall must-win situation (a draw may not be enough to advance) should finally unlock their muted attack. The sole moderating factor is Belgium's alarming inability to score from open play so far — just one goal in 180 WC minutes — and New Zealand's demonstrated ability to take early leads, which keeps the draw probability slightly above the bookmaker's implied ~13%.",
+    "confidence": "Medium",
+    "reasoning": "Belgium's squad quality (De Bruyne, Courtois, Tielemans, Trossard) vastly outclasses New Zealand, and their tournament survival pressure provides strong motivation to finally convert chances. However, both Doku and Lukaku are confirmed unfit for 90 minutes, and Belgium's two successive draws expose a finishing problem that tempers confidence. New Zealand's entirely fit squad will press hard but has conceded five goals in two matches and lacks the individual quality to hurt a healthy Belgium backline. The draw probability is nudged slightly above the market to reflect Belgium's persistent bluntness in front of goal, but a controlled Belgium away win remains the clear most-likely outcome.",
     "market": {
-      "homeWin": 0.072,
-      "draw": 0.131,
-      "awayWin": 0.797,
+      "homeWin": 0.081,
+      "draw": 0.133,
+      "awayWin": 0.785,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-06-27T02:04:11.950Z",
     "modelVersion": "claude-sonnet-4-6",
-    "generatedAt": "2026-06-25T08:53:16.137Z",
-    "locked": false,
+    "generatedAt": "2026-06-27T02:04:11.950Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {
