@@ -1227,7 +1227,7 @@
     "awayTeamId": 22,
     "homeScore": 1,
     "awayScore": 1,
-    "elapsed": 46,
+    "elapsed": 54,
     "venue": {
       "name": "Lumen Field",
       "city": "Seattle",
@@ -1245,8 +1245,8 @@
     "homeTeamId": 4673,
     "awayTeamId": 1,
     "homeScore": 0,
-    "awayScore": 1,
-    "elapsed": 48,
+    "awayScore": 2,
+    "elapsed": 56,
     "venue": {
       "name": "BC Place",
       "city": "Vancouver",
