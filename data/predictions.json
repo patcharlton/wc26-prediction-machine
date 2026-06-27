@@ -1652,51 +1652,51 @@
   {
     "fixtureId": "1489420",
     "probs": {
-      "homeWin": 0.49,
+      "homeWin": 0.5,
       "draw": 0.31,
-      "awayWin": 0.2
+      "awayWin": 0.19
     },
     "scoreline": {
       "home": 1,
       "away": 0
     },
     "confidence": "Medium",
-    "reasoning": "Croatia's existential need for three points (a draw sends Ghana through, while Croatia would face a nervous third-place wait) forces Dalic's side to chase the game, giving them a genuine psychological edge over a Ghana side set up to absorb and counter. The Vatreni carry superior squad quality — Modric, Kovacic, Gvardiol, Kramaric — but their defensive fragility (seven straight games conceding before Panama) and failure to win back-to-back matches in 2026 tempers confidence. Ghana are missing Kudus and Salisu, blunting their attacking spark and aerial defensive cover, yet Queiroz's 4-1-4-1 counter-pressing structure and Partey's screening role make them a compact, disciplined opponent.",
+    "reasoning": "Croatia need a win to advance and carry clear squad-quality edge with Modric, Kovacic and Gvardiol at the core, while Ghana are boosted by a pragmatic draw vs England but are missing Kudus (hamstring) and their first-choice goalkeeper Ati-Zigi — a meaningful double absence for an already limited attacking unit. Ghana's stakes favour containment (a draw sends them through), which inflates draw probability and suppresses Croatia's win probability slightly, but Croatia's greater creative depth and urgent need to win should keep pressure on a patched Ghana backline. Philadelphia is a sea-level, moderate-climate venue with no altitude factor; both sides had four days' rest.",
     "market": {
-      "homeWin": 0.531,
-      "draw": 0.279,
-      "awayWin": 0.191,
+      "homeWin": 0.516,
+      "draw": 0.306,
+      "awayWin": 0.178,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-06-27T19:02:11.415Z",
     "modelVersion": "claude-sonnet-4-6",
-    "generatedAt": "2026-06-26T02:50:46.433Z",
-    "locked": false,
+    "generatedAt": "2026-06-27T19:02:11.415Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {
     "fixtureId": "1489422",
     "probs": {
-      "homeWin": 0.06,
-      "draw": 0.13,
-      "awayWin": 0.81
+      "homeWin": 0.04,
+      "draw": 0.11,
+      "awayWin": 0.85
     },
     "scoreline": {
       "home": 0,
       "away": 3
     },
     "confidence": "Medium-High",
-    "reasoning": "Panama are already eliminated with zero points, missing key midfielder Carrasquilla for the entire tournament and with captain Godoy barely fit, while England — no suspensions and with Saka/Rashford potentially available off the bench — have strong motivation to win and secure top spot in Group L. England's squad quality and depth dwarf Panama's, and the 2018 precedent (6-1) underscores the gulf; MetLife Stadium at sea level and similar rest intervals neutralise venue/scheduling factors entirely.",
+    "reasoning": "England are heavy favourites and carry genuine motivation: a win likely seals Group L top spot, whereas Panama are already eliminated with no points from five World Cup appearances all-time. The squad-quality gap is vast — Harry Kane, Bellingham, Declan Rice (managed but available), and Saka/Rashford returning to fitness all feature, while Reece James is the only meaningful absentee. Panama have been the lowest-shot-generating side at this tournament and conceded in both group games despite holding compact defensive shapes; England's 4-2 demolition of the same Croatia side that beat Panama 1-0 underlines the class difference.",
     "market": {
-      "homeWin": 0.081,
-      "draw": 0.126,
-      "awayWin": 0.792,
+      "homeWin": 0.052,
+      "draw": 0.132,
+      "awayWin": 0.816,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-06-27T19:02:11.415Z",
     "modelVersion": "claude-sonnet-4-6",
-    "generatedAt": "2026-06-26T02:50:46.433Z",
-    "locked": false,
+    "generatedAt": "2026-06-27T19:02:11.415Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {
