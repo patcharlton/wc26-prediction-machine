@@ -1179,7 +1179,7 @@
   },
   {
     "fixtureId": "1489417",
-    "status": "scheduled",
+    "status": "live",
     "kickoff": "2026-06-27T00:00:00.000Z",
     "stage": "groupH",
     "homeTeam": "Uruguay",
@@ -1198,7 +1198,7 @@
   },
   {
     "fixtureId": "1489413",
-    "status": "scheduled",
+    "status": "live",
     "kickoff": "2026-06-27T00:00:00.000Z",
     "stage": "groupH",
     "homeTeam": "Cape Verde Islands",
