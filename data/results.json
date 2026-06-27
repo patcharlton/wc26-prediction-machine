@@ -1217,7 +1217,7 @@
   },
   {
     "fixtureId": "1489414",
-    "status": "scheduled",
+    "status": "live",
     "kickoff": "2026-06-27T03:00:00.000Z",
     "stage": "groupG",
     "homeTeam": "Egypt",
@@ -1236,7 +1236,7 @@
   },
   {
     "fixtureId": "1489415",
-    "status": "scheduled",
+    "status": "live",
     "kickoff": "2026-06-27T03:00:00.000Z",
     "stage": "groupG",
     "homeTeam": "New Zealand",
