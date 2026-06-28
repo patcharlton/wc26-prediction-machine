@@ -1898,5 +1898,30 @@
     "generatedAt": "2026-06-28T02:56:00.373Z",
     "locked": false,
     "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1564789",
+    "probs": {
+      "homeWin": 0.27,
+      "draw": 0.28,
+      "awayWin": 0.45
+    },
+    "scoreline": {
+      "home": 1,
+      "away": 2
+    },
+    "confidence": "Medium",
+    "reasoning": "Norway deliberately rested Haaland, Ødegaard and most of their first XI in the 4-1 loss to France, so they arrive fresh and at full strength rather than carrying that defeat's form, and yellow cards reset after the group stage so no suspensions apply to either side. Ivory Coast are a talented, quick and physical AFCON-winning team that can hurt Norway's shaky defense, but Norway have the higher squad ceiling and the game's most decisive player in Haaland. The roofed, climate-controlled venue in Arlington is neutral with no altitude or heat edge for either team.",
+    "market": {
+      "homeWin": 0.26,
+      "draw": 0.276,
+      "awayWin": 0.464,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-opus-4-8",
+    "generatedAt": "2026-06-28T17:57:27.949Z",
+    "locked": false,
+    "webSearchUsed": true
   }
 ]

@@ -16,7 +16,8 @@
       "name": "Estadio Banorte",
       "city": "Mexico City",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1538999",
@@ -35,7 +36,8 @@
       "name": "Estadio Akron",
       "city": "Zapopan",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1539000",
@@ -54,7 +56,8 @@
       "name": "BMO Field",
       "city": "Toronto",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489370",
@@ -73,7 +76,8 @@
       "name": "SoFi Stadium",
       "city": "Inglewood",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489373",
@@ -92,7 +96,8 @@
       "name": "Levi's Stadium",
       "city": "Santa Clara",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489371",
@@ -111,7 +116,8 @@
       "name": "MetLife Stadium",
       "city": "East Rutherford",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489372",
@@ -130,7 +136,8 @@
       "name": "Gillette Stadium",
       "city": "Boston",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1539001",
@@ -149,7 +156,8 @@
       "name": "BC Place",
       "city": "Vancouver",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489374",
@@ -168,7 +176,8 @@
       "name": "NRG Stadium",
       "city": "Houston",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489376",
@@ -187,7 +196,8 @@
       "name": "AT&T Stadium",
       "city": "Arlington",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489375",
@@ -206,7 +216,8 @@
       "name": "Lincoln Financial Field",
       "city": "Philadelphia",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1539002",
@@ -225,7 +236,8 @@
       "name": "Estadio BBVA",
       "city": "Monterrey",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489380",
@@ -244,7 +256,8 @@
       "name": "Mercedes-Benz Stadium",
       "city": "Atlanta",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489377",
@@ -263,7 +276,8 @@
       "name": "Lumen Field",
       "city": "Seattle",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489379",
@@ -282,7 +296,8 @@
       "name": "Hard Rock Stadium",
       "city": "Miami Gardens",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489378",
@@ -301,7 +316,8 @@
       "name": "SoFi Stadium",
       "city": "Inglewood",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489383",
@@ -320,7 +336,8 @@
       "name": "MetLife Stadium",
       "city": "East Rutherford",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1539016",
@@ -339,7 +356,8 @@
       "name": "Gillette Stadium",
       "city": "Boston",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489381",
@@ -358,7 +376,8 @@
       "name": "Arrowhead Stadium",
       "city": "Kansas City",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489382",
@@ -377,7 +396,8 @@
       "name": "Levi's Stadium",
       "city": "Santa Clara",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1539003",
@@ -396,7 +416,8 @@
       "name": "NRG Stadium",
       "city": "Houston",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489384",
@@ -415,7 +436,8 @@
       "name": "AT&T Stadium",
       "city": "Arlington",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489385",
@@ -434,7 +456,8 @@
       "name": "BMO Field",
       "city": "Toronto",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489386",
@@ -453,7 +476,8 @@
       "name": "Estadio Banorte",
       "city": "Mexico City",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1539004",
@@ -472,7 +496,8 @@
       "name": "Mercedes-Benz Stadium",
       "city": "Atlanta",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1539005",
@@ -491,7 +516,8 @@
       "name": "SoFi Stadium",
       "city": "Inglewood",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489387",
@@ -510,7 +536,8 @@
       "name": "BC Place",
       "city": "Vancouver",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489388",
@@ -529,7 +556,8 @@
       "name": "Estadio Akron",
       "city": "Zapopan",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489391",
@@ -548,7 +576,8 @@
       "name": "Lumen Field",
       "city": "Seattle",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489390",
@@ -567,7 +596,8 @@
       "name": "Gillette Stadium",
       "city": "Boston",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489389",
@@ -586,7 +616,8 @@
       "name": "Lincoln Financial Field",
       "city": "Philadelphia",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1539006",
@@ -605,7 +636,8 @@
       "name": "Levi's Stadium",
       "city": "Santa Clara",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1539007",
@@ -624,7 +656,8 @@
       "name": "NRG Stadium",
       "city": "Houston",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489393",
@@ -643,7 +676,8 @@
       "name": "BMO Field",
       "city": "Toronto",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489392",
@@ -662,7 +696,8 @@
       "name": "Arrowhead Stadium",
       "city": "Kansas City",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489394",
@@ -681,7 +716,8 @@
       "name": "Estadio BBVA",
       "city": "Monterrey",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489397",
@@ -700,7 +736,8 @@
       "name": "Mercedes-Benz Stadium",
       "city": "Atlanta",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489395",
@@ -719,7 +756,8 @@
       "name": "SoFi Stadium",
       "city": "Inglewood",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489398",
@@ -738,7 +776,8 @@
       "name": "Hard Rock Stadium",
       "city": "Miami Gardens",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489396",
@@ -757,7 +796,8 @@
       "name": "BC Place",
       "city": "Vancouver",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489399",
@@ -776,7 +816,8 @@
       "name": "AT&T Stadium",
       "city": "Arlington",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1539017",
@@ -795,7 +836,8 @@
       "name": "Lincoln Financial Field",
       "city": "Philadelphia",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489401",
@@ -814,7 +856,8 @@
       "name": "MetLife Stadium",
       "city": "East Rutherford",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489400",
@@ -833,7 +876,8 @@
       "name": "Levi's Stadium",
       "city": "Santa Clara",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489404",
@@ -852,7 +896,8 @@
       "name": "NRG Stadium",
       "city": "Houston",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489402",
@@ -871,7 +916,8 @@
       "name": "Gillette Stadium",
       "city": "Boston",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489403",
@@ -890,7 +936,8 @@
       "name": "BMO Field",
       "city": "Toronto",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1539008",
@@ -909,7 +956,8 @@
       "name": "Estadio Akron",
       "city": "Zapopan",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489408",
@@ -928,7 +976,8 @@
       "name": "BC Place",
       "city": "Vancouver",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1539009",
@@ -947,7 +996,8 @@
       "name": "Lumen Field",
       "city": "Seattle",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489405",
@@ -966,7 +1016,8 @@
       "name": "Mercedes-Benz Stadium",
       "city": "Atlanta",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489406",
@@ -985,7 +1036,8 @@
       "name": "Hard Rock Stadium",
       "city": "Miami Gardens",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1539010",
@@ -1004,7 +1056,8 @@
       "name": "Estadio Banorte",
       "city": "Mexico City",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489407",
@@ -1023,7 +1076,8 @@
       "name": "Estadio BBVA",
       "city": "Monterrey",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489410",
@@ -1042,7 +1096,8 @@
       "name": "MetLife Stadium",
       "city": "East Rutherford",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489409",
@@ -1061,7 +1116,8 @@
       "name": "Lincoln Financial Field",
       "city": "Philadelphia",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1539011",
@@ -1080,7 +1136,8 @@
       "name": "AT&T Stadium",
       "city": "Arlington",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489412",
@@ -1099,7 +1156,8 @@
       "name": "Arrowhead Stadium",
       "city": "Kansas City",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1539012",
@@ -1118,7 +1176,8 @@
       "name": "SoFi Stadium",
       "city": "Inglewood",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489411",
@@ -1137,7 +1196,8 @@
       "name": "Levi's Stadium",
       "city": "Santa Clara",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1539074",
@@ -1156,7 +1216,8 @@
       "name": "BMO Field",
       "city": "Toronto",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489416",
@@ -1175,7 +1236,8 @@
       "name": "Gillette Stadium",
       "city": "Boston",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489417",
@@ -1194,7 +1256,8 @@
       "name": "Estadio Akron",
       "city": "Zapopan",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489413",
@@ -1213,7 +1276,8 @@
       "name": "NRG Stadium",
       "city": "Houston",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489414",
@@ -1232,7 +1296,8 @@
       "name": "Lumen Field",
       "city": "Seattle",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489415",
@@ -1251,7 +1316,8 @@
       "name": "BC Place",
       "city": "Vancouver",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489420",
@@ -1270,7 +1336,8 @@
       "name": "Lincoln Financial Field",
       "city": "Philadelphia",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489422",
@@ -1289,7 +1356,8 @@
       "name": "MetLife Stadium",
       "city": "East Rutherford",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489419",
@@ -1308,7 +1376,8 @@
       "name": "Hard Rock Stadium",
       "city": "Miami Gardens",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1539013",
@@ -1327,7 +1396,8 @@
       "name": "Mercedes-Benz Stadium",
       "city": "Atlanta",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489418",
@@ -1346,7 +1416,8 @@
       "name": "Arrowhead Stadium",
       "city": "Kansas City",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1489421",
@@ -1365,7 +1436,8 @@
       "name": "AT&T Stadium",
       "city": "Arlington",
       "country": null
-    }
+    },
+    "koScore": null
   },
   {
     "fixtureId": "1561329",
@@ -1385,6 +1457,7 @@
       "city": null,
       "country": null
     },
+    "koScore": null,
     "homeSlot": "RU:A",
     "awaySlot": "RU:B"
   },
@@ -1406,6 +1479,7 @@
       "city": null,
       "country": null
     },
+    "koScore": null,
     "homeSlot": "W:E",
     "awaySlot": "3:A/B/C/D/F"
   },
@@ -1427,6 +1501,7 @@
       "city": null,
       "country": null
     },
+    "koScore": null,
     "homeSlot": "W:F",
     "awaySlot": "RU:C"
   },
@@ -1448,6 +1523,7 @@
       "city": "Monterrey",
       "country": null
     },
+    "koScore": null,
     "homeSlot": "W:C",
     "awaySlot": "RU:F"
   },
@@ -1469,6 +1545,7 @@
       "city": null,
       "country": null
     },
+    "koScore": null,
     "homeSlot": "W:I",
     "awaySlot": "3:C/D/F/G/H"
   },
@@ -1490,6 +1567,7 @@
       "city": null,
       "country": null
     },
+    "koScore": null,
     "homeSlot": "RU:E",
     "awaySlot": "RU:I"
   },
@@ -1511,6 +1589,7 @@
       "city": "Mexico City",
       "country": null
     },
+    "koScore": null,
     "homeSlot": "W:A",
     "awaySlot": "3:C/E/F/H/I"
   },
@@ -1532,6 +1611,7 @@
       "city": null,
       "country": null
     },
+    "koScore": null,
     "homeSlot": "W:L",
     "awaySlot": "3:E/H/I/J/K"
   },
@@ -1553,6 +1633,7 @@
       "city": null,
       "country": null
     },
+    "koScore": null,
     "homeSlot": "W:D",
     "awaySlot": "3:B/E/F/I/J"
   },
@@ -1574,6 +1655,7 @@
       "city": null,
       "country": null
     },
+    "koScore": null,
     "homeSlot": "W:G",
     "awaySlot": "3:A/E/H/I/J"
   },
@@ -1595,6 +1677,7 @@
       "city": null,
       "country": null
     },
+    "koScore": null,
     "homeSlot": "RU:K",
     "awaySlot": "RU:L"
   },
@@ -1616,6 +1699,7 @@
       "city": null,
       "country": null
     },
+    "koScore": null,
     "homeSlot": "W:H",
     "awaySlot": "RU:J"
   },
@@ -1637,6 +1721,7 @@
       "city": null,
       "country": null
     },
+    "koScore": null,
     "homeSlot": "W:B",
     "awaySlot": "3:E/F/G/I/J"
   },
@@ -1658,6 +1743,7 @@
       "city": null,
       "country": null
     },
+    "koScore": null,
     "homeSlot": "W:J",
     "awaySlot": "RU:H"
   },
@@ -1679,6 +1765,7 @@
       "city": null,
       "country": null
     },
+    "koScore": null,
     "homeSlot": "W:K",
     "awaySlot": "3:D/E/I/J/L"
   },
@@ -1700,6 +1787,7 @@
       "city": null,
       "country": null
     },
+    "koScore": null,
     "homeSlot": "RU:D",
     "awaySlot": "RU:G"
   }

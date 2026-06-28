@@ -294,13 +294,728 @@
         "p3": 1,
         "total": 3
       }
+    },
+    {
+      "fixtureId": "1561329",
+      "stage": "R32",
+      "homeTeam": "South Africa",
+      "awayTeam": "Canada",
+      "kickoff": "2026-06-28T19:00:00.000Z",
+      "pred1Advance": "away",
+      "pred1Team": "Canada",
+      "pred2Reg": {
+        "home": 0,
+        "away": 1
+      },
+      "pred3Et": {
+        "home": 1,
+        "away": 1
+      },
+      "ev": {
+        "p1": 0.6,
+        "p2": 0.801,
+        "p3": 0.29,
+        "total": 1.691
+      },
+      "pEtUsed": 0.327,
+      "distributions": {
+        "advance": {
+          "home": 0.4,
+          "away": 0.6
+        },
+        "regulation": [
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.18128654970760233
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.15789473684210525
+          },
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.13450292397660818
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.12280701754385963
+          },
+          {
+            "home": 0,
+            "away": 2,
+            "prob": 0.10526315789473682
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.08771929824561402
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.05847953216374269
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.05263157894736841
+          },
+          {
+            "home": 0,
+            "away": 3,
+            "prob": 0.04093567251461988
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.03508771929824561
+          },
+          {
+            "home": 1,
+            "away": 3,
+            "prob": 0.023391812865497075
+          }
+        ],
+        "extraTimeProb": 0.3,
+        "extraTime": [
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.2105263157894737
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.16842105263157897
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.1473684210526316
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.11578947368421053
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.10526315789473685
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.09473684210526316
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.08421052631578949
+          },
+          {
+            "home": 0,
+            "away": 2,
+            "prob": 0.0736842105263158
+          }
+        ]
+      },
+      "reasoning": "Canada are clear market favorites behind in-form strikers Jonathan David and Cyle Larin and Eustaquio's midfield control, though they miss Davies and Kone and are monitoring Eustaquio's fitness. South Africa are disciplined, defensive counter-attackers who welcome Mokoena back but still lack Zwane, profiling toward a tight, low-scoring game. Draws carry heavy mass given both sides' caution and lack of cutting edge, so extra time is a realistic outcome (~30%). If it goes to a shootout, South Africa's 'free hit' mentality makes them more competitive than the regulation odds suggest, hence a tigh",
+      "modelVersion": "claude-opus-4-8",
+      "generatedAt": "2026-06-28T17:57:27.949Z",
+      "lockedAt": null,
+      "locked": false,
+      "webSearchUsed": true,
+      "actual": null,
+      "scored": null
+    },
+    {
+      "fixtureId": "1562344",
+      "stage": "R32",
+      "homeTeam": "Brazil",
+      "awayTeam": "Japan",
+      "kickoff": "2026-06-29T17:00:00.000Z",
+      "pred1Advance": "home",
+      "pred1Team": "Brazil",
+      "pred2Reg": {
+        "home": 1,
+        "away": 0
+      },
+      "pred3Et": {
+        "home": 1,
+        "away": 1
+      },
+      "ev": {
+        "p1": 0.685,
+        "p2": 0.905,
+        "p3": 0.221,
+        "total": 1.811
+      },
+      "pEtUsed": 0.266,
+      "distributions": {
+        "advance": {
+          "home": 0.685,
+          "away": 0.315
+        },
+        "regulation": [
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.15976331360946744
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.12426035502958577
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.12426035502958577
+          },
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.11834319526627217
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.09467455621301774
+          },
+          {
+            "home": 3,
+            "away": 0,
+            "prob": 0.07100591715976329
+          },
+          {
+            "home": 3,
+            "away": 1,
+            "prob": 0.07100591715976329
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.05325443786982247
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.06508875739644969
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.05325443786982247
+          },
+          {
+            "home": 3,
+            "away": 2,
+            "prob": 0.035502958579881644
+          },
+          {
+            "home": 0,
+            "away": 2,
+            "prob": 0.029585798816568042
+          }
+        ],
+        "extraTimeProb": 0.249,
+        "extraTime": [
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.19
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.15
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.14
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.095
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.11
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.085
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.08
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.06
+          },
+          {
+            "home": 3,
+            "away": 1,
+            "prob": 0.05
+          },
+          {
+            "home": 3,
+            "away": 2,
+            "prob": 0.04
+          }
+        ]
+      },
+      "reasoning": "Brazil are clear favorites (de-vigged ~56% regulation win) and have scored freely lately with 3-0 wins over Scotland and Haiti, though missing Rodrygo, Estevao and Militao to injury and with Neymar only a rotation option. Japan are organized and dangerous on the counter, beat Brazil in a 2025 friendly, and drew all their tougher group games, but lost captain Endo and key winger Mitoma. I weighted a Brazil win heavily but kept realistic draw mass (~25%) for a knockout game, with low-scoring lines like 1-0, 2-0 and 1-1 most likely. Extra-time scores build on plausible regulation draws, favoring ",
+      "modelVersion": "claude-opus-4-8",
+      "generatedAt": "2026-06-28T17:57:27.949Z",
+      "lockedAt": null,
+      "locked": false,
+      "webSearchUsed": true,
+      "actual": null,
+      "scored": null
+    },
+    {
+      "fixtureId": "1565176",
+      "stage": "R32",
+      "homeTeam": "Germany",
+      "awayTeam": "Paraguay",
+      "kickoff": "2026-06-29T20:30:00.000Z",
+      "pred1Advance": "home",
+      "pred1Team": "Germany",
+      "pred2Reg": {
+        "home": 1,
+        "away": 0
+      },
+      "pred3Et": {
+        "home": 2,
+        "away": 1
+      },
+      "ev": {
+        "p1": 0.8,
+        "p2": 1.056,
+        "p3": 0.188,
+        "total": 2.044
+      },
+      "pEtUsed": 0.236,
+      "distributions": {
+        "advance": {
+          "home": 0.8,
+          "away": 0.2
+        },
+        "regulation": [
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.1853932584269663
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.15168539325842698
+          },
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.11797752808988764
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.12921348314606743
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.08426966292134831
+          },
+          {
+            "home": 3,
+            "away": 0,
+            "prob": 0.08426966292134831
+          },
+          {
+            "home": 3,
+            "away": 1,
+            "prob": 0.07303370786516854
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.033707865168539325
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.05056179775280899
+          },
+          {
+            "home": 3,
+            "away": 2,
+            "prob": 0.02808988764044944
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.02808988764044944
+          },
+          {
+            "home": 4,
+            "away": 0,
+            "prob": 0.033707865168539325
+          }
+        ],
+        "extraTimeProb": 0.22,
+        "extraTime": [
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.18131868131868129
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.14285714285714285
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.1648351648351648
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.14285714285714285
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.07692307692307691
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.10439560439560439
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.06593406593406592
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.06593406593406592
+          },
+          {
+            "home": 3,
+            "away": 1,
+            "prob": 0.05494505494505494
+          }
+        ]
+      },
+      "reasoning": "Germany are clear favorites (~69% on the de-vigged 1X2) with their full attacking trio of Havertz, Wirtz and Musiala, though Schlotterbeck's loss leaves Rüdiger deputizing at center-back. Paraguay sit in a deep, compact low block and have generated just 1.1 xG over three group games, are missing suspended creator/penalty-taker Diego Gomez, and have never scored in a World Cup knockout match. That favors low-scoring, Germany-leaning scorelines (1-0, 2-0, 2-1) with meaningful draw mass given Paraguay's defensive resilience. If regulation is level, Germany's superior quality should tell in extra ",
+      "modelVersion": "claude-opus-4-8",
+      "generatedAt": "2026-06-28T17:57:27.949Z",
+      "lockedAt": null,
+      "locked": false,
+      "webSearchUsed": true,
+      "actual": null,
+      "scored": null
+    },
+    {
+      "fixtureId": "1562345",
+      "stage": "R32",
+      "homeTeam": "Netherlands",
+      "awayTeam": "Morocco",
+      "kickoff": "2026-06-30T01:00:00.000Z",
+      "pred1Advance": "home",
+      "pred1Team": "Netherlands",
+      "pred2Reg": {
+        "home": 1,
+        "away": 0
+      },
+      "pred3Et": {
+        "home": 1,
+        "away": 1
+      },
+      "ev": {
+        "p1": 0.585,
+        "p2": 0.746,
+        "p3": 0.279,
+        "total": 1.61
+      },
+      "pEtUsed": 0.337,
+      "distributions": {
+        "advance": {
+          "home": 0.585,
+          "away": 0.415
+        },
+        "regulation": [
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.15976331360946744
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.14792899408284022
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.13609467455621302
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.10650887573964496
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.10059171597633136
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.08875739644970412
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.07692307692307691
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.0710059171597633
+          },
+          {
+            "home": 3,
+            "away": 1,
+            "prob": 0.0650887573964497
+          },
+          {
+            "home": 0,
+            "away": 2,
+            "prob": 0.047337278106508875
+          }
+        ],
+        "extraTimeProb": 0.3,
+        "extraTime": [
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.19526627218934914
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.15976331360946747
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.1301775147928994
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.1301775147928994
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.11242603550295859
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.10650887573964497
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.09467455621301776
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.07100591715976332
+          }
+        ]
+      },
+      "reasoning": "Netherlands are modest favourites (market ~0.445 home, 0.263 away; DraftKings had them around +115 with Morocco +260), reflected in roughly a 58/42 advance edge once extra time and penalties are included. The Dutch attack has been prolific (10 goals in the group) but their defence has leaked, while Morocco are disciplined, defensively organised and dangerous on the counter through Hakimi and Saibari, so draws and tight outcomes carry significant mass. Both sides are at near-full strength (Aguerd and Ezzalzouli already ruled out earlier, no fresh concerns), and multiple previews tip a low-scori",
+      "modelVersion": "claude-opus-4-8",
+      "generatedAt": "2026-06-28T17:57:27.949Z",
+      "lockedAt": null,
+      "locked": false,
+      "webSearchUsed": true,
+      "actual": null,
+      "scored": null
+    },
+    {
+      "fixtureId": "1564789",
+      "stage": "R32",
+      "homeTeam": "Ivory Coast",
+      "awayTeam": "Norway",
+      "kickoff": "2026-06-30T17:00:00.000Z",
+      "pred1Advance": "away",
+      "pred1Team": "Norway",
+      "pred2Reg": {
+        "home": 1,
+        "away": 2
+      },
+      "pred3Et": {
+        "home": 1,
+        "away": 1
+      },
+      "ev": {
+        "p1": 0.615,
+        "p2": 0.698,
+        "p3": 0.28,
+        "total": 1.594
+      },
+      "pEtUsed": 0.329,
+      "distributions": {
+        "advance": {
+          "home": 0.385,
+          "away": 0.615
+        },
+        "regulation": [
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.15715948777648428
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.13387660069848661
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.12805587892898718
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.10710128055878927
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.10477299185098951
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.0838183934807916
+          },
+          {
+            "home": 0,
+            "away": 2,
+            "prob": 0.08149010477299184
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.06752037252619324
+          },
+          {
+            "home": 1,
+            "away": 3,
+            "prob": 0.052386495925494755
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.04889406286379511
+          },
+          {
+            "home": 0,
+            "away": 3,
+            "prob": 0.0349243306169965
+          }
+        ],
+        "extraTimeProb": 0.31,
+        "extraTime": [
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.19999999999999996
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.13999999999999999
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.12999999999999998
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.11999999999999997
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.10999999999999997
+          },
+          {
+            "home": 2,
+            "away": 3,
+            "prob": 0.08999999999999998
+          },
+          {
+            "home": 3,
+            "away": 2,
+            "prob": 0.06999999999999999
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.06999999999999999
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.06999999999999999
+          }
+        ]
+      },
+      "reasoning": "Norway are deserved favorites: they rested Haaland, Ødegaard and most starters in their 4-1 loss to France so their key men return fresh, and the de-vigged market makes them the away favorite at 0.46. Ivory Coast counter with an excellent, physical defense that has opened scoring in every game and conceded little, plus pacey attackers like Yan Diomande and Amad Diallo, keeping them live especially in the Dallas heat. With both sides attack-minded yet Ivory Coast defensively tough, draws carry meaningful mass and roughly a 31% extra-time chance. Norway's superior firepower through Haaland tilts",
+      "modelVersion": "claude-opus-4-8",
+      "generatedAt": "2026-06-28T17:57:27.949Z",
+      "lockedAt": null,
+      "locked": false,
+      "webSearchUsed": true,
+      "actual": null,
+      "scored": null
     }
   ],
   "summary": {
     "matchesScored": 1,
     "machinePoints": 3,
     "maxPoints": 7,
-    "expectedTotal": 3.62,
-    "lastUpdatedAt": "2026-06-28T17:22:14.248Z"
+    "expectedTotal": 12.37,
+    "lastUpdatedAt": "2026-06-28T17:57:27.949Z"
   }
 }
