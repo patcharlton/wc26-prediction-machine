@@ -1293,7 +1293,7 @@
   },
   {
     "fixtureId": "1489419",
-    "status": "scheduled",
+    "status": "live",
     "kickoff": "2026-06-27T23:30:00.000Z",
     "stage": "groupK",
     "homeTeam": "Colombia",
@@ -1312,7 +1312,7 @@
   },
   {
     "fixtureId": "1539013",
-    "status": "scheduled",
+    "status": "live",
     "kickoff": "2026-06-27T23:30:00.000Z",
     "stage": "groupK",
     "homeTeam": "Congo DR",
