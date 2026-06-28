@@ -1802,26 +1802,26 @@
   {
     "fixtureId": "1561329",
     "probs": {
-      "homeWin": 0.2,
+      "homeWin": 0.19,
       "draw": 0.28,
-      "awayWin": 0.52
+      "awayWin": 0.53
     },
     "scoreline": {
       "home": 0,
       "away": 1
     },
     "confidence": "Medium",
-    "reasoning": "Canada are clear favourites with deeper top-club talent, and captain Alphonso Davies is set for his first start after returning from injury, while their settled back five and forwards Jonathan David and Cyle Larin give them more attacking quality. South Africa get a real boost from Teboho Mokoena's return from suspension, but they remain without playmaker Themba Zwane and have played a dogged, low-possession style that risks inviting too much pressure at sea-level SoFi Stadium. South Africa have only one extra day of rest concern but defend well, so I lean to a tight, low-scoring Canada win with a meaningful chance of a draw given how cagey World Cup knockout games can be.",
+    "reasoning": "Canada have the stronger, deeper squad with in-form striker Jonathan David (hat-trick vs Qatar) and get a boost with Alphonso Davies likely back on the bench, though they lose midfielder Ismael Kone for the tournament and have late fitness doubts over Eustaquio. South Africa are organized and confident after a gritty win over South Korea and welcome midfielder Mokoena back from suspension, but they remain short on cutting edge, especially with Themba Zwane suspended. The neutral, sea-level SoFi venue removes any altitude edge and slightly favors Canada's better individual quality, but South Africa's solid defense and the typical tightness of knockout games keep a draw very live.",
     "market": {
-      "homeWin": 0.173,
-      "draw": 0.271,
-      "awayWin": 0.556,
+      "homeWin": 0.164,
+      "draw": 0.267,
+      "awayWin": 0.569,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-06-28T18:00:22.632Z",
     "modelVersion": "claude-opus-4-8",
-    "generatedAt": "2026-06-26T19:41:20.390Z",
-    "locked": false,
+    "generatedAt": "2026-06-28T18:00:22.632Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {

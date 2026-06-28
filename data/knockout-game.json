@@ -312,123 +312,123 @@
         "away": 1
       },
       "ev": {
-        "p1": 0.6,
-        "p2": 0.801,
-        "p3": 0.29,
-        "total": 1.691
+        "p1": 0.7,
+        "p2": 0.878,
+        "p3": 0.293,
+        "total": 1.871
       },
-      "pEtUsed": 0.327,
+      "pEtUsed": 0.323,
       "distributions": {
         "advance": {
-          "home": 0.4,
-          "away": 0.6
+          "home": 0.3,
+          "away": 0.7
         },
         "regulation": [
           {
             "home": 0,
             "away": 1,
-            "prob": 0.18128654970760233
-          },
-          {
-            "home": 0,
-            "away": 0,
-            "prob": 0.15789473684210525
+            "prob": 0.18686296715741788
           },
           {
             "home": 1,
             "away": 1,
-            "prob": 0.13450292397660818
+            "prob": 0.15288788221970553
           },
           {
-            "home": 1,
+            "home": 0,
             "away": 0,
-            "prob": 0.12280701754385963
+            "prob": 0.13023782559456398
           },
           {
             "home": 0,
             "away": 2,
-            "prob": 0.10526315789473682
+            "prob": 0.12457531143827857
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.08771929824561402
+            "prob": 0.09626274065685164
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.09060022650056625
+          },
+          {
+            "home": 0,
+            "away": 3,
+            "prob": 0.06228765571913929
           },
           {
             "home": 2,
             "away": 1,
-            "prob": 0.05847953216374269
-          },
-          {
-            "home": 2,
-            "away": 0,
-            "prob": 0.05263157894736841
-          },
-          {
-            "home": 0,
-            "away": 3,
-            "prob": 0.04093567251461988
+            "prob": 0.050962627406568504
           },
           {
             "home": 2,
             "away": 2,
-            "prob": 0.03508771929824561
+            "prob": 0.039637599093997736
           },
           {
             "home": 1,
             "away": 3,
-            "prob": 0.023391812865497075
+            "prob": 0.03397508493771234
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.031710079275198186
           }
         ],
-        "extraTimeProb": 0.3,
+        "extraTimeProb": 0.27,
         "extraTime": [
           {
             "home": 1,
             "away": 1,
-            "prob": 0.2105263157894737
+            "prob": 0.21590909090909094
           },
           {
             "home": 0,
             "away": 0,
-            "prob": 0.16842105263157897
+            "prob": 0.17045454545454547
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.1473684210526316
-          },
-          {
-            "home": 2,
-            "away": 1,
-            "prob": 0.11578947368421053
+            "prob": 0.14772727272727276
           },
           {
             "home": 0,
             "away": 1,
-            "prob": 0.10526315789473685
+            "prob": 0.13636363636363638
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.10227272727272728
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.09090909090909093
           },
           {
             "home": 1,
             "away": 0,
-            "prob": 0.09473684210526316
+            "prob": 0.08522727272727273
           },
           {
             "home": 2,
-            "away": 2,
-            "prob": 0.08421052631578949
-          },
-          {
-            "home": 0,
-            "away": 2,
-            "prob": 0.0736842105263158
+            "away": 3,
+            "prob": 0.05113636363636364
           }
         ]
       },
-      "reasoning": "Canada are clear market favorites behind in-form strikers Jonathan David and Cyle Larin and Eustaquio's midfield control, though they miss Davies and Kone and are monitoring Eustaquio's fitness. South Africa are disciplined, defensive counter-attackers who welcome Mokoena back but still lack Zwane, profiling toward a tight, low-scoring game. Draws carry heavy mass given both sides' caution and lack of cutting edge, so extra time is a realistic outcome (~30%). If it goes to a shootout, South Africa's 'free hit' mentality makes them more competitive than the regulation odds suggest, hence a tigh",
+      "reasoning": "Canada are clear favorites with superior attacking quality through Jonathan David and Cyle Larin, and the market makes them strong favorites (away 0.569), though they're missing Alphonso Davies and Ismael Kone. South Africa are a disciplined, defensive counter-attacking side that has overperformed, so low-scoring outcomes and draws carry meaningful mass in this nervy first-ever knockout tie for both nations. Several analysts flag a realistic path to extra time and even a South Africa penalty shootout win, so I keep draw probability high and tilt the advance edge to Canada without making it ove",
       "modelVersion": "claude-opus-4-8",
-      "generatedAt": "2026-06-28T17:57:27.949Z",
-      "lockedAt": null,
-      "locked": false,
+      "generatedAt": "2026-06-28T18:00:22.632Z",
+      "lockedAt": "2026-06-28T18:00:22.632Z",
+      "locked": true,
       "webSearchUsed": true,
       "actual": null,
       "scored": null
@@ -1015,7 +1015,7 @@
     "matchesScored": 1,
     "machinePoints": 3,
     "maxPoints": 7,
-    "expectedTotal": 12.37,
-    "lastUpdatedAt": "2026-06-28T17:57:27.949Z"
+    "expectedTotal": 12.55,
+    "lastUpdatedAt": "2026-06-28T18:00:22.632Z"
   }
 }
