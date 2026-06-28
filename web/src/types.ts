@@ -130,6 +130,53 @@ export interface Sweepstake {
   assignments: SweepAssignment[];
 }
 
+// ---- Knockout "beat the game" ----
+export interface ScoreProb { home: number; away: number; prob: number; }
+export interface KoDistributions {
+  advance: { home: number; away: number };
+  regulation: ScoreProb[];
+  extraTimeProb: number;
+  extraTime: ScoreProb[];
+}
+export interface KoScore {
+  rt: { home: number; away: number } | null;
+  et: { home: number; away: number } | null;
+  pens: { home: number; away: number } | null;
+  advanced: "home" | "away" | null;
+}
+export interface KnockoutEntry {
+  fixtureId: string;
+  stage: Stage;
+  homeTeam: string;
+  awayTeam: string;
+  kickoff: string;
+  pred1Advance: "home" | "away";
+  pred1Team: string;
+  pred2Reg: { home: number; away: number };
+  pred3Et: { home: number; away: number };
+  ev: { p1: number; p2: number; p3: number; total: number };
+  pEtUsed: number;
+  distributions: KoDistributions;
+  reasoning: string;
+  modelVersion: string;
+  generatedAt: string;
+  lockedAt: string | null;
+  locked: boolean;
+  webSearchUsed?: boolean;
+  actual?: KoScore | null;
+  scored?: { p1: number; p2: number; p3: number; total: number } | null;
+}
+export interface KnockoutGame {
+  entries: KnockoutEntry[];
+  summary: {
+    matchesScored: number;
+    machinePoints: number;
+    maxPoints: number;
+    expectedTotal: number;
+    lastUpdatedAt: string;
+  };
+}
+
 export interface AppData {
   fixtures: Fixture[];
   predictions: Record<string, Prediction>;
@@ -139,4 +186,5 @@ export interface AppData {
   meta: Meta;
   winner: WinnerPrediction | null;
   sweepstake: Sweepstake | null;
+  knockoutGame: KnockoutGame | null;
 }

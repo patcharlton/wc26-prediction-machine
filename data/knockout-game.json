@@ -1,0 +1,306 @@
+{
+  "entries": [
+    {
+      "fixtureId": "example-favourite",
+      "stage": "R16",
+      "homeTeam": "Spain",
+      "awayTeam": "Norway",
+      "kickoff": "2026-07-04T19:00:00.000Z",
+      "pred1Advance": "home",
+      "pred1Team": "Spain",
+      "pred2Reg": {
+        "home": 2,
+        "away": 0
+      },
+      "pred3Et": {
+        "home": 1,
+        "away": 1
+      },
+      "ev": {
+        "p1": 0.78,
+        "p2": 1,
+        "p3": 0.264,
+        "total": 2.044
+      },
+      "pEtUsed": 0.24,
+      "distributions": {
+        "advance": {
+          "home": 0.78,
+          "away": 0.22
+        },
+        "regulation": [
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.18
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.16
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.13
+          },
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.1
+          },
+          {
+            "home": 3,
+            "away": 0,
+            "prob": 0.09
+          },
+          {
+            "home": 3,
+            "away": 1,
+            "prob": 0.08
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.08
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.06
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.06
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.06
+          }
+        ],
+        "extraTimeProb": 0.24,
+        "extraTime": [
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.3
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.2
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.15
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.1
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.1
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.08
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.07
+          }
+        ]
+      },
+      "reasoning": "Illustrative example of the strategy with a clear favourite. Pred 2 (regulation) is the most likely 90' result — a decisive Spain win — while Pred 3 only pays if the game is level after 90, so it targets the modal extra-time draw. The two deliberately differ.",
+      "modelVersion": "illustrative-example",
+      "generatedAt": "2026-06-28T17:22:14.248Z",
+      "lockedAt": null,
+      "locked": false,
+      "webSearchUsed": false,
+      "actual": null,
+      "scored": null
+    },
+    {
+      "fixtureId": "example-2022-final",
+      "stage": "Final",
+      "homeTeam": "Argentina",
+      "awayTeam": "France",
+      "kickoff": "2022-12-18T15:00:00.000Z",
+      "pred1Advance": "home",
+      "pred1Team": "Argentina",
+      "pred2Reg": {
+        "home": 1,
+        "away": 1
+      },
+      "pred3Et": {
+        "home": 1,
+        "away": 1
+      },
+      "ev": {
+        "p1": 0.55,
+        "p2": 0.71,
+        "p3": 0.318,
+        "total": 1.578
+      },
+      "pEtUsed": 0.37,
+      "distributions": {
+        "advance": {
+          "home": 0.55,
+          "away": 0.45
+        },
+        "regulation": [
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.17
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.13
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.13
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.11
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.1
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.09
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.07
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.07
+          },
+          {
+            "home": 0,
+            "away": 2,
+            "prob": 0.06
+          },
+          {
+            "home": 3,
+            "away": 2,
+            "prob": 0.03
+          },
+          {
+            "home": 2,
+            "away": 3,
+            "prob": 0.04
+          }
+        ],
+        "extraTimeProb": 0.37,
+        "extraTime": [
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.22
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.16
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.15
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.12
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.08
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.07
+          },
+          {
+            "home": 3,
+            "away": 2,
+            "prob": 0.06
+          },
+          {
+            "home": 2,
+            "away": 3,
+            "prob": 0.06
+          },
+          {
+            "home": 3,
+            "away": 3,
+            "prob": 0.05
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.03
+          }
+        ]
+      },
+      "reasoning": "Worked example on a real, recognisable result: the 2022 final. An evenly-matched final carries huge draw mass, so the EV-optimal regulation and extra-time picks can coincide on the modal draw — and the match really did finish 2-2, then 3-3, before Argentina won on penalties.",
+      "modelVersion": "illustrative-example",
+      "generatedAt": "2026-06-28T17:22:14.248Z",
+      "lockedAt": "2022-12-18T15:00:00.000Z",
+      "locked": true,
+      "webSearchUsed": false,
+      "actual": {
+        "rt": {
+          "home": 2,
+          "away": 2
+        },
+        "et": {
+          "home": 3,
+          "away": 3
+        },
+        "pens": {
+          "home": 4,
+          "away": 2
+        },
+        "advanced": "home"
+      },
+      "scored": {
+        "p1": 1,
+        "p2": 1,
+        "p3": 1,
+        "total": 3
+      }
+    }
+  ],
+  "summary": {
+    "matchesScored": 1,
+    "machinePoints": 3,
+    "maxPoints": 7,
+    "expectedTotal": 3.62,
+    "lastUpdatedAt": "2026-06-28T17:22:14.248Z"
+  }
+}

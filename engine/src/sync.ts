@@ -29,6 +29,7 @@ import {
   finalizeLedgerMatchdays,
   outcomeFromScore,
 } from "./accuracy.js";
+import { recomputeKnockoutGame } from "./knockoutGame.js";
 import type {
   Fixture,
   Stage,
@@ -98,9 +99,11 @@ export function normalizeFixture(rf: RawFixture, teamGroup: Map<number, string>)
   const awayGroup = teamGroup.get(rf.teams.away.id);
   const group = homeGroup ?? awayGroup;
 
+  let isGroup = false;
   if (isGroupStageRound(round) && group) {
     stage = ("group" + group) as Stage;
     matchday = parseMatchday(round);
+    isGroup = true;
   } else {
     stage = mapKnockoutRound(round) ?? "R32";
   }
@@ -123,7 +126,39 @@ export function normalizeFixture(rf: RawFixture, teamGroup: Map<number, string>)
       city: rf.fixture.venue.city,
       country: null,
     },
+    koScore: isGroup ? null : deriveKoScore(rf),
   };
+}
+
+// Build the knockout regulation/ET/penalty breakdown from API-Football's score
+// object. The 120' score = fulltime + extratime goals. Returns null if unplayed.
+function deriveKoScore(rf: RawFixture): Fixture["koScore"] {
+  if (normalizeStatus(rf.fixture.status.short) !== "finished") return null;
+  const s = rf.score ?? {};
+  const ft = s.fulltime;
+  const etGoals = s.extratime;
+  const pens = s.penalty;
+  const short = rf.fixture.status.short;
+
+  const rt =
+    ft && ft.home != null && ft.away != null ? { home: ft.home, away: ft.away } : null;
+  const etPlayed =
+    short === "AET" || short === "PEN" || (etGoals != null && (etGoals.home != null || etGoals.away != null));
+  const et =
+    etPlayed && rt
+      ? { home: rt.home + (etGoals?.home ?? 0), away: rt.away + (etGoals?.away ?? 0) }
+      : null;
+  const pensScore =
+    pens && pens.home != null && pens.away != null ? { home: pens.home, away: pens.away } : null;
+
+  // Who advanced: by shootout if there was one, else by the final (120'/90') goals.
+  let advanced: "home" | "away" | null = null;
+  if (pensScore) advanced = pensScore.home > pensScore.away ? "home" : "away";
+  else {
+    const fh = rf.goals.home, fa = rf.goals.away;
+    if (fh != null && fa != null && fh !== fa) advanced = fh > fa ? "home" : "away";
+  }
+  return { rt, et, pens: pensScore, advanced };
 }
 
 // Names API-Football uses before a knockout slot resolves.
@@ -297,6 +332,9 @@ export function recomputeAccuracy(now: string): { results: ResultRecord[]; ledge
   const mdByFixture = new Map(fixtures.map((f) => [f.fixtureId, f.matchday]));
   ledger = finalizeLedgerMatchdays(ledger, results, mdByFixture);
   store.saveLedger(ledger);
+
+  // Refresh the knockout-game self-scoring (no-op until knockout entries exist).
+  recomputeKnockoutGame(now);
   return { results, ledgerUpdated: true };
 }
 

@@ -219,6 +219,29 @@ table.tbl td.pts { color: var(--machine); font-weight: 700; }
 
 .loading, .empty { text-align: center; color: var(--ink-dim); padding: 50px 0; font-family: "Space Mono"; }
 
+/* ---------- knockout "beat the game" page ---------- */
+.kg-rules { background: var(--bg-card); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px; margin-bottom: 12px; }
+.kg-rules-grid { display: grid; gap: 8px; font-size: 13px; color: var(--ink); }
+.kg-rules-grid > div { display: flex; align-items: baseline; gap: 8px; }
+.kg-r-n { display: inline-flex; align-items: center; justify-content: center; width: 18px; height: 18px; border-radius: 50%; background: var(--machine); color: #0b0f14; font-family: "Space Mono"; font-size: 11px; flex: none; }
+.kg-strategy { font-size: 13px; color: var(--ink-dim); line-height: 1.6; margin: 12px 0 0; border-top: 1px solid var(--line); padding-top: 10px; }
+.kg-strategy b { color: var(--machine); }
+
+.kg-summary { margin-bottom: 12px; }
+.kg-card .kg-teams { display: grid; grid-template-columns: 1fr auto 1fr; gap: 10px; align-items: center; margin: 4px 0 12px; }
+.kg-teams .name { font-weight: 700; font-size: 15px; }
+.kg-vs { font-family: "Anton"; color: var(--ink-dim); font-size: 14px; }
+
+.kg-picks { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.kg-pick { display: flex; gap: 8px; background: var(--bg-card-2); border-radius: 9px; padding: 9px 10px; }
+.kg-pick-n { display: inline-flex; align-items: center; justify-content: center; width: 18px; height: 18px; border-radius: 50%; border: 1px solid var(--machine); color: var(--machine); font-family: "Space Mono"; font-size: 11px; flex: none; }
+.kg-pick-label { font-size: 10px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--ink-dim); }
+.kg-pick-value { font-family: "Space Mono"; font-weight: 700; font-size: 15px; color: var(--ink); line-height: 1.2; }
+.kg-pick-sub { font-size: 10px; color: var(--ink-dim); font-family: "Space Mono"; margin-top: 2px; }
+.kg-actual { margin-top: 11px; font-size: 12px; color: var(--ink-dim); }
+.kg-actual b { color: var(--machine); }
+@media (max-width: 520px) { .kg-picks { grid-template-columns: 1fr; } }
+
 /* ============================================================
    Buzz Radar brand theme — scoped to the sweepstake page only.
    Brand: orange #ef950d on dark teal/charcoal, teal accent #21c6ca,

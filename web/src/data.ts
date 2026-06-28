@@ -3,7 +3,7 @@
 // no site rebuild needed); the copy bundled by copy-data.mjs is the fallback,
 // and the only source in dev so seeded local data keeps working.
 import type {
-  AppData, Fixture, Prediction, ResultRecord, Ledger, Standings, Meta, WinnerPrediction, Sweepstake,
+  AppData, Fixture, Prediction, ResultRecord, Ledger, Standings, Meta, WinnerPrediction, Sweepstake, KnockoutGame,
 } from "./types";
 
 const RAW_BASE =
@@ -28,7 +28,7 @@ async function getJson<T>(name: string, fallback: T): Promise<T> {
 }
 
 export async function loadAppData(): Promise<AppData> {
-  const [fixtures, predictions, results, ledger, standings, meta, winner, sweepstake] = await Promise.all([
+  const [fixtures, predictions, results, ledger, standings, meta, winner, sweepstake, knockoutGame] = await Promise.all([
     getJson<Fixture[]>("fixtures.json", []),
     getJson<Prediction[]>("predictions.json", []),
     getJson<ResultRecord[]>("results.json", []),
@@ -37,6 +37,7 @@ export async function loadAppData(): Promise<AppData> {
     getJson<Meta>("meta.json", {}),
     getJson<WinnerPrediction | null>("winner.json", null),
     getJson<Sweepstake | null>("sweepstake.json", null),
+    getJson<KnockoutGame | null>("knockout-game.json", null),
   ]);
 
   return {
@@ -48,5 +49,6 @@ export async function loadAppData(): Promise<AppData> {
     meta,
     winner: winner && (winner as WinnerPrediction).champion ? (winner as WinnerPrediction) : null,
     sweepstake: sweepstake && (sweepstake as Sweepstake).assignments ? (sweepstake as Sweepstake) : null,
+    knockoutGame: knockoutGame && (knockoutGame as KnockoutGame).entries ? (knockoutGame as KnockoutGame) : null,
   };
 }

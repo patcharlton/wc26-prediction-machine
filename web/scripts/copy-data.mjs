@@ -20,6 +20,7 @@ const files = [
   "meta.json",
   "winner.json",
   "sweepstake.json",
+  "knockout-game.json",
 ];
 
 let copied = 0;
@@ -30,7 +31,7 @@ for (const f of files) {
     copied++;
   } else {
     // write an empty placeholder so fetches don't 404 before the first cron run
-    const objFiles = ["ledger.json", "meta.json", "standings.json", "winner.json", "sweepstake.json"];
+    const objFiles = ["ledger.json", "meta.json", "standings.json", "winner.json", "sweepstake.json", "knockout-game.json"];
     const fallback = objFiles.includes(f) ? "{}" : "[]";
     fs.writeFileSync(path.join(dest, f), fallback);
   }

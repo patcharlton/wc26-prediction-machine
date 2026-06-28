@@ -71,6 +71,17 @@ export interface Fixture {
   // e.g. "Winner Group A", "3rd Group C/E/F/H/I", "Winner Match 73".
   homeSlot?: string;
   awaySlot?: string;
+  // Knockout score breakdown (regulation / extra time / penalties), populated
+  // for non-group fixtures once finished. Used by the knockout-game self-scoring.
+  koScore?: KoScore | null;
+}
+
+// Regulation vs extra-time vs shootout breakdown for a knockout match.
+export interface KoScore {
+  rt: { home: number; away: number } | null; // score after 90' (regulation)
+  et: { home: number; away: number } | null; // score after 120' (= ft + et goals); null if no ET
+  pens: { home: number; away: number } | null; // shootout score
+  advanced: "home" | "away" | null; // which side progressed
 }
 
 // ---- Result / accuracy record (per fixture) ----
@@ -161,6 +172,63 @@ export interface WinnerPrediction {
   basis: string; // "pre-tournament" | "group stage (N played)" | "knockouts" etc.
   modelVersion: string;
   updatedAt: string; // ISO
+}
+
+// ---- Knockout "beat the game" entries (EV-optimised 3-prediction picks) ----
+export interface ScoreProb {
+  home: number;
+  away: number;
+  prob: number;
+}
+
+// What the model returns: probability distributions to optimise over.
+export interface KoDistributions {
+  advance: { home: number; away: number }; // P(side advances), incl. ET + pens
+  regulation: ScoreProb[]; // most likely 90' scorelines
+  extraTimeProb: number; // model's own P(extra time) — cross-check
+  extraTime: ScoreProb[]; // most likely 120' scorelines, CONDITIONAL on ET
+}
+
+export interface KoPick {
+  home: number;
+  away: number;
+}
+
+export interface KnockoutEntry {
+  fixtureId: string;
+  stage: Stage;
+  homeTeam: string;
+  awayTeam: string;
+  kickoff: string;
+  // The three EV-optimised predictions:
+  pred1Advance: "home" | "away";
+  pred1Team: string;
+  pred2Reg: KoPick; // score after regulation
+  pred3Et: KoPick; // score after extra time
+  // Expected points (per pick + total, max 7):
+  ev: { p1: number; p2: number; p3: number; total: number };
+  pEtUsed: number; // P(extra time) used in the optimisation (regulation draw mass)
+  distributions: KoDistributions;
+  reasoning: string;
+  modelVersion: string;
+  generatedAt: string;
+  lockedAt: string | null;
+  locked: boolean;
+  webSearchUsed?: boolean;
+  // Realised once the match is played:
+  actual?: KoScore | null;
+  scored?: { p1: number; p2: number; p3: number; total: number } | null;
+}
+
+export interface KnockoutGame {
+  entries: KnockoutEntry[];
+  summary: {
+    matchesScored: number;
+    machinePoints: number;
+    maxPoints: number; // 7 * matchesScored
+    expectedTotal: number; // sum of expected points across all entries
+    lastUpdatedAt: string;
+  };
 }
 
 // ---- Engine run metadata ----

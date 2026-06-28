@@ -6,11 +6,15 @@ import { WinnerBanner } from "./components/WinnerBanner";
 import { MatchCard } from "./components/MatchCard";
 import { GroupStandings } from "./components/Standings";
 import { Sweepstake } from "./components/Sweepstake";
+import { KnockoutGame } from "./components/KnockoutGame";
 import { STAGE_LABEL, KO_ORDER, groupLetter } from "./format";
 
-type View = "predictions" | "sweepstake";
+type View = "predictions" | "sweepstake" | "knockout-game";
 function viewFromHash(): View {
-  return window.location.hash.replace("#", "") === "sweepstake" ? "sweepstake" : "predictions";
+  const h = window.location.hash.replace("#", "");
+  if (h === "sweepstake") return "sweepstake";
+  if (h === "knockout-game") return "knockout-game";
+  return "predictions";
 }
 
 const MD_LABEL: Record<Matchday, string> = {
@@ -92,15 +96,17 @@ export default function App() {
         </header>
       )}
 
-      {/* Sweepstake is unlisted on the main page — reachable only via #sweepstake.
-          A back link is shown only while viewing it. */}
-      {view === "sweepstake" && (
+      {/* Sweepstake and knockout-game are unlisted on the main page — reachable only
+          via their hash URLs. A back link is shown only while viewing them. */}
+      {view !== "predictions" && (
         <nav className="tabs">
           <a className="tab" href="#predictions">← Back to Predictions</a>
         </nav>
       )}
 
-      {view === "sweepstake" ? (
+      {view === "knockout-game" ? (
+        <KnockoutGame data={data} />
+      ) : view === "sweepstake" ? (
         <Sweepstake data={data} />
       ) : (
       <>

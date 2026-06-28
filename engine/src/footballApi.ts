@@ -99,6 +99,14 @@ export interface RawFixture {
     away: { id: number; name: string };
   };
   goals: { home: number | null; away: number | null };
+  // Knockout breakdown: fulltime = score after 90'; extratime = goals scored
+  // DURING extra time (the 120' score is fulltime + extratime); penalty = shootout.
+  score?: {
+    halftime?: { home: number | null; away: number | null };
+    fulltime?: { home: number | null; away: number | null };
+    extratime?: { home: number | null; away: number | null };
+    penalty?: { home: number | null; away: number | null };
+  };
 }
 
 export function getAllFixtures() {

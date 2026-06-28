@@ -11,6 +11,7 @@ import type {
   Standings,
   Meta,
   WinnerPrediction,
+  KnockoutGame,
 } from "./types.js";
 
 const DATA = CONFIG.dataDir;
@@ -57,6 +58,9 @@ export const store = {
 
   winner: () => readJson<WinnerPrediction | null>("winner.json", null),
   saveWinner: (w: WinnerPrediction) => writeJson("winner.json", w),
+
+  knockoutGame: () => readJson<KnockoutGame | null>("knockout-game.json", null),
+  saveKnockoutGame: (k: KnockoutGame) => writeJson("knockout-game.json", k),
 
   meta: (): Meta =>
     readJson<Meta>("meta.json", {

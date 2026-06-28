@@ -1,14 +1,18 @@
 // Decides which fixtures to predict and when to lock them, snapshots the market,
 // and persists predictions. Used by main-update (generate in 48h window) and
-// lock-job (freeze ~2h before kickoff).
+// lock-job (freeze ~2h before kickoff). Knockout fixtures additionally get an
+// EV-optimised "beat the game" entry (see knockoutGame.ts), reusing the same
+// market pull so no extra API requests are spent.
 import { CONFIG } from "./config.js";
 import { store, upsertById } from "./store.js";
 import { getOddsRaw, deriveMarketFromOdds, RequestBudgetError } from "./footballApi.js";
 import { predictFixture } from "./predict.js";
+import { predictKnockoutEntry, upsertEntry } from "./knockoutGame.js";
 import { buildPredictionInputs } from "./sync.js";
 import type { Fixture, Prediction, MarketTriple } from "./types.js";
 
 const HOUR = 3600_000;
+const isKnockout = (f: Fixture) => !f.stage.startsWith("group");
 
 function hoursUntil(kickoffIso: string, nowIso: string): number {
   return (new Date(kickoffIso).getTime() - new Date(nowIso).getTime()) / HOUR;
@@ -27,11 +31,12 @@ async function pullMarket(fixtureId: string): Promise<MarketTriple | null> {
 }
 
 // Generate a fresh prediction for a fixture (optionally locking + freezing market).
+// Returns the market so a knockout-game entry can reuse it without a second pull.
 async function makePrediction(
   fixture: Fixture,
   now: string,
   opts: { lock: boolean }
-): Promise<Prediction> {
+): Promise<{ pred: Prediction; market: MarketTriple | null }> {
   const market = await pullMarket(fixture.fixtureId);
   const inputs = buildPredictionInputs(fixture, store.results());
   inputs.market = market;
@@ -41,7 +46,31 @@ async function makePrediction(
     pred.locked = true;
     pred.lockedAt = now;
   }
-  return pred;
+  return { pred, market };
+}
+
+// Generate (and optionally lock) the knockout-game entry, reusing the market.
+async function makeKnockoutEntry(
+  fixture: Fixture,
+  market: MarketTriple | null,
+  now: string,
+  opts: { lock: boolean }
+): Promise<void> {
+  const inputs = buildPredictionInputs(fixture, store.results());
+  const entry = await predictKnockoutEntry(
+    { fixture, market, homeForm: inputs.homeForm, awayForm: inputs.awayForm },
+    now
+  );
+  if (opts.lock) {
+    entry.locked = true;
+    entry.lockedAt = now;
+  }
+  store.saveKnockoutGame(upsertEntry(store.knockoutGame(), entry));
+  console.log(
+    `[knockout-game] ${opts.lock ? "LOCKED" : "entry"} ${fixture.homeTeam} v ${fixture.awayTeam}: ` +
+      `advance ${entry.pred1Team}, reg ${entry.pred2Reg.home}-${entry.pred2Reg.away}, ` +
+      `ET ${entry.pred3Et.home}-${entry.pred3Et.away} (E[pts] ${entry.ev.total})`
+  );
 }
 
 // MAIN-UPDATE: predict any not-yet-locked fixture entering the 48h window that
@@ -50,6 +79,7 @@ export async function generateWindowPredictions(now: string): Promise<{ generate
   const fixtures = store.fixtures();
   const preds = store.predictions();
   const predById = new Map(preds.map((p) => [p.fixtureId, p]));
+  const entryIds = new Set((store.knockoutGame()?.entries ?? []).map((e) => e.fixtureId));
   let list = preds;
   let generated = 0;
 
@@ -64,10 +94,13 @@ export async function generateWindowPredictions(now: string): Promise<{ generate
 
   for (const f of due) {
     try {
-      const pred = await makePrediction(f, now, { lock: false });
+      const { pred, market } = await makePrediction(f, now, { lock: false });
       list = upsertById(list, pred);
       generated += 1;
       console.log(`[main-update] predicted ${f.homeTeam} vs ${f.awayTeam} (${f.stage})`);
+      if (isKnockout(f) && !entryIds.has(f.fixtureId)) {
+        await makeKnockoutEntry(f, market, now, { lock: false });
+      }
     } catch (err) {
       if (err instanceof RequestBudgetError) {
         console.warn("[main-update] stopping early:", err.message);
@@ -87,6 +120,9 @@ export async function lockDuePredictions(now: string): Promise<{ locked: number 
   const fixtures = store.fixtures();
   let list = store.predictions();
   const predById = new Map(list.map((p) => [p.fixtureId, p]));
+  const lockedEntries = new Set(
+    (store.knockoutGame()?.entries ?? []).filter((e) => e.locked).map((e) => e.fixtureId)
+  );
   let locked = 0;
 
   const due = fixtures.filter((f) => {
@@ -100,10 +136,13 @@ export async function lockDuePredictions(now: string): Promise<{ locked: number 
 
   for (const f of due) {
     try {
-      const pred = await makePrediction(f, now, { lock: true });
+      const { pred, market } = await makePrediction(f, now, { lock: true });
       list = upsertById(list, pred);
       locked += 1;
       console.log(`[lock-job] LOCKED ${f.homeTeam} vs ${f.awayTeam} at ${now}`);
+      if (isKnockout(f) && !lockedEntries.has(f.fixtureId)) {
+        await makeKnockoutEntry(f, market, now, { lock: true });
+      }
     } catch (err) {
       if (err instanceof RequestBudgetError) {
         console.warn("[lock-job] stopping early:", err.message);
