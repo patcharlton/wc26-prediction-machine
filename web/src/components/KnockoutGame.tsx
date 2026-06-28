@@ -1,9 +1,29 @@
-import { useState } from "react";
-import type { AppData, KnockoutEntry, KoScore } from "../types";
+import { useEffect, useState } from "react";
+import type { AppData, Fixture, KnockoutEntry, KoScore } from "../types";
 import { STAGE_LABEL, kickoffLabel } from "../format";
 
 const sc = (s: { home: number; away: number }) => `${s.home}–${s.away}`;
 const isExample = (e: KnockoutEntry) => e.modelVersion === "illustrative-example" || e.fixtureId.startsWith("example-");
+
+const HOUR = 3600_000;
+const WINDOW_H = 48; // predictions generate once a match is within 48h of kickoff
+
+// Live countdown string, e.g. "2d 06h 14m" or "47m 09s".
+function fmtCountdown(ms: number): string {
+  if (ms <= 0) return "now";
+  const s = Math.floor(ms / 1000);
+  const d = Math.floor(s / 86400), h = Math.floor((s % 86400) / 3600), m = Math.floor((s % 3600) / 60), sec = s % 60;
+  const p: string[] = [];
+  if (d) p.push(`${d}d`);
+  if (d || h) p.push(`${String(h).padStart(2, "0")}h`);
+  p.push(`${String(m).padStart(2, "0")}m`);
+  if (!d) p.push(`${String(sec).padStart(2, "0")}s`);
+  return p.join(" ");
+}
+
+function isPlaceholder(name: string): boolean {
+  return /winner|runner|loser|^3rd|tbd|to be determined|\//i.test(name);
+}
 
 function ActualLine({ ko, home, away }: { ko: KoScore; home: string; away: string }) {
   const adv = ko.advanced === "home" ? home : ko.advanced === "away" ? away : "—";
@@ -85,13 +105,55 @@ function EntryCard({ entry }: { entry: KnockoutEntry }) {
   );
 }
 
+function CountdownCard({ fixture, now }: { fixture: Fixture; now: number }) {
+  const kickoffMs = Date.parse(fixture.kickoff);
+  const availableAt = kickoffMs - WINDOW_H * HOUR;
+  const within = now >= availableAt;
+  return (
+    <div className="card kg-pending">
+      <div className="top">
+        <span className="status">{STAGE_LABEL[fixture.stage] ?? fixture.stage} · {kickoffLabel(fixture.kickoff)}</span>
+      </div>
+      <div className="kg-teams">
+        <span className={`name ${isPlaceholder(fixture.homeTeam) ? "placeholder" : ""}`}>{fixture.homeTeam}</span>
+        <span className="kg-vs">v</span>
+        <span className={`name ${isPlaceholder(fixture.awayTeam) ? "placeholder" : ""}`} style={{ textAlign: "right" }}>{fixture.awayTeam}</span>
+      </div>
+      <div className="kg-countdown">
+        {within ? (
+          <><span className="kg-cd-label">Unlocking now</span> — picks generate at the next 6-hourly update.</>
+        ) : (
+          <>
+            <span className="kg-cd-label">Pick unlocks in</span>
+            <span className="kg-cd-time num">{fmtCountdown(availableAt - now)}</span>
+            <span className="kg-cd-sub">(48 h before kickoff)</span>
+          </>
+        )}
+      </div>
+    </div>
+  );
+}
+
 export function KnockoutGame({ data }: { data: AppData }) {
+  // Tick once a second so the countdowns are live.
+  const [now, setNow] = useState(() => Date.now());
+  useEffect(() => {
+    const id = setInterval(() => setNow(Date.now()), 1000);
+    return () => clearInterval(id);
+  }, []);
+
   const game = data.knockoutGame;
   const entries = (game?.entries ?? []).slice().sort((a, b) => {
     // real entries first (by kickoff), examples last
     if (isExample(a) !== isExample(b)) return isExample(a) ? 1 : -1;
     return a.kickoff.localeCompare(b.kickoff);
   });
+  const entryIds = new Set(entries.map((e) => e.fixtureId));
+
+  // Knockout fixtures still awaiting a pick (with a live countdown to when it unlocks).
+  const upcoming = data.fixtures
+    .filter((f) => !f.stage.startsWith("group") && f.status === "scheduled" && !entryIds.has(f.fixtureId))
+    .sort((a, b) => a.kickoff.localeCompare(b.kickoff));
 
   return (
     <div>
@@ -115,6 +177,12 @@ export function KnockoutGame({ data }: { data: AppData }) {
           targets the most likely 90′ result; pred 3 targets the most likely 120′ result <i>given</i> it went
           to extra time. They’re allowed to contradict — and usually should.
         </p>
+        <p className="kg-update">
+          <b>When picks update:</b> the machine generates a match’s three predictions once it’s within
+          <b> 48 hours</b> of kickoff (checked every 6 hours), <b>locks</b> them ~2 hours before kickoff with
+          the market frozen, then <b>self-scores</b> them within ~15 minutes of full time. No manual input —
+          the page refreshes itself.
+        </p>
       </div>
 
       {game && game.summary.matchesScored > 0 && (
@@ -131,8 +199,21 @@ export function KnockoutGame({ data }: { data: AppData }) {
         </div>
       )}
 
+      {/* Upcoming knockout fixtures with no pick yet — live countdown to unlock */}
+      {upcoming.length > 0 && (
+        <section>
+          <div className="section-h">
+            <h2>Coming up</h2>
+            <span className="count">{upcoming.length} awaiting picks</span>
+          </div>
+          {upcoming.map((f) => <CountdownCard key={f.fixtureId} fixture={f} now={now} />)}
+        </section>
+      )}
+
       {entries.length === 0 ? (
-        <div className="empty">Knockout entries appear here once the bracket is drawn (from 28 Jun).</div>
+        upcoming.length === 0 && (
+          <div className="empty">Knockout entries appear here once the bracket is drawn (from 28 Jun).</div>
+        )
       ) : (
         <section>
           <div className="section-h">

@@ -242,6 +242,17 @@ table.tbl td.pts { color: var(--machine); font-weight: 700; }
 .kg-actual b { color: var(--machine); }
 @media (max-width: 520px) { .kg-picks { grid-template-columns: 1fr; } }
 
+.kg-update { font-size: 13px; color: var(--ink-dim); line-height: 1.6; margin: 10px 0 0; border-top: 1px solid var(--line); padding-top: 10px; }
+.kg-update b { color: var(--ink); }
+
+/* upcoming / countdown cards */
+.kg-pending { border-style: dashed; opacity: 0.96; }
+.kg-pending .kg-teams { margin-bottom: 8px; }
+.kg-countdown { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; font-size: 12px; color: var(--ink-dim); background: var(--bg-card-2); border-radius: 9px; padding: 9px 11px; }
+.kg-cd-label { text-transform: uppercase; letter-spacing: 0.05em; font-size: 10px; color: var(--ink-dim); }
+.kg-cd-time { font-family: "Space Mono"; font-size: 17px; font-weight: 700; color: var(--machine); letter-spacing: 0.02em; }
+.kg-cd-sub { font-size: 10px; color: var(--ink-dim); }
+
 /* ============================================================
    Buzz Radar brand theme — scoped to the sweepstake page only.
    Brand: orange #ef950d on dark teal/charcoal, teal accent #21c6ca,
