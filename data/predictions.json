@@ -1848,5 +1848,55 @@
     "generatedAt": "2026-06-27T19:13:07.234Z",
     "locked": false,
     "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1565176",
+    "probs": {
+      "homeWin": 0.66,
+      "draw": 0.22,
+      "awayWin": 0.12
+    },
+    "scoreline": {
+      "home": 2,
+      "away": 0
+    },
+    "confidence": "Medium-High",
+    "reasoning": "Germany are clearly the stronger side with top-10 ranking and elite attackers like Musiala, Wirtz and Sané, even after losing Schlotterbeck and Gnabry to injury. Paraguay are well-organized and defensively stubborn under Alfaro, having shut out Australia and beaten Türkiye, which makes a low-scoring, frustrating game plausible. In a one-off knockout match against a deep block, Germany should eventually break through but the risk of a tight, narrow result keeps the draw probability honest. Expect a controlled German win with a clean sheet more likely than a goal-fest.",
+    "market": {
+      "homeWin": 0.693,
+      "draw": 0.201,
+      "awayWin": 0.105,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-opus-4-8",
+    "generatedAt": "2026-06-28T02:56:00.373Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1562345",
+    "probs": {
+      "homeWin": 0.44,
+      "draw": 0.29,
+      "awayWin": 0.27
+    },
+    "scoreline": {
+      "home": 2,
+      "away": 1
+    },
+    "confidence": "Medium-Low",
+    "reasoning": "The Dutch carry more squad depth and arrive in red-hot scoring form, but they're missing pieces with Timber and Simons out and De Ligt absent, while Depay was carrying a thigh knock. Morocco lost defender Aguerd and winger Ezzalzouli before the tournament, yet their Hakimi-Diaz core is dangerous and their defense has been resilient, conceding little against quality opposition. This shapes up as a tight, evenly-matched knockout game where the Netherlands' edge in attacking talent makes them slight favorites, but a draw is very live and Morocco can spring an upset. I lean to a narrow Dutch win with elevated draw probability typical of cagey R32 ties.",
+    "market": {
+      "homeWin": 0.456,
+      "draw": 0.284,
+      "awayWin": 0.26,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-opus-4-8",
+    "generatedAt": "2026-06-28T02:56:00.373Z",
+    "locked": false,
+    "webSearchUsed": true
   }
 ]

@@ -1258,14 +1258,14 @@
     "stage": "groupL",
     "matchday": "MD3",
     "kickoff": "2026-06-27T21:00:00.000Z",
-    "status": "live",
+    "status": "finished",
     "homeTeam": "Croatia",
     "awayTeam": "Ghana",
     "homeTeamId": 3,
     "awayTeamId": 1504,
-    "homeScore": 1,
-    "awayScore": 0,
-    "elapsed": 45,
+    "homeScore": 2,
+    "awayScore": 1,
+    "elapsed": 90,
     "venue": {
       "name": "Lincoln Financial Field",
       "city": "Philadelphia",
@@ -1277,17 +1277,17 @@
     "stage": "groupL",
     "matchday": "MD3",
     "kickoff": "2026-06-27T21:00:00.000Z",
-    "status": "live",
+    "status": "finished",
     "homeTeam": "Panama",
     "awayTeam": "England",
     "homeTeamId": 11,
     "awayTeamId": 10,
     "homeScore": 0,
-    "awayScore": 0,
-    "elapsed": 45,
+    "awayScore": 2,
+    "elapsed": 90,
     "venue": {
       "name": "MetLife Stadium",
-      "city": "New York New Jersey",
+      "city": "East Rutherford",
       "country": null
     }
   },
@@ -1296,17 +1296,17 @@
     "stage": "groupK",
     "matchday": "MD3",
     "kickoff": "2026-06-27T23:30:00.000Z",
-    "status": "live",
+    "status": "finished",
     "homeTeam": "Colombia",
     "awayTeam": "Portugal",
     "homeTeamId": 8,
     "awayTeamId": 27,
     "homeScore": 0,
     "awayScore": 0,
-    "elapsed": 45,
+    "elapsed": 90,
     "venue": {
       "name": "Hard Rock Stadium",
-      "city": "Miami",
+      "city": "Miami Gardens",
       "country": null
     }
   },
@@ -1315,14 +1315,14 @@
     "stage": "groupK",
     "matchday": "MD3",
     "kickoff": "2026-06-27T23:30:00.000Z",
-    "status": "live",
+    "status": "finished",
     "homeTeam": "Congo DR",
     "awayTeam": "Uzbekistan",
     "homeTeamId": 1508,
     "awayTeamId": 1568,
-    "homeScore": 0,
+    "homeScore": 3,
     "awayScore": 1,
-    "elapsed": 45,
+    "elapsed": 90,
     "venue": {
       "name": "Mercedes-Benz Stadium",
       "city": "Atlanta",
@@ -1334,14 +1334,14 @@
     "stage": "groupJ",
     "matchday": "MD3",
     "kickoff": "2026-06-28T02:00:00.000Z",
-    "status": "scheduled",
+    "status": "live",
     "homeTeam": "Algeria",
     "awayTeam": "Austria",
     "homeTeamId": 1532,
     "awayTeamId": 775,
-    "homeScore": null,
-    "awayScore": null,
-    "elapsed": null,
+    "homeScore": 1,
+    "awayScore": 1,
+    "elapsed": 45,
     "venue": {
       "name": "Arrowhead Stadium",
       "city": "Kansas City",
@@ -1353,17 +1353,17 @@
     "stage": "groupJ",
     "matchday": "MD3",
     "kickoff": "2026-06-28T02:00:00.000Z",
-    "status": "scheduled",
+    "status": "live",
     "homeTeam": "Jordan",
     "awayTeam": "Argentina",
     "homeTeamId": 1548,
     "awayTeamId": 26,
-    "homeScore": null,
-    "awayScore": null,
-    "elapsed": null,
+    "homeScore": 0,
+    "awayScore": 2,
+    "elapsed": 45,
     "venue": {
       "name": "AT&T Stadium",
-      "city": "Dallas",
+      "city": "Arlington",
       "country": null
     }
   },
@@ -1494,6 +1494,69 @@
     "awaySlot": "RU:I"
   },
   {
+    "fixtureId": "1567306",
+    "stage": "R32",
+    "matchday": null,
+    "kickoff": "2026-07-01T01:00:00.000Z",
+    "status": "scheduled",
+    "homeTeam": "Mexico",
+    "awayTeam": "Ecuador",
+    "homeTeamId": 16,
+    "awayTeamId": 2382,
+    "homeScore": null,
+    "awayScore": null,
+    "elapsed": null,
+    "venue": {
+      "name": null,
+      "city": null,
+      "country": null
+    },
+    "homeSlot": "W:A",
+    "awaySlot": "3:C/E/F/H/I"
+  },
+  {
+    "fixtureId": "1567307",
+    "stage": "R32",
+    "matchday": null,
+    "kickoff": "2026-07-01T16:00:00.000Z",
+    "status": "scheduled",
+    "homeTeam": "England",
+    "awayTeam": "Congo DR",
+    "homeTeamId": 10,
+    "awayTeamId": 1508,
+    "homeScore": null,
+    "awayScore": null,
+    "elapsed": null,
+    "venue": {
+      "name": null,
+      "city": null,
+      "country": null
+    },
+    "homeSlot": "W:L",
+    "awaySlot": "3:E/H/I/J/K"
+  },
+  {
+    "fixtureId": "1567308",
+    "stage": "R32",
+    "matchday": null,
+    "kickoff": "2026-07-01T20:00:00.000Z",
+    "status": "scheduled",
+    "homeTeam": "Belgium",
+    "awayTeam": "Senegal",
+    "homeTeamId": 1,
+    "awayTeamId": 13,
+    "homeScore": null,
+    "awayScore": null,
+    "elapsed": null,
+    "venue": {
+      "name": null,
+      "city": null,
+      "country": null
+    },
+    "homeSlot": "W:D",
+    "awaySlot": "3:B/E/F/I/J"
+  },
+  {
     "fixtureId": "1562586",
     "stage": "R32",
     "matchday": null,
@@ -1511,8 +1574,29 @@
       "city": null,
       "country": null
     },
-    "homeSlot": "W:A",
-    "awaySlot": "3:C/E/F/H/I"
+    "homeSlot": "W:G",
+    "awaySlot": "3:A/E/H/I/J"
+  },
+  {
+    "fixtureId": "1567309",
+    "stage": "R32",
+    "matchday": null,
+    "kickoff": "2026-07-02T23:00:00.000Z",
+    "status": "scheduled",
+    "homeTeam": "Portugal",
+    "awayTeam": "Croatia",
+    "homeTeamId": 27,
+    "awayTeamId": 3,
+    "homeScore": null,
+    "awayScore": null,
+    "elapsed": null,
+    "venue": {
+      "name": null,
+      "city": null,
+      "country": null
+    },
+    "homeSlot": "RU:K",
+    "awaySlot": "RU:L"
   },
   {
     "fixtureId": "1565178",
@@ -1532,8 +1616,8 @@
       "city": null,
       "country": null
     },
-    "homeSlot": "W:L",
-    "awaySlot": "3:E/H/I/J/K"
+    "homeSlot": "W:H",
+    "awaySlot": "RU:J"
   },
   {
     "fixtureId": "1565179",
@@ -1553,7 +1637,28 @@
       "city": null,
       "country": null
     },
-    "homeSlot": "W:D",
-    "awaySlot": "3:B/E/F/I/J"
+    "homeSlot": "W:B",
+    "awaySlot": "3:E/F/G/I/J"
+  },
+  {
+    "fixtureId": "1567310",
+    "stage": "R32",
+    "matchday": null,
+    "kickoff": "2026-07-04T01:30:00.000Z",
+    "status": "scheduled",
+    "homeTeam": "Colombia",
+    "awayTeam": "Ghana",
+    "homeTeamId": 8,
+    "awayTeamId": 1504,
+    "homeScore": null,
+    "awayScore": null,
+    "elapsed": null,
+    "venue": {
+      "name": null,
+      "city": null,
+      "country": null
+    },
+    "homeSlot": "W:J",
+    "awaySlot": "RU:H"
   }
 ]
