@@ -49,7 +49,7 @@ async function makePrediction(
   return { pred, market };
 }
 
-// Generate (and optionally lock) the knockout-game entry, reusing the market.
+// Generate (and optionally lock) one knockout-game entry.
 async function makeKnockoutEntry(
   fixture: Fixture,
   market: MarketTriple | null,
@@ -73,13 +73,51 @@ async function makeKnockoutEntry(
   );
 }
 
+// Knockout-game pass — INDEPENDENT of normal predictions. Generates an entry for
+// every resolved knockout fixture in the window that doesn't already have one
+// (window pass), or re-predicts + locks it near kickoff (lock pass). This is what
+// keeps the "beat the game" page populated regardless of the main prediction state.
+async function knockoutPass(now: string, opts: { lock: boolean }): Promise<number> {
+  const fixtures = store.fixtures();
+  const windowH = opts.lock ? CONFIG.lockWindowHours : CONFIG.predictWindowHours;
+  const have = new Set(
+    (store.knockoutGame()?.entries ?? [])
+      .filter((e) => (opts.lock ? e.locked : true))
+      .map((e) => e.fixtureId)
+  );
+
+  const due = fixtures.filter((f) => {
+    if (!isKnockout(f)) return false;
+    if (opts.lock ? f.status === "finished" : f.status !== "scheduled") return false;
+    if (!f.homeTeamId || !f.awayTeamId) return false; // teams not resolved yet
+    const h = hoursUntil(f.kickoff, now);
+    if (h < 0 || h > windowH) return false;
+    return !have.has(f.fixtureId);
+  });
+
+  let count = 0;
+  for (const f of due) {
+    try {
+      const market = await pullMarket(f.fixtureId);
+      await makeKnockoutEntry(f, market, now, opts);
+      count += 1;
+    } catch (err) {
+      if (err instanceof RequestBudgetError) {
+        console.warn("[knockout-game] stopping early:", err.message);
+        break;
+      }
+      console.error(`[knockout-game] failed for ${f.fixtureId}:`, (err as Error).message);
+    }
+  }
+  return count;
+}
+
 // MAIN-UPDATE: predict any not-yet-locked fixture entering the 48h window that
 // has no current prediction. Skips fixtures already locked or already predicted.
 export async function generateWindowPredictions(now: string): Promise<{ generated: number }> {
   const fixtures = store.fixtures();
   const preds = store.predictions();
   const predById = new Map(preds.map((p) => [p.fixtureId, p]));
-  const entryIds = new Set((store.knockoutGame()?.entries ?? []).map((e) => e.fixtureId));
   let list = preds;
   let generated = 0;
 
@@ -94,13 +132,10 @@ export async function generateWindowPredictions(now: string): Promise<{ generate
 
   for (const f of due) {
     try {
-      const { pred, market } = await makePrediction(f, now, { lock: false });
+      const { pred } = await makePrediction(f, now, { lock: false });
       list = upsertById(list, pred);
       generated += 1;
       console.log(`[main-update] predicted ${f.homeTeam} vs ${f.awayTeam} (${f.stage})`);
-      if (isKnockout(f) && !entryIds.has(f.fixtureId)) {
-        await makeKnockoutEntry(f, market, now, { lock: false });
-      }
     } catch (err) {
       if (err instanceof RequestBudgetError) {
         console.warn("[main-update] stopping early:", err.message);
@@ -111,7 +146,10 @@ export async function generateWindowPredictions(now: string): Promise<{ generate
   }
 
   if (generated) store.savePredictions(list);
-  return { generated };
+
+  // Knockout-game entries (independent of the prediction state above).
+  const koEntries = await knockoutPass(now, { lock: false });
+  return { generated: generated + koEntries };
 }
 
 // LOCK-JOB: for any fixture within the lock window (≈2h) that isn't locked yet,
@@ -120,9 +158,6 @@ export async function lockDuePredictions(now: string): Promise<{ locked: number 
   const fixtures = store.fixtures();
   let list = store.predictions();
   const predById = new Map(list.map((p) => [p.fixtureId, p]));
-  const lockedEntries = new Set(
-    (store.knockoutGame()?.entries ?? []).filter((e) => e.locked).map((e) => e.fixtureId)
-  );
   let locked = 0;
 
   const due = fixtures.filter((f) => {
@@ -136,13 +171,10 @@ export async function lockDuePredictions(now: string): Promise<{ locked: number 
 
   for (const f of due) {
     try {
-      const { pred, market } = await makePrediction(f, now, { lock: true });
+      const { pred } = await makePrediction(f, now, { lock: true });
       list = upsertById(list, pred);
       locked += 1;
       console.log(`[lock-job] LOCKED ${f.homeTeam} vs ${f.awayTeam} at ${now}`);
-      if (isKnockout(f) && !lockedEntries.has(f.fixtureId)) {
-        await makeKnockoutEntry(f, market, now, { lock: true });
-      }
     } catch (err) {
       if (err instanceof RequestBudgetError) {
         console.warn("[lock-job] stopping early:", err.message);
@@ -153,5 +185,8 @@ export async function lockDuePredictions(now: string): Promise<{ locked: number 
   }
 
   if (locked) store.savePredictions(list);
-  return { locked };
+
+  // Lock (re-predict + freeze) knockout-game entries near kickoff.
+  const koLocked = await knockoutPass(now, { lock: true });
+  return { locked: locked + koLocked };
 }

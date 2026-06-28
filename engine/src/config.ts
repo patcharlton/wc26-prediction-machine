@@ -45,7 +45,10 @@ export const CONFIG = {
   webSearchMaxUses: 5,
 
   // --- API-Football safety ---
-  dailyRequestSoftCap: 80, // brief target: stay under 80/day (hard cap is 100)
+  // Pro tier allows 7,500/day. Keep a generous safety cap well under that so a
+  // runaway loop can't burn the quota, but high enough never to throttle normal
+  // operation (sync + predictions + knockout entries + live polling).
+  dailyRequestSoftCap: 1000,
 
   // --- paths ---
   dataDir: env("DATA_DIR", path.join(REPO_ROOT, "data")),
