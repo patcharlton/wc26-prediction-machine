@@ -1334,14 +1334,14 @@
     "stage": "groupJ",
     "matchday": "MD3",
     "kickoff": "2026-06-28T02:00:00.000Z",
-    "status": "live",
+    "status": "finished",
     "homeTeam": "Algeria",
     "awayTeam": "Austria",
     "homeTeamId": 1532,
     "awayTeamId": 775,
-    "homeScore": 1,
-    "awayScore": 1,
-    "elapsed": 45,
+    "homeScore": 3,
+    "awayScore": 3,
+    "elapsed": 90,
     "venue": {
       "name": "Arrowhead Stadium",
       "city": "Kansas City",
@@ -1353,14 +1353,14 @@
     "stage": "groupJ",
     "matchday": "MD3",
     "kickoff": "2026-06-28T02:00:00.000Z",
-    "status": "live",
+    "status": "finished",
     "homeTeam": "Jordan",
     "awayTeam": "Argentina",
     "homeTeamId": 1548,
     "awayTeamId": 26,
-    "homeScore": 0,
-    "awayScore": 2,
-    "elapsed": 45,
+    "homeScore": 1,
+    "awayScore": 3,
+    "elapsed": 90,
     "venue": {
       "name": "AT&T Stadium",
       "city": "Arlington",
@@ -1402,7 +1402,7 @@
     "awayScore": null,
     "elapsed": null,
     "venue": {
-      "name": null,
+      "name": "NRG Stadium",
       "city": null,
       "country": null
     },
@@ -1423,7 +1423,7 @@
     "awayScore": null,
     "elapsed": null,
     "venue": {
-      "name": null,
+      "name": "Gillette Stadium",
       "city": null,
       "country": null
     },
@@ -1444,8 +1444,8 @@
     "awayScore": null,
     "elapsed": null,
     "venue": {
-      "name": null,
-      "city": null,
+      "name": "Estadio BBVA",
+      "city": "Monterrey",
       "country": null
     },
     "homeSlot": "W:C",
@@ -1486,7 +1486,7 @@
     "awayScore": null,
     "elapsed": null,
     "venue": {
-      "name": null,
+      "name": "MetLife Stadium",
       "city": null,
       "country": null
     },
@@ -1507,8 +1507,8 @@
     "awayScore": null,
     "elapsed": null,
     "venue": {
-      "name": null,
-      "city": null,
+      "name": "Estadio Banorte",
+      "city": "Mexico City",
       "country": null
     },
     "homeSlot": "W:A",
@@ -1528,7 +1528,7 @@
     "awayScore": null,
     "elapsed": null,
     "venue": {
-      "name": null,
+      "name": "Mercedes-Benz Stadium",
       "city": null,
       "country": null
     },
@@ -1549,7 +1549,7 @@
     "awayScore": null,
     "elapsed": null,
     "venue": {
-      "name": null,
+      "name": "Lumen Field",
       "city": null,
       "country": null
     },
@@ -1578,6 +1578,27 @@
     "awaySlot": "3:A/E/H/I/J"
   },
   {
+    "fixtureId": "1567311",
+    "stage": "R32",
+    "matchday": null,
+    "kickoff": "2026-07-02T19:00:00.000Z",
+    "status": "scheduled",
+    "homeTeam": "Spain",
+    "awayTeam": "Austria",
+    "homeTeamId": 9,
+    "awayTeamId": 775,
+    "homeScore": null,
+    "awayScore": null,
+    "elapsed": null,
+    "venue": {
+      "name": "SoFi Stadium",
+      "city": null,
+      "country": null
+    },
+    "homeSlot": "RU:K",
+    "awaySlot": "RU:L"
+  },
+  {
     "fixtureId": "1567309",
     "stage": "R32",
     "matchday": null,
@@ -1591,12 +1612,33 @@
     "awayScore": null,
     "elapsed": null,
     "venue": {
-      "name": null,
+      "name": "BMO Field",
       "city": null,
       "country": null
     },
-    "homeSlot": "RU:K",
-    "awaySlot": "RU:L"
+    "homeSlot": "W:H",
+    "awaySlot": "RU:J"
+  },
+  {
+    "fixtureId": "1567312",
+    "stage": "R32",
+    "matchday": null,
+    "kickoff": "2026-07-03T03:00:00.000Z",
+    "status": "scheduled",
+    "homeTeam": "Switzerland",
+    "awayTeam": "Algeria",
+    "homeTeamId": 15,
+    "awayTeamId": 1532,
+    "homeScore": null,
+    "awayScore": null,
+    "elapsed": null,
+    "venue": {
+      "name": "BC Place",
+      "city": null,
+      "country": null
+    },
+    "homeSlot": "W:B",
+    "awaySlot": "3:E/F/G/I/J"
   },
   {
     "fixtureId": "1565178",
@@ -1616,8 +1658,8 @@
       "city": null,
       "country": null
     },
-    "homeSlot": "W:H",
-    "awaySlot": "RU:J"
+    "homeSlot": "W:J",
+    "awaySlot": "RU:H"
   },
   {
     "fixtureId": "1565179",
@@ -1633,12 +1675,12 @@
     "awayScore": null,
     "elapsed": null,
     "venue": {
-      "name": null,
+      "name": "Hard Rock Stadium",
       "city": null,
       "country": null
     },
-    "homeSlot": "W:B",
-    "awaySlot": "3:E/F/G/I/J"
+    "homeSlot": "W:K",
+    "awaySlot": "3:D/E/I/J/L"
   },
   {
     "fixtureId": "1567310",
@@ -1654,11 +1696,11 @@
     "awayScore": null,
     "elapsed": null,
     "venue": {
-      "name": null,
+      "name": "Arrowhead Stadium",
       "city": null,
       "country": null
     },
-    "homeSlot": "W:J",
-    "awaySlot": "RU:H"
+    "homeSlot": "RU:D",
+    "awaySlot": "RU:G"
   }
 ]

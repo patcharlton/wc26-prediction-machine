@@ -2,43 +2,43 @@
   "champion": "France",
   "runnerUp": "Argentina",
   "darkHorse": "Morocco",
-  "confidence": "Medium",
+  "confidence": "Medium-Low",
   "contenders": [
     {
       "team": "France",
-      "prob": 0.21
+      "prob": 0.22
     },
     {
       "team": "Argentina",
-      "prob": 0.15
+      "prob": 0.18
     },
     {
       "team": "Spain",
-      "prob": 0.14
+      "prob": 0.13
     },
     {
       "team": "England",
-      "prob": 0.1
-    },
-    {
-      "team": "Brazil",
-      "prob": 0.08
-    },
-    {
-      "team": "Portugal",
-      "prob": 0.07
-    },
-    {
-      "team": "Netherlands",
-      "prob": 0.05
+      "prob": 0.11
     },
     {
       "team": "Germany",
+      "prob": 0.08
+    },
+    {
+      "team": "Brazil",
+      "prob": 0.07
+    },
+    {
+      "team": "Portugal",
       "prob": 0.05
+    },
+    {
+      "team": "Netherlands",
+      "prob": 0.04
     }
   ],
-  "reasoning": "France is the clear and lengthening outright favorite after sweeping Group I 10-2, with the market pricing them around +360 and roughly a 20% title chance; their attacking depth (Mbappé plus Ballon d'Or winner Dembélé, who scored a 32-minute hat trick against Norway) and an elite Maignan-Saliba-Upamecano spine make them the strongest squad on paper. Argentina, the defending champions led by an in-form Messi, have surged to second favorite on the back of confident wins and a favorable Round-of-32 draw against Cape Verde, making a 2022 final rematch a live possibility. Spain (Euro 2024 champions) and England round out the top tier, with Brazil under Ancelotti finding form after a slow start but still carrying defensive question marks. Morocco is my dark horse: they topped a group containing Brazil-level competition on 7 points and reached the 2022 semifinals, giving them the pedigree to upset a heavyweight.",
-  "basis": "group stage (66 matches played)",
+  "reasoning": "France are the clear market favorites at roughly +360, having won Group I with a perfect record and +8 goal difference behind an in-form Dembélé, and they boast the deepest squad able to absorb injuries. Argentina are the most dangerous challenger as reigning champions with a perfect group stage and a Messi on historic form (12 goals in his last 9 matches), sitting on the opposite side of the bracket for a plausible final meeting. Spain's title case is undermined by an injury crisis (Nico Williams, Yeremy Pino and Fermín López out plus Yamal fitness doubts), while Brazil look light up front without Estêvão and Rodrygo and over-reliant on a 34-year-old Neymar. The main threats to France are a potential last-16 clash with Germany and the inherent randomness of single-elimination knockouts decided by shootouts; Morocco, who pushed into the knockouts and face the Netherlands, are the live outsider given their World Cup pedigree and counter-attacking quality.",
+  "basis": "knockout stage",
   "modelVersion": "claude-opus-4-8",
-  "updatedAt": "2026-06-27T08:27:56.669Z"
+  "updatedAt": "2026-06-28T08:41:53.193Z"
 }
