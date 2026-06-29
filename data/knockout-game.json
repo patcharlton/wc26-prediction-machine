@@ -430,8 +430,21 @@
       "lockedAt": "2026-06-28T18:00:22.632Z",
       "locked": true,
       "webSearchUsed": true,
-      "actual": null,
-      "scored": null
+      "actual": {
+        "rt": {
+          "home": 0,
+          "away": 1
+        },
+        "et": null,
+        "pens": null,
+        "advanced": "away"
+      },
+      "scored": {
+        "p1": 1,
+        "p2": 3,
+        "p3": 0,
+        "total": 4
+      }
     },
     {
       "fixtureId": "1562344",
@@ -1009,13 +1022,294 @@
       "webSearchUsed": true,
       "actual": null,
       "scored": null
+    },
+    {
+      "fixtureId": "1565177",
+      "stage": "R32",
+      "homeTeam": "France",
+      "awayTeam": "Sweden",
+      "kickoff": "2026-06-30T21:00:00.000Z",
+      "pred1Advance": "home",
+      "pred1Team": "France",
+      "pred2Reg": {
+        "home": 2,
+        "away": 0
+      },
+      "pred3Et": {
+        "home": 1,
+        "away": 1
+      },
+      "ev": {
+        "p1": 0.86,
+        "p2": 1.127,
+        "p3": 0.176,
+        "total": 2.163
+      },
+      "pEtUsed": 0.191,
+      "distributions": {
+        "advance": {
+          "home": 0.86,
+          "away": 0.14
+        },
+        "regulation": [
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.1907514450867052
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.16763005780346818
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.1329479768786127
+          },
+          {
+            "home": 3,
+            "away": 0,
+            "prob": 0.10982658959537571
+          },
+          {
+            "home": 3,
+            "away": 1,
+            "prob": 0.09826589595375722
+          },
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.08670520231213871
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.06358381502890173
+          },
+          {
+            "home": 3,
+            "away": 2,
+            "prob": 0.046242774566473986
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.04046242774566474
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.03468208092485549
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.028901734104046242
+          }
+        ],
+        "extraTimeProb": 0.165,
+        "extraTime": [
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.2173913043478261
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.1847826086956522
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.14130434782608697
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.13043478260869565
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.09782608695652174
+          },
+          {
+            "home": 3,
+            "away": 1,
+            "prob": 0.08695652173913045
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.07608695652173915
+          },
+          {
+            "home": 3,
+            "away": 2,
+            "prob": 0.06521739130434782
+          }
+        ]
+      },
+      "reasoning": "France enter in dominant form with three group-stage wins scoring 10 goals, while Sweden scraped through from third place and conceded five against the Netherlands, making a high France win likely. Sweden's Gyökeres-Isak strike pairing gives them genuine scoring threat, so a France clean sheet is far from guaranteed, lending mass to 2-1 and 3-1 type scorelines. The de-vigged market (France 0.747, draw 0.178) plus France's attacking edge supports a heavy favorite, but knockout draws warrant meaningful probability on 1-1 and 0-0, hence a moderate extra-time chance. If it goes to ET, low-scoring ",
+      "modelVersion": "claude-opus-4-8",
+      "generatedAt": "2026-06-29T02:56:36.330Z",
+      "lockedAt": null,
+      "locked": false,
+      "webSearchUsed": true,
+      "actual": null,
+      "scored": null
+    },
+    {
+      "fixtureId": "1567306",
+      "stage": "R32",
+      "homeTeam": "Mexico",
+      "awayTeam": "Ecuador",
+      "kickoff": "2026-07-01T01:00:00.000Z",
+      "pred1Advance": "home",
+      "pred1Team": "Mexico",
+      "pred2Reg": {
+        "home": 1,
+        "away": 0
+      },
+      "pred3Et": {
+        "home": 1,
+        "away": 1
+      },
+      "ev": {
+        "p1": 0.6,
+        "p2": 0.881,
+        "p3": 0.268,
+        "total": 1.749
+      },
+      "pEtUsed": 0.33,
+      "distributions": {
+        "advance": {
+          "home": 0.6,
+          "away": 0.4
+        },
+        "regulation": [
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.18749999999999997
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.1534090909090909
+          },
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.13068181818181818
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.1193181818181818
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.10795454545454544
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.08522727272727271
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.051136363636363626
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.04545454545454545
+          },
+          {
+            "home": 3,
+            "away": 0,
+            "prob": 0.051136363636363626
+          },
+          {
+            "home": 3,
+            "away": 1,
+            "prob": 0.03977272727272727
+          },
+          {
+            "home": 0,
+            "away": 2,
+            "prob": 0.028409090909090908
+          }
+        ],
+        "extraTimeProb": 0.3,
+        "extraTime": [
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.1853932584269663
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.15168539325842698
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.14606741573033707
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.11797752808988764
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.10674157303370786
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.0955056179775281
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.07865168539325844
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.06741573033707865
+          },
+          {
+            "home": 3,
+            "away": 1,
+            "prob": 0.05056179775280899
+          }
+        ]
+      },
+      "reasoning": "Mexico enter as host favorites in red-hot form, winning all three group games without conceding, with full availability and the altitude/crowd edge at home. Ecuador are a disciplined, defense-first side (Pacho, Hincapie, Caicedo, Ordonez) who upset Germany on the counter but score sparingly, pointing to a low-scoring, tight match. The market and these factors give Mexico a clear but not overwhelming edge, with realistic draw mass (0-0, 1-1) and a meaningful chance of extra time given Ecuador's ability to frustrate. Extra-time scenarios favor low-scoring outcomes where Mexico's depth and home a",
+      "modelVersion": "claude-opus-4-8",
+      "generatedAt": "2026-06-29T02:56:36.330Z",
+      "lockedAt": null,
+      "locked": false,
+      "webSearchUsed": true,
+      "actual": null,
+      "scored": null
     }
   ],
   "summary": {
-    "matchesScored": 1,
-    "machinePoints": 3,
-    "maxPoints": 7,
-    "expectedTotal": 12.55,
-    "lastUpdatedAt": "2026-06-28T20:57:11.388Z"
+    "matchesScored": 2,
+    "machinePoints": 7,
+    "maxPoints": 14,
+    "expectedTotal": 16.46,
+    "lastUpdatedAt": "2026-06-29T02:56:36.330Z"
   }
 }

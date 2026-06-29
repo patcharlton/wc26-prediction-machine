@@ -1369,22 +1369,22 @@
   },
   {
     "fixtureId": "1561329",
-    "status": "live",
+    "status": "finished",
     "kickoff": "2026-06-28T19:00:00.000Z",
     "stage": "R32",
     "homeTeam": "South Africa",
     "awayTeam": "Canada",
     "actualScore": {
-      "home": null,
-      "away": null
+      "home": 0,
+      "away": 1
     },
-    "actualOutcome": null,
-    "machineOutcomeHit": null,
-    "marketOutcomeHit": null,
-    "exactScoreHit": null,
-    "machineBrierScore": null,
-    "marketBrierScore": null,
-    "resolvedAt": null
+    "actualOutcome": "awayWin",
+    "machineOutcomeHit": true,
+    "marketOutcomeHit": true,
+    "exactScoreHit": true,
+    "machineBrierScore": 0.335,
+    "marketBrierScore": 0.284,
+    "resolvedAt": "2026-06-29T02:56:36.330Z"
   },
   {
     "fixtureId": "1562344",

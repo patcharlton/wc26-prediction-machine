@@ -1923,5 +1923,55 @@
     "generatedAt": "2026-06-28T17:57:27.949Z",
     "locked": false,
     "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1565177",
+    "probs": {
+      "homeWin": 0.72,
+      "draw": 0.18,
+      "awayWin": 0.1
+    },
+    "scoreline": {
+      "home": 2,
+      "away": 0
+    },
+    "confidence": "Medium-High",
+    "reasoning": "France are clearly the stronger side, ranked third in the world with elite attacking depth (Mbappé, Dembélé, Olise, Doué) and three straight high-scoring group wins, while Sweden scraped through third after being thrashed 5-1 by the Netherlands. Sweden's Gyökeres-Isak strike pairing carries real counter-attacking danger and France have conceded in four of their last five, so an upset or draw isn't far-fetched, but France's quality and depth should win out. I have France slightly below the market to honor knockout-game variance and their leaky recent defending.",
+    "market": {
+      "homeWin": 0.747,
+      "draw": 0.178,
+      "awayWin": 0.075,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-opus-4-8",
+    "generatedAt": "2026-06-29T02:56:36.330Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1567306",
+    "probs": {
+      "homeWin": 0.45,
+      "draw": 0.31,
+      "awayWin": 0.24
+    },
+    "scoreline": {
+      "home": 1,
+      "away": 0
+    },
+    "confidence": "Medium",
+    "reasoning": "Mexico are the stronger side here: they topped Group A with three wins and no goals conceded, are playing at home in Mexico City altitude where they're well-adjusted, have no injury concerns and will get Raul Jimenez back after resting him. Ecuador are dangerous and well-organized, having just upset Germany behind a healthy Moises Caicedo and goal threats in Plata and Valencia, so they can frustrate and punish on the break. Both teams had equal rest, and World Cup knockout games against compact, counter-attacking sides often stay tight, so a low-scoring narrow Mexico win or a draw are both very live outcomes.",
+    "market": {
+      "homeWin": 0.416,
+      "draw": 0.32,
+      "awayWin": 0.264,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-opus-4-8",
+    "generatedAt": "2026-06-29T02:56:36.330Z",
+    "locked": false,
+    "webSearchUsed": true
   }
 ]
