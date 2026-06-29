@@ -1852,26 +1852,26 @@
   {
     "fixtureId": "1565176",
     "probs": {
-      "homeWin": 0.66,
-      "draw": 0.22,
-      "awayWin": 0.12
+      "homeWin": 0.7,
+      "draw": 0.2,
+      "awayWin": 0.1
     },
     "scoreline": {
       "home": 2,
       "away": 0
     },
     "confidence": "Medium-High",
-    "reasoning": "Germany are clearly the stronger side with top-10 ranking and elite attackers like Musiala, Wirtz and Sané, even after losing Schlotterbeck and Gnabry to injury. Paraguay are well-organized and defensively stubborn under Alfaro, having shut out Australia and beaten Türkiye, which makes a low-scoring, frustrating game plausible. In a one-off knockout match against a deep block, Germany should eventually break through but the risk of a tight, narrow result keeps the draw probability honest. Expect a controlled German win with a clean sheet more likely than a goal-fest.",
+    "reasoning": "Germany have far more squad quality and attacking firepower, with Musiala, Wirtz and Sané supported by a deep bench that includes super-sub Deniz Undav, who has already changed games at this tournament. They lose Schlotterbeck to a tournament-ending injury but Rüdiger steps in capably, while Paraguay are without sent-off attacker Miguel Almirón and have scored just twice in three group games, relying on a low-block defensive approach. Boston is a neutral, sea-level venue with no altitude factor, and both sides have similar rest, so the gap comes down to talent and Germany's ability to break down a deep defense.",
     "market": {
-      "homeWin": 0.693,
-      "draw": 0.201,
-      "awayWin": 0.105,
+      "homeWin": 0.697,
+      "draw": 0.197,
+      "awayWin": 0.106,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-06-29T18:57:45.787Z",
     "modelVersion": "claude-opus-4-8",
-    "generatedAt": "2026-06-28T02:56:00.373Z",
-    "locked": false,
+    "generatedAt": "2026-06-29T18:57:45.787Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {

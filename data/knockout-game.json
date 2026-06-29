@@ -592,137 +592,122 @@
         "away": 0
       },
       "pred3Et": {
-        "home": 2,
-        "away": 1
+        "home": 1,
+        "away": 0
       },
       "ev": {
-        "p1": 0.8,
-        "p2": 1.056,
-        "p3": 0.188,
-        "total": 2.044
+        "p1": 0.79,
+        "p2": 1.027,
+        "p3": 0.236,
+        "total": 2.053
       },
-      "pEtUsed": 0.236,
+      "pEtUsed": 0.285,
       "distributions": {
         "advance": {
-          "home": 0.8,
-          "away": 0.2
+          "home": 0.79,
+          "away": 0.21
         },
         "regulation": [
           {
             "home": 1,
             "away": 0,
-            "prob": 0.1853932584269663
+            "prob": 0.20420792079207917
           },
           {
             "home": 2,
             "away": 0,
-            "prob": 0.15168539325842698
-          },
-          {
-            "home": 1,
-            "away": 1,
-            "prob": 0.11797752808988764
-          },
-          {
-            "home": 2,
-            "away": 1,
-            "prob": 0.12921348314606743
+            "prob": 0.14232673267326731
           },
           {
             "home": 0,
             "away": 0,
-            "prob": 0.08426966292134831
+            "prob": 0.12995049504950493
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.12995049504950493
+          },
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.11757425742574255
           },
           {
             "home": 3,
             "away": 0,
-            "prob": 0.08426966292134831
+            "prob": 0.07425742574257424
           },
           {
             "home": 3,
             "away": 1,
-            "prob": 0.07303370786516854
-          },
-          {
-            "home": 2,
-            "away": 2,
-            "prob": 0.033707865168539325
+            "prob": 0.06806930693069306
           },
           {
             "home": 0,
             "away": 1,
-            "prob": 0.05056179775280899
+            "prob": 0.061881188118811874
           },
           {
-            "home": 3,
+            "home": 2,
             "away": 2,
-            "prob": 0.02808988764044944
+            "prob": 0.03712871287128712
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.02808988764044944
-          },
-          {
-            "home": 4,
-            "away": 0,
-            "prob": 0.033707865168539325
+            "prob": 0.03465346534653465
           }
         ],
-        "extraTimeProb": 0.22,
+        "extraTimeProb": 0.25,
         "extraTime": [
           {
             "home": 1,
-            "away": 1,
-            "prob": 0.18131868131868129
+            "away": 0,
+            "prob": 0.19526627218934914
           },
           {
             "home": 0,
             "away": 0,
-            "prob": 0.14285714285714285
+            "prob": 0.17751479289940827
+          },
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.16568047337278108
           },
           {
             "home": 2,
             "away": 1,
-            "prob": 0.1648351648351648
-          },
-          {
-            "home": 1,
-            "away": 0,
-            "prob": 0.14285714285714285
-          },
-          {
-            "home": 2,
-            "away": 2,
-            "prob": 0.07692307692307691
+            "prob": 0.1242603550295858
           },
           {
             "home": 2,
             "away": 0,
-            "prob": 0.10439560439560439
-          },
-          {
-            "home": 1,
-            "away": 2,
-            "prob": 0.06593406593406592
+            "prob": 0.1183431952662722
           },
           {
             "home": 0,
             "away": 1,
-            "prob": 0.06593406593406592
+            "prob": 0.08875739644970414
           },
           {
-            "home": 3,
-            "away": 1,
-            "prob": 0.05494505494505494
+            "home": 2,
+            "away": 2,
+            "prob": 0.07100591715976332
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.0591715976331361
           }
         ]
       },
-      "reasoning": "Germany are clear favorites (~69% on the de-vigged 1X2) with their full attacking trio of Havertz, Wirtz and Musiala, though Schlotterbeck's loss leaves Rüdiger deputizing at center-back. Paraguay sit in a deep, compact low block and have generated just 1.1 xG over three group games, are missing suspended creator/penalty-taker Diego Gomez, and have never scored in a World Cup knockout match. That favors low-scoring, Germany-leaning scorelines (1-0, 2-0, 2-1) with meaningful draw mass given Paraguay's defensive resilience. If regulation is level, Germany's superior quality should tell in extra ",
+      "reasoning": "Germany are heavy favorites but enter off a loss to Ecuador and have shown attacking issues, while Paraguay are deeply defensive with the second-lowest group-stage xG and openly target extra time. The Schlotterbeck loss and Brown doubt slightly weaken Germany's defense, but Paraguay's suspension of Diego Gomez and doubt over Alderete hurt them more. Expect a low-scoring, grind-it-out match with realistic draw mass and elevated chance of extra time, with Germany most likely winning by a tight margin like 1-0 or 2-1.",
       "modelVersion": "claude-opus-4-8",
-      "generatedAt": "2026-06-28T17:57:27.949Z",
-      "lockedAt": null,
-      "locked": false,
+      "generatedAt": "2026-06-29T18:57:45.787Z",
+      "lockedAt": "2026-06-29T18:57:45.787Z",
+      "locked": true,
       "webSearchUsed": true,
       "actual": null,
       "scored": null
@@ -1289,7 +1274,7 @@
     "matchesScored": 2,
     "machinePoints": 7,
     "maxPoints": 14,
-    "expectedTotal": 16.52,
-    "lastUpdatedAt": "2026-06-29T18:57:19.782Z"
+    "expectedTotal": 16.53,
+    "lastUpdatedAt": "2026-06-29T18:57:45.787Z"
   }
 }
