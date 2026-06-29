@@ -1479,9 +1479,9 @@
     "awayTeam": "Japan",
     "homeTeamId": 6,
     "awayTeamId": 12,
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 1,
-    "elapsed": 55,
+    "elapsed": 60,
     "venue": {
       "name": "NRG Stadium",
       "city": "Houston",
