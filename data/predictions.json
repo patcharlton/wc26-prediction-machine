@@ -1877,26 +1877,26 @@
   {
     "fixtureId": "1562345",
     "probs": {
-      "homeWin": 0.44,
-      "draw": 0.29,
+      "homeWin": 0.42,
+      "draw": 0.31,
       "awayWin": 0.27
     },
     "scoreline": {
-      "home": 2,
+      "home": 1,
       "away": 1
     },
-    "confidence": "Medium-Low",
-    "reasoning": "The Dutch carry more squad depth and arrive in red-hot scoring form, but they're missing pieces with Timber and Simons out and De Ligt absent, while Depay was carrying a thigh knock. Morocco lost defender Aguerd and winger Ezzalzouli before the tournament, yet their Hakimi-Diaz core is dangerous and their defense has been resilient, conceding little against quality opposition. This shapes up as a tight, evenly-matched knockout game where the Netherlands' edge in attacking talent makes them slight favorites, but a draw is very live and Morocco can spring an upset. I lean to a narrow Dutch win with elevated draw probability typical of cagey R32 ties.",
+    "confidence": "Low",
+    "reasoning": "The Netherlands carry the better attack and deeper squad, with a fully fit XI led by an in-form Brobbey front three, which makes them rightful slight favorites. But Morocco are extremely well-organized, have conceded little, and own the disciplined block-and-counter profile that has frustrated bigger sides, plus Hakimi as a constant threat. The Dutch defense has looked leaky and rarely keeps clean sheets, so Morocco's counters stay live and a low-scoring grind into extra time is very plausible. Given how even this tie is, the draw after 90 minutes is a real outcome and confidence is low.",
     "market": {
-      "homeWin": 0.456,
-      "draw": 0.284,
-      "awayWin": 0.26,
+      "homeWin": 0.406,
+      "draw": 0.306,
+      "awayWin": 0.287,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-06-29T23:52:25.840Z",
     "modelVersion": "claude-opus-4-8",
-    "generatedAt": "2026-06-28T02:56:00.373Z",
-    "locked": false,
+    "generatedAt": "2026-06-29T23:52:25.840Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {

@@ -734,75 +734,75 @@
       "pred1Advance": "home",
       "pred1Team": "Netherlands",
       "pred2Reg": {
-        "home": 1,
-        "away": 0
+        "home": 2,
+        "away": 1
       },
       "pred3Et": {
         "home": 1,
         "away": 1
       },
       "ev": {
-        "p1": 0.585,
-        "p2": 0.746,
-        "p3": 0.279,
-        "total": 1.61
+        "p1": 0.555,
+        "p2": 0.709,
+        "p3": 0.295,
+        "total": 1.559
       },
-      "pEtUsed": 0.337,
+      "pEtUsed": 0.331,
       "distributions": {
         "advance": {
-          "home": 0.585,
-          "away": 0.415
+          "home": 0.555,
+          "away": 0.445
         },
         "regulation": [
           {
             "home": 1,
             "away": 1,
-            "prob": 0.15976331360946744
-          },
-          {
-            "home": 1,
-            "away": 0,
-            "prob": 0.14792899408284022
+            "prob": 0.152317880794702
           },
           {
             "home": 2,
             "away": 1,
-            "prob": 0.13609467455621302
+            "prob": 0.1390728476821192
           },
           {
-            "home": 0,
+            "home": 1,
             "away": 0,
-            "prob": 0.10650887573964496
+            "prob": 0.11258278145695365
           },
           {
             "home": 2,
             "away": 0,
-            "prob": 0.10059171597633136
-          },
-          {
-            "home": 0,
-            "away": 1,
-            "prob": 0.08875739644970412
+            "prob": 0.09933774834437085
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.07692307692307691
+            "prob": 0.09933774834437085
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.09271523178807947
           },
           {
             "home": 2,
             "away": 2,
-            "prob": 0.0710059171597633
+            "prob": 0.09271523178807947
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.08609271523178808
           },
           {
             "home": 3,
             "away": 1,
-            "prob": 0.0650887573964497
+            "prob": 0.07947019867549669
           },
           {
-            "home": 0,
-            "away": 2,
-            "prob": 0.047337278106508875
+            "home": 1,
+            "away": 3,
+            "prob": 0.046357615894039736
           }
         ],
         "extraTimeProb": 0.3,
@@ -810,50 +810,50 @@
           {
             "home": 1,
             "away": 1,
-            "prob": 0.19526627218934914
+            "prob": 0.2173913043478261
           },
           {
             "home": 2,
             "away": 1,
-            "prob": 0.15976331360946747
+            "prob": 0.16304347826086957
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.1301775147928994
+            "prob": 0.14130434782608697
           },
           {
             "home": 2,
             "away": 2,
-            "prob": 0.1301775147928994
+            "prob": 0.13043478260869565
           },
           {
             "home": 0,
             "away": 0,
-            "prob": 0.11242603550295859
+            "prob": 0.10869565217391305
           },
           {
-            "home": 1,
-            "away": 0,
-            "prob": 0.10650887573964497
+            "home": 3,
+            "away": 2,
+            "prob": 0.08695652173913045
           },
           {
-            "home": 0,
+            "home": 2,
+            "away": 3,
+            "prob": 0.07608695652173915
+          },
+          {
+            "home": 3,
             "away": 1,
-            "prob": 0.09467455621301776
-          },
-          {
-            "home": 2,
-            "away": 0,
-            "prob": 0.07100591715976332
+            "prob": 0.07608695652173915
           }
         ]
       },
-      "reasoning": "Netherlands are modest favourites (market ~0.445 home, 0.263 away; DraftKings had them around +115 with Morocco +260), reflected in roughly a 58/42 advance edge once extra time and penalties are included. The Dutch attack has been prolific (10 goals in the group) but their defence has leaked, while Morocco are disciplined, defensively organised and dangerous on the counter through Hakimi and Saibari, so draws and tight outcomes carry significant mass. Both sides are at near-full strength (Aguerd and Ezzalzouli already ruled out earlier, no fresh concerns), and multiple previews tip a low-scori",
+      "reasoning": "Both teams are fully fit and attack-minded — Netherlands and Morocco rank top-14 in xG/90, and neither has kept a clean sheet at the tournament, so both-teams-to-score and over 2.5 goals are strongly favored. The Netherlands are a slight de-vigged favorite (~0.41) with superior squad depth, but Morocco's quality and proven knockout pedigree (penalty win vs Spain in 2022) keep them dangerous and elevate draw/extra-time probability. Regulation draws carry meaningful mass given the open, high-scoring nature, and Morocco's shootout reputation narrows the advance gap relative to the 90-minute line.",
       "modelVersion": "claude-opus-4-8",
-      "generatedAt": "2026-06-28T17:57:27.949Z",
-      "lockedAt": null,
-      "locked": false,
+      "generatedAt": "2026-06-29T23:52:25.840Z",
+      "lockedAt": "2026-06-29T23:52:25.840Z",
+      "locked": true,
       "webSearchUsed": true,
       "actual": null,
       "scored": null
@@ -1420,7 +1420,7 @@
     "matchesScored": 3,
     "machinePoints": 9,
     "maxPoints": 21,
-    "expectedTotal": 18.59,
-    "lastUpdatedAt": "2026-06-29T23:27:59.206Z"
+    "expectedTotal": 18.54,
+    "lastUpdatedAt": "2026-06-29T23:52:25.840Z"
   }
 }
