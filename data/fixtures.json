@@ -1484,7 +1484,7 @@
     "elapsed": null,
     "venue": {
       "name": "NRG Stadium",
-      "city": null,
+      "city": "Houston",
       "country": null
     },
     "koScore": null,
@@ -1506,7 +1506,7 @@
     "elapsed": null,
     "venue": {
       "name": "Gillette Stadium",
-      "city": null,
+      "city": "Boston",
       "country": null
     },
     "koScore": null,
@@ -1549,8 +1549,8 @@
     "awayScore": null,
     "elapsed": null,
     "venue": {
-      "name": null,
-      "city": null,
+      "name": "AT&T Stadium",
+      "city": "Dallas",
       "country": null
     },
     "koScore": null,
@@ -1572,7 +1572,7 @@
     "elapsed": null,
     "venue": {
       "name": "MetLife Stadium",
-      "city": null,
+      "city": "New-York",
       "country": null
     },
     "koScore": null,
@@ -1593,7 +1593,7 @@
     "awayScore": null,
     "elapsed": null,
     "venue": {
-      "name": "Estadio Banorte",
+      "name": "Estadio Azteca",
       "city": "Mexico City",
       "country": null
     },
@@ -1616,7 +1616,7 @@
     "elapsed": null,
     "venue": {
       "name": "Mercedes-Benz Stadium",
-      "city": null,
+      "city": "Atlanta",
       "country": null
     },
     "koScore": null,
@@ -1638,7 +1638,7 @@
     "elapsed": null,
     "venue": {
       "name": "Lumen Field",
-      "city": null,
+      "city": "Seattle",
       "country": null
     },
     "koScore": null,
@@ -1659,8 +1659,8 @@
     "awayScore": null,
     "elapsed": null,
     "venue": {
-      "name": null,
-      "city": null,
+      "name": "Levi's Stadium",
+      "city": "San-Francisco",
       "country": null
     },
     "koScore": null,
@@ -1682,7 +1682,7 @@
     "elapsed": null,
     "venue": {
       "name": "SoFi Stadium",
-      "city": null,
+      "city": "Los Angeles",
       "country": null
     },
     "koScore": null,
@@ -1704,7 +1704,7 @@
     "elapsed": null,
     "venue": {
       "name": "BMO Field",
-      "city": null,
+      "city": "Toronto",
       "country": null
     },
     "koScore": null,
@@ -1726,7 +1726,7 @@
     "elapsed": null,
     "venue": {
       "name": "BC Place",
-      "city": null,
+      "city": "Vancouver",
       "country": null
     },
     "koScore": null,
@@ -1747,8 +1747,8 @@
     "awayScore": null,
     "elapsed": null,
     "venue": {
-      "name": null,
-      "city": null,
+      "name": "AT&T Stadium",
+      "city": "Dallas",
       "country": null
     },
     "koScore": null,
@@ -1770,7 +1770,7 @@
     "elapsed": null,
     "venue": {
       "name": "Hard Rock Stadium",
-      "city": null,
+      "city": "Miami",
       "country": null
     },
     "koScore": null,
@@ -1792,7 +1792,7 @@
     "elapsed": null,
     "venue": {
       "name": "Arrowhead Stadium",
-      "city": null,
+      "city": "Kansas City",
       "country": null
     },
     "koScore": null,
