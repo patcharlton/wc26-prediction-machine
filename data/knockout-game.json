@@ -576,8 +576,21 @@
       "lockedAt": "2026-06-29T16:34:34.307Z",
       "locked": true,
       "webSearchUsed": true,
-      "actual": null,
-      "scored": null
+      "actual": {
+        "rt": {
+          "home": 2,
+          "away": 1
+        },
+        "et": null,
+        "pens": null,
+        "advanced": "home"
+      },
+      "scored": {
+        "p1": 1,
+        "p2": 1,
+        "p3": 0,
+        "total": 2
+      }
     },
     {
       "fixtureId": "1565176",
@@ -1268,13 +1281,146 @@
       "webSearchUsed": true,
       "actual": null,
       "scored": null
+    },
+    {
+      "fixtureId": "1567307",
+      "stage": "R32",
+      "homeTeam": "England",
+      "awayTeam": "Congo DR",
+      "kickoff": "2026-07-01T16:00:00.000Z",
+      "pred1Advance": "home",
+      "pred1Team": "England",
+      "pred2Reg": {
+        "home": 1,
+        "away": 0
+      },
+      "pred3Et": {
+        "home": 1,
+        "away": 0
+      },
+      "ev": {
+        "p1": 0.8,
+        "p2": 1.036,
+        "p3": 0.219,
+        "total": 2.055
+      },
+      "pEtUsed": 0.275,
+      "distributions": {
+        "advance": {
+          "home": 0.8,
+          "away": 0.2
+        },
+        "regulation": [
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.19760479041916168
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.16167664670658682
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.12574850299401197
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.12574850299401197
+          },
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.11377245508982035
+          },
+          {
+            "home": 3,
+            "away": 0,
+            "prob": 0.08982035928143711
+          },
+          {
+            "home": 3,
+            "away": 1,
+            "prob": 0.06586826347305388
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.03592814371257485
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.04790419161676646
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.03592814371257485
+          }
+        ],
+        "extraTimeProb": 0.23,
+        "extraTime": [
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.17222222222222225
+          },
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.16111111111111115
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.15000000000000005
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.1444444444444445
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.12777777777777782
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.07222222222222224
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.08333333333333334
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.0888888888888889
+          }
+        ]
+      },
+      "reasoning": "England top Group L in strong form (10 goals, 2 conceded in their last five) and are heavy favorites at home in Atlanta, with Kane and Bellingham finding form. DR Congo are a disciplined, defensively-organized side under Desabre who deploy a back-five low block and frustrated Portugal, so a tight, low-scoring game with realistic draw mass is plausible. England's most likely scorelines are narrow 1-0/2-0/2-1 wins; given Congo's resilience and counter-attacking threat through Wissa, there is meaningful probability the game reaches extra time, where England remain favored to advance via further p",
+      "modelVersion": "claude-opus-4-8",
+      "generatedAt": "2026-06-29T19:49:54.389Z",
+      "lockedAt": null,
+      "locked": false,
+      "webSearchUsed": true,
+      "actual": null,
+      "scored": null
     }
   ],
   "summary": {
-    "matchesScored": 2,
-    "machinePoints": 7,
-    "maxPoints": 14,
-    "expectedTotal": 16.53,
-    "lastUpdatedAt": "2026-06-29T19:02:23.079Z"
+    "matchesScored": 3,
+    "machinePoints": 9,
+    "maxPoints": 21,
+    "expectedTotal": 18.59,
+    "lastUpdatedAt": "2026-06-29T19:49:54.389Z"
   }
 }

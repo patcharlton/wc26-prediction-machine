@@ -1474,7 +1474,7 @@
     "stage": "R32",
     "matchday": null,
     "kickoff": "2026-06-29T17:00:00.000Z",
-    "status": "live",
+    "status": "finished",
     "homeTeam": "Brazil",
     "awayTeam": "Japan",
     "homeTeamId": 6,
@@ -1487,7 +1487,15 @@
       "city": "Houston",
       "country": null
     },
-    "koScore": null,
+    "koScore": {
+      "rt": {
+        "home": 2,
+        "away": 1
+      },
+      "et": null,
+      "pens": null,
+      "advanced": "home"
+    },
     "homeSlot": "W:E",
     "awaySlot": "3:A/B/C/D/F"
   },

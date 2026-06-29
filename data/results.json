@@ -1388,22 +1388,22 @@
   },
   {
     "fixtureId": "1562344",
-    "status": "live",
+    "status": "finished",
     "kickoff": "2026-06-29T17:00:00.000Z",
     "stage": "R32",
     "homeTeam": "Brazil",
     "awayTeam": "Japan",
     "actualScore": {
-      "home": null,
-      "away": null
+      "home": 2,
+      "away": 1
     },
-    "actualOutcome": null,
-    "machineOutcomeHit": null,
-    "marketOutcomeHit": null,
-    "exactScoreHit": null,
-    "machineBrierScore": null,
-    "marketBrierScore": null,
-    "resolvedAt": null
+    "actualOutcome": "homeWin",
+    "machineOutcomeHit": true,
+    "marketOutcomeHit": true,
+    "exactScoreHit": true,
+    "machineBrierScore": 0.308,
+    "marketBrierScore": 0.319,
+    "resolvedAt": "2026-06-29T19:49:54.389Z"
   },
   {
     "fixtureId": "1565176",
