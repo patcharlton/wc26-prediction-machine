@@ -1827,8 +1827,8 @@
   {
     "fixtureId": "1562344",
     "probs": {
-      "homeWin": 0.58,
-      "draw": 0.24,
+      "homeWin": 0.55,
+      "draw": 0.27,
       "awayWin": 0.18
     },
     "scoreline": {
@@ -1836,17 +1836,17 @@
       "away": 1
     },
     "confidence": "Medium",
-    "reasoning": "Brazil have the stronger, deeper squad under Ancelotti and topped their group with two clean-sheet wins, with Vinícius Jr, Raphinha and Martinelli all available despite injuries to Estêvão, Rodrygo and Militão. Japan are in good form and have history of beating big sides, but they lost captain Endō and Mitoma before the tournament and Kubo injured his knee against the Netherlands, blunting their best attacking threats. Japan's pressing can make this competitive and a knockout match always carries upset and draw risk, but Brazil's quality edge makes them clear favorites. A narrow 2-1 Brazil win is the most likely outcome.",
+    "reasoning": "Brazil are clearly the stronger side and are in sharp form with two recent 3-0 wins, and even though they are without Raphinha, Rodrygo and Estevao, their attacking depth around Vinicius Jr and Cunha is far superior. Japan are well-organized and dangerous on the press, but losing captain Endo and star winger Mitoma blunts their creativity, and they have never won a World Cup knockout match. The neutral, hot Houston venue and Japan's quality keep a draw or upset live, so a single-goal Brazil win feels most likely rather than a blowout.",
     "market": {
-      "homeWin": 0.564,
-      "draw": 0.253,
-      "awayWin": 0.183,
+      "homeWin": 0.541,
+      "draw": 0.271,
+      "awayWin": 0.187,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-06-29T16:34:34.307Z",
     "modelVersion": "claude-opus-4-8",
-    "generatedAt": "2026-06-27T19:13:07.234Z",
-    "locked": false,
+    "generatedAt": "2026-06-29T16:34:34.307Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {

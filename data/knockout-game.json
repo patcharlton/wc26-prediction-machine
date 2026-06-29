@@ -464,11 +464,11 @@
       },
       "ev": {
         "p1": 0.685,
-        "p2": 0.905,
-        "p3": 0.221,
-        "total": 1.811
+        "p2": 0.907,
+        "p3": 0.28,
+        "total": 1.872
       },
-      "pEtUsed": 0.266,
+      "pEtUsed": 0.311,
       "distributions": {
         "advance": {
           "home": 0.685,
@@ -478,123 +478,103 @@
           {
             "home": 1,
             "away": 0,
-            "prob": 0.15976331360946744
+            "prob": 0.16770186335403728
           },
           {
             "home": 2,
             "away": 0,
-            "prob": 0.12426035502958577
+            "prob": 0.13043478260869565
           },
           {
             "home": 2,
             "away": 1,
-            "prob": 0.12426035502958577
+            "prob": 0.13043478260869565
           },
           {
             "home": 1,
             "away": 1,
-            "prob": 0.11834319526627217
+            "prob": 0.14285714285714285
           },
           {
             "home": 0,
             "away": 0,
-            "prob": 0.09467455621301774
+            "prob": 0.11180124223602483
           },
           {
             "home": 3,
             "away": 0,
-            "prob": 0.07100591715976329
+            "prob": 0.07453416149068322
           },
           {
             "home": 3,
             "away": 1,
-            "prob": 0.07100591715976329
+            "prob": 0.06832298136645962
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.06832298136645962
           },
           {
             "home": 2,
             "away": 2,
-            "prob": 0.05325443786982247
-          },
-          {
-            "home": 0,
-            "away": 1,
-            "prob": 0.06508875739644969
+            "prob": 0.05590062111801242
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.05325443786982247
-          },
-          {
-            "home": 3,
-            "away": 2,
-            "prob": 0.035502958579881644
-          },
-          {
-            "home": 0,
-            "away": 2,
-            "prob": 0.029585798816568042
+            "prob": 0.049689440993788817
           }
         ],
-        "extraTimeProb": 0.249,
+        "extraTimeProb": 0.27,
         "extraTime": [
           {
             "home": 1,
             "away": 1,
-            "prob": 0.19
-          },
-          {
-            "home": 0,
-            "away": 0,
-            "prob": 0.15
+            "prob": 0.2197802197802198
           },
           {
             "home": 2,
             "away": 1,
-            "prob": 0.14
+            "prob": 0.18681318681318684
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.095
+            "prob": 0.1098901098901099
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.13186813186813187
           },
           {
             "home": 2,
             "away": 2,
-            "prob": 0.11
+            "prob": 0.1098901098901099
           },
           {
             "home": 2,
             "away": 0,
-            "prob": 0.085
+            "prob": 0.09890109890109891
           },
           {
             "home": 1,
             "away": 0,
-            "prob": 0.08
-          },
-          {
-            "home": 0,
-            "away": 1,
-            "prob": 0.06
+            "prob": 0.07692307692307694
           },
           {
             "home": 3,
             "away": 1,
-            "prob": 0.05
-          },
-          {
-            "home": 3,
-            "away": 2,
-            "prob": 0.04
+            "prob": 0.06593406593406594
           }
         ]
       },
-      "reasoning": "Brazil are clear favorites (de-vigged ~56% regulation win) and have scored freely lately with 3-0 wins over Scotland and Haiti, though missing Rodrygo, Estevao and Militao to injury and with Neymar only a rotation option. Japan are organized and dangerous on the counter, beat Brazil in a 2025 friendly, and drew all their tougher group games, but lost captain Endo and key winger Mitoma. I weighted a Brazil win heavily but kept realistic draw mass (~25%) for a knockout game, with low-scoring lines like 1-0, 2-0 and 1-1 most likely. Extra-time scores build on plausible regulation draws, favoring ",
+      "reasoning": "Brazil are clear favorites with Vinicius in superb form and Neymar available, while Japan are missing playmaker Kubo but remain elite defensively, having conceded just three goals in 540 minutes. Japan are organized and dangerous on the counter, so a cagey, low-scoring tie with realistic draw mass is likely. Brazil's superior firepower should edge it, but multiple previews tip a potential extra-time marathon given Japan's resilience.",
       "modelVersion": "claude-opus-4-8",
-      "generatedAt": "2026-06-28T17:57:27.949Z",
-      "lockedAt": null,
-      "locked": false,
+      "generatedAt": "2026-06-29T16:34:34.307Z",
+      "lockedAt": "2026-06-29T16:34:34.307Z",
+      "locked": true,
       "webSearchUsed": true,
       "actual": null,
       "scored": null
@@ -1309,7 +1289,7 @@
     "matchesScored": 2,
     "machinePoints": 7,
     "maxPoints": 14,
-    "expectedTotal": 16.46,
-    "lastUpdatedAt": "2026-06-29T15:38:02.353Z"
+    "expectedTotal": 16.52,
+    "lastUpdatedAt": "2026-06-29T16:34:34.307Z"
   }
 }
