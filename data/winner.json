@@ -2,15 +2,15 @@
   "champion": "France",
   "runnerUp": "Argentina",
   "darkHorse": "Morocco",
-  "confidence": "Medium-Low",
+  "confidence": "Medium",
   "contenders": [
     {
       "team": "France",
-      "prob": 0.22
+      "prob": 0.24
     },
     {
       "team": "Argentina",
-      "prob": 0.18
+      "prob": 0.2
     },
     {
       "team": "Spain",
@@ -18,15 +18,15 @@
     },
     {
       "team": "England",
-      "prob": 0.11
-    },
-    {
-      "team": "Germany",
-      "prob": 0.08
+      "prob": 0.12
     },
     {
       "team": "Brazil",
       "prob": 0.07
+    },
+    {
+      "team": "Germany",
+      "prob": 0.05
     },
     {
       "team": "Portugal",
@@ -37,8 +37,8 @@
       "prob": 0.04
     }
   ],
-  "reasoning": "France are the clear market favorites at roughly +360, having won Group I with a perfect record and +8 goal difference behind an in-form Dembélé, and they boast the deepest squad able to absorb injuries. Argentina are the most dangerous challenger as reigning champions with a perfect group stage and a Messi on historic form (12 goals in his last 9 matches), sitting on the opposite side of the bracket for a plausible final meeting. Spain's title case is undermined by an injury crisis (Nico Williams, Yeremy Pino and Fermín López out plus Yamal fitness doubts), while Brazil look light up front without Estêvão and Rodrygo and over-reliant on a 34-year-old Neymar. The main threats to France are a potential last-16 clash with Germany and the inherent randomness of single-elimination knockouts decided by shootouts; Morocco, who pushed into the knockouts and face the Netherlands, are the live outsider given their World Cup pedigree and counter-attacking quality.",
+  "reasoning": "France enters the knockouts as the clear market favorite after a perfect group stage, with bookmakers pricing them around +300 to +350 and oddsmakers calling them the deepest, most talented squad in the field; their formula of absorbing pressure and exploding into transition through Mbappe, Dembele and Olise has produced a 10-2 scoreline across recent halves. Argentina is the main threat as defending champion, winning all three group games behind a sharp Messi and drawing the easier side of the bracket, which has lifted them to roughly +400-430 and co-favorite status to reach the final. Spain and England are the next tier with single-digit odds, while Brazil under Ancelotti and Germany carry talent but have shown vulnerability (Brazil's opening draw with Morocco, Germany's loss to Ecuador). Morocco is the live outsider: elite defensive organization that has long been their hallmark, plus a possible altitude/host-adjacent edge if they navigate the Netherlands in Monterrey.",
   "basis": "knockout stage",
   "modelVersion": "claude-opus-4-8",
-  "updatedAt": "2026-06-28T08:41:53.193Z"
+  "updatedAt": "2026-06-29T10:26:07.953Z"
 }
