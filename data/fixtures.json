@@ -1509,9 +1509,9 @@
     "awayTeam": "Paraguay",
     "homeTeamId": 25,
     "awayTeamId": 2380,
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 1,
-    "elapsed": 53,
+    "elapsed": 58,
     "venue": {
       "name": "Gillette Stadium",
       "city": "Boston",
