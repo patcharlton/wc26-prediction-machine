@@ -1927,26 +1927,26 @@
   {
     "fixtureId": "1565177",
     "probs": {
-      "homeWin": 0.72,
-      "draw": 0.18,
+      "homeWin": 0.73,
+      "draw": 0.17,
       "awayWin": 0.1
     },
     "scoreline": {
-      "home": 2,
-      "away": 0
+      "home": 3,
+      "away": 1
     },
     "confidence": "Medium-High",
-    "reasoning": "France are clearly the stronger side, ranked third in the world with elite attacking depth (Mbappé, Dembélé, Olise, Doué) and three straight high-scoring group wins, while Sweden scraped through third after being thrashed 5-1 by the Netherlands. Sweden's Gyökeres-Isak strike pairing carries real counter-attacking danger and France have conceded in four of their last five, so an upset or draw isn't far-fetched, but France's quality and depth should win out. I have France slightly below the market to honor knockout-game variance and their leaky recent defending.",
+    "reasoning": "France won all three group games comfortably with a deep, top-class squad and look fresher after rotating against Norway, while Sweden limped in as a third-place side and lost their center-back Isak Hien, leaving an already leaky defense (seven conceded in the group) exposed to Mbappé, Dembélé and Olise. Sweden's danger lies almost entirely in their Gyökeres-Isak strike pairing, which can punish France on the break and keeps an upset live, so the away win isn't trivial. The most likely outcome is a controlled French win, with a 3-1 scoreline reflecting both their attacking firepower and Sweden's ability to grab a goal.",
     "market": {
-      "homeWin": 0.747,
-      "draw": 0.178,
-      "awayWin": 0.075,
+      "homeWin": 0.748,
+      "draw": 0.167,
+      "awayWin": 0.085,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-06-30T20:49:58.592Z",
     "modelVersion": "claude-opus-4-8",
-    "generatedAt": "2026-06-29T02:56:36.330Z",
-    "locked": false,
+    "generatedAt": "2026-06-30T20:49:58.592Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {

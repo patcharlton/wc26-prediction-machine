@@ -1055,127 +1055,147 @@
         "away": 0
       },
       "pred3Et": {
-        "home": 1,
+        "home": 2,
         "away": 1
       },
       "ev": {
-        "p1": 0.86,
-        "p2": 1.127,
-        "p3": 0.176,
-        "total": 2.163
+        "p1": 0.875,
+        "p2": 1.105,
+        "p3": 0.149,
+        "total": 2.128
       },
-      "pEtUsed": 0.191,
+      "pEtUsed": 0.173,
       "distributions": {
         "advance": {
-          "home": 0.86,
-          "away": 0.14
+          "home": 0.875,
+          "away": 0.125
         },
         "regulation": [
           {
             "home": 2,
             "away": 0,
-            "prob": 0.1907514450867052
-          },
-          {
-            "home": 1,
-            "away": 0,
-            "prob": 0.16763005780346818
+            "prob": 0.16230366492146595
           },
           {
             "home": 2,
             "away": 1,
-            "prob": 0.1329479768786127
+            "prob": 0.14659685863874344
           },
           {
-            "home": 3,
+            "home": 1,
             "away": 0,
-            "prob": 0.10982658959537571
+            "prob": 0.12565445026178007
           },
           {
             "home": 3,
             "away": 1,
-            "prob": 0.09826589595375722
+            "prob": 0.10994764397905757
+          },
+          {
+            "home": 3,
+            "away": 0,
+            "prob": 0.09424083769633505
           },
           {
             "home": 1,
             "away": 1,
-            "prob": 0.08670520231213871
-          },
-          {
-            "home": 0,
-            "away": 0,
-            "prob": 0.06358381502890173
+            "prob": 0.0837696335078534
           },
           {
             "home": 3,
             "away": 2,
-            "prob": 0.046242774566473986
+            "prob": 0.05235602094240837
           },
           {
             "home": 2,
             "away": 2,
-            "prob": 0.04046242774566474
+            "prob": 0.047120418848167527
+          },
+          {
+            "home": 4,
+            "away": 1,
+            "prob": 0.047120418848167527
           },
           {
             "home": 0,
-            "away": 1,
-            "prob": 0.03468208092485549
+            "away": 0,
+            "prob": 0.0418848167539267
+          },
+          {
+            "home": 4,
+            "away": 0,
+            "prob": 0.0418848167539267
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.028901734104046242
+            "prob": 0.026178010471204185
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.02094240837696335
           }
         ],
-        "extraTimeProb": 0.165,
+        "extraTimeProb": 0.167,
         "extraTime": [
           {
             "home": 1,
             "away": 1,
-            "prob": 0.2173913043478261
+            "prob": 0.18
           },
           {
             "home": 2,
             "away": 1,
-            "prob": 0.1847826086956522
+            "prob": 0.175
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.11
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.11
           },
           {
             "home": 0,
             "away": 0,
-            "prob": 0.14130434782608697
+            "prob": 0.09
           },
           {
             "home": 2,
-            "away": 2,
-            "prob": 0.13043478260869565
+            "away": 0,
+            "prob": 0.09
           },
           {
-            "home": 1,
+            "home": 3,
             "away": 2,
-            "prob": 0.09782608695652174
+            "prob": 0.07
           },
           {
             "home": 3,
             "away": 1,
-            "prob": 0.08695652173913045
+            "prob": 0.065
           },
           {
             "home": 1,
-            "away": 0,
-            "prob": 0.07608695652173915
+            "away": 2,
+            "prob": 0.06
           },
           {
-            "home": 3,
-            "away": 2,
-            "prob": 0.06521739130434782
+            "home": 2,
+            "away": 3,
+            "prob": 0.05
           }
         ]
       },
-      "reasoning": "France enter in dominant form with three group-stage wins scoring 10 goals, while Sweden scraped through from third place and conceded five against the Netherlands, making a high France win likely. Sweden's Gyökeres-Isak strike pairing gives them genuine scoring threat, so a France clean sheet is far from guaranteed, lending mass to 2-1 and 3-1 type scorelines. The de-vigged market (France 0.747, draw 0.178) plus France's attacking edge supports a heavy favorite, but knockout draws warrant meaningful probability on 1-1 and 0-0, hence a moderate extra-time chance. If it goes to ET, low-scoring ",
+      "reasoning": "France are overwhelming favorites with the tournament's deepest attack (Mbappé, Dembélé, Olise) and a perfect group stage, while Sweden scraped in as a third-placed team and are missing centre-back Isak Hien, leaving their defense vulnerable. However, Sweden's strike pair of Isak and Gyökeres can punish France on the counter, so a France win with a Sweden goal is the most likely outcome. Regulation draw mass is kept moderate given the talent gap, but knockout caution and Sweden's threat keep extra-time probability meaningful at roughly the de-vigged draw price.",
       "modelVersion": "claude-opus-4-8",
-      "generatedAt": "2026-06-29T02:56:36.330Z",
-      "lockedAt": null,
-      "locked": false,
+      "generatedAt": "2026-06-30T20:49:58.592Z",
+      "lockedAt": "2026-06-30T20:49:58.592Z",
+      "locked": true,
       "webSearchUsed": true,
       "actual": null,
       "scored": null
@@ -1860,7 +1880,7 @@
     "matchesScored": 6,
     "machinePoints": 14,
     "maxPoints": 42,
-    "expectedTotal": 24.14,
-    "lastUpdatedAt": "2026-06-30T19:47:33.441Z"
+    "expectedTotal": 24.11,
+    "lastUpdatedAt": "2026-06-30T20:49:58.592Z"
   }
 }
