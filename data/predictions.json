@@ -1952,26 +1952,26 @@
   {
     "fixtureId": "1567306",
     "probs": {
-      "homeWin": 0.45,
-      "draw": 0.31,
-      "awayWin": 0.24
+      "homeWin": 0.44,
+      "draw": 0.33,
+      "awayWin": 0.23
     },
     "scoreline": {
       "home": 1,
       "away": 0
     },
     "confidence": "Medium",
-    "reasoning": "Mexico are the stronger side here: they topped Group A with three wins and no goals conceded, are playing at home in Mexico City altitude where they're well-adjusted, have no injury concerns and will get Raul Jimenez back after resting him. Ecuador are dangerous and well-organized, having just upset Germany behind a healthy Moises Caicedo and goal threats in Plata and Valencia, so they can frustrate and punish on the break. Both teams had equal rest, and World Cup knockout games against compact, counter-attacking sides often stay tight, so a low-scoring narrow Mexico win or a draw are both very live outcomes.",
+    "reasoning": "Mexico are flying with three clean sheets and six goals in the group, the full backing of a packed Estadio Banorte, and a fully fit squad with Jimenez back up top. Ecuador are defensively stubborn — they haven't conceded two-plus goals in 26 games and have a Quito-bred squad that neutralizes the altitude edge — so a tight, low-scoring affair is likely. Caicedo, Pacho and Hincapie give them the spine to frustrate the hosts, which keeps the draw probability honestly high. I lean to a narrow Mexico win, but this is one of the closest ties in the round.",
     "market": {
-      "homeWin": 0.416,
-      "draw": 0.32,
-      "awayWin": 0.264,
+      "homeWin": 0.428,
+      "draw": 0.324,
+      "awayWin": 0.249,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-06-30T23:57:05.621Z",
     "modelVersion": "claude-opus-4-8",
-    "generatedAt": "2026-06-29T02:56:36.330Z",
-    "locked": false,
+    "generatedAt": "2026-06-30T23:57:05.621Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {

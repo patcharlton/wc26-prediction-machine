@@ -1217,128 +1217,118 @@
         "away": 1
       },
       "ev": {
-        "p1": 0.6,
-        "p2": 0.881,
-        "p3": 0.268,
-        "total": 1.749
+        "p1": 0.575,
+        "p2": 0.795,
+        "p3": 0.323,
+        "total": 1.694
       },
-      "pEtUsed": 0.33,
+      "pEtUsed": 0.367,
       "distributions": {
         "advance": {
-          "home": 0.6,
-          "away": 0.4
+          "home": 0.575,
+          "away": 0.425
         },
         "regulation": [
           {
             "home": 1,
             "away": 0,
-            "prob": 0.18749999999999997
+            "prob": 0.18674698795180722
           },
           {
             "home": 0,
             "away": 0,
-            "prob": 0.1534090909090909
+            "prob": 0.17469879518072287
           },
           {
             "home": 1,
             "away": 1,
-            "prob": 0.13068181818181818
+            "prob": 0.14457831325301204
           },
           {
             "home": 2,
             "away": 0,
-            "prob": 0.1193181818181818
-          },
-          {
-            "home": 2,
-            "away": 1,
-            "prob": 0.10795454545454544
+            "prob": 0.10843373493975902
           },
           {
             "home": 0,
             "away": 1,
-            "prob": 0.08522727272727271
+            "prob": 0.10843373493975902
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.09036144578313252
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.051136363636363626
+            "prob": 0.060240963855421686
           },
           {
             "home": 2,
             "away": 2,
-            "prob": 0.04545454545454545
-          },
-          {
-            "home": 3,
-            "away": 0,
-            "prob": 0.051136363636363626
-          },
-          {
-            "home": 3,
-            "away": 1,
-            "prob": 0.03977272727272727
+            "prob": 0.048192771084337345
           },
           {
             "home": 0,
             "away": 2,
-            "prob": 0.028409090909090908
+            "prob": 0.04216867469879518
+          },
+          {
+            "home": 3,
+            "away": 0,
+            "prob": 0.03614457831325301
           }
         ],
-        "extraTimeProb": 0.3,
+        "extraTimeProb": 0.32,
         "extraTime": [
           {
             "home": 1,
             "away": 1,
-            "prob": 0.1853932584269663
+            "prob": 0.1976047904191617
           },
           {
             "home": 0,
             "away": 0,
-            "prob": 0.15168539325842698
+            "prob": 0.17964071856287425
           },
           {
             "home": 2,
             "away": 1,
-            "prob": 0.14606741573033707
+            "prob": 0.15568862275449102
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.11797752808988764
+            "prob": 0.1317365269461078
           },
           {
             "home": 2,
             "away": 2,
-            "prob": 0.10674157303370786
-          },
-          {
-            "home": 1,
-            "away": 0,
-            "prob": 0.0955056179775281
+            "prob": 0.10778443113772455
           },
           {
             "home": 2,
             "away": 0,
-            "prob": 0.07865168539325844
+            "prob": 0.09580838323353294
           },
           {
             "home": 0,
-            "away": 1,
-            "prob": 0.06741573033707865
+            "away": 2,
+            "prob": 0.0718562874251497
           },
           {
             "home": 3,
             "away": 1,
-            "prob": 0.05056179775280899
+            "prob": 0.05988023952095809
           }
         ]
       },
-      "reasoning": "Mexico enter as host favorites in red-hot form, winning all three group games without conceding, with full availability and the altitude/crowd edge at home. Ecuador are a disciplined, defense-first side (Pacho, Hincapie, Caicedo, Ordonez) who upset Germany on the counter but score sparingly, pointing to a low-scoring, tight match. The market and these factors give Mexico a clear but not overwhelming edge, with realistic draw mass (0-0, 1-1) and a meaningful chance of extra time given Ecuador's ability to frustrate. Extra-time scenarios favor low-scoring outcomes where Mexico's depth and home a",
+      "reasoning": "Mexico won Group A with three straight clean sheets and home advantage at a packed Estadio Azteca, where they are virtually unbeaten, supporting their de-vigged edge. Ecuador have an elite defense (Pacho, Hincapie, Caicedo) but have struggled to finish all tournament, so this projects as a tight, low-scoring knockout with strong draw mass and a real chance of extra time. Both sides have settled XIs with no fresh injury concerns, and given two stout defenses, scoreless and one-goal margins dominate the distribution. Mexico is favored to edge it, but the small individual-quality gap keeps Ecuado",
       "modelVersion": "claude-opus-4-8",
-      "generatedAt": "2026-06-29T02:56:36.330Z",
-      "lockedAt": null,
-      "locked": false,
+      "generatedAt": "2026-06-30T23:57:05.621Z",
+      "lockedAt": "2026-06-30T23:57:05.621Z",
+      "locked": true,
       "webSearchUsed": true,
       "actual": null,
       "scored": null
@@ -1880,7 +1870,7 @@
     "matchesScored": 6,
     "machinePoints": 14,
     "maxPoints": 42,
-    "expectedTotal": 24.11,
-    "lastUpdatedAt": "2026-06-30T22:52:09.279Z"
+    "expectedTotal": 24.05,
+    "lastUpdatedAt": "2026-06-30T23:57:05.621Z"
   }
 }
