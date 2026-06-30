@@ -1576,7 +1576,7 @@
     "stage": "R32",
     "matchday": null,
     "kickoff": "2026-06-30T17:00:00.000Z",
-    "status": "live",
+    "status": "finished",
     "homeTeam": "Ivory Coast",
     "awayTeam": "Norway",
     "homeTeamId": 1501,
@@ -1589,7 +1589,15 @@
       "city": "Dallas",
       "country": null
     },
-    "koScore": null,
+    "koScore": {
+      "rt": {
+        "home": 1,
+        "away": 2
+      },
+      "et": null,
+      "pens": null,
+      "advanced": "away"
+    },
     "homeSlot": "W:I",
     "awaySlot": "3:C/D/F/G/H"
   },
@@ -1856,5 +1864,27 @@
     "koScore": null,
     "homeSlot": "WM:74",
     "awaySlot": "WM:77"
+  },
+  {
+    "fixtureId": "1568100",
+    "stage": "R16",
+    "matchday": null,
+    "kickoff": "2026-07-05T20:00:00.000Z",
+    "status": "scheduled",
+    "homeTeam": "Brazil",
+    "awayTeam": "Norway",
+    "homeTeamId": 6,
+    "awayTeamId": 1090,
+    "homeScore": null,
+    "awayScore": null,
+    "elapsed": null,
+    "venue": {
+      "name": null,
+      "city": null,
+      "country": null
+    },
+    "koScore": null,
+    "homeSlot": "WM:73",
+    "awaySlot": "WM:75"
   }
 ]

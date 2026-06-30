@@ -2048,5 +2048,30 @@
     "generatedAt": "2026-06-30T02:50:34.629Z",
     "locked": false,
     "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1567311",
+    "probs": {
+      "homeWin": 0.72,
+      "draw": 0.19,
+      "awayWin": 0.09
+    },
+    "scoreline": {
+      "home": 2,
+      "away": 0
+    },
+    "confidence": "Medium-High",
+    "reasoning": "Spain are far superior in squad quality and form, having topped Group H with seven points and conceding zero goals across three games, while Austria scraped through second on goal difference after a chaotic 3-3 draw with Algeria that exposed a leaky backline. Spain have a few wide-player injury worries (Pino, Nico Williams, Munoz) but their midfield and attacking depth, plus a fit Lamine Yamal and in-form Oyarzabal, comfortably outweigh those concerns. The sea-level LA venue is neutral and Spain's superior rest and control suit them, though Austria's counter-attacking threat and Spain's recent low-scoring wins keep some draw risk alive. Expect a controlled Spanish win, most likely 2-0.",
+    "market": {
+      "homeWin": 0.704,
+      "draw": 0.197,
+      "awayWin": 0.099,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-opus-4-8",
+    "generatedAt": "2026-06-30T19:47:33.441Z",
+    "locked": false,
+    "webSearchUsed": true
   }
 ]

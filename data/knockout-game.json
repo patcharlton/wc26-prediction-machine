@@ -1026,8 +1026,21 @@
       "lockedAt": "2026-06-30T16:15:01.796Z",
       "locked": true,
       "webSearchUsed": true,
-      "actual": null,
-      "scored": null
+      "actual": {
+        "rt": {
+          "home": 1,
+          "away": 2
+        },
+        "et": null,
+        "pens": null,
+        "advanced": "away"
+      },
+      "scored": {
+        "p1": 1,
+        "p2": 1,
+        "p3": 0,
+        "total": 2
+      }
     },
     {
       "fixtureId": "1565177",
@@ -1708,13 +1721,146 @@
       "webSearchUsed": true,
       "actual": null,
       "scored": null
+    },
+    {
+      "fixtureId": "1567311",
+      "stage": "R32",
+      "homeTeam": "Spain",
+      "awayTeam": "Austria",
+      "kickoff": "2026-07-02T19:00:00.000Z",
+      "pred1Advance": "home",
+      "pred1Team": "Spain",
+      "pred2Reg": {
+        "home": 1,
+        "away": 0
+      },
+      "pred3Et": {
+        "home": 1,
+        "away": 1
+      },
+      "ev": {
+        "p1": 0.79,
+        "p2": 1.094,
+        "p3": 0.214,
+        "total": 2.098
+      },
+      "pEtUsed": 0.244,
+      "distributions": {
+        "advance": {
+          "home": 0.79,
+          "away": 0.21
+        },
+        "regulation": [
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.20624999999999996
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.16874999999999998
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.13124999999999998
+          },
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.12499999999999999
+          },
+          {
+            "home": 3,
+            "away": 0,
+            "prob": 0.09374999999999997
+          },
+          {
+            "home": 3,
+            "away": 1,
+            "prob": 0.08124999999999999
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.07499999999999998
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.04375
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.04375
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.031249999999999997
+          }
+        ],
+        "extraTimeProb": 0.197,
+        "extraTime": [
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.22222222222222227
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.1888888888888889
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.15555555555555559
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.11111111111111113
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.1
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.0888888888888889
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.07777777777777779
+          },
+          {
+            "home": 3,
+            "away": 1,
+            "prob": 0.055555555555555566
+          }
+        ]
+      },
+      "reasoning": "Spain are heavy favourites (de-vigged ~70% to win regulation) as reigning Euro champions and Group H winners, despite winger injury concerns to Yamal and Munoz, with only Baena near full fitness. Austria, in their first knockout tie since 1982 under Rangnick with Alaba and Sabitzer, are organised but defensively shaky after a 3-3 draw with Algeria. Spain's superior quality favours a 1-2 goal regulation win, but knockout caution and Austria's threat keep meaningful draw mass and a ~20% extra-time chance. In extra time, Spain's depth and class still make them likeliest to edge a tight game.",
+      "modelVersion": "claude-opus-4-8",
+      "generatedAt": "2026-06-30T19:47:33.441Z",
+      "lockedAt": null,
+      "locked": false,
+      "webSearchUsed": true,
+      "actual": null,
+      "scored": null
     }
   ],
   "summary": {
-    "matchesScored": 5,
-    "machinePoints": 12,
-    "maxPoints": 35,
-    "expectedTotal": 22.05,
-    "lastUpdatedAt": "2026-06-30T18:57:08.080Z"
+    "matchesScored": 6,
+    "machinePoints": 14,
+    "maxPoints": 42,
+    "expectedTotal": 24.14,
+    "lastUpdatedAt": "2026-06-30T19:47:33.441Z"
   }
 }

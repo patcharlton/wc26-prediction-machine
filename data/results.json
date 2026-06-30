@@ -1445,22 +1445,22 @@
   },
   {
     "fixtureId": "1564789",
-    "status": "live",
+    "status": "finished",
     "kickoff": "2026-06-30T17:00:00.000Z",
     "stage": "R32",
     "homeTeam": "Ivory Coast",
     "awayTeam": "Norway",
     "actualScore": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 2
     },
-    "actualOutcome": null,
-    "machineOutcomeHit": null,
-    "marketOutcomeHit": null,
-    "exactScoreHit": null,
-    "machineBrierScore": null,
-    "marketBrierScore": null,
-    "resolvedAt": null
+    "actualOutcome": "awayWin",
+    "machineOutcomeHit": true,
+    "marketOutcomeHit": true,
+    "exactScoreHit": true,
+    "machineBrierScore": 0.488,
+    "marketBrierScore": 0.478,
+    "resolvedAt": "2026-06-30T19:47:33.441Z"
   },
   {
     "fixtureId": "1565177",
@@ -1678,6 +1678,25 @@
     "stage": "R16",
     "homeTeam": "Canada",
     "awayTeam": "Morocco",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1568100",
+    "status": "scheduled",
+    "kickoff": "2026-07-05T20:00:00.000Z",
+    "stage": "R16",
+    "homeTeam": "Brazil",
+    "awayTeam": "Norway",
     "actualScore": {
       "home": null,
       "away": null
