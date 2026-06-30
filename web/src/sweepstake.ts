@@ -111,11 +111,43 @@ export function computeSweepstake(
     }
   }
 
-  // Teams eliminated = losers of a finished knockout match (stored normalised).
+  // ---- Who's been knocked out ----
+  // Teams appearing in any knockout round strictly after `stage` have advanced.
+  const advancedPast = (stage: string): Set<string> => {
+    const idx = (KO_STAGES as readonly string[]).indexOf(stage);
+    const out = new Set<string>();
+    for (let i = idx + 1; i < KO_STAGES.length; i++) {
+      for (const t of reached[KO_STAGES[i]!]!) out.add(t);
+    }
+    return out;
+  };
+
   const eliminated = new Set<string>();
+
+  // 1) Losers of finished knockout matches. A decisive result names the loser
+  //    directly; a draw means penalties — the loser is whichever side did NOT
+  //    turn up in a later round (resolved once that round is populated).
   for (const r of finished) {
-    if ((KO_STAGES as readonly string[]).includes(r.stage) && r.actualOutcome !== "draw") {
-      eliminated.add(norm(r.actualOutcome === "homeWin" ? r.awayTeam : r.homeTeam));
+    if (!(KO_STAGES as readonly string[]).includes(r.stage)) continue;
+    if (r.actualOutcome === "homeWin") eliminated.add(norm(r.awayTeam));
+    else if (r.actualOutcome === "awayWin") eliminated.add(norm(r.homeTeam));
+    else {
+      const later = advancedPast(r.stage);
+      const homeAdv = later.has(norm(r.homeTeam));
+      const awayAdv = later.has(norm(r.awayTeam));
+      if (homeAdv !== awayAdv) eliminated.add(norm(homeAdv ? r.awayTeam : r.homeTeam));
+    }
+  }
+
+  // 2) Group-stage non-qualifiers: once every group match is played and the R32
+  //    line-up is known, any team that was in the groups but isn't in R32 is out.
+  const groupFixtures = fixtures.filter((f) => f.stage.startsWith("group"));
+  const groupStageComplete =
+    groupFixtures.length > 0 && groupFixtures.every((f) => f.status === "finished");
+  if (groupStageComplete && reached.R32!.size > 0) {
+    for (const f of groupFixtures) {
+      if (f.homeTeamId && !reached.R32!.has(norm(f.homeTeam))) eliminated.add(norm(f.homeTeam));
+      if (f.awayTeamId && !reached.R32!.has(norm(f.awayTeam))) eliminated.add(norm(f.awayTeam));
     }
   }
 
