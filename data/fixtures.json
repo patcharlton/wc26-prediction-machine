@@ -1581,9 +1581,9 @@
     "awayTeam": "Norway",
     "homeTeamId": 1501,
     "awayTeamId": 1090,
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 1,
-    "elapsed": 72,
+    "elapsed": 76,
     "venue": {
       "name": "AT&T Stadium",
       "city": "Dallas",
