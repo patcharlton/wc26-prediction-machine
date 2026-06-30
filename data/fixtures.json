@@ -1504,20 +1504,34 @@
     "stage": "R32",
     "matchday": null,
     "kickoff": "2026-06-29T20:30:00.000Z",
-    "status": "live",
+    "status": "finished",
     "homeTeam": "Germany",
     "awayTeam": "Paraguay",
     "homeTeamId": 25,
     "awayTeamId": 2380,
     "homeScore": 1,
     "awayScore": 1,
-    "elapsed": null,
+    "elapsed": 120,
     "venue": {
       "name": "Gillette Stadium",
       "city": "Boston",
       "country": null
     },
-    "koScore": null,
+    "koScore": {
+      "rt": {
+        "home": 1,
+        "away": 1
+      },
+      "et": {
+        "home": 1,
+        "away": 1
+      },
+      "pens": {
+        "home": 3,
+        "away": 4
+      },
+      "advanced": "away"
+    },
     "homeSlot": "W:F",
     "awaySlot": "RU:C"
   },
@@ -1533,7 +1547,7 @@
     "awayTeamId": 31,
     "homeScore": 1,
     "awayScore": 0,
-    "elapsed": 85,
+    "elapsed": 88,
     "venue": {
       "name": "Estadio BBVA",
       "city": "Monterrey",

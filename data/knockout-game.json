@@ -722,8 +722,27 @@
       "lockedAt": "2026-06-29T18:57:45.787Z",
       "locked": true,
       "webSearchUsed": true,
-      "actual": null,
-      "scored": null
+      "actual": {
+        "rt": {
+          "home": 1,
+          "away": 1
+        },
+        "et": {
+          "home": 1,
+          "away": 1
+        },
+        "pens": {
+          "home": 3,
+          "away": 4
+        },
+        "advanced": "away"
+      },
+      "scored": {
+        "p1": 0,
+        "p2": 0,
+        "p3": 0,
+        "total": 0
+      }
     },
     {
       "fixtureId": "1562345",
@@ -1414,13 +1433,279 @@
       "webSearchUsed": true,
       "actual": null,
       "scored": null
+    },
+    {
+      "fixtureId": "1567308",
+      "stage": "R32",
+      "homeTeam": "Belgium",
+      "awayTeam": "Senegal",
+      "kickoff": "2026-07-01T20:00:00.000Z",
+      "pred1Advance": "home",
+      "pred1Team": "Belgium",
+      "pred2Reg": {
+        "home": 2,
+        "away": 1
+      },
+      "pred3Et": {
+        "home": 1,
+        "away": 1
+      },
+      "ev": {
+        "p1": 0.575,
+        "p2": 0.736,
+        "p3": 0.264,
+        "total": 1.575
+      },
+      "pEtUsed": 0.346,
+      "distributions": {
+        "advance": {
+          "home": 0.575,
+          "away": 0.425
+        },
+        "regulation": [
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.16981132075471694
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.14465408805031443
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.13207547169811315
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.10691823899371067
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.10062893081761003
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.08805031446540879
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.08805031446540879
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.07547169811320752
+          },
+          {
+            "home": 3,
+            "away": 1,
+            "prob": 0.06289308176100628
+          },
+          {
+            "home": 1,
+            "away": 3,
+            "prob": 0.03144654088050314
+          }
+        ],
+        "extraTimeProb": 0.3,
+        "extraTime": [
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.17977528089887643
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.17977528089887643
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.1348314606741573
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.12359550561797754
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.11235955056179778
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.10112359550561799
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.08988764044943821
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.07865168539325844
+          }
+        ]
+      },
+      "reasoning": "Belgium are modest favorites with De Bruyne, Trossard and Lukaku fit, but both sides showed defensive frailty and attacking punch in the group stage, so goals are likely with both teams scoring. Senegal lack first-choice keeper Edouard Mendy (knee), tilting things slightly further toward Belgium, yet their pace via Ismaila Sarr and Mane keeps upset/draw mass realistic. Models favor 1-1 and 2-1 scorelines, and Belgium's two regulation draws in the group stage support meaningful draw probability and a real chance of extra time.",
+      "modelVersion": "claude-opus-4-8",
+      "generatedAt": "2026-06-30T02:50:34.629Z",
+      "lockedAt": null,
+      "locked": false,
+      "webSearchUsed": true,
+      "actual": null,
+      "scored": null
+    },
+    {
+      "fixtureId": "1562586",
+      "stage": "R32",
+      "homeTeam": "USA",
+      "awayTeam": "Bosnia & Herzegovina",
+      "kickoff": "2026-07-02T00:00:00.000Z",
+      "pred1Advance": "home",
+      "pred1Team": "USA",
+      "pred2Reg": {
+        "home": 1,
+        "away": 0
+      },
+      "pred3Et": {
+        "home": 2,
+        "away": 1
+      },
+      "ev": {
+        "p1": 0.78,
+        "p2": 1.012,
+        "p3": 0.204,
+        "total": 1.996
+      },
+      "pEtUsed": 0.272,
+      "distributions": {
+        "advance": {
+          "home": 0.78,
+          "away": 0.22
+        },
+        "regulation": [
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.19135802469135801
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.1419753086419753
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.13580246913580246
+          },
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.12962962962962962
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.09259259259259259
+          },
+          {
+            "home": 3,
+            "away": 1,
+            "prob": 0.08641975308641976
+          },
+          {
+            "home": 3,
+            "away": 0,
+            "prob": 0.07407407407407407
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.04938271604938271
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.05555555555555555
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.04320987654320988
+          }
+        ],
+        "extraTimeProb": 0.21,
+        "extraTime": [
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.17553191489361705
+          },
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.1595744680851064
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.11702127659574468
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.11170212765957448
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.09574468085106383
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.1595744680851064
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.11702127659574468
+          },
+          {
+            "home": 3,
+            "away": 2,
+            "prob": 0.06382978723404255
+          }
+        ]
+      },
+      "reasoning": "USA field their first-choice XI (Pulisic, Balogun, Richards, Adams) at home and are clear favorites, but Bosnia are a streetwise, defensively organized side dangerous on counters and set pieces through Dzeko, so a regulation draw forcing extra time carries realistic mass. The Americans' strong attacking starts but shaky defense point to outcomes like 1-0, 2-0 and 2-1, with low-scoring draws plausible. If it reaches extra time, USA's depth and fitness slightly favor them, though Bosnia's penalty pedigree (beating Wales and Italy on spot kicks) keeps their advancing chance meaningful.",
+      "modelVersion": "claude-opus-4-8",
+      "generatedAt": "2026-06-30T02:50:34.629Z",
+      "lockedAt": null,
+      "locked": false,
+      "webSearchUsed": true,
+      "actual": null,
+      "scored": null
     }
   ],
   "summary": {
-    "matchesScored": 3,
+    "matchesScored": 4,
     "machinePoints": 9,
-    "maxPoints": 21,
-    "expectedTotal": 18.54,
-    "lastUpdatedAt": "2026-06-30T02:46:46.941Z"
+    "maxPoints": 28,
+    "expectedTotal": 22.11,
+    "lastUpdatedAt": "2026-06-30T02:50:34.629Z"
   }
 }

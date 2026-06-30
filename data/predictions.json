@@ -1998,5 +1998,55 @@
     "generatedAt": "2026-06-29T19:49:54.389Z",
     "locked": false,
     "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1567308",
+    "probs": {
+      "homeWin": 0.44,
+      "draw": 0.27,
+      "awayWin": 0.29
+    },
+    "scoreline": {
+      "home": 2,
+      "away": 1
+    },
+    "confidence": "Medium-Low",
+    "reasoning": "Belgium are the deeper, higher-ranked side and have a near-full squad, with De Bruyne, Lukaku, Trossard and Doku all firing in their 5-1 win over New Zealand, while Senegal must field backup keeper Mory Diaw with Mendy still out and have shown a leaky defense that conceded six goals against France and Norway. That said, Senegal carry real momentum after their 5-0 rout of Iraq, possess dangerous pace in Ismaila Sarr and Sadio Mane, and have the dynamism to punish Belgium's inconsistency, so an upset or extra-time finish is very live.",
+    "market": {
+      "homeWin": 0.425,
+      "draw": 0.292,
+      "awayWin": 0.283,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-opus-4-8",
+    "generatedAt": "2026-06-30T02:50:34.629Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1562586",
+    "probs": {
+      "homeWin": 0.66,
+      "draw": 0.21,
+      "awayWin": 0.13
+    },
+    "scoreline": {
+      "home": 2,
+      "away": 1
+    },
+    "confidence": "Medium-High",
+    "reasoning": "The USA are far deeper and more talented, top their group convincingly, and now have Pulisic, Adams, McKennie and the first-choice back line all available with only minor fitness checks on bit-part players. Bosnia are organized, dangerous on set pieces and counters with Dzeko and pacy wingers, and they have full home-state interest plus knockout belief after eliminating Italy, so an upset or draw can't be dismissed. Playing at sea-level Levi's Stadium in front of a home crowd suits the USA's quick, technical attack, but Bosnia's height and physicality should make this competitive and likely tight before the hosts edge it.",
+    "market": {
+      "homeWin": 0.688,
+      "draw": 0.193,
+      "awayWin": 0.119,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-opus-4-8",
+    "generatedAt": "2026-06-30T02:50:34.629Z",
+    "locked": false,
+    "webSearchUsed": true
   }
 ]

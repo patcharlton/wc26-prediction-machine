@@ -1407,22 +1407,22 @@
   },
   {
     "fixtureId": "1565176",
-    "status": "live",
+    "status": "finished",
     "kickoff": "2026-06-29T20:30:00.000Z",
     "stage": "R32",
     "homeTeam": "Germany",
     "awayTeam": "Paraguay",
     "actualScore": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 1
     },
-    "actualOutcome": null,
-    "machineOutcomeHit": null,
-    "marketOutcomeHit": null,
-    "exactScoreHit": null,
-    "machineBrierScore": null,
-    "marketBrierScore": null,
-    "resolvedAt": null
+    "actualOutcome": "draw",
+    "machineOutcomeHit": false,
+    "marketOutcomeHit": false,
+    "exactScoreHit": false,
+    "machineBrierScore": 1.14,
+    "marketBrierScore": 1.142,
+    "resolvedAt": "2026-06-30T02:50:34.629Z"
   },
   {
     "fixtureId": "1562345",
