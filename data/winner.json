@@ -6,7 +6,7 @@
   "contenders": [
     {
       "team": "France",
-      "prob": 0.24
+      "prob": 0.27
     },
     {
       "team": "Argentina",
@@ -14,31 +14,31 @@
     },
     {
       "team": "Spain",
-      "prob": 0.13
-    },
-    {
-      "team": "England",
       "prob": 0.12
     },
     {
-      "team": "Brazil",
-      "prob": 0.07
+      "team": "England",
+      "prob": 0.11
     },
     {
-      "team": "Germany",
-      "prob": 0.05
+      "team": "Brazil",
+      "prob": 0.09
     },
     {
       "team": "Portugal",
       "prob": 0.05
     },
     {
-      "team": "Netherlands",
+      "team": "Morocco",
       "prob": 0.04
+    },
+    {
+      "team": "Colombia",
+      "prob": 0.03
     }
   ],
-  "reasoning": "France enters the knockouts as the clear market favorite after a perfect group stage, with bookmakers pricing them around +300 to +350 and oddsmakers calling them the deepest, most talented squad in the field; their formula of absorbing pressure and exploding into transition through Mbappe, Dembele and Olise has produced a 10-2 scoreline across recent halves. Argentina is the main threat as defending champion, winning all three group games behind a sharp Messi and drawing the easier side of the bracket, which has lifted them to roughly +400-430 and co-favorite status to reach the final. Spain and England are the next tier with single-digit odds, while Brazil under Ancelotti and Germany carry talent but have shown vulnerability (Brazil's opening draw with Morocco, Germany's loss to Ecuador). Morocco is the live outsider: elite defensive organization that has long been their hallmark, plus a possible altitude/host-adjacent edge if they navigate the Netherlands in Monterrey.",
+  "reasoning": "France are the clear market and model favorites after a perfect 3-0 group stage, and the field has opened further for them since Paraguay's shock penalty win knocked out Germany, removing a potential Round-of-16 obstacle from their path. Argentina win the runner-up slot on the strength of a Messi-inspired 3-0 group, the easier side of the bracket, and the possibility of a 2022-final rematch, though their smaller, technical side could be vulnerable to the tournament's more physical teams in later rounds. Spain (labored, drew with Cape Verde), England (solid under Tuchel) and Brazil are the next tier, with elite depth but lingering form questions. Morocco are the dark horse: they just stunned the Netherlands on penalties to surge up the board and have the squad and big-game pedigree to make another deep run.",
   "basis": "knockout stage",
   "modelVersion": "claude-opus-4-8",
-  "updatedAt": "2026-06-29T10:26:07.953Z"
+  "updatedAt": "2026-06-30T08:58:38.523Z"
 }

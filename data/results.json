@@ -1426,22 +1426,22 @@
   },
   {
     "fixtureId": "1562345",
-    "status": "live",
+    "status": "finished",
     "kickoff": "2026-06-30T01:00:00.000Z",
     "stage": "R32",
     "homeTeam": "Netherlands",
     "awayTeam": "Morocco",
     "actualScore": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 1
     },
-    "actualOutcome": null,
-    "machineOutcomeHit": null,
-    "marketOutcomeHit": null,
-    "exactScoreHit": null,
-    "machineBrierScore": null,
-    "marketBrierScore": null,
-    "resolvedAt": null
+    "actualOutcome": "draw",
+    "machineOutcomeHit": false,
+    "marketOutcomeHit": false,
+    "exactScoreHit": true,
+    "machineBrierScore": 0.725,
+    "marketBrierScore": 0.729,
+    "resolvedAt": "2026-06-30T08:58:38.523Z"
   },
   {
     "fixtureId": "1564789",
@@ -1659,6 +1659,25 @@
     "stage": "R32",
     "homeTeam": "Colombia",
     "awayTeam": "Ghana",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1567824",
+    "status": "scheduled",
+    "kickoff": "2026-07-04T17:00:00.000Z",
+    "stage": "R16",
+    "homeTeam": "Canada",
+    "awayTeam": "Morocco",
     "actualScore": {
       "home": null,
       "away": null
