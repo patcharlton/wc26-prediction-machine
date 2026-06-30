@@ -1902,26 +1902,26 @@
   {
     "fixtureId": "1564789",
     "probs": {
-      "homeWin": 0.27,
-      "draw": 0.28,
-      "awayWin": 0.45
+      "homeWin": 0.3,
+      "draw": 0.27,
+      "awayWin": 0.43
     },
     "scoreline": {
       "home": 1,
       "away": 2
     },
-    "confidence": "Medium",
-    "reasoning": "Norway deliberately rested Haaland, Ødegaard and most of their first XI in the 4-1 loss to France, so they arrive fresh and at full strength rather than carrying that defeat's form, and yellow cards reset after the group stage so no suspensions apply to either side. Ivory Coast are a talented, quick and physical AFCON-winning team that can hurt Norway's shaky defense, but Norway have the higher squad ceiling and the game's most decisive player in Haaland. The roofed, climate-controlled venue in Arlington is neutral with no altitude or heat edge for either team.",
+    "confidence": "Medium-Low",
+    "reasoning": "Norway deliberately rested Haaland, Odegaard and most first-choice players in their dead-rubber loss to France, so they arrive fresh with clearly superior individual quality up front against an Ivorian defense that looked shaky in the late collapse versus Germany. Ivory Coast are in good form with dangerous pace through Amad Diallo and Yan Diomande, but lack an elite focal point in attack and may struggle with Norway's aerial threat from Haaland and Sorloth. The neutral, climate-controlled Dallas venue removes any altitude or heat edge, leaving this a close knockout tie where Norway's depth nudges them ahead. Knockout single-legs and Ivory Coast's energy keep meaningful draw equity in play.",
     "market": {
-      "homeWin": 0.26,
-      "draw": 0.276,
-      "awayWin": 0.464,
+      "homeWin": 0.282,
+      "draw": 0.282,
+      "awayWin": 0.435,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-06-30T16:15:01.796Z",
     "modelVersion": "claude-opus-4-8",
-    "generatedAt": "2026-06-28T17:57:27.949Z",
-    "locked": false,
+    "generatedAt": "2026-06-30T16:15:01.796Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {

@@ -905,136 +905,126 @@
       "pred1Advance": "away",
       "pred1Team": "Norway",
       "pred2Reg": {
-        "home": 1,
-        "away": 2
+        "home": 0,
+        "away": 1
       },
       "pred3Et": {
         "home": 1,
         "away": 1
       },
       "ev": {
-        "p1": 0.615,
-        "p2": 0.698,
-        "p3": 0.28,
-        "total": 1.594
+        "p1": 0.58,
+        "p2": 0.661,
+        "p3": 0.291,
+        "total": 1.532
       },
-      "pEtUsed": 0.329,
+      "pEtUsed": 0.333,
       "distributions": {
         "advance": {
-          "home": 0.385,
-          "away": 0.615
+          "home": 0.42,
+          "away": 0.58
         },
         "regulation": [
           {
             "home": 1,
             "away": 1,
-            "prob": 0.15715948777648428
-          },
-          {
-            "home": 1,
-            "away": 2,
-            "prob": 0.13387660069848661
+            "prob": 0.16071428571428573
           },
           {
             "home": 0,
             "away": 1,
-            "prob": 0.12805587892898718
+            "prob": 0.13690476190476192
           },
           {
             "home": 1,
             "away": 0,
-            "prob": 0.10710128055878927
+            "prob": 0.125
           },
           {
             "home": 0,
             "away": 0,
-            "prob": 0.10477299185098951
+            "prob": 0.11904761904761905
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.1130952380952381
           },
           {
             "home": 2,
             "away": 1,
-            "prob": 0.0838183934807916
+            "prob": 0.08928571428571429
           },
           {
             "home": 0,
             "away": 2,
-            "prob": 0.08149010477299184
-          },
-          {
-            "home": 2,
-            "away": 2,
-            "prob": 0.06752037252619324
-          },
-          {
-            "home": 1,
-            "away": 3,
-            "prob": 0.052386495925494755
+            "prob": 0.08928571428571429
           },
           {
             "home": 2,
             "away": 0,
-            "prob": 0.04889406286379511
+            "prob": 0.06547619047619048
           },
           {
-            "home": 0,
+            "home": 2,
+            "away": 2,
+            "prob": 0.05357142857142857
+          },
+          {
+            "home": 1,
             "away": 3,
-            "prob": 0.0349243306169965
+            "prob": 0.04761904761904762
           }
         ],
-        "extraTimeProb": 0.31,
+        "extraTimeProb": 0.3,
         "extraTime": [
           {
             "home": 1,
             "away": 1,
-            "prob": 0.19999999999999996
-          },
-          {
-            "home": 2,
-            "away": 2,
-            "prob": 0.13999999999999999
-          },
-          {
-            "home": 1,
-            "away": 2,
-            "prob": 0.12999999999999998
+            "prob": 0.21052631578947367
           },
           {
             "home": 2,
             "away": 1,
-            "prob": 0.11999999999999997
+            "prob": 0.1473684210526316
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.1473684210526316
           },
           {
             "home": 0,
             "away": 0,
-            "prob": 0.10999999999999997
+            "prob": 0.13684210526315788
           },
           {
             "home": 2,
-            "away": 3,
-            "prob": 0.08999999999999998
-          },
-          {
-            "home": 3,
             "away": 2,
-            "prob": 0.06999999999999999
-          },
-          {
-            "home": 1,
-            "away": 0,
-            "prob": 0.06999999999999999
+            "prob": 0.10526315789473684
           },
           {
             "home": 0,
             "away": 1,
-            "prob": 0.06999999999999999
+            "prob": 0.10526315789473684
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.09473684210526315
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.05263157894736842
           }
         ]
       },
-      "reasoning": "Norway are deserved favorites: they rested Haaland, Ødegaard and most starters in their 4-1 loss to France so their key men return fresh, and the de-vigged market makes them the away favorite at 0.46. Ivory Coast counter with an excellent, physical defense that has opened scoring in every game and conceded little, plus pacey attackers like Yan Diomande and Amad Diallo, keeping them live especially in the Dallas heat. With both sides attack-minded yet Ivory Coast defensively tough, draws carry meaningful mass and roughly a 31% extra-time chance. Norway's superior firepower through Haaland tilts",
+      "reasoning": "Norway are slight favorites with Haaland and Odegaard rested and fresh for the knockouts after sitting out the France loss, giving them match-winning quality despite a shaky defense. Ivory Coast are well-organized, hard to break down and dangerous in transition, but their finishing has been a recurring weakness, missing injured right-back Singo though Ndicka returns fit. Bookmaker odds and previews frame this as a genuine coin flip leaning narrowly to Norway, so regulation draws carry strong mass and extra time is a realistic outcome.",
       "modelVersion": "claude-opus-4-8",
-      "generatedAt": "2026-06-28T17:57:27.949Z",
-      "lockedAt": null,
-      "locked": false,
+      "generatedAt": "2026-06-30T16:15:01.796Z",
+      "lockedAt": "2026-06-30T16:15:01.796Z",
+      "locked": true,
       "webSearchUsed": true,
       "actual": null,
       "scored": null
@@ -1724,7 +1714,7 @@
     "matchesScored": 5,
     "machinePoints": 12,
     "maxPoints": 35,
-    "expectedTotal": 22.11,
-    "lastUpdatedAt": "2026-06-30T14:07:50.565Z"
+    "expectedTotal": 22.05,
+    "lastUpdatedAt": "2026-06-30T16:15:01.796Z"
   }
 }
