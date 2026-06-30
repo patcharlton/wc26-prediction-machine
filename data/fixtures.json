@@ -1546,7 +1546,7 @@
     "homeTeamId": 1118,
     "awayTeamId": 31,
     "homeScore": 1,
-    "awayScore": 0,
+    "awayScore": 1,
     "elapsed": 90,
     "venue": {
       "name": "Estadio BBVA",
