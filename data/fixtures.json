@@ -1611,9 +1611,9 @@
     "awayTeam": "Sweden",
     "homeTeamId": 2,
     "awayTeamId": 5,
-    "homeScore": 1,
+    "homeScore": 2,
     "awayScore": 0,
-    "elapsed": 53,
+    "elapsed": 58,
     "venue": {
       "name": "MetLife Stadium",
       "city": "New-York",
