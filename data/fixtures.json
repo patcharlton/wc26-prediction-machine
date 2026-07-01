@@ -1606,7 +1606,7 @@
     "stage": "R32",
     "matchday": null,
     "kickoff": "2026-06-30T21:00:00.000Z",
-    "status": "live",
+    "status": "finished",
     "homeTeam": "France",
     "awayTeam": "Sweden",
     "homeTeamId": 2,
@@ -1619,7 +1619,15 @@
       "city": "New-York",
       "country": null
     },
-    "koScore": null,
+    "koScore": {
+      "rt": {
+        "home": 3,
+        "away": 0
+      },
+      "et": null,
+      "pens": null,
+      "advanced": "home"
+    },
     "homeSlot": "RU:E",
     "awaySlot": "RU:I"
   },

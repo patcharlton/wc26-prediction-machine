@@ -2073,5 +2073,30 @@
     "generatedAt": "2026-06-30T19:47:33.441Z",
     "locked": false,
     "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1567309",
+    "probs": {
+      "homeWin": 0.5,
+      "draw": 0.28,
+      "awayWin": 0.22
+    },
+    "scoreline": {
+      "home": 1,
+      "away": 1
+    },
+    "confidence": "Medium",
+    "reasoning": "Portugal have deeper, higher-quality talent and won the last two competitive meetings, but they struggled to break down organized defenses in draws with DR Congo and Colombia, so this projects as a tight, low-scoring knockout. Both teams arrive healthy with settled lineups and equal three days' rest, and neutral sea-level Toronto removes any altitude edge, leaving Portugal a clear but not dominant favorite. Croatia's veteran knockout pedigree and Modric-led midfield can frustrate Portugal and force extra time, which is why I keep meaningful draw probability, with a 1-1 as the single most likely score.",
+    "market": {
+      "homeWin": 0.517,
+      "draw": 0.271,
+      "awayWin": 0.212,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-opus-4-8",
+    "generatedAt": "2026-07-01T02:56:02.382Z",
+    "locked": false,
+    "webSearchUsed": true
   }
 ]
