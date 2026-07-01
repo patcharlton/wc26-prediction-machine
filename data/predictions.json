@@ -2002,26 +2002,26 @@
   {
     "fixtureId": "1567308",
     "probs": {
-      "homeWin": 0.44,
-      "draw": 0.27,
-      "awayWin": 0.29
+      "homeWin": 0.46,
+      "draw": 0.29,
+      "awayWin": 0.25
     },
     "scoreline": {
       "home": 2,
       "away": 1
     },
     "confidence": "Medium-Low",
-    "reasoning": "Belgium are the deeper, higher-ranked side and have a near-full squad, with De Bruyne, Lukaku, Trossard and Doku all firing in their 5-1 win over New Zealand, while Senegal must field backup keeper Mory Diaw with Mendy still out and have shown a leaky defense that conceded six goals against France and Norway. That said, Senegal carry real momentum after their 5-0 rout of Iraq, possess dangerous pace in Ismaila Sarr and Sadio Mane, and have the dynamism to punish Belgium's inconsistency, so an upset or extra-time finish is very live.",
+    "reasoning": "Belgium has more overall squad quality and depth with Courtois, De Bruyne and Lukaku, plus they closed the group strongly by beating New Zealand 5-1 after two draws. Senegal are dangerous going forward and score in bursts, but they crept in as one of the weakest qualifiers, lost to France and Norway, and are without first-choice keeper Mendy, which is a meaningful downgrade. Seattle is sea-level so neither side gets an altitude edge, and both had similar rest. This is a genuine coin-flip lean toward Belgium, with a real chance of a high-scoring, chaotic game that could end level.",
     "market": {
-      "homeWin": 0.425,
+      "homeWin": 0.437,
       "draw": 0.292,
-      "awayWin": 0.283,
+      "awayWin": 0.271,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-07-01T19:28:06.853Z",
     "modelVersion": "claude-opus-4-8",
-    "generatedAt": "2026-06-30T02:50:34.629Z",
-    "locked": false,
+    "generatedAt": "2026-07-01T19:28:06.853Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {

@@ -1525,11 +1525,11 @@
       },
       "ev": {
         "p1": 0.575,
-        "p2": 0.736,
-        "p3": 0.264,
-        "total": 1.575
+        "p2": 0.711,
+        "p3": 0.301,
+        "total": 1.587
       },
-      "pEtUsed": 0.346,
+      "pEtUsed": 0.349,
       "distributions": {
         "advance": {
           "home": 0.575,
@@ -1539,52 +1539,52 @@
           {
             "home": 1,
             "away": 1,
-            "prob": 0.16981132075471694
+            "prob": 0.16265060240963858
           },
           {
             "home": 2,
             "away": 1,
-            "prob": 0.14465408805031443
+            "prob": 0.13855421686746988
           },
           {
             "home": 1,
             "away": 0,
-            "prob": 0.13207547169811315
+            "prob": 0.12650602409638553
           },
           {
             "home": 2,
             "away": 0,
-            "prob": 0.10691823899371067
-          },
-          {
-            "home": 0,
-            "away": 0,
-            "prob": 0.10062893081761003
+            "prob": 0.10240963855421688
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.08805031446540879
+            "prob": 0.0963855421686747
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.0963855421686747
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.09036144578313253
           },
           {
             "home": 0,
             "away": 1,
-            "prob": 0.08805031446540879
-          },
-          {
-            "home": 2,
-            "away": 2,
-            "prob": 0.07547169811320752
+            "prob": 0.08433734939759037
           },
           {
             "home": 3,
             "away": 1,
-            "prob": 0.06289308176100628
+            "prob": 0.06626506024096386
           },
           {
             "home": 1,
             "away": 3,
-            "prob": 0.03144654088050314
+            "prob": 0.03614457831325301
           }
         ],
         "extraTimeProb": 0.3,
@@ -1592,50 +1592,50 @@
           {
             "home": 1,
             "away": 1,
-            "prob": 0.17977528089887643
+            "prob": 0.1978609625668449
           },
           {
             "home": 2,
             "away": 1,
-            "prob": 0.17977528089887643
+            "prob": 0.1657754010695187
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.1348314606741573
+            "prob": 0.13903743315508021
           },
           {
             "home": 2,
             "away": 2,
-            "prob": 0.12359550561797754
+            "prob": 0.13903743315508021
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.1283422459893048
+          },
+          {
+            "home": 3,
+            "away": 2,
+            "prob": 0.0802139037433155
+          },
+          {
+            "home": 2,
+            "away": 3,
+            "prob": 0.07486631016042782
           },
           {
             "home": 1,
             "away": 0,
-            "prob": 0.11235955056179778
-          },
-          {
-            "home": 0,
-            "away": 0,
-            "prob": 0.10112359550561799
-          },
-          {
-            "home": 2,
-            "away": 0,
-            "prob": 0.08988764044943821
-          },
-          {
-            "home": 0,
-            "away": 1,
-            "prob": 0.07865168539325844
+            "prob": 0.07486631016042782
           }
         ]
       },
-      "reasoning": "Belgium are modest favorites with De Bruyne, Trossard and Lukaku fit, but both sides showed defensive frailty and attacking punch in the group stage, so goals are likely with both teams scoring. Senegal lack first-choice keeper Edouard Mendy (knee), tilting things slightly further toward Belgium, yet their pace via Ismaila Sarr and Mane keeps upset/draw mass realistic. Models favor 1-1 and 2-1 scorelines, and Belgium's two regulation draws in the group stage support meaningful draw probability and a real chance of extra time.",
+      "reasoning": "This is widely regarded as the coin-flip of the round: Belgium have the bigger names but a misfiring attack that only clicked against New Zealand, while Senegal are fast in transition yet defensively fragile and missing keeper Edouard Mendy. Market odds (0.437/0.292/0.271) and Belgium's slight quality/depth edge (Doku confirmed to start) tilt advancement modestly their way, but Senegal's goal threat keeps this open. Goals look likely on both ends, so I've given draws realistic mass and kept scorelines open, with meaningful probability of extra time.",
       "modelVersion": "claude-opus-4-8",
-      "generatedAt": "2026-06-30T02:50:34.629Z",
-      "lockedAt": null,
-      "locked": false,
+      "generatedAt": "2026-07-01T19:28:06.853Z",
+      "lockedAt": "2026-07-01T19:28:06.853Z",
+      "locked": true,
       "webSearchUsed": true,
       "actual": null,
       "scored": null
@@ -2202,7 +2202,7 @@
     "matchesScored": 8,
     "machinePoints": 18,
     "maxPoints": 56,
-    "expectedTotal": 27.51,
-    "lastUpdatedAt": "2026-07-01T17:57:15.147Z"
+    "expectedTotal": 27.52,
+    "lastUpdatedAt": "2026-07-01T19:28:06.853Z"
   }
 }
