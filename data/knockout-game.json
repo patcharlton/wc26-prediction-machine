@@ -1666,122 +1666,137 @@
         "away": 0
       },
       "pred3Et": {
-        "home": 2,
+        "home": 1,
         "away": 1
       },
       "ev": {
-        "p1": 0.78,
-        "p2": 1.012,
-        "p3": 0.204,
-        "total": 1.996
+        "p1": 0.775,
+        "p2": 1.006,
+        "p3": 0.19,
+        "total": 1.971
       },
-      "pEtUsed": 0.272,
+      "pEtUsed": 0.245,
       "distributions": {
         "advance": {
-          "home": 0.78,
-          "away": 0.22
+          "home": 0.775,
+          "away": 0.225
         },
         "regulation": [
           {
             "home": 1,
             "away": 0,
-            "prob": 0.19135802469135801
-          },
-          {
-            "home": 2,
-            "away": 0,
-            "prob": 0.1419753086419753
+            "prob": 0.17177914110429446
           },
           {
             "home": 2,
             "away": 1,
-            "prob": 0.13580246913580246
+            "prob": 0.1411042944785276
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.1349693251533742
           },
           {
             "home": 1,
             "away": 1,
-            "prob": 0.12962962962962962
-          },
-          {
-            "home": 0,
-            "away": 0,
-            "prob": 0.09259259259259259
+            "prob": 0.12269938650306747
           },
           {
             "home": 3,
             "away": 1,
-            "prob": 0.08641975308641976
+            "prob": 0.0920245398773006
           },
           {
             "home": 3,
             "away": 0,
-            "prob": 0.07407407407407407
+            "prob": 0.07975460122699385
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.07361963190184047
           },
           {
             "home": 2,
             "away": 2,
-            "prob": 0.04938271604938271
+            "prob": 0.04907975460122699
           },
           {
             "home": 0,
             "away": 1,
-            "prob": 0.05555555555555555
+            "prob": 0.055214723926380355
+          },
+          {
+            "home": 3,
+            "away": 2,
+            "prob": 0.042944785276073615
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.04320987654320988
+            "prob": 0.036809815950920234
           }
         ],
-        "extraTimeProb": 0.21,
+        "extraTimeProb": 0.205,
         "extraTime": [
           {
-            "home": 2,
-            "away": 1,
-            "prob": 0.17553191489361705
-          },
-          {
             "home": 1,
             "away": 1,
-            "prob": 0.1595744680851064
+            "prob": 0.185
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.14
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.11702127659574468
+            "prob": 0.09
           },
           {
             "home": 2,
             "away": 2,
-            "prob": 0.11170212765957448
+            "prob": 0.12
           },
           {
             "home": 0,
             "away": 0,
-            "prob": 0.09574468085106383
+            "prob": 0.1
           },
           {
             "home": 1,
             "away": 0,
-            "prob": 0.1595744680851064
+            "prob": 0.11
           },
           {
             "home": 0,
             "away": 1,
-            "prob": 0.11702127659574468
+            "prob": 0.07
           },
           {
             "home": 3,
             "away": 2,
-            "prob": 0.06382978723404255
+            "prob": 0.06
+          },
+          {
+            "home": 2,
+            "away": 3,
+            "prob": 0.045
+          },
+          {
+            "home": 3,
+            "away": 1,
+            "prob": 0.08
           }
         ]
       },
-      "reasoning": "USA field their first-choice XI (Pulisic, Balogun, Richards, Adams) at home and are clear favorites, but Bosnia are a streetwise, defensively organized side dangerous on counters and set pieces through Dzeko, so a regulation draw forcing extra time carries realistic mass. The Americans' strong attacking starts but shaky defense point to outcomes like 1-0, 2-0 and 2-1, with low-scoring draws plausible. If it reaches extra time, USA's depth and fitness slightly favor them, though Bosnia's penalty pedigree (beating Wales and Italy on spot kicks) keeps their advancing chance meaningful.",
+      "reasoning": "USA are heavy home favorites at Levi's Stadium with Pulisic returning from a calf injury and Richards anchoring defense, backed by de-vigged odds (0.69) and Opta's ~67.5% win projection. Bosnia progressed as a best third-placed team but were defensively shaky, never keeping a clean sheet in World Cup history, though physically tall and dangerous from set-pieces with Dzeko and Demirovic. USA's attack (Balogun, Pulisic) has scored freely but their defense conceded three to Turkey, keeping draw/upset mass realistic. Knockout stakes give meaningful extra-time probability (~20%), with low-scoring d",
       "modelVersion": "claude-opus-4-8",
-      "generatedAt": "2026-06-30T02:50:34.629Z",
-      "lockedAt": null,
-      "locked": false,
+      "generatedAt": "2026-07-01T23:00:54.228Z",
+      "lockedAt": "2026-07-01T23:00:54.228Z",
+      "locked": true,
       "webSearchUsed": true,
       "actual": null,
       "scored": null
@@ -2348,7 +2363,7 @@
     "matchesScored": 9,
     "machinePoints": 20,
     "maxPoints": 63,
-    "expectedTotal": 29.12,
-    "lastUpdatedAt": "2026-07-01T22:48:21.908Z"
+    "expectedTotal": 29.1,
+    "lastUpdatedAt": "2026-07-01T23:00:54.228Z"
   }
 }

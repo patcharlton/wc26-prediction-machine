@@ -2028,25 +2028,25 @@
     "fixtureId": "1562586",
     "probs": {
       "homeWin": 0.66,
-      "draw": 0.21,
-      "awayWin": 0.13
+      "draw": 0.2,
+      "awayWin": 0.14
     },
     "scoreline": {
       "home": 2,
       "away": 1
     },
-    "confidence": "Medium-High",
-    "reasoning": "The USA are far deeper and more talented, top their group convincingly, and now have Pulisic, Adams, McKennie and the first-choice back line all available with only minor fitness checks on bit-part players. Bosnia are organized, dangerous on set pieces and counters with Dzeko and pacy wingers, and they have full home-state interest plus knockout belief after eliminating Italy, so an upset or draw can't be dismissed. Playing at sea-level Levi's Stadium in front of a home crowd suits the USA's quick, technical attack, but Bosnia's height and physicality should make this competitive and likely tight before the hosts edge it.",
+    "confidence": "Medium",
+    "reasoning": "The USA are deeper, more talented and playing at home in front of a friendly crowd, with captain Christian Pulisic declaring himself fully fit to start after his calf issue and no other injury or suspension concerns. Bosnia are a resilient, well-organized underdog led by 40-year-old Edin Dzeko and boosted by centre-back Tarik Muharemovic returning from suspension, and their compact, counter-attacking shape can exploit the USA's proven defensive shakiness (they conceded three to Turkiye). I lean slightly below the market because that American back line and the always-real draw risk in a tight knockout game make a comfortable win less certain than the price suggests.",
     "market": {
-      "homeWin": 0.688,
-      "draw": 0.193,
-      "awayWin": 0.119,
+      "homeWin": 0.693,
+      "draw": 0.191,
+      "awayWin": 0.116,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-07-01T23:00:54.228Z",
     "modelVersion": "claude-opus-4-8",
-    "generatedAt": "2026-06-30T02:50:34.629Z",
-    "locked": false,
+    "generatedAt": "2026-07-01T23:00:54.228Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {
