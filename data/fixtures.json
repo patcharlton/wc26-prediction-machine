@@ -1633,9 +1633,9 @@
     "awayTeam": "Ecuador",
     "homeTeamId": 16,
     "awayTeamId": 2382,
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 0,
-    "elapsed": 21,
+    "elapsed": 26,
     "venue": {
       "name": "Estadio Banorte",
       "city": "Mexico City",
