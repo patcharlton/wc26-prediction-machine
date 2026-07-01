@@ -1483,7 +1483,7 @@
   },
   {
     "fixtureId": "1567306",
-    "status": "scheduled",
+    "status": "live",
     "kickoff": "2026-07-01T01:00:00.000Z",
     "stage": "R32",
     "homeTeam": "Mexico",
