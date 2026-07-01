@@ -1368,126 +1368,141 @@
       "pred1Advance": "home",
       "pred1Team": "England",
       "pred2Reg": {
-        "home": 1,
+        "home": 2,
         "away": 0
       },
       "pred3Et": {
-        "home": 1,
-        "away": 0
+        "home": 2,
+        "away": 1
       },
       "ev": {
-        "p1": 0.8,
-        "p2": 1.036,
-        "p3": 0.219,
-        "total": 2.055
+        "p1": 0.85,
+        "p2": 1.136,
+        "p3": 0.188,
+        "total": 2.175
       },
-      "pEtUsed": 0.275,
+      "pEtUsed": 0.207,
       "distributions": {
         "advance": {
-          "home": 0.8,
-          "away": 0.2
+          "home": 0.85,
+          "away": 0.15
         },
         "regulation": [
           {
-            "home": 1,
-            "away": 0,
-            "prob": 0.19760479041916168
-          },
-          {
             "home": 2,
             "away": 0,
-            "prob": 0.16167664670658682
+            "prob": 0.20118343195266272
           },
           {
-            "home": 0,
+            "home": 1,
             "away": 0,
-            "prob": 0.12574850299401197
+            "prob": 0.1834319526627219
           },
           {
             "home": 2,
             "away": 1,
-            "prob": 0.12574850299401197
-          },
-          {
-            "home": 1,
-            "away": 1,
-            "prob": 0.11377245508982035
+            "prob": 0.13609467455621302
           },
           {
             "home": 3,
             "away": 0,
-            "prob": 0.08982035928143711
+            "prob": 0.10059171597633136
+          },
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.09467455621301775
           },
           {
             "home": 3,
             "away": 1,
-            "prob": 0.06586826347305388
+            "prob": 0.07692307692307691
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.0710059171597633
           },
           {
             "home": 2,
             "away": 2,
-            "prob": 0.03592814371257485
+            "prob": 0.04142011834319526
+          },
+          {
+            "home": 3,
+            "away": 2,
+            "prob": 0.03550295857988165
           },
           {
             "home": 0,
             "away": 1,
-            "prob": 0.04790419161676646
+            "prob": 0.03550295857988165
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.03592814371257485
+            "prob": 0.023668639053254437
           }
         ],
-        "extraTimeProb": 0.23,
+        "extraTimeProb": 0.19,
         "extraTime": [
           {
-            "home": 1,
-            "away": 0,
-            "prob": 0.17222222222222225
-          },
-          {
-            "home": 1,
-            "away": 1,
-            "prob": 0.16111111111111115
-          },
-          {
             "home": 2,
             "away": 1,
-            "prob": 0.15000000000000005
-          },
-          {
-            "home": 0,
-            "away": 0,
-            "prob": 0.1444444444444445
-          },
-          {
-            "home": 2,
-            "away": 0,
-            "prob": 0.12777777777777782
+            "prob": 0.19
           },
           {
             "home": 1,
-            "away": 2,
-            "prob": 0.07222222222222224
+            "away": 0,
+            "prob": 0.15
           },
           {
-            "home": 0,
+            "home": 1,
             "away": 1,
-            "prob": 0.08333333333333334
+            "prob": 0.14
           },
           {
             "home": 2,
             "away": 2,
-            "prob": 0.0888888888888889
+            "prob": 0.11
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.1
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.1
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.08
+          },
+          {
+            "home": 3,
+            "away": 1,
+            "prob": 0.06
+          },
+          {
+            "home": 2,
+            "away": 3,
+            "prob": 0.04
+          },
+          {
+            "home": 3,
+            "away": 2,
+            "prob": 0.03
           }
         ]
       },
-      "reasoning": "England top Group L in strong form (10 goals, 2 conceded in their last five) and are heavy favorites at home in Atlanta, with Kane and Bellingham finding form. DR Congo are a disciplined, defensively-organized side under Desabre who deploy a back-five low block and frustrated Portugal, so a tight, low-scoring game with realistic draw mass is plausible. England's most likely scorelines are narrow 1-0/2-0/2-1 wins; given Congo's resilience and counter-attacking threat through Wissa, there is meaningful probability the game reaches extra time, where England remain favored to advance via further p",
+      "reasoning": "England are heavy favourites (market ~72% for the win) as Group L winners with Harry Kane in record-breaking form, though their attack has been inconsistent and they face a right-back crisis with Reece James (hamstring) and Jarell Quansah (ankle) both out, forcing Djed Spence to start. DR Congo are a resilient, physical diaspora-built side (Wissa, Wan-Bissaka, Mbemba) making their first-ever knockout appearance with no reported injuries, and Desabre may deploy a defensive 5-3-2, raising modest chances of a low-scoring game or upset. Low-scoring England wins (1-0, 2-0, 2-1) carry most mass, wit",
       "modelVersion": "claude-opus-4-8",
-      "generatedAt": "2026-06-29T19:49:54.389Z",
-      "lockedAt": null,
-      "locked": false,
+      "generatedAt": "2026-07-01T14:04:49.353Z",
+      "lockedAt": "2026-07-01T14:04:49.353Z",
+      "locked": true,
       "webSearchUsed": true,
       "actual": null,
       "scored": null
@@ -2187,7 +2202,7 @@
     "matchesScored": 8,
     "machinePoints": 18,
     "maxPoints": 56,
-    "expectedTotal": 27.39,
-    "lastUpdatedAt": "2026-07-01T09:37:16.357Z"
+    "expectedTotal": 27.51,
+    "lastUpdatedAt": "2026-07-01T14:04:49.353Z"
   }
 }
