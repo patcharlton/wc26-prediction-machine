@@ -1502,22 +1502,22 @@
   },
   {
     "fixtureId": "1567307",
-    "status": "live",
+    "status": "finished",
     "kickoff": "2026-07-01T16:00:00.000Z",
     "stage": "R32",
     "homeTeam": "England",
     "awayTeam": "Congo DR",
     "actualScore": {
-      "home": null,
-      "away": null
+      "home": 2,
+      "away": 1
     },
-    "actualOutcome": null,
-    "machineOutcomeHit": null,
-    "marketOutcomeHit": null,
-    "exactScoreHit": null,
-    "machineBrierScore": null,
-    "marketBrierScore": null,
-    "resolvedAt": null
+    "actualOutcome": "homeWin",
+    "machineOutcomeHit": true,
+    "marketOutcomeHit": true,
+    "exactScoreHit": false,
+    "machineBrierScore": 0.133,
+    "marketBrierScore": 0.125,
+    "resolvedAt": "2026-07-01T19:46:08.384Z"
   },
   {
     "fixtureId": "1567308",

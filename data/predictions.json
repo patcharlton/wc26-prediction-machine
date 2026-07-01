@@ -2123,5 +2123,30 @@
     "generatedAt": "2026-07-01T09:37:16.357Z",
     "locked": false,
     "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1565178",
+    "probs": {
+      "homeWin": 0.31,
+      "draw": 0.33,
+      "awayWin": 0.36
+    },
+    "scoreline": {
+      "home": 1,
+      "away": 1
+    },
+    "confidence": "Low",
+    "reasoning": "Egypt hold an edge in individual quality and arrive unbeaten from a tougher group, but their attack hinges on Salah, who is only returning to partial training with a hamstring strain and is far from certain to start or last 90 minutes; they're also missing left-back Fattouh and sweating on centre-back Abdelmonem. Australia are essentially fully fit, well-organised defensively under a disciplined back-five, and both sides have shown they'll happily grind out cagey, low-scoring games. This shapes as a tight, attritional match at a neutral sea-level venue where a draw is very live, so I've nudged slightly toward Egypt on talent while keeping the outcome genuinely open.",
+    "market": {
+      "homeWin": 0.287,
+      "draw": 0.32,
+      "awayWin": 0.393,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-opus-4-8",
+    "generatedAt": "2026-07-01T19:46:08.384Z",
+    "locked": false,
+    "webSearchUsed": true
   }
 ]

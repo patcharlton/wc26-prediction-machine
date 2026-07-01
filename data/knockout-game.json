@@ -1504,8 +1504,21 @@
       "lockedAt": "2026-07-01T14:04:49.353Z",
       "locked": true,
       "webSearchUsed": true,
-      "actual": null,
-      "scored": null
+      "actual": {
+        "rt": {
+          "home": 2,
+          "away": 1
+        },
+        "et": null,
+        "pens": null,
+        "advanced": "home"
+      },
+      "scored": {
+        "p1": 1,
+        "p2": 1,
+        "p3": 0,
+        "total": 2
+      }
     },
     {
       "fixtureId": "1567308",
@@ -2196,13 +2209,146 @@
       "webSearchUsed": true,
       "actual": null,
       "scored": null
+    },
+    {
+      "fixtureId": "1565178",
+      "stage": "R32",
+      "homeTeam": "Australia",
+      "awayTeam": "Egypt",
+      "kickoff": "2026-07-03T18:00:00.000Z",
+      "pred1Advance": "away",
+      "pred1Team": "Egypt",
+      "pred2Reg": {
+        "home": 0,
+        "away": 0
+      },
+      "pred3Et": {
+        "home": 0,
+        "away": 0
+      },
+      "ev": {
+        "p1": 0.58,
+        "p2": 0.746,
+        "p3": 0.279,
+        "total": 1.605
+      },
+      "pEtUsed": 0.379,
+      "distributions": {
+        "advance": {
+          "home": 0.42,
+          "away": 0.58
+        },
+        "regulation": [
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.18343195266272186
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.16568047337278105
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.136094674556213
+          },
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.15384615384615383
+          },
+          {
+            "home": 0,
+            "away": 2,
+            "prob": 0.08875739644970412
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.08284023668639053
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.06508875739644969
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.05325443786982247
+          },
+          {
+            "home": 1,
+            "away": 3,
+            "prob": 0.029585798816568042
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.04142011834319526
+          }
+        ],
+        "extraTimeProb": 0.34,
+        "extraTime": [
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.16842105263157897
+          },
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.15789473684210525
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.1368421052631579
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.15789473684210525
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.11578947368421053
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.12631578947368421
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.0736842105263158
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.06315789473684211
+          }
+        ]
+      },
+      "reasoning": "Both sides are low-scoring and defensively organized, with Australia failing to score in two of three group games and Egypt conceding little, so draws carry heavy mass and extra time is a real possibility. Egypt are slight favorites given superior squad quality (Salah, Marmoush), but Salah's hamstring strain and the confirmed loss of left-back Fattouh temper their edge. The market (away 0.393, draw 0.32, home 0.287) points to a tight contest, so I've weighted 0-0, 1-1 and single-goal margins most heavily. Expect a cagey knockout tie that could easily need extra time or penalties.",
+      "modelVersion": "claude-opus-4-8",
+      "generatedAt": "2026-07-01T19:46:08.384Z",
+      "lockedAt": null,
+      "locked": false,
+      "webSearchUsed": true,
+      "actual": null,
+      "scored": null
     }
   ],
   "summary": {
-    "matchesScored": 8,
-    "machinePoints": 18,
-    "maxPoints": 56,
-    "expectedTotal": 27.52,
-    "lastUpdatedAt": "2026-07-01T19:28:06.853Z"
+    "matchesScored": 9,
+    "machinePoints": 20,
+    "maxPoints": 63,
+    "expectedTotal": 29.12,
+    "lastUpdatedAt": "2026-07-01T19:46:08.384Z"
   }
 }
