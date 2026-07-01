@@ -1703,7 +1703,7 @@
     "awayTeamId": 13,
     "homeScore": 2,
     "awayScore": 2,
-    "elapsed": 90,
+    "elapsed": null,
     "venue": {
       "name": "Lumen Field",
       "city": "Seattle",
