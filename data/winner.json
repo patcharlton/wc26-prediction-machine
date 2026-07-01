@@ -2,19 +2,19 @@
   "champion": "France",
   "runnerUp": "Argentina",
   "darkHorse": "Morocco",
-  "confidence": "Medium",
+  "confidence": "Medium-High",
   "contenders": [
     {
       "team": "France",
-      "prob": 0.27
+      "prob": 0.35
     },
     {
       "team": "Argentina",
-      "prob": 0.2
+      "prob": 0.19
     },
     {
       "team": "Spain",
-      "prob": 0.12
+      "prob": 0.13
     },
     {
       "team": "England",
@@ -33,12 +33,12 @@
       "prob": 0.04
     },
     {
-      "team": "Colombia",
+      "team": "Norway",
       "prob": 0.03
     }
   ],
-  "reasoning": "France are the clear market and model favorites after a perfect 3-0 group stage, and the field has opened further for them since Paraguay's shock penalty win knocked out Germany, removing a potential Round-of-16 obstacle from their path. Argentina win the runner-up slot on the strength of a Messi-inspired 3-0 group, the easier side of the bracket, and the possibility of a 2022-final rematch, though their smaller, technical side could be vulnerable to the tournament's more physical teams in later rounds. Spain (labored, drew with Cape Verde), England (solid under Tuchel) and Brazil are the next tier, with elite depth but lingering form questions. Morocco are the dark horse: they just stunned the Netherlands on penalties to surge up the board and have the squad and big-game pedigree to make another deep run.",
+  "reasoning": "France are the clear market leaders, moving below even money to reach the final after a dominant 3-0 dismantling of Sweden and a perfect group stage, with Mbappé in ruthless form and elite squad depth. Argentina are the standout runner-up pick after winning Group J 3-0-0 and drawing the softer side of the bracket, setting up a possible 2022 final rematch, though their smaller technical side could struggle against physical opponents. Spain (labored despite reigning European champions), England (over-reliant on Bellingham) and Brazil (still gelling under Ancelotti) are the main challengers but each carry doubts. Morocco is the live dark horse after their dramatic shootout win over the Netherlands rocketed them up the board; the biggest wildcards are host Mexico's altitude advantage at the Azteca and the punishing knockout travel/climate demands that could level top contenders.",
   "basis": "knockout stage",
   "modelVersion": "claude-opus-4-8",
-  "updatedAt": "2026-06-30T08:58:38.523Z"
+  "updatedAt": "2026-07-01T09:32:04.507Z"
 }

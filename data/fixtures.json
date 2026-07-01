@@ -1636,7 +1636,7 @@
     "stage": "R32",
     "matchday": null,
     "kickoff": "2026-07-01T01:00:00.000Z",
-    "status": "live",
+    "status": "finished",
     "homeTeam": "Mexico",
     "awayTeam": "Ecuador",
     "homeTeamId": 16,
@@ -1649,7 +1649,15 @@
       "city": "Mexico City",
       "country": null
     },
-    "koScore": null,
+    "koScore": {
+      "rt": {
+        "home": 2,
+        "away": 0
+      },
+      "et": null,
+      "pens": null,
+      "advanced": "home"
+    },
     "homeSlot": "W:A",
     "awaySlot": "3:C/E/F/H/I"
   },
@@ -1874,6 +1882,28 @@
     "awaySlot": "WM:77"
   },
   {
+    "fixtureId": "1569870",
+    "stage": "R16",
+    "matchday": null,
+    "kickoff": "2026-07-04T21:00:00.000Z",
+    "status": "scheduled",
+    "homeTeam": "Paraguay",
+    "awayTeam": "France",
+    "homeTeamId": 2380,
+    "awayTeamId": 2,
+    "homeScore": null,
+    "awayScore": null,
+    "elapsed": null,
+    "venue": {
+      "name": "Lincoln Financial Field",
+      "city": "Philadelphia",
+      "country": null
+    },
+    "koScore": null,
+    "homeSlot": "WM:73",
+    "awaySlot": "WM:75"
+  },
+  {
     "fixtureId": "1568100",
     "stage": "R16",
     "matchday": null,
@@ -1892,7 +1922,7 @@
       "country": null
     },
     "koScore": null,
-    "homeSlot": "WM:73",
-    "awaySlot": "WM:75"
+    "homeSlot": "WM:76",
+    "awaySlot": "WM:78"
   }
 ]
