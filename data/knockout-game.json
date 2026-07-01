@@ -2043,13 +2043,151 @@
       "webSearchUsed": true,
       "actual": null,
       "scored": null
+    },
+    {
+      "fixtureId": "1567312",
+      "stage": "R32",
+      "homeTeam": "Switzerland",
+      "awayTeam": "Algeria",
+      "kickoff": "2026-07-03T03:00:00.000Z",
+      "pred1Advance": "home",
+      "pred1Team": "Switzerland",
+      "pred2Reg": {
+        "home": 2,
+        "away": 1
+      },
+      "pred3Et": {
+        "home": 1,
+        "away": 1
+      },
+      "ev": {
+        "p1": 0.6,
+        "p2": 0.753,
+        "p3": 0.239,
+        "total": 1.592
+      },
+      "pEtUsed": 0.319,
+      "distributions": {
+        "advance": {
+          "home": 0.6,
+          "away": 0.4
+        },
+        "regulation": [
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.13855421686746983
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.1265060240963855
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.1265060240963855
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.11445783132530117
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.10240963855421684
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.07831325301204817
+          },
+          {
+            "home": 3,
+            "away": 1,
+            "prob": 0.072289156626506
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.072289156626506
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.072289156626506
+          },
+          {
+            "home": 3,
+            "away": 0,
+            "prob": 0.060240963855421666
+          },
+          {
+            "home": 2,
+            "away": 3,
+            "prob": 0.036144578313253
+          }
+        ],
+        "extraTimeProb": 0.28,
+        "extraTime": [
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.18181818181818185
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.14772727272727276
+          },
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.17045454545454547
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.12500000000000003
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.11363636363636366
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.10227272727272728
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.09090909090909093
+          },
+          {
+            "home": 3,
+            "away": 2,
+            "prob": 0.06818181818181819
+          }
+        ]
+      },
+      "reasoning": "Switzerland topped Group B unbeaten with a settled, largely fit squad and are narrow favorites, but the de-vigged market and near pick'em advance odds reflect real uncertainty. Algeria attack well (scored in all three group games) yet conceded six goals and kept no clean sheets, with Amoura a fitness doubt, so a Swiss win with Algeria scoring is a plausible shape. Both sides concede regularly, so scores like 2-1, 1-1 and 1-0 carry the most mass. Knockout tension plus Algeria's threat keeps a meaningful chance of a regulation draw and extra time near 28%.",
+      "modelVersion": "claude-opus-4-8",
+      "generatedAt": "2026-07-01T09:37:16.357Z",
+      "lockedAt": null,
+      "locked": false,
+      "webSearchUsed": true,
+      "actual": null,
+      "scored": null
     }
   ],
   "summary": {
     "matchesScored": 8,
     "machinePoints": 18,
     "maxPoints": 56,
-    "expectedTotal": 25.79,
-    "lastUpdatedAt": "2026-07-01T09:32:04.507Z"
+    "expectedTotal": 27.39,
+    "lastUpdatedAt": "2026-07-01T09:37:16.357Z"
   }
 }

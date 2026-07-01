@@ -2098,5 +2098,30 @@
     "generatedAt": "2026-07-01T02:56:02.382Z",
     "locked": false,
     "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1567312",
+    "probs": {
+      "homeWin": 0.5,
+      "draw": 0.27,
+      "awayWin": 0.23
+    },
+    "scoreline": {
+      "home": 2,
+      "away": 1
+    },
+    "confidence": "Medium",
+    "reasoning": "Switzerland are the more balanced side, topping their group with seven points and only three goals conceded, and they carry a freshness edge having last played on June 24 versus Algeria's June 28. Algeria advanced as a third-placed team and were the joint-worst defense among qualifiers with no clean sheet, which the mobile Swiss front line of Manzambi, Embolo and Vargas should exploit. However, Algeria's counter-attacking threat through Mahrez, Gouiri and Amoura is real, and knockout ties tighten up, so a narrow, competitive game is likely. I lean slightly above the market on Switzerland while respecting a genuine chance the tie is level after 90 minutes.",
+    "market": {
+      "homeWin": 0.475,
+      "draw": 0.279,
+      "awayWin": 0.246,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-opus-4-8",
+    "generatedAt": "2026-07-01T09:37:16.357Z",
+    "locked": false,
+    "webSearchUsed": true
   }
 ]
