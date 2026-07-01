@@ -1671,9 +1671,9 @@
     "awayTeam": "Congo DR",
     "homeTeamId": 10,
     "awayTeamId": 1508,
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 1,
-    "elapsed": 73,
+    "elapsed": 79,
     "venue": {
       "name": "Mercedes-Benz Stadium",
       "city": "Atlanta",
