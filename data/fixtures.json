@@ -1701,9 +1701,9 @@
     "awayTeam": "Senegal",
     "homeTeamId": 1,
     "awayTeamId": 13,
-    "homeScore": 0,
+    "homeScore": 2,
     "awayScore": 2,
-    "elapsed": 85,
+    "elapsed": 90,
     "venue": {
       "name": "Lumen Field",
       "city": "Seattle",
