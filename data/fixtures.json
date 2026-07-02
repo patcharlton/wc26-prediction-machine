@@ -1944,12 +1944,56 @@
     "awayScore": null,
     "elapsed": null,
     "venue": {
-      "name": null,
+      "name": "MetLife Stadium",
       "city": null,
       "country": null
     },
     "koScore": null,
     "homeSlot": "WM:76",
     "awaySlot": "WM:78"
+  },
+  {
+    "fixtureId": "1570714",
+    "stage": "R16",
+    "matchday": null,
+    "kickoff": "2026-07-06T00:00:00.000Z",
+    "status": "scheduled",
+    "homeTeam": "Mexico",
+    "awayTeam": "England",
+    "homeTeamId": 16,
+    "awayTeamId": 10,
+    "homeScore": null,
+    "awayScore": null,
+    "elapsed": null,
+    "venue": {
+      "name": "Estadio Banorte",
+      "city": "Mexico City",
+      "country": null
+    },
+    "koScore": null,
+    "homeSlot": "WM:79",
+    "awaySlot": "WM:80"
+  },
+  {
+    "fixtureId": "1570715",
+    "stage": "R16",
+    "matchday": null,
+    "kickoff": "2026-07-07T00:00:00.000Z",
+    "status": "scheduled",
+    "homeTeam": "USA",
+    "awayTeam": "Belgium",
+    "homeTeamId": 2384,
+    "awayTeamId": 1,
+    "homeScore": null,
+    "awayScore": null,
+    "elapsed": null,
+    "venue": {
+      "name": "Lumen Field",
+      "city": null,
+      "country": null
+    },
+    "koScore": null,
+    "homeSlot": "WM:83",
+    "awaySlot": "WM:84"
   }
 ]
