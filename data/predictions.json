@@ -2148,5 +2148,55 @@
     "generatedAt": "2026-07-01T19:46:08.384Z",
     "locked": false,
     "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1565179",
+    "probs": {
+      "homeWin": 0.83,
+      "draw": 0.13,
+      "awayWin": 0.04
+    },
+    "scoreline": {
+      "home": 3,
+      "away": 0
+    },
+    "confidence": "High",
+    "reasoning": "Argentina return to full strength with Messi restored to the XI and Romero back in full training, while Cape Verde's only absentee is Telmo Arcanjo, leaving both sides essentially at their best. The gap in squad quality is enormous, but Cape Verde's disciplined low block earned three group-stage draws including a shutout of Spain, so they can plausibly keep the margin down and there's a small live draw chance. Overall the reigning champions' form and firepower make a comfortable win the clear expectation.",
+    "market": {
+      "homeWin": 0.805,
+      "draw": 0.144,
+      "awayWin": 0.052,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-opus-4-8",
+    "generatedAt": "2026-07-02T02:46:17.554Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1567310",
+    "probs": {
+      "homeWin": 0.62,
+      "draw": 0.25,
+      "awayWin": 0.13
+    },
+    "scoreline": {
+      "home": 2,
+      "away": 0
+    },
+    "confidence": "Medium-High",
+    "reasoning": "Colombia are clearly the stronger side, arriving with full fitness, more top-club talent, and momentum after topping a group that included Portugal while conceding just once. Ghana are missing their key creator Kudus and lean on a defensively organized but low-scoring setup, which limits their upside against Colombia's possession game and the dangerous Muñoz-Díaz overload down the right. Ghana's discipline (a clean sheet against England) and knockout football's tighter margins keep a draw realistic, so I stay close to the market rather than overreaching. Most likely outcome is a controlled Colombia win, though a low-scoring or one-goal game is very plausible.",
+    "market": {
+      "homeWin": 0.623,
+      "draw": 0.253,
+      "awayWin": 0.125,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-opus-4-8",
+    "generatedAt": "2026-07-02T02:46:17.554Z",
+    "locked": false,
+    "webSearchUsed": true
   }
 ]

@@ -1650,8 +1650,24 @@
       "lockedAt": "2026-07-01T19:28:06.853Z",
       "locked": true,
       "webSearchUsed": true,
-      "actual": null,
-      "scored": null
+      "actual": {
+        "rt": {
+          "home": 2,
+          "away": 2
+        },
+        "et": {
+          "home": 3,
+          "away": 2
+        },
+        "pens": null,
+        "advanced": "home"
+      },
+      "scored": {
+        "p1": 1,
+        "p2": 0,
+        "p3": 0,
+        "total": 1
+      }
     },
     {
       "fixtureId": "1562586",
@@ -1798,8 +1814,21 @@
       "lockedAt": "2026-07-01T23:00:54.228Z",
       "locked": true,
       "webSearchUsed": true,
-      "actual": null,
-      "scored": null
+      "actual": {
+        "rt": {
+          "home": 2,
+          "away": 0
+        },
+        "et": null,
+        "pens": null,
+        "advanced": "home"
+      },
+      "scored": {
+        "p1": 1,
+        "p2": 1,
+        "p3": 0,
+        "total": 2
+      }
     },
     {
       "fixtureId": "1567311",
@@ -2357,26 +2386,307 @@
       "webSearchUsed": true,
       "actual": null,
       "scored": null
+    },
+    {
+      "fixtureId": "1565179",
+      "stage": "R32",
+      "homeTeam": "Argentina",
+      "awayTeam": "Cape Verde Islands",
+      "kickoff": "2026-07-03T22:00:00.000Z",
+      "pred1Advance": "home",
+      "pred1Team": "Argentina",
+      "pred2Reg": {
+        "home": 1,
+        "away": 0
+      },
+      "pred3Et": {
+        "home": 1,
+        "away": 0
+      },
+      "ev": {
+        "p1": 0.86,
+        "p2": 1.148,
+        "p3": 0.236,
+        "total": 2.244
+      },
+      "pEtUsed": 0.239,
+      "distributions": {
+        "advance": {
+          "home": 0.86,
+          "away": 0.14
+        },
+        "regulation": [
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.21022727272727276
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.18750000000000003
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.11931818181818182
+          },
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.10795454545454547
+          },
+          {
+            "home": 3,
+            "away": 0,
+            "prob": 0.10795454545454547
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.09659090909090912
+          },
+          {
+            "home": 3,
+            "away": 1,
+            "prob": 0.06818181818181819
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.034090909090909095
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.034090909090909095
+          },
+          {
+            "home": 4,
+            "away": 0,
+            "prob": 0.034090909090909095
+          }
+        ],
+        "extraTimeProb": 0.144,
+        "extraTime": [
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.2150537634408602
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.19354838709677416
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.16129032258064513
+          },
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.15053763440860213
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.1182795698924731
+          },
+          {
+            "home": 3,
+            "away": 1,
+            "prob": 0.06451612903225805
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.05376344086021505
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.04301075268817204
+          }
+        ]
+      },
+      "reasoning": "Argentina are overwhelming favorites, unbeaten in knockouts since 2019 and winning all three group games with clean sheets, led by Messi and Lautaro. Cape Verde's calling card is defensive resilience (two clean sheets, three group draws) but they are the lowest scorers among knockout teams, so I weight low-scoring Argentina wins heavily while giving realistic mass to a tight draw. The de-vigged market (home 0.805) plus penalty upside lifts Argentina's advance probability to about 0.86. If a draw forces extra time, Argentina's superior depth makes an eventual go-ahead goal likely, though a scor",
+      "modelVersion": "claude-opus-4-8",
+      "generatedAt": "2026-07-02T02:46:17.554Z",
+      "lockedAt": null,
+      "locked": false,
+      "webSearchUsed": true,
+      "actual": null,
+      "scored": null
+    },
+    {
+      "fixtureId": "1567310",
+      "stage": "R32",
+      "homeTeam": "Colombia",
+      "awayTeam": "Ghana",
+      "kickoff": "2026-07-04T01:30:00.000Z",
+      "pred1Advance": "home",
+      "pred1Team": "Colombia",
+      "pred2Reg": {
+        "home": 1,
+        "away": 0
+      },
+      "pred3Et": {
+        "home": 1,
+        "away": 0
+      },
+      "ev": {
+        "p1": 0.685,
+        "p2": 0.917,
+        "p3": 0.246,
+        "total": 1.848
+      },
+      "pEtUsed": 0.308,
+      "distributions": {
+        "advance": {
+          "home": 0.685,
+          "away": 0.315
+        },
+        "regulation": [
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.18343195266272186
+          },
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.136094674556213
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.12426035502958577
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.12426035502958577
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.11834319526627217
+          },
+          {
+            "home": 3,
+            "away": 0,
+            "prob": 0.06508875739644969
+          },
+          {
+            "home": 3,
+            "away": 1,
+            "prob": 0.059171597633136085
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.04733727810650887
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.06508875739644969
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.05325443786982247
+          },
+          {
+            "home": 0,
+            "away": 2,
+            "prob": 0.023668639053254434
+          }
+        ],
+        "extraTimeProb": 0.265,
+        "extraTime": [
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.155
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.135
+          },
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.145
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.1
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.13
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.085
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.07
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.08
+          },
+          {
+            "home": 3,
+            "away": 1,
+            "prob": 0.06
+          },
+          {
+            "home": 3,
+            "away": 2,
+            "prob": 0.04
+          }
+        ]
+      },
+      "reasoning": "Colombia are strong favorites (market ~62% regulation win) with a fully fit, veteran-laden squad built around James Rodriguez and Luis Diaz, and they held Portugal to a draw in the group stage. Ghana are weakened by the absences of Thomas Partey (visa issue) and Mohammed Kudus, leaving Carlos Queiroz's midfield thin, though Semenyo and the Williams/Ayew attack retain counter-attacking threat. I lean the score distribution toward narrow Colombia wins while keeping meaningful mass on draws (0-0, 1-1) given knockout caution and Colombia's history of wasting chances, yielding a ~26% chance of extr",
+      "modelVersion": "claude-opus-4-8",
+      "generatedAt": "2026-07-02T02:46:17.554Z",
+      "lockedAt": null,
+      "locked": false,
+      "webSearchUsed": true,
+      "actual": null,
+      "scored": null
     }
   ],
   "summary": {
-    "matchesScored": 8,
-    "machinePoints": 17,
-    "maxPoints": 56,
-    "expectedTotal": 25.48,
-    "lastUpdatedAt": "2026-07-02T02:02:15.532Z",
+    "matchesScored": 10,
+    "machinePoints": 20,
+    "maxPoints": 70,
+    "expectedTotal": 29.57,
+    "lastUpdatedAt": "2026-07-02T02:46:17.554Z",
     "calibration": {
       "expected": {
-        "p1": 5.61,
-        "p2": 7.22,
-        "p3": 2.05,
-        "total": 14.88
+        "p1": 6.96,
+        "p2": 8.94,
+        "p3": 2.55,
+        "total": 18.44
       },
       "realised": {
-        "p1": 6,
-        "p2": 8,
+        "p1": 8,
+        "p2": 9,
         "p3": 3,
-        "total": 17
+        "total": 20
       }
     }
   }

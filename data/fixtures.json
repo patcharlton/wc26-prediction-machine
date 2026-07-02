@@ -1696,20 +1696,31 @@
     "stage": "R32",
     "matchday": null,
     "kickoff": "2026-07-01T20:00:00.000Z",
-    "status": "live",
+    "status": "finished",
     "homeTeam": "Belgium",
     "awayTeam": "Senegal",
     "homeTeamId": 1,
     "awayTeamId": 13,
     "homeScore": 3,
     "awayScore": 2,
-    "elapsed": 131,
+    "elapsed": 120,
     "venue": {
       "name": "Lumen Field",
       "city": "Seattle",
       "country": null
     },
-    "koScore": null,
+    "koScore": {
+      "rt": {
+        "home": 2,
+        "away": 2
+      },
+      "et": {
+        "home": 3,
+        "away": 2
+      },
+      "pens": null,
+      "advanced": "home"
+    },
     "homeSlot": "W:D",
     "awaySlot": "3:B/E/F/I/J"
   },
@@ -1718,7 +1729,7 @@
     "stage": "R32",
     "matchday": null,
     "kickoff": "2026-07-02T00:00:00.000Z",
-    "status": "live",
+    "status": "finished",
     "homeTeam": "USA",
     "awayTeam": "Bosnia & Herzegovina",
     "homeTeamId": 2384,
@@ -1731,7 +1742,15 @@
       "city": "San-Francisco",
       "country": null
     },
-    "koScore": null,
+    "koScore": {
+      "rt": {
+        "home": 2,
+        "away": 0
+      },
+      "et": null,
+      "pens": null,
+      "advanced": "home"
+    },
     "homeSlot": "W:G",
     "awaySlot": "3:A/E/H/I/J"
   },
