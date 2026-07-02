@@ -2077,26 +2077,26 @@
   {
     "fixtureId": "1567309",
     "probs": {
-      "homeWin": 0.5,
-      "draw": 0.28,
-      "awayWin": 0.22
+      "homeWin": 0.55,
+      "draw": 0.27,
+      "awayWin": 0.18
     },
     "scoreline": {
-      "home": 1,
+      "home": 2,
       "away": 1
     },
     "confidence": "Medium",
-    "reasoning": "Portugal have deeper, higher-quality talent and won the last two competitive meetings, but they struggled to break down organized defenses in draws with DR Congo and Colombia, so this projects as a tight, low-scoring knockout. Both teams arrive healthy with settled lineups and equal three days' rest, and neutral sea-level Toronto removes any altitude edge, leaving Portugal a clear but not dominant favorite. Croatia's veteran knockout pedigree and Modric-led midfield can frustrate Portugal and force extra time, which is why I keep meaningful draw probability, with a 1-1 as the single most likely score.",
+    "reasoning": "Portugal are deeper and more talented across the pitch, with an elite midfield and multiple attacking threats, and both sides are fully fit with no injuries or suspensions to worry about. Croatia's veteran core of Modric and Kovacic will try to slow the tempo and grind out a tight knockout game, and they conceded five goals in the group stage, which is a worry against Portugal's attack. Portugal's greater quality gives them the edge, but Croatia's tournament know-how and control-focused approach keep both a narrow win and a draw firmly in play at a neutral sea-level venue. I lean to a 2-1 Portugal result while respecting the elevated draw risk typical of tense knockout matches.",
     "market": {
-      "homeWin": 0.517,
-      "draw": 0.271,
-      "awayWin": 0.212,
+      "homeWin": 0.557,
+      "draw": 0.253,
+      "awayWin": 0.191,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-07-02T21:57:54.477Z",
     "modelVersion": "claude-opus-4-8",
-    "generatedAt": "2026-07-01T02:56:02.382Z",
-    "locked": false,
+    "generatedAt": "2026-07-02T21:57:54.477Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {

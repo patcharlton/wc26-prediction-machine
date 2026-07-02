@@ -1981,11 +1981,11 @@
       },
       "ev": {
         "p1": 0.635,
-        "p2": 0.83,
-        "p3": 0.274,
-        "total": 1.739
+        "p2": 0.843,
+        "p3": 0.275,
+        "total": 1.753
       },
-      "pEtUsed": 0.329,
+      "pEtUsed": 0.342,
       "distributions": {
         "advance": {
           "home": 0.635,
@@ -1995,123 +1995,103 @@
           {
             "home": 1,
             "away": 0,
-            "prob": 0.17301038062283736
-          },
-          {
-            "home": 0,
-            "away": 0,
-            "prob": 0.1441753171856978
+            "prob": 0.16605166051660514
           },
           {
             "home": 1,
             "away": 1,
-            "prob": 0.13840830449826988
+            "prob": 0.15375153751537513
           },
           {
-            "home": 2,
+            "home": 0,
             "away": 0,
-            "prob": 0.11534025374855823
+            "prob": 0.1291512915129151
           },
           {
             "home": 2,
             "away": 1,
-            "prob": 0.10957324106113032
+            "prob": 0.12300123001230011
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.11070110701107008
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.057670126874279116
+            "prob": 0.06765067650676505
           },
           {
             "home": 0,
             "away": 1,
-            "prob": 0.08073817762399077
-          },
-          {
-            "home": 2,
-            "away": 2,
-            "prob": 0.04613610149942329
-          },
-          {
-            "home": 3,
-            "away": 0,
-            "prob": 0.04613610149942329
+            "prob": 0.07995079950799507
           },
           {
             "home": 3,
             "away": 1,
-            "prob": 0.040369088811995385
+            "prob": 0.061500615006150054
           },
           {
-            "home": 0,
+            "home": 2,
             "away": 2,
-            "prob": 0.03460207612456747
+            "prob": 0.05904059040590405
           },
           {
-            "home": 1,
-            "away": 3,
-            "prob": 0.013840830449826988
+            "home": 3,
+            "away": 0,
+            "prob": 0.04920049200492004
           }
         ],
-        "extraTimeProb": 0.3,
+        "extraTimeProb": 0.253,
         "extraTime": [
           {
             "home": 1,
             "away": 1,
-            "prob": 0.18888888888888888
-          },
-          {
-            "home": 0,
-            "away": 0,
-            "prob": 0.16666666666666663
+            "prob": 0.17241379310344826
           },
           {
             "home": 2,
             "away": 1,
-            "prob": 0.14444444444444443
+            "prob": 0.15517241379310345
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.1111111111111111
+            "prob": 0.1264367816091954
           },
           {
             "home": 2,
             "away": 2,
-            "prob": 0.09999999999999998
+            "prob": 0.11494252873563218
           },
           {
             "home": 1,
             "away": 0,
-            "prob": 0.08888888888888888
+            "prob": 0.09770114942528735
           },
           {
             "home": 0,
-            "away": 1,
-            "prob": 0.06666666666666665
+            "away": 0,
+            "prob": 0.17241379310344826
           },
           {
             "home": 2,
             "away": 0,
-            "prob": 0.05555555555555555
+            "prob": 0.08045977011494253
           },
           {
-            "home": 3,
-            "away": 2,
-            "prob": 0.04444444444444444
-          },
-          {
-            "home": 3,
+            "home": 0,
             "away": 1,
-            "prob": 0.033333333333333326
+            "prob": 0.08045977011494253
           }
         ]
       },
-      "reasoning": "Portugal are moderate favorites with superior attacking depth (Ronaldo, Bruno Fernandes, Leao) and full squad availability, while Croatia rely on an aging but experienced midfield and have looked defensively vulnerable against quality opposition. Both teams have shown low-scoring, cautious form in knockout-style games, so draws carry heavy mass and roughly a 30% chance of extra time. In ET, Portugal's greater firepower and fresher legs give them the edge, but Croatia's tournament pedigree and penalty resilience keep them live to advance.",
+      "reasoning": "Both teams are at full strength with no injuries or suspensions, and Portugal recall first-choice players including Ronaldo, Bruno Fernandes and Joao Neves after group-stage rotation. Portugal are clear favourites per de-vigged market (55.7%) with superior depth, but Croatia's midfield of Modric and Kovacic plus their renowned knockout resilience keeps this competitive and raises draw/ET risk. Portugal's advance probability exceeds their 90' win probability because they'd be favoured in extra time and penalties. Low-scoring, tight scorelines carry the most mass given both defenses and Croatia'",
       "modelVersion": "claude-opus-4-8",
-      "generatedAt": "2026-07-01T02:56:02.382Z",
-      "lockedAt": null,
-      "locked": false,
+      "generatedAt": "2026-07-02T21:57:54.477Z",
+      "lockedAt": "2026-07-02T21:57:54.477Z",
+      "locked": true,
       "webSearchUsed": true,
       "actual": null,
       "scored": null
@@ -2806,8 +2786,8 @@
     "matchesScored": 10,
     "machinePoints": 20,
     "maxPoints": 70,
-    "expectedTotal": 31.48,
-    "lastUpdatedAt": "2026-07-02T20:56:59.752Z",
+    "expectedTotal": 31.49,
+    "lastUpdatedAt": "2026-07-02T21:57:54.477Z",
     "calibration": {
       "expected": {
         "p1": 6.96,
