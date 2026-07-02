@@ -2667,14 +2667,147 @@
       "webSearchUsed": true,
       "actual": null,
       "scored": null
+    },
+    {
+      "fixtureId": "1567824",
+      "stage": "R16",
+      "homeTeam": "Canada",
+      "awayTeam": "Morocco",
+      "kickoff": "2026-07-04T17:00:00.000Z",
+      "pred1Advance": "away",
+      "pred1Team": "Morocco",
+      "pred2Reg": {
+        "home": 0,
+        "away": 1
+      },
+      "pred3Et": {
+        "home": 1,
+        "away": 1
+      },
+      "ev": {
+        "p1": 0.685,
+        "p2": 0.795,
+        "p3": 0.318,
+        "total": 1.798
+      },
+      "pEtUsed": 0.337,
+      "distributions": {
+        "advance": {
+          "home": 0.315,
+          "away": 0.685
+        },
+        "regulation": [
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.18072289156626503
+          },
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.1566265060240964
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.14457831325301204
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.12048192771084337
+          },
+          {
+            "home": 0,
+            "away": 2,
+            "prob": 0.1144578313253012
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.09638554216867469
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.060240963855421686
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.048192771084337345
+          },
+          {
+            "home": 0,
+            "away": 3,
+            "prob": 0.04216867469879518
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.03614457831325301
+          }
+        ],
+        "extraTimeProb": 0.29,
+        "extraTime": [
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.22988505747126436
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.17241379310344826
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.14942528735632182
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.1379310344827586
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.10344827586206895
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.08045977011494253
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.08045977011494253
+          },
+          {
+            "home": 2,
+            "away": 3,
+            "prob": 0.045977011494252866
+          }
+        ]
+      },
+      "reasoning": "Morocco are clear favourites (FIFA #6 vs #30), with superior quality across the pitch and proven knockout composure, though both sides are defensively organized so a low-scoring, tight game is likely. Canada's discipline, home crowd in Houston, and a returning Alphonso Davies keep them live, but they lean heavily on Jonathan David and lost midfielder Koné to injury. Draw mass is realistic given both teams' defensive setups, and Morocco (who beat the Netherlands on penalties) are strongly favoured to prevail if the tie reaches extra time or shootout.",
+      "modelVersion": "claude-opus-4-8",
+      "generatedAt": "2026-07-02T19:16:54.344Z",
+      "lockedAt": null,
+      "locked": false,
+      "webSearchUsed": true,
+      "actual": null,
+      "scored": null
     }
   ],
   "summary": {
     "matchesScored": 10,
     "machinePoints": 20,
     "maxPoints": 70,
-    "expectedTotal": 29.68,
-    "lastUpdatedAt": "2026-07-02T19:15:16.604Z",
+    "expectedTotal": 31.48,
+    "lastUpdatedAt": "2026-07-02T19:16:54.344Z",
     "calibration": {
       "expected": {
         "p1": 6.96,

@@ -2198,5 +2198,30 @@
     "generatedAt": "2026-07-02T02:46:17.554Z",
     "locked": false,
     "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1567824",
+    "probs": {
+      "homeWin": 0.25,
+      "draw": 0.29,
+      "awayWin": 0.46
+    },
+    "scoreline": {
+      "home": 1,
+      "away": 1
+    },
+    "confidence": "Medium-Low",
+    "reasoning": "Morocco are the stronger side on paper with a settled, deep squad and knockout pedigree, having just eliminated the Netherlands, while Canada lost key midfielder Ismael Kone to a broken leg and are only now easing Alphonso Davies back from injury. However, Canada get a host-nation home crowd in Houston plus a small rest edge, since Morocco went a full 120 minutes plus penalties three days ago, and Morocco's Chadi Riad is a defensive doubt.",
+    "market": {
+      "homeWin": 0.208,
+      "draw": 0.275,
+      "awayWin": 0.517,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-opus-4-8",
+    "generatedAt": "2026-07-02T19:16:54.344Z",
+    "locked": false,
+    "webSearchUsed": true
   }
 ]
