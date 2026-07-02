@@ -2052,8 +2052,8 @@
   {
     "fixtureId": "1567311",
     "probs": {
-      "homeWin": 0.72,
-      "draw": 0.19,
+      "homeWin": 0.71,
+      "draw": 0.2,
       "awayWin": 0.09
     },
     "scoreline": {
@@ -2061,17 +2061,17 @@
       "away": 0
     },
     "confidence": "Medium-High",
-    "reasoning": "Spain are far superior in squad quality and form, having topped Group H with seven points and conceding zero goals across three games, while Austria scraped through second on goal difference after a chaotic 3-3 draw with Algeria that exposed a leaky backline. Spain have a few wide-player injury worries (Pino, Nico Williams, Munoz) but their midfield and attacking depth, plus a fit Lamine Yamal and in-form Oyarzabal, comfortably outweigh those concerns. The sea-level LA venue is neutral and Spain's superior rest and control suit them, though Austria's counter-attacking threat and Spain's recent low-scoring wins keep some draw risk alive. Expect a controlled Spanish win, most likely 2-0.",
+    "reasoning": "Spain are clear favorites with a far deeper, higher-quality squad and a defense that hasn't conceded all tournament, and the key boost is that Lamine Yamal is now declared fully fit after his hamstring issue and ready to play a full match. Their attack is thinned by losing wingers Nico Williams and Yeremy Pino, so width is a concern, but the elite midfield of Rodri, Pedri and Merino should control the game against Austria's high, risky press. Austria under Rangnick can force turnovers and Arnautovic is dangerous in bursts, giving them a puncher's chance, but their aggressive style tends to concede space when broken, which suits Spain.",
     "market": {
-      "homeWin": 0.704,
-      "draw": 0.197,
-      "awayWin": 0.099,
+      "homeWin": 0.723,
+      "draw": 0.196,
+      "awayWin": 0.081,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-07-02T17:24:49.093Z",
     "modelVersion": "claude-opus-4-8",
-    "generatedAt": "2026-06-30T19:47:33.441Z",
-    "locked": false,
+    "generatedAt": "2026-07-02T17:24:49.093Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {

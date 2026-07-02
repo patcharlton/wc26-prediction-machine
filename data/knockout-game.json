@@ -1843,122 +1843,122 @@
         "away": 0
       },
       "pred3Et": {
-        "home": 1,
+        "home": 2,
         "away": 1
       },
       "ev": {
-        "p1": 0.79,
-        "p2": 1.094,
-        "p3": 0.214,
-        "total": 2.098
+        "p1": 0.86,
+        "p2": 1.083,
+        "p3": 0.266,
+        "total": 2.209
       },
-      "pEtUsed": 0.244,
+      "pEtUsed": 0.272,
       "distributions": {
         "advance": {
-          "home": 0.79,
-          "away": 0.21
+          "home": 0.86,
+          "away": 0.14
         },
         "regulation": [
           {
             "home": 1,
             "away": 0,
-            "prob": 0.20624999999999996
+            "prob": 0.19526627218934914
           },
           {
             "home": 2,
             "away": 0,
-            "prob": 0.16874999999999998
+            "prob": 0.15976331360946747
           },
           {
             "home": 2,
             "away": 1,
-            "prob": 0.13124999999999998
+            "prob": 0.13609467455621302
           },
           {
             "home": 1,
             "away": 1,
-            "prob": 0.12499999999999999
-          },
-          {
-            "home": 3,
-            "away": 0,
-            "prob": 0.09374999999999997
-          },
-          {
-            "home": 3,
-            "away": 1,
-            "prob": 0.08124999999999999
+            "prob": 0.1242603550295858
           },
           {
             "home": 0,
             "away": 0,
-            "prob": 0.07499999999999998
+            "prob": 0.10059171597633138
+          },
+          {
+            "home": 3,
+            "away": 0,
+            "prob": 0.08875739644970414
+          },
+          {
+            "home": 3,
+            "away": 1,
+            "prob": 0.07692307692307693
           },
           {
             "home": 2,
             "away": 2,
-            "prob": 0.04375
-          },
-          {
-            "home": 0,
-            "away": 1,
-            "prob": 0.04375
+            "prob": 0.04733727810650888
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.031249999999999997
+            "prob": 0.03550295857988166
+          },
+          {
+            "home": 3,
+            "away": 2,
+            "prob": 0.03550295857988166
           }
         ],
-        "extraTimeProb": 0.197,
+        "extraTimeProb": 0.2,
         "extraTime": [
           {
             "home": 1,
             "away": 1,
-            "prob": 0.22222222222222227
+            "prob": 0.19047619047619047
           },
           {
             "home": 2,
             "away": 1,
-            "prob": 0.1888888888888889
-          },
-          {
-            "home": 1,
-            "away": 0,
-            "prob": 0.15555555555555559
+            "prob": 0.19047619047619047
           },
           {
             "home": 2,
             "away": 2,
-            "prob": 0.11111111111111113
+            "prob": 0.13095238095238093
           },
           {
-            "home": 0,
+            "home": 1,
             "away": 0,
-            "prob": 0.1
+            "prob": 0.11904761904761904
           },
           {
             "home": 2,
             "away": 0,
-            "prob": 0.0888888888888889
-          },
-          {
-            "home": 1,
-            "away": 2,
-            "prob": 0.07777777777777779
+            "prob": 0.11904761904761904
           },
           {
             "home": 3,
             "away": 1,
-            "prob": 0.055555555555555566
+            "prob": 0.09523809523809523
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.08333333333333333
+          },
+          {
+            "home": 3,
+            "away": 2,
+            "prob": 0.07142857142857142
           }
         ]
       },
-      "reasoning": "Spain are heavy favourites (de-vigged ~70% to win regulation) as reigning Euro champions and Group H winners, despite winger injury concerns to Yamal and Munoz, with only Baena near full fitness. Austria, in their first knockout tie since 1982 under Rangnick with Alaba and Sabitzer, are organised but defensively shaky after a 3-3 draw with Algeria. Spain's superior quality favours a 1-2 goal regulation win, but knockout caution and Austria's threat keep meaningful draw mass and a ~20% extra-time chance. In extra time, Spain's depth and class still make them likeliest to edge a tight game.",
+      "reasoning": "Spain are heavy favorites, unbeaten in 34 matches and yet to concede at this World Cup, while Austria's high press has been thrilling but leaky (no clean sheet in 12 straight WC games). Spain's attack is depleted with Nico Williams and Yeremy Pino likely out, but Lamine Yamal is fit and the midfield of Rodri/Pedri should control the game. Draw mass is realistic given Austria's attacking threat and Spain's sluggish start, so extra time carries meaningful probability. If it goes to ET, Spain's superior quality and depth make them strong favorites to win or advance on penalties.",
       "modelVersion": "claude-opus-4-8",
-      "generatedAt": "2026-06-30T19:47:33.441Z",
-      "lockedAt": null,
-      "locked": false,
+      "generatedAt": "2026-07-02T17:24:49.093Z",
+      "lockedAt": "2026-07-02T17:24:49.093Z",
+      "locked": true,
       "webSearchUsed": true,
       "actual": null,
       "scored": null
@@ -2673,8 +2673,8 @@
     "matchesScored": 10,
     "machinePoints": 20,
     "maxPoints": 70,
-    "expectedTotal": 29.57,
-    "lastUpdatedAt": "2026-07-02T13:47:24.254Z",
+    "expectedTotal": 29.68,
+    "lastUpdatedAt": "2026-07-02T17:24:49.093Z",
     "calibration": {
       "expected": {
         "p1": 6.96,
