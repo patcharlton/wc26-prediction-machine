@@ -2360,10 +2360,24 @@
     }
   ],
   "summary": {
-    "matchesScored": 9,
-    "machinePoints": 20,
-    "maxPoints": 63,
-    "expectedTotal": 29.1,
-    "lastUpdatedAt": "2026-07-02T00:15:29.908Z"
+    "matchesScored": 8,
+    "machinePoints": 17,
+    "maxPoints": 56,
+    "expectedTotal": 25.48,
+    "lastUpdatedAt": "2026-07-02T00:20:32.673Z",
+    "calibration": {
+      "expected": {
+        "p1": 5.61,
+        "p2": 7.22,
+        "p3": 2.05,
+        "total": 14.88
+      },
+      "realised": {
+        "p1": 6,
+        "p2": 8,
+        "p3": 3,
+        "total": 17
+      }
+    }
   }
 }
