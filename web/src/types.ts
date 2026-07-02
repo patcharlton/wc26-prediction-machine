@@ -166,6 +166,12 @@ export interface KnockoutEntry {
   actual?: KoScore | null;
   scored?: { p1: number; p2: number; p3: number; total: number } | null;
 }
+export interface CalibrationSplit {
+  p1: number;
+  p2: number;
+  p3: number;
+  total: number;
+}
 export interface KnockoutGame {
   entries: KnockoutEntry[];
   summary: {
@@ -174,6 +180,7 @@ export interface KnockoutGame {
     maxPoints: number;
     expectedTotal: number;
     lastUpdatedAt: string;
+    calibration?: { expected: CalibrationSplit; realised: CalibrationSplit } | null;
   };
 }
 

@@ -222,12 +222,21 @@ export interface KnockoutEntry {
 
 export interface KnockoutGame {
   entries: KnockoutEntry[];
+  // Aggregates cover REAL entries only (illustrative examples are excluded).
   summary: {
     matchesScored: number;
     machinePoints: number;
     maxPoints: number; // 7 * matchesScored
-    expectedTotal: number; // sum of expected points across all entries
+    expectedTotal: number; // sum of expected points across all real entries
     lastUpdatedAt: string;
+    // Calibration over scored matches: model's expected points vs what the picks
+    // actually earned, split by prediction component. realised >> expected means
+    // the model is underconfident; << means overconfident (watch the ET row —
+    // it's driven by the regulation-draw mass).
+    calibration?: {
+      expected: { p1: number; p2: number; p3: number; total: number };
+      realised: { p1: number; p2: number; p3: number; total: number };
+    } | null;
   };
 }
 

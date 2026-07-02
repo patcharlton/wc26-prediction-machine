@@ -249,6 +249,12 @@ export async function predictKnockoutEntry(inp: KoInputs, now: string): Promise<
   return assemble(inp, dist, now, model, webSearchUsed, reasoning);
 }
 
+// Illustrative examples (2022 final etc.) render on the page but must not count
+// toward the real haul or calibration.
+function isExampleEntry(e: KnockoutEntry): boolean {
+  return e.modelVersion === "illustrative-example" || e.fixtureId.startsWith("example-");
+}
+
 // Self-score every entry against the played match's koScore and refresh the summary.
 // Reads from the store; safe to call every run (no API calls).
 export function recomputeKnockoutGame(now: string): void {
@@ -259,26 +265,49 @@ export function recomputeKnockoutGame(now: string): void {
   let machinePoints = 0;
   let matchesScored = 0;
   let expectedTotal = 0;
+  const expected = { p1: 0, p2: 0, p3: 0, total: 0 };
+  const realised = { p1: 0, p2: 0, p3: 0, total: 0 };
+
   const entries = game.entries.map((e) => {
-    expectedTotal += e.ev?.total ?? 0;
+    const example = isExampleEntry(e);
+    if (!example) expectedTotal += e.ev?.total ?? 0;
     const ko = koByFixture.get(e.fixtureId) ?? e.actual ?? null;
     if (ko && ko.advanced) {
       const scored = scoreEntry(e, ko);
-      machinePoints += scored.total;
-      matchesScored += 1;
+      if (!example) {
+        machinePoints += scored.total;
+        matchesScored += 1;
+        // calibration: what the model expected of these picks vs what they earned
+        expected.p1 += e.ev?.p1 ?? 0;
+        expected.p2 += e.ev?.p2 ?? 0;
+        expected.p3 += e.ev?.p3 ?? 0;
+        expected.total += e.ev?.total ?? 0;
+        realised.p1 += scored.p1;
+        realised.p2 += scored.p2;
+        realised.p3 += scored.p3;
+        realised.total += scored.total;
+      }
       return { ...e, actual: ko, scored };
     }
     return { ...e, actual: ko, scored: null };
   });
 
+  const r2 = (n: number) => Math.round(n * 100) / 100;
   const next: KnockoutGame = {
     entries,
     summary: {
       matchesScored,
       machinePoints,
       maxPoints: matchesScored * 7,
-      expectedTotal: Math.round(expectedTotal * 100) / 100,
+      expectedTotal: r2(expectedTotal),
       lastUpdatedAt: now,
+      calibration:
+        matchesScored > 0
+          ? {
+              expected: { p1: r2(expected.p1), p2: r2(expected.p2), p3: r2(expected.p3), total: r2(expected.total) },
+              realised,
+            }
+          : null,
     },
   };
   store.saveKnockoutGame(next);

@@ -196,6 +196,40 @@ export function KnockoutGame({ data }: { data: AppData }) {
             <span className="stat">Avg <b className="num">{(game.summary.machinePoints / game.summary.matchesScored).toFixed(1)}</b>/7</span>
             <span className="stat">Expected total <b className="num">{game.summary.expectedTotal}</b></span>
           </div>
+
+          {game.summary.calibration && (
+            <div className="kg-calib">
+              <table className="tbl">
+                <thead>
+                  <tr><th className="team">Calibration</th><th>Expected</th><th>Realised</th><th>Δ</th></tr>
+                </thead>
+                <tbody>
+                  {([
+                    ["① Advance", game.summary.calibration.expected.p1, game.summary.calibration.realised.p1],
+                    ["② After 90′", game.summary.calibration.expected.p2, game.summary.calibration.realised.p2],
+                    ["③ After ET", game.summary.calibration.expected.p3, game.summary.calibration.realised.p3],
+                    ["Total", game.summary.calibration.expected.total, game.summary.calibration.realised.total],
+                  ] as [string, number, number][]).map(([label, exp, real]) => {
+                    const d = Math.round((real - exp) * 100) / 100;
+                    return (
+                      <tr key={label}>
+                        <td className="team">{label}</td>
+                        <td>{exp.toFixed(2)}</td>
+                        <td>{real}</td>
+                        <td className={d > 0 ? "kg-cal-up" : d < 0 ? "kg-cal-down" : ""}>
+                          {d > 0 ? `+${d}` : d}
+                        </td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+              <div className="kg-cal-note">
+                Realised persistently above expected = model too cautious; below = overconfident.
+                Watch the <b>③ ET row</b> — it tracks whether the draw probabilities are honest.
+              </div>
+            </div>
+          )}
         </div>
       )}
 

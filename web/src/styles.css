@@ -245,6 +245,15 @@ table.tbl td.pts { color: var(--machine); font-weight: 700; }
 .kg-update { font-size: 13px; color: var(--ink-dim); line-height: 1.6; margin: 10px 0 0; border-top: 1px solid var(--line); padding-top: 10px; }
 .kg-update b { color: var(--ink); }
 
+/* calibration table (expected vs realised) */
+.kg-calib { margin-top: 12px; border-top: 1px solid var(--line); padding-top: 10px; }
+.kg-calib table.tbl th { text-align: right; }
+.kg-calib table.tbl th.team { text-align: left; }
+.kg-cal-up { color: var(--machine); }
+.kg-cal-down { color: var(--market); }
+.kg-cal-note { margin-top: 8px; font-size: 11px; color: var(--ink-dim); line-height: 1.6; }
+.kg-cal-note b { color: var(--ink); }
+
 /* upcoming / countdown cards */
 .kg-pending { border-style: dashed; opacity: 0.96; }
 .kg-pending .kg-teams { margin-bottom: 8px; }
