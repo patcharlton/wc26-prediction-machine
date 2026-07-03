@@ -1856,7 +1856,7 @@
     "awayTeamId": 32,
     "homeScore": 1,
     "awayScore": 1,
-    "elapsed": 122,
+    "elapsed": null,
     "venue": {
       "name": "AT&T Stadium",
       "city": "Dallas",
