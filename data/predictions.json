@@ -2177,26 +2177,26 @@
   {
     "fixtureId": "1567310",
     "probs": {
-      "homeWin": 0.62,
-      "draw": 0.25,
-      "awayWin": 0.13
+      "homeWin": 0.64,
+      "draw": 0.24,
+      "awayWin": 0.12
     },
     "scoreline": {
       "home": 2,
       "away": 0
     },
     "confidence": "Medium-High",
-    "reasoning": "Colombia are clearly the stronger side, arriving with full fitness, more top-club talent, and momentum after topping a group that included Portugal while conceding just once. Ghana are missing their key creator Kudus and lean on a defensively organized but low-scoring setup, which limits their upside against Colombia's possession game and the dangerous Muñoz-Díaz overload down the right. Ghana's discipline (a clean sheet against England) and knockout football's tighter margins keep a draw realistic, so I stay close to the market rather than overreaching. Most likely outcome is a controlled Colombia win, though a low-scoring or one-goal game is very plausible.",
+    "reasoning": "Colombia are markedly the better side — full-strength, one goal conceded across the group, and roared on by a near-home crowd in Kansas City. Ghana are gutted by injuries (Salisu, Kudus out, Partey and Semenyo doubtful) and will sit in a stubborn low block hoping to counter and steal set pieces. That defensive shape plus single-leg knockout variance keeps a frustrating draw live, especially given Colombia's recent finishing wobbles, but quality should tell over 90 minutes. A 2-0 Colombia win is the most likely outcome.",
     "market": {
-      "homeWin": 0.623,
-      "draw": 0.253,
-      "awayWin": 0.125,
+      "homeWin": 0.658,
+      "draw": 0.222,
+      "awayWin": 0.12,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-07-03T23:55:38.233Z",
     "modelVersion": "claude-opus-4-8",
-    "generatedAt": "2026-07-02T02:46:17.554Z",
-    "locked": false,
+    "generatedAt": "2026-07-03T23:55:38.233Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {

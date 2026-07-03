@@ -2551,133 +2551,118 @@
         "away": 0
       },
       "ev": {
-        "p1": 0.685,
-        "p2": 0.917,
-        "p3": 0.246,
-        "total": 1.848
+        "p1": 0.79,
+        "p2": 1.122,
+        "p3": 0.283,
+        "total": 2.195
       },
-      "pEtUsed": 0.308,
+      "pEtUsed": 0.32,
       "distributions": {
         "advance": {
-          "home": 0.685,
-          "away": 0.315
+          "home": 0.79,
+          "away": 0.21
         },
         "regulation": [
           {
             "home": 1,
             "away": 0,
-            "prob": 0.18343195266272186
+            "prob": 0.26111111111111107
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.18333333333333332
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.15
           },
           {
             "home": 1,
             "away": 1,
-            "prob": 0.136094674556213
-          },
-          {
-            "home": 0,
-            "away": 0,
-            "prob": 0.12426035502958577
-          },
-          {
-            "home": 2,
-            "away": 0,
-            "prob": 0.12426035502958577
+            "prob": 0.11666666666666664
           },
           {
             "home": 2,
             "away": 1,
-            "prob": 0.11834319526627217
+            "prob": 0.09444444444444444
           },
           {
             "home": 3,
             "away": 0,
-            "prob": 0.06508875739644969
-          },
-          {
-            "home": 3,
-            "away": 1,
-            "prob": 0.059171597633136085
-          },
-          {
-            "home": 2,
-            "away": 2,
-            "prob": 0.04733727810650887
+            "prob": 0.0611111111111111
           },
           {
             "home": 0,
             "away": 1,
-            "prob": 0.06508875739644969
+            "prob": 0.05555555555555555
+          },
+          {
+            "home": 3,
+            "away": 1,
+            "prob": 0.033333333333333326
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.05325443786982247
+            "prob": 0.02444444444444444
           },
           {
-            "home": 0,
+            "home": 2,
             "away": 2,
-            "prob": 0.023668639053254434
+            "prob": 0.019999999999999997
           }
         ],
-        "extraTimeProb": 0.265,
+        "extraTimeProb": 0.29,
         "extraTime": [
           {
             "home": 1,
             "away": 0,
-            "prob": 0.155
-          },
-          {
-            "home": 2,
-            "away": 1,
-            "prob": 0.135
-          },
-          {
-            "home": 1,
-            "away": 1,
-            "prob": 0.145
-          },
-          {
-            "home": 2,
-            "away": 0,
-            "prob": 0.1
+            "prob": 0.2163742690058479
           },
           {
             "home": 0,
             "away": 0,
-            "prob": 0.13
+            "prob": 0.21052631578947364
+          },
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.16959064327485376
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.10526315789473682
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.1286549707602339
           },
           {
             "home": 0,
             "away": 1,
-            "prob": 0.085
-          },
-          {
-            "home": 2,
-            "away": 2,
-            "prob": 0.07
+            "prob": 0.07017543859649122
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.08
+            "prob": 0.05263157894736841
           },
           {
-            "home": 3,
-            "away": 1,
-            "prob": 0.06
-          },
-          {
-            "home": 3,
+            "home": 2,
             "away": 2,
-            "prob": 0.04
+            "prob": 0.04678362573099415
           }
         ]
       },
-      "reasoning": "Colombia are strong favorites (market ~62% regulation win) with a fully fit, veteran-laden squad built around James Rodriguez and Luis Diaz, and they held Portugal to a draw in the group stage. Ghana are weakened by the absences of Thomas Partey (visa issue) and Mohammed Kudus, leaving Carlos Queiroz's midfield thin, though Semenyo and the Williams/Ayew attack retain counter-attacking threat. I lean the score distribution toward narrow Colombia wins while keeping meaningful mass on draws (0-0, 1-1) given knockout caution and Colombia's history of wasting chances, yielding a ~26% chance of extr",
+      "reasoning": "Colombia are clear favorites (market ~66%), boasting a far superior attack and defense than a Ghana side that has scored just twice all tournament and defends in a deep low block, with top threat Semenyo an ankle doubt. Both teams are strongly under-friendly, so a low-scoring Colombia win (1-0 most likely) dominates, but Ghana's discipline gives realistic mass to draws and a meaningful chance of extra time. If it reaches ET, Colombia's superior quality should eventually break through, though a shootout remains plausible.",
       "modelVersion": "claude-opus-4-8",
-      "generatedAt": "2026-07-02T02:46:17.554Z",
-      "lockedAt": null,
-      "locked": false,
+      "generatedAt": "2026-07-03T23:55:38.233Z",
+      "lockedAt": "2026-07-03T23:55:38.233Z",
+      "locked": true,
       "webSearchUsed": true,
       "actual": null,
       "scored": null
@@ -2953,8 +2938,8 @@
     "matchesScored": 13,
     "machinePoints": 26,
     "maxPoints": 91,
-    "expectedTotal": 34.16,
-    "lastUpdatedAt": "2026-07-03T23:51:53.878Z",
+    "expectedTotal": 34.5,
+    "lastUpdatedAt": "2026-07-03T23:55:38.233Z",
     "calibration": {
       "expected": {
         "p1": 9.12,
