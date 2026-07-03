@@ -2103,25 +2103,25 @@
     "fixtureId": "1567312",
     "probs": {
       "homeWin": 0.5,
-      "draw": 0.27,
-      "awayWin": 0.23
+      "draw": 0.29,
+      "awayWin": 0.21
     },
     "scoreline": {
       "home": 2,
       "away": 1
     },
     "confidence": "Medium",
-    "reasoning": "Switzerland are the more balanced side, topping their group with seven points and only three goals conceded, and they carry a freshness edge having last played on June 24 versus Algeria's June 28. Algeria advanced as a third-placed team and were the joint-worst defense among qualifiers with no clean sheet, which the mobile Swiss front line of Manzambi, Embolo and Vargas should exploit. However, Algeria's counter-attacking threat through Mahrez, Gouiri and Amoura is real, and knockout ties tighten up, so a narrow, competitive game is likely. I lean slightly above the market on Switzerland while respecting a genuine chance the tie is level after 90 minutes.",
+    "reasoning": "Switzerland enter with better recent form, deeper top-club quality and a big group-stage win over co-hosts Canada, while Algeria scraped through third with a shaky defense that conceded six goals in the group. The neutral, sea-level Vancouver venue removes any altitude or heat factor, so this comes down to the Swiss being the more organized, balanced side against Algeria's flair-based but leaky setup. Knockout matches tend to be tight and Mahrez and Gouiri give Algeria genuine upset threat, so I keep a meaningful draw probability rather than backing a blowout. My single most likely outcome is a narrow Switzerland win.",
     "market": {
-      "homeWin": 0.475,
-      "draw": 0.279,
-      "awayWin": 0.246,
+      "homeWin": 0.489,
+      "draw": 0.293,
+      "awayWin": 0.218,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-07-03T01:50:52.206Z",
     "modelVersion": "claude-opus-4-8",
-    "generatedAt": "2026-07-01T09:37:16.357Z",
-    "locked": false,
+    "generatedAt": "2026-07-03T01:50:52.206Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {

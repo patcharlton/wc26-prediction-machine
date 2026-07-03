@@ -2105,131 +2105,126 @@
       "pred1Advance": "home",
       "pred1Team": "Switzerland",
       "pred2Reg": {
-        "home": 2,
-        "away": 1
+        "home": 1,
+        "away": 0
       },
       "pred3Et": {
         "home": 1,
         "away": 1
       },
       "ev": {
-        "p1": 0.6,
-        "p2": 0.753,
-        "p3": 0.239,
-        "total": 1.592
+        "p1": 0.665,
+        "p2": 0.888,
+        "p3": 0.266,
+        "total": 1.819
       },
-      "pEtUsed": 0.319,
+      "pEtUsed": 0.306,
       "distributions": {
         "advance": {
-          "home": 0.6,
-          "away": 0.4
+          "home": 0.665,
+          "away": 0.335
         },
         "regulation": [
           {
             "home": 1,
-            "away": 1,
-            "prob": 0.13855421686746983
-          },
-          {
-            "home": 2,
-            "away": 1,
-            "prob": 0.1265060240963855
+            "away": 0,
+            "prob": 0.16874999999999998
           },
           {
             "home": 1,
-            "away": 0,
-            "prob": 0.1265060240963855
+            "away": 1,
+            "prob": 0.14375
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.13124999999999998
           },
           {
             "home": 2,
             "away": 0,
-            "prob": 0.11445783132530117
+            "prob": 0.12499999999999999
           },
           {
             "home": 0,
             "away": 0,
-            "prob": 0.10240963855421684
-          },
-          {
-            "home": 2,
-            "away": 2,
-            "prob": 0.07831325301204817
-          },
-          {
-            "home": 3,
-            "away": 1,
-            "prob": 0.072289156626506
+            "prob": 0.09999999999999998
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.072289156626506
+            "prob": 0.07499999999999998
+          },
+          {
+            "home": 3,
+            "away": 1,
+            "prob": 0.06874999999999999
           },
           {
             "home": 0,
             "away": 1,
-            "prob": 0.072289156626506
+            "prob": 0.06874999999999999
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.06249999999999999
           },
           {
             "home": 3,
             "away": 0,
-            "prob": 0.060240963855421666
-          },
-          {
-            "home": 2,
-            "away": 3,
-            "prob": 0.036144578313253
+            "prob": 0.05624999999999999
           }
         ],
-        "extraTimeProb": 0.28,
+        "extraTimeProb": 0.27,
         "extraTime": [
           {
-            "home": 2,
-            "away": 1,
-            "prob": 0.18181818181818185
-          },
-          {
-            "home": 1,
-            "away": 2,
-            "prob": 0.14772727272727276
-          },
-          {
             "home": 1,
             "away": 1,
-            "prob": 0.17045454545454547
+            "prob": 0.2065217391304348
           },
           {
             "home": 2,
-            "away": 2,
-            "prob": 0.12500000000000003
+            "away": 1,
+            "prob": 0.1739130434782609
           },
           {
             "home": 0,
             "away": 0,
-            "prob": 0.11363636363636366
+            "prob": 0.14130434782608697
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.13043478260869565
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.10869565217391305
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.09782608695652174
           },
           {
             "home": 2,
             "away": 0,
-            "prob": 0.10227272727272728
-          },
-          {
-            "home": 0,
-            "away": 1,
-            "prob": 0.09090909090909093
+            "prob": 0.07608695652173915
           },
           {
             "home": 3,
             "away": 2,
-            "prob": 0.06818181818181819
+            "prob": 0.06521739130434782
           }
         ]
       },
-      "reasoning": "Switzerland topped Group B unbeaten with a settled, largely fit squad and are narrow favorites, but the de-vigged market and near pick'em advance odds reflect real uncertainty. Algeria attack well (scored in all three group games) yet conceded six goals and kept no clean sheets, with Amoura a fitness doubt, so a Swiss win with Algeria scoring is a plausible shape. Both sides concede regularly, so scores like 2-1, 1-1 and 1-0 carry the most mass. Knockout tension plus Algeria's threat keeps a meaningful chance of a regulation draw and extra time near 28%.",
+      "reasoning": "Switzerland topped Group B unbeaten with 13 goals and looks the sharper, more disciplined side, while Algeria has conceded seven goals in three group games showing clear defensive fragility. Manzambi's form and Xhaka's control favor the Swiss, though Mahrez and Algeria's attack should threaten. Market and form point to a Swiss edge but knockout tension keeps draws (0-0, 1-1) meaningful, giving a real chance of extra time. Both squads appear largely fit, with Amoura a doubt for Algeria.",
       "modelVersion": "claude-opus-4-8",
-      "generatedAt": "2026-07-01T09:37:16.357Z",
-      "lockedAt": null,
-      "locked": false,
+      "generatedAt": "2026-07-03T01:50:52.206Z",
+      "lockedAt": "2026-07-03T01:50:52.206Z",
+      "locked": true,
       "webSearchUsed": true,
       "actual": null,
       "scored": null
@@ -2786,8 +2781,8 @@
     "matchesScored": 10,
     "machinePoints": 20,
     "maxPoints": 70,
-    "expectedTotal": 31.49,
-    "lastUpdatedAt": "2026-07-03T01:07:03.631Z",
+    "expectedTotal": 31.72,
+    "lastUpdatedAt": "2026-07-03T01:50:52.206Z",
     "calibration": {
       "expected": {
         "p1": 6.96,
