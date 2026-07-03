@@ -1597,7 +1597,7 @@
   },
   {
     "fixtureId": "1567312",
-    "status": "scheduled",
+    "status": "live",
     "kickoff": "2026-07-03T03:00:00.000Z",
     "stage": "R32",
     "homeTeam": "Switzerland",
