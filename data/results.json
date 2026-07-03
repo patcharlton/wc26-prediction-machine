@@ -1559,41 +1559,41 @@
   },
   {
     "fixtureId": "1567311",
-    "status": "live",
+    "status": "finished",
     "kickoff": "2026-07-02T19:00:00.000Z",
     "stage": "R32",
     "homeTeam": "Spain",
     "awayTeam": "Austria",
     "actualScore": {
-      "home": null,
-      "away": null
+      "home": 3,
+      "away": 0
     },
-    "actualOutcome": null,
-    "machineOutcomeHit": null,
-    "marketOutcomeHit": null,
-    "exactScoreHit": null,
-    "machineBrierScore": null,
-    "marketBrierScore": null,
-    "resolvedAt": null
+    "actualOutcome": "homeWin",
+    "machineOutcomeHit": true,
+    "marketOutcomeHit": true,
+    "exactScoreHit": false,
+    "machineBrierScore": 0.132,
+    "marketBrierScore": 0.122,
+    "resolvedAt": "2026-07-03T02:28:34.331Z"
   },
   {
     "fixtureId": "1567309",
-    "status": "live",
+    "status": "finished",
     "kickoff": "2026-07-02T23:00:00.000Z",
     "stage": "R32",
     "homeTeam": "Portugal",
     "awayTeam": "Croatia",
     "actualScore": {
-      "home": null,
-      "away": null
+      "home": 2,
+      "away": 1
     },
-    "actualOutcome": null,
-    "machineOutcomeHit": null,
-    "marketOutcomeHit": null,
-    "exactScoreHit": null,
-    "machineBrierScore": null,
-    "marketBrierScore": null,
-    "resolvedAt": null
+    "actualOutcome": "homeWin",
+    "machineOutcomeHit": true,
+    "marketOutcomeHit": true,
+    "exactScoreHit": true,
+    "machineBrierScore": 0.308,
+    "marketBrierScore": 0.297,
+    "resolvedAt": "2026-07-03T02:28:34.331Z"
   },
   {
     "fixtureId": "1567312",

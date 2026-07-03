@@ -1759,7 +1759,7 @@
     "stage": "R32",
     "matchday": null,
     "kickoff": "2026-07-02T19:00:00.000Z",
-    "status": "live",
+    "status": "finished",
     "homeTeam": "Spain",
     "awayTeam": "Austria",
     "homeTeamId": 9,
@@ -1772,7 +1772,15 @@
       "city": "Inglewood",
       "country": null
     },
-    "koScore": null,
+    "koScore": {
+      "rt": {
+        "home": 3,
+        "away": 0
+      },
+      "et": null,
+      "pens": null,
+      "advanced": "home"
+    },
     "homeSlot": "RU:K",
     "awaySlot": "RU:L"
   },
@@ -1781,20 +1789,28 @@
     "stage": "R32",
     "matchday": null,
     "kickoff": "2026-07-02T23:00:00.000Z",
-    "status": "live",
+    "status": "finished",
     "homeTeam": "Portugal",
     "awayTeam": "Croatia",
     "homeTeamId": 27,
     "awayTeamId": 3,
     "homeScore": 2,
     "awayScore": 1,
-    "elapsed": 46,
+    "elapsed": 90,
     "venue": {
       "name": "BMO Field",
       "city": "Toronto",
       "country": null
     },
-    "koScore": null,
+    "koScore": {
+      "rt": {
+        "home": 2,
+        "away": 1
+      },
+      "et": null,
+      "pens": null,
+      "advanced": "home"
+    },
     "homeSlot": "W:H",
     "awaySlot": "RU:J"
   },

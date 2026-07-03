@@ -1960,8 +1960,21 @@
       "lockedAt": "2026-07-02T17:24:49.093Z",
       "locked": true,
       "webSearchUsed": true,
-      "actual": null,
-      "scored": null
+      "actual": {
+        "rt": {
+          "home": 3,
+          "away": 0
+        },
+        "et": null,
+        "pens": null,
+        "advanced": "home"
+      },
+      "scored": {
+        "p1": 1,
+        "p2": 1,
+        "p3": 0,
+        "total": 2
+      }
     },
     {
       "fixtureId": "1567309",
@@ -2093,8 +2106,21 @@
       "lockedAt": "2026-07-02T21:57:54.477Z",
       "locked": true,
       "webSearchUsed": true,
-      "actual": null,
-      "scored": null
+      "actual": {
+        "rt": {
+          "home": 2,
+          "away": 1
+        },
+        "et": null,
+        "pens": null,
+        "advanced": "home"
+      },
+      "scored": {
+        "p1": 1,
+        "p2": 1,
+        "p3": 0,
+        "total": 2
+      }
     },
     {
       "fixtureId": "1567312",
@@ -2775,26 +2801,159 @@
       "webSearchUsed": true,
       "actual": null,
       "scored": null
+    },
+    {
+      "fixtureId": "1569870",
+      "stage": "R16",
+      "homeTeam": "Paraguay",
+      "awayTeam": "France",
+      "kickoff": "2026-07-04T21:00:00.000Z",
+      "pred1Advance": "away",
+      "pred1Team": "France",
+      "pred2Reg": {
+        "home": 0,
+        "away": 1
+      },
+      "pred3Et": {
+        "home": 1,
+        "away": 1
+      },
+      "ev": {
+        "p1": 0.89,
+        "p2": 1.17,
+        "p3": 0.18,
+        "total": 2.24
+      },
+      "pEtUsed": 0.184,
+      "distributions": {
+        "advance": {
+          "home": 0.11,
+          "away": 0.89
+        },
+        "regulation": [
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.1992287917737789
+          },
+          {
+            "home": 0,
+            "away": 2,
+            "prob": 0.19280205655526989
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.11568123393316193
+          },
+          {
+            "home": 0,
+            "away": 3,
+            "prob": 0.12853470437017994
+          },
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.09640102827763494
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.06169665809768637
+          },
+          {
+            "home": 1,
+            "away": 3,
+            "prob": 0.07069408740359896
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.025706940874035987
+          },
+          {
+            "home": 0,
+            "away": 4,
+            "prob": 0.06426735218508997
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.044987146529562975
+          }
+        ],
+        "extraTimeProb": 0.137,
+        "extraTime": [
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.2526315789473684
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.13684210526315788
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.18947368421052627
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.14736842105263157
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.08421052631578946
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.0631578947368421
+          },
+          {
+            "home": 1,
+            "away": 3,
+            "prob": 0.07368421052631578
+          },
+          {
+            "home": 2,
+            "away": 3,
+            "prob": 0.05263157894736841
+          }
+        ]
+      },
+      "reasoning": "France arrive in ruthless attacking form (four straight wins scoring 13 goals) with Mbappé and a fit Saliba anchoring a deep, healthy squad, and the market makes them overwhelming ~79% favorites in regulation. Paraguay have been defensively stubborn under Alfaro, producing tight low-scoring group games including a 0-0 and a 1-1 draw, so their best hope is a compact, low-total match with realistic 0-0/1-1 mass and possible extra time. Given regulation is likely a France win, extra time (~14% chance) only arises from a draw, where France's superior quality still favors them if it goes deeper.",
+      "modelVersion": "claude-opus-4-8",
+      "generatedAt": "2026-07-03T02:28:34.331Z",
+      "lockedAt": null,
+      "locked": false,
+      "webSearchUsed": true,
+      "actual": null,
+      "scored": null
     }
   ],
   "summary": {
-    "matchesScored": 10,
-    "machinePoints": 20,
-    "maxPoints": 70,
-    "expectedTotal": 31.72,
-    "lastUpdatedAt": "2026-07-03T01:50:52.206Z",
+    "matchesScored": 12,
+    "machinePoints": 24,
+    "maxPoints": 84,
+    "expectedTotal": 33.96,
+    "lastUpdatedAt": "2026-07-03T02:28:34.331Z",
     "calibration": {
       "expected": {
-        "p1": 6.96,
-        "p2": 8.94,
-        "p3": 2.55,
-        "total": 18.44
+        "p1": 8.46,
+        "p2": 10.86,
+        "p3": 3.09,
+        "total": 22.4
       },
       "realised": {
-        "p1": 8,
-        "p2": 9,
+        "p1": 10,
+        "p2": 11,
         "p3": 3,
-        "total": 20
+        "total": 24
       }
     }
   }

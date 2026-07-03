@@ -2223,5 +2223,30 @@
     "generatedAt": "2026-07-02T19:16:54.344Z",
     "locked": false,
     "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1569870",
+    "probs": {
+      "homeWin": 0.1,
+      "draw": 0.17,
+      "awayWin": 0.73
+    },
+    "scoreline": {
+      "home": 0,
+      "away": 2
+    },
+    "confidence": "Medium-High",
+    "reasoning": "France are the tournament's most complete side, having won all four matches and scored a competition-high 12 goals behind Mbappe, Dembele and Olise, with Saliba fit again and no fresh injury concerns beyond doubtful backup Thuram. Paraguay are organized and dangerous on the counter — they stunned Germany on penalties after a resilient 1-1 — but they created the second-lowest xG of any group-stage team and will likely be without injured center-back Alderete. Given Paraguay's deep, disciplined block and knack for low-scoring games, a shock or draw isn't impossible, so I keep a bit more draw and upset equity than the raw market.",
+    "market": {
+      "homeWin": 0.072,
+      "draw": 0.137,
+      "awayWin": 0.791,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-opus-4-8",
+    "generatedAt": "2026-07-03T02:28:34.331Z",
+    "locked": false,
+    "webSearchUsed": true
   }
 ]
