@@ -2127,26 +2127,26 @@
   {
     "fixtureId": "1565178",
     "probs": {
-      "homeWin": 0.31,
+      "homeWin": 0.29,
       "draw": 0.33,
-      "awayWin": 0.36
+      "awayWin": 0.38
     },
     "scoreline": {
       "home": 1,
       "away": 1
     },
     "confidence": "Low",
-    "reasoning": "Egypt hold an edge in individual quality and arrive unbeaten from a tougher group, but their attack hinges on Salah, who is only returning to partial training with a hamstring strain and is far from certain to start or last 90 minutes; they're also missing left-back Fattouh and sweating on centre-back Abdelmonem. Australia are essentially fully fit, well-organised defensively under a disciplined back-five, and both sides have shown they'll happily grind out cagey, low-scoring games. This shapes as a tight, attritional match at a neutral sea-level venue where a draw is very live, so I've nudged slightly toward Egypt on talent while keeping the outcome genuinely open.",
+    "reasoning": "Salah has been cleared and named in Egypt's XI, which tilts the edge their way, but he's carrying a fresh hamstring strain so his sharpness is uncertain, and Egypt lost defender Fattouh while rushing Abdelmonem back. Australia are set up to defend deep in a 5-4-1 with one of the group stage's meanest defenses, so they're hard to break down even without Leckie. Egypt also faced a longer, more draining trip from Seattle to Dallas. This shapes as a cagey, low-scoring knockout tie where a single Salah moment or a set piece decides it, with a draw and penalties very much in play.",
     "market": {
-      "homeWin": 0.287,
-      "draw": 0.32,
-      "awayWin": 0.393,
+      "homeWin": 0.278,
+      "draw": 0.319,
+      "awayWin": 0.402,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-07-03T17:11:15.294Z",
     "modelVersion": "claude-opus-4-8",
-    "generatedAt": "2026-07-01T19:46:08.384Z",
-    "locked": false,
+    "generatedAt": "2026-07-03T17:11:15.294Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {

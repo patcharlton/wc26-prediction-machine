@@ -2285,118 +2285,118 @@
         "away": 0
       },
       "ev": {
-        "p1": 0.58,
-        "p2": 0.746,
-        "p3": 0.279,
-        "total": 1.605
+        "p1": 0.628,
+        "p2": 0.785,
+        "p3": 0.336,
+        "total": 1.749
       },
-      "pEtUsed": 0.379,
+      "pEtUsed": 0.392,
       "distributions": {
         "advance": {
-          "home": 0.42,
-          "away": 0.58
+          "home": 0.372,
+          "away": 0.628
         },
         "regulation": [
           {
             "home": 0,
             "away": 0,
-            "prob": 0.18343195266272186
+            "prob": 0.19620253164556958
           },
           {
             "home": 0,
             "away": 1,
-            "prob": 0.16568047337278105
+            "prob": 0.17088607594936706
           },
           {
             "home": 1,
             "away": 0,
-            "prob": 0.136094674556213
+            "prob": 0.13291139240506325
           },
           {
             "home": 1,
             "away": 1,
-            "prob": 0.15384615384615383
+            "prob": 0.1582278481012658
           },
           {
             "home": 0,
             "away": 2,
-            "prob": 0.08875739644970412
+            "prob": 0.09493670886075947
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.08284023668639053
+            "prob": 0.07594936708860758
           },
           {
             "home": 2,
             "away": 1,
-            "prob": 0.06508875739644969
+            "prob": 0.05696202531645568
           },
           {
             "home": 2,
             "away": 0,
-            "prob": 0.05325443786982247
+            "prob": 0.050632911392405056
           },
           {
             "home": 1,
             "away": 3,
-            "prob": 0.029585798816568042
+            "prob": 0.025316455696202528
           },
           {
             "home": 2,
             "away": 2,
-            "prob": 0.04142011834319526
+            "prob": 0.03797468354430379
           }
         ],
-        "extraTimeProb": 0.34,
+        "extraTimeProb": 0.32,
         "extraTime": [
           {
             "home": 0,
             "away": 0,
-            "prob": 0.16842105263157897
+            "prob": 0.2
           },
           {
             "home": 1,
             "away": 1,
-            "prob": 0.15789473684210525
-          },
-          {
-            "home": 1,
-            "away": 0,
-            "prob": 0.1368421052631579
+            "prob": 0.1777777777777778
           },
           {
             "home": 0,
             "away": 1,
-            "prob": 0.15789473684210525
+            "prob": 0.14444444444444446
           },
           {
-            "home": 2,
-            "away": 1,
-            "prob": 0.11578947368421053
+            "home": 1,
+            "away": 0,
+            "prob": 0.12222222222222223
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.12631578947368421
+            "prob": 0.11111111111111113
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.1
           },
           {
             "home": 2,
             "away": 2,
-            "prob": 0.0736842105263158
+            "prob": 0.07777777777777779
           },
           {
-            "home": 2,
-            "away": 0,
-            "prob": 0.06315789473684211
+            "home": 0,
+            "away": 2,
+            "prob": 0.06666666666666667
           }
         ]
       },
-      "reasoning": "Both sides are low-scoring and defensively organized, with Australia failing to score in two of three group games and Egypt conceding little, so draws carry heavy mass and extra time is a real possibility. Egypt are slight favorites given superior squad quality (Salah, Marmoush), but Salah's hamstring strain and the confirmed loss of left-back Fattouh temper their edge. The market (away 0.393, draw 0.32, home 0.287) points to a tight contest, so I've weighted 0-0, 1-1 and single-goal margins most heavily. Expect a cagey knockout tie that could easily need extra time or penalties.",
+      "reasoning": "Both are defensively organized, low-scoring sides—Australia scored just twice in the group stage and Egypt is watertight at the back, pointing to a tight, cagey match with heavy draw mass. Egypt is the slight favorite via superior individual quality (Salah is cleared to play but his minutes will be managed, plus Marmoush), though they're missing Fattouh and suspended Lasheen with Abdelmonem doubtful. Low expected goals and knockout stakes give a meaningful chance of extra time. The advance edge tilts to Egypt but Australia's structure keeps them live.",
       "modelVersion": "claude-opus-4-8",
-      "generatedAt": "2026-07-01T19:46:08.384Z",
-      "lockedAt": null,
-      "locked": false,
+      "generatedAt": "2026-07-03T17:11:15.294Z",
+      "lockedAt": "2026-07-03T17:11:15.294Z",
+      "locked": true,
       "webSearchUsed": true,
       "actual": null,
       "scored": null
@@ -2953,8 +2953,8 @@
     "matchesScored": 13,
     "machinePoints": 26,
     "maxPoints": 91,
-    "expectedTotal": 33.96,
-    "lastUpdatedAt": "2026-07-03T13:51:52.667Z",
+    "expectedTotal": 34.1,
+    "lastUpdatedAt": "2026-07-03T17:11:15.294Z",
     "calibration": {
       "expected": {
         "p1": 9.12,
