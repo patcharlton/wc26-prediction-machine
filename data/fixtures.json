@@ -1854,9 +1854,9 @@
     "awayTeam": "Egypt",
     "homeTeamId": 20,
     "awayTeamId": 32,
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 1,
-    "elapsed": 55,
+    "elapsed": 60,
     "venue": {
       "name": "AT&T Stadium",
       "city": "Dallas",
