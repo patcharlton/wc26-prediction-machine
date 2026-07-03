@@ -2152,26 +2152,26 @@
   {
     "fixtureId": "1565179",
     "probs": {
-      "homeWin": 0.83,
-      "draw": 0.13,
+      "homeWin": 0.85,
+      "draw": 0.11,
       "awayWin": 0.04
     },
     "scoreline": {
-      "home": 3,
+      "home": 2,
       "away": 0
     },
     "confidence": "High",
-    "reasoning": "Argentina return to full strength with Messi restored to the XI and Romero back in full training, while Cape Verde's only absentee is Telmo Arcanjo, leaving both sides essentially at their best. The gap in squad quality is enormous, but Cape Verde's disciplined low block earned three group-stage draws including a shutout of Spain, so they can plausibly keep the margin down and there's a small live draw chance. Overall the reigning champions' form and firepower make a comfortable win the clear expectation.",
+    "reasoning": "Argentina swept their group with three wins, have Messi in scoring form (six of eight goals), and get Cristian Romero back from a minor knee scare while their squad depth easily covers the loss of Balerdi. Cape Verde are impressively organized defensively with two clean sheets in three games and keeper Vozinha excelling, but they are the lowest scorers among the last 32 and lack the firepower to trouble a champion side that hasn't lost a knockout match in seven years. Expect Cape Verde to sit deep and frustrate for a while, which caps the goal margin, but Argentina's quality gap, neutral-venue and rest parity favor a controlled win.",
     "market": {
-      "homeWin": 0.805,
-      "draw": 0.144,
+      "homeWin": 0.824,
+      "draw": 0.124,
       "awayWin": 0.052,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-07-03T20:14:12.169Z",
     "modelVersion": "claude-opus-4-8",
-    "generatedAt": "2026-07-02T02:46:17.554Z",
-    "locked": false,
+    "generatedAt": "2026-07-03T20:14:12.169Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {
