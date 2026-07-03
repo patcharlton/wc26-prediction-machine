@@ -1819,7 +1819,7 @@
     "stage": "R32",
     "matchday": null,
     "kickoff": "2026-07-03T03:00:00.000Z",
-    "status": "live",
+    "status": "finished",
     "homeTeam": "Switzerland",
     "awayTeam": "Algeria",
     "homeTeamId": 15,
@@ -1832,7 +1832,15 @@
       "city": "Vancouver",
       "country": null
     },
-    "koScore": null,
+    "koScore": {
+      "rt": {
+        "home": 2,
+        "away": 0
+      },
+      "et": null,
+      "pens": null,
+      "advanced": "home"
+    },
     "homeSlot": "W:B",
     "awaySlot": "3:E/F/G/I/J"
   },
@@ -1991,6 +1999,28 @@
     "awaySlot": "WM:80"
   },
   {
+    "fixtureId": "1576756",
+    "stage": "R16",
+    "matchday": null,
+    "kickoff": "2026-07-06T19:00:00.000Z",
+    "status": "scheduled",
+    "homeTeam": "Portugal",
+    "awayTeam": "Spain",
+    "homeTeamId": 27,
+    "awayTeamId": 9,
+    "homeScore": null,
+    "awayScore": null,
+    "elapsed": null,
+    "venue": {
+      "name": null,
+      "city": null,
+      "country": null
+    },
+    "koScore": null,
+    "homeSlot": "WM:83",
+    "awaySlot": "WM:84"
+  },
+  {
     "fixtureId": "1570715",
     "stage": "R16",
     "matchday": null,
@@ -2009,7 +2039,7 @@
       "country": null
     },
     "koScore": null,
-    "homeSlot": "WM:83",
-    "awaySlot": "WM:84"
+    "homeSlot": "WM:81",
+    "awaySlot": "WM:82"
   }
 ]

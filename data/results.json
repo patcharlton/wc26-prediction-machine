@@ -1597,22 +1597,22 @@
   },
   {
     "fixtureId": "1567312",
-    "status": "live",
+    "status": "finished",
     "kickoff": "2026-07-03T03:00:00.000Z",
     "stage": "R32",
     "homeTeam": "Switzerland",
     "awayTeam": "Algeria",
     "actualScore": {
-      "home": null,
-      "away": null
+      "home": 2,
+      "away": 0
     },
-    "actualOutcome": null,
-    "machineOutcomeHit": null,
-    "marketOutcomeHit": null,
-    "exactScoreHit": null,
-    "machineBrierScore": null,
-    "marketBrierScore": null,
-    "resolvedAt": null
+    "actualOutcome": "homeWin",
+    "machineOutcomeHit": true,
+    "marketOutcomeHit": true,
+    "exactScoreHit": false,
+    "machineBrierScore": 0.378,
+    "marketBrierScore": 0.394,
+    "resolvedAt": "2026-07-03T08:51:19.199Z"
   },
   {
     "fixtureId": "1565178",
@@ -1735,6 +1735,25 @@
     "stage": "R16",
     "homeTeam": "Mexico",
     "awayTeam": "England",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1576756",
+    "status": "scheduled",
+    "kickoff": "2026-07-06T19:00:00.000Z",
+    "stage": "R16",
+    "homeTeam": "Portugal",
+    "awayTeam": "Spain",
     "actualScore": {
       "home": null,
       "away": null

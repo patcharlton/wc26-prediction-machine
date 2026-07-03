@@ -6,39 +6,39 @@
   "contenders": [
     {
       "team": "France",
-      "prob": 0.2
+      "prob": 0.28
     },
     {
       "team": "Argentina",
-      "prob": 0.17
+      "prob": 0.19
     },
     {
       "team": "Spain",
-      "prob": 0.14
+      "prob": 0.13
     },
     {
       "team": "England",
-      "prob": 0.1
+      "prob": 0.09
     },
     {
       "team": "Brazil",
-      "prob": 0.07
-    },
-    {
-      "team": "Netherlands",
-      "prob": 0.05
+      "prob": 0.08
     },
     {
       "team": "Portugal",
-      "prob": 0.04
+      "prob": 0.05
     },
     {
       "team": "Mexico",
+      "prob": 0.035
+    },
+    {
+      "team": "Morocco",
       "prob": 0.03
     }
   ],
-  "reasoning": "France has surged to clear favoritism after a perfect group stage and a dominant 3-0 win over Sweden, with the Opta supercomputer lifting them to the top spot around 18.7% and bookmakers pricing them shortest at roughly +200. Kylian Mbappe leading the Golden Boot race underlines a deep, in-form squad, and Germany's shock penalty exit to Paraguay actually softened France's likely quarterfinal path. Holders Argentina (perfect 3-0-0, Messi with six goals) and European champions Spain are the main threats, with England lurking despite a demanding route through possible Mexico and Brazil ties. Morocco is the live outsider: level with Brazil in Group C, they held the Netherlands 1-1 and carry genuine deep-run pedigree, though the co-hosts' altitude and travel edge keeps Mexico interesting too.",
+  "reasoning": "France are the clear market and model favorites after a perfect group stage and a dominant 3-0 round-of-32 win over Sweden, with their outright price shortening to around +180 and their reach-the-final odds dipping under even money for the first time; scoring three-plus goals in nearly every match, Les Bleus have both firepower and depth. Argentina, the defending champions, drew the softer side of the bracket after winning Group J 3-0-0 and are the next shortest at roughly +400-425, setting up a potential 2022 final rematch that could only occur in the quarterfinals. Spain remain the highest-ceiling third option with Yamal and Pedri but have looked labored (a 0-0 with Cape Verde), while England, Brazil and Portugal round out the top tier without yet convincing.",
   "basis": "knockout stage",
   "modelVersion": "claude-opus-4-8",
-  "updatedAt": "2026-07-02T08:43:34.620Z"
+  "updatedAt": "2026-07-03T08:51:19.199Z"
 }
