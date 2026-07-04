@@ -1898,9 +1898,9 @@
     "awayTeam": "Ghana",
     "homeTeamId": 8,
     "awayTeamId": 1504,
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 0,
-    "elapsed": 10,
+    "elapsed": 15,
     "venue": {
       "name": "Arrowhead Stadium",
       "city": "Kansas City",
