@@ -2865,118 +2865,118 @@
         "away": 1
       },
       "ev": {
-        "p1": 0.89,
-        "p2": 1.17,
-        "p3": 0.18,
-        "total": 2.24
+        "p1": 0.885,
+        "p2": 1.213,
+        "p3": 0.193,
+        "total": 2.291
       },
-      "pEtUsed": 0.184,
+      "pEtUsed": 0.189,
       "distributions": {
         "advance": {
-          "home": 0.11,
-          "away": 0.89
+          "home": 0.115,
+          "away": 0.885
         },
         "regulation": [
           {
             "home": 0,
             "away": 1,
-            "prob": 0.1992287917737789
+            "prob": 0.21893491124260353
           },
           {
             "home": 0,
             "away": 2,
-            "prob": 0.19280205655526989
-          },
-          {
-            "home": 1,
-            "away": 2,
-            "prob": 0.11568123393316193
+            "prob": 0.2071005917159763
           },
           {
             "home": 0,
             "away": 3,
-            "prob": 0.12853470437017994
+            "prob": 0.12426035502958578
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.10059171597633136
           },
           {
             "home": 1,
             "away": 1,
-            "prob": 0.09640102827763494
+            "prob": 0.08875739644970412
           },
           {
             "home": 0,
             "away": 0,
-            "prob": 0.06169665809768637
+            "prob": 0.07692307692307691
           },
           {
             "home": 1,
             "away": 3,
-            "prob": 0.07069408740359896
-          },
-          {
-            "home": 2,
-            "away": 2,
-            "prob": 0.025706940874035987
+            "prob": 0.0650887573964497
           },
           {
             "home": 0,
             "away": 4,
-            "prob": 0.06426735218508997
+            "prob": 0.05917159763313609
           },
           {
             "home": 1,
             "away": 0,
-            "prob": 0.044987146529562975
+            "prob": 0.03550295857988165
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.023668639053254437
           }
         ],
-        "extraTimeProb": 0.137,
+        "extraTimeProb": 0.145,
         "extraTime": [
           {
             "home": 1,
             "away": 1,
-            "prob": 0.2526315789473684
+            "prob": 0.25
           },
           {
             "home": 0,
             "away": 0,
-            "prob": 0.13684210526315788
+            "prob": 0.1875
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.18947368421052627
+            "prob": 0.15625
           },
           {
             "home": 0,
             "away": 1,
-            "prob": 0.14736842105263157
+            "prob": 0.13541666666666669
           },
           {
             "home": 2,
             "away": 2,
-            "prob": 0.08421052631578946
-          },
-          {
-            "home": 2,
-            "away": 1,
-            "prob": 0.0631578947368421
+            "prob": 0.08333333333333334
           },
           {
             "home": 1,
             "away": 3,
-            "prob": 0.07368421052631578
+            "prob": 0.07291666666666667
           },
           {
             "home": 2,
-            "away": 3,
-            "prob": 0.05263157894736841
+            "away": 1,
+            "prob": 0.0625
+          },
+          {
+            "home": 0,
+            "away": 2,
+            "prob": 0.052083333333333336
           }
         ]
       },
-      "reasoning": "France arrive in ruthless attacking form (four straight wins scoring 13 goals) with Mbappé and a fit Saliba anchoring a deep, healthy squad, and the market makes them overwhelming ~79% favorites in regulation. Paraguay have been defensively stubborn under Alfaro, producing tight low-scoring group games including a 0-0 and a 1-1 draw, so their best hope is a compact, low-total match with realistic 0-0/1-1 mass and possible extra time. Given regulation is likely a France win, extra time (~14% chance) only arises from a draw, where France's superior quality still favors them if it goes deeper.",
+      "reasoning": "France are heavy favorites (de-vigged ~79% and Opta ~78.8% regulation win) with a rampant attack that has scored two-plus goals in 16 of their last 17 matches, while Paraguay sit deep and rely on shootout hero Orlando Gill and counters. Paraguay's grinding, low-scoring style (multiple 0-0/1-1 draws) skews probable outcomes toward narrow France margins, though upsets are possible if they nick an early goal as against Germany. Extra time probability is modest (~13-15%), reflecting France's likelihood of winning in 90; conditional ET scores favor low totals given Paraguay's defensive setup but wi",
       "modelVersion": "claude-opus-4-8",
-      "generatedAt": "2026-07-03T02:28:34.331Z",
-      "lockedAt": null,
-      "locked": false,
+      "generatedAt": "2026-07-04T20:03:51.672Z",
+      "lockedAt": "2026-07-04T20:03:51.672Z",
+      "locked": true,
       "webSearchUsed": true,
       "actual": null,
       "scored": null
@@ -3405,8 +3405,8 @@
     "matchesScored": 16,
     "machinePoints": 35,
     "maxPoints": 112,
-    "expectedTotal": 39.33,
-    "lastUpdatedAt": "2026-07-04T19:02:41.773Z",
+    "expectedTotal": 39.38,
+    "lastUpdatedAt": "2026-07-04T20:03:51.672Z",
     "calibration": {
       "expected": {
         "p1": 11.41,

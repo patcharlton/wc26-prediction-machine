@@ -2227,26 +2227,26 @@
   {
     "fixtureId": "1569870",
     "probs": {
-      "homeWin": 0.1,
-      "draw": 0.17,
-      "awayWin": 0.73
+      "homeWin": 0.09,
+      "draw": 0.2,
+      "awayWin": 0.71
     },
     "scoreline": {
       "home": 0,
       "away": 2
     },
     "confidence": "Medium-High",
-    "reasoning": "France are the tournament's most complete side, having won all four matches and scored a competition-high 12 goals behind Mbappe, Dembele and Olise, with Saliba fit again and no fresh injury concerns beyond doubtful backup Thuram. Paraguay are organized and dangerous on the counter — they stunned Germany on penalties after a resilient 1-1 — but they created the second-lowest xG of any group-stage team and will likely be without injured center-back Alderete. Given Paraguay's deep, disciplined block and knack for low-scoring games, a shock or draw isn't impossible, so I keep a bit more draw and upset equity than the raw market.",
+    "reasoning": "France arrive as heavy favorites after a flawless four-win run with a world-class, well-rested and near-full-strength squad; only Tchouaméni (thigh) is a likely absentee and their attack has punished nearly every opponent. Paraguay are organized and defensively stubborn — they just eliminated Germany on penalties and will sit deep and counter — so a low-scoring, frustrating game is plausible and the draw chance is a bit above the market. I still favor France to break through given their finishing edge and Paraguay's defensive doubt over Alderete, but I nudge probability slightly toward a Paraguay stalemate scenario versus the book's very short away price.",
     "market": {
-      "homeWin": 0.072,
-      "draw": 0.137,
-      "awayWin": 0.791,
+      "homeWin": 0.067,
+      "draw": 0.146,
+      "awayWin": 0.787,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-07-04T20:03:51.672Z",
     "modelVersion": "claude-opus-4-8",
-    "generatedAt": "2026-07-03T02:28:34.331Z",
-    "locked": false,
+    "generatedAt": "2026-07-04T20:03:51.672Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {
