@@ -1918,7 +1918,7 @@
     "stage": "R32",
     "matchday": null,
     "kickoff": "2026-07-04T01:30:00.000Z",
-    "status": "live",
+    "status": "finished",
     "homeTeam": "Colombia",
     "awayTeam": "Ghana",
     "homeTeamId": 8,
@@ -1931,7 +1931,15 @@
       "city": "Kansas City",
       "country": null
     },
-    "koScore": null,
+    "koScore": {
+      "rt": {
+        "home": 1,
+        "away": 0
+      },
+      "et": null,
+      "pens": null,
+      "advanced": "home"
+    },
     "homeSlot": "RU:D",
     "awaySlot": "RU:G"
   },
@@ -2066,5 +2074,49 @@
     "koScore": null,
     "homeSlot": "WM:81",
     "awaySlot": "WM:82"
+  },
+  {
+    "fixtureId": "1576804",
+    "stage": "R16",
+    "matchday": null,
+    "kickoff": "2026-07-07T16:00:00.000Z",
+    "status": "scheduled",
+    "homeTeam": "Argentina",
+    "awayTeam": "Egypt",
+    "homeTeamId": 26,
+    "awayTeamId": 32,
+    "homeScore": null,
+    "awayScore": null,
+    "elapsed": null,
+    "venue": {
+      "name": null,
+      "city": null,
+      "country": null
+    },
+    "koScore": null,
+    "homeSlot": "WM:86",
+    "awaySlot": "WM:88"
+  },
+  {
+    "fixtureId": "1576805",
+    "stage": "R16",
+    "matchday": null,
+    "kickoff": "2026-07-07T20:00:00.000Z",
+    "status": "scheduled",
+    "homeTeam": "Switzerland",
+    "awayTeam": "Colombia",
+    "homeTeamId": 15,
+    "awayTeamId": 8,
+    "homeScore": null,
+    "awayScore": null,
+    "elapsed": null,
+    "venue": {
+      "name": null,
+      "city": null,
+      "country": null
+    },
+    "koScore": null,
+    "homeSlot": "WM:85",
+    "awaySlot": "WM:87"
   }
 ]
