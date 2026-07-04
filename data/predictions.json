@@ -2202,26 +2202,26 @@
   {
     "fixtureId": "1567824",
     "probs": {
-      "homeWin": 0.25,
-      "draw": 0.29,
-      "awayWin": 0.46
+      "homeWin": 0.21,
+      "draw": 0.28,
+      "awayWin": 0.51
     },
     "scoreline": {
-      "home": 1,
+      "home": 0,
       "away": 1
     },
-    "confidence": "Medium-Low",
-    "reasoning": "Morocco are the stronger side on paper with a settled, deep squad and knockout pedigree, having just eliminated the Netherlands, while Canada lost key midfielder Ismael Kone to a broken leg and are only now easing Alphonso Davies back from injury. However, Canada get a host-nation home crowd in Houston plus a small rest edge, since Morocco went a full 120 minutes plus penalties three days ago, and Morocco's Chadi Riad is a defensive doubt.",
+    "confidence": "Medium",
+    "reasoning": "Morocco are clearly the stronger side, ranked 24 places above Canada with top-club talent throughout and an almost fully fit squad, with only Aguerd out and Riad recovered from his knock. Canada are missing Kone (broken leg) but get a boost from Alphonso Davies, who could start after finally featuring against South Africa. In a sea-level Houston setting with no altitude edge for either side, Morocco's possession-based control and defensive solidity should tilt a cagey knockout tie their way, though Canada's home-tournament momentum and the natural draw likelihood in tight elimination games keep this from being a certainty. A narrow one-goal Morocco win is the most probable outcome.",
     "market": {
-      "homeWin": 0.208,
-      "draw": 0.275,
-      "awayWin": 0.517,
+      "homeWin": 0.197,
+      "draw": 0.28,
+      "awayWin": 0.523,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-07-04T15:53:09.693Z",
     "modelVersion": "claude-opus-4-8",
-    "generatedAt": "2026-07-02T19:16:54.344Z",
-    "locked": false,
+    "generatedAt": "2026-07-04T15:53:09.693Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {

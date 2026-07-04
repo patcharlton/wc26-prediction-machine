@@ -2732,118 +2732,118 @@
         "away": 1
       },
       "ev": {
-        "p1": 0.685,
-        "p2": 0.795,
-        "p3": 0.318,
-        "total": 1.798
+        "p1": 0.635,
+        "p2": 0.78,
+        "p3": 0.336,
+        "total": 1.752
       },
-      "pEtUsed": 0.337,
+      "pEtUsed": 0.329,
       "distributions": {
         "advance": {
-          "home": 0.315,
-          "away": 0.685
+          "home": 0.365,
+          "away": 0.635
         },
         "regulation": [
           {
             "home": 0,
             "away": 1,
-            "prob": 0.18072289156626503
+            "prob": 0.1768292682926829
           },
           {
             "home": 1,
             "away": 1,
-            "prob": 0.1566265060240964
+            "prob": 0.1524390243902439
           },
           {
             "home": 0,
             "away": 0,
-            "prob": 0.14457831325301204
+            "prob": 0.14024390243902438
           },
           {
             "home": 1,
             "away": 0,
-            "prob": 0.12048192771084337
+            "prob": 0.12195121951219512
           },
           {
             "home": 0,
             "away": 2,
-            "prob": 0.1144578313253012
+            "prob": 0.11585365853658536
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.09638554216867469
+            "prob": 0.09146341463414633
           },
           {
             "home": 2,
             "away": 1,
-            "prob": 0.060240963855421686
+            "prob": 0.06707317073170731
           },
           {
             "home": 2,
             "away": 0,
-            "prob": 0.048192771084337345
+            "prob": 0.0548780487804878
           },
           {
             "home": 0,
             "away": 3,
-            "prob": 0.04216867469879518
+            "prob": 0.042682926829268296
           },
           {
             "home": 2,
             "away": 2,
-            "prob": 0.03614457831325301
+            "prob": 0.036585365853658534
           }
         ],
-        "extraTimeProb": 0.29,
+        "extraTimeProb": 0.27,
         "extraTime": [
           {
             "home": 1,
             "away": 1,
-            "prob": 0.22988505747126436
+            "prob": 0.24742268041237114
           },
           {
             "home": 0,
             "away": 0,
-            "prob": 0.17241379310344826
+            "prob": 0.2061855670103093
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.14942528735632182
+            "prob": 0.13402061855670103
           },
           {
             "home": 0,
             "away": 1,
-            "prob": 0.1379310344827586
+            "prob": 0.12371134020618557
           },
           {
             "home": 2,
             "away": 1,
-            "prob": 0.10344827586206895
-          },
-          {
-            "home": 2,
-            "away": 2,
-            "prob": 0.08045977011494253
+            "prob": 0.10309278350515465
           },
           {
             "home": 1,
             "away": 0,
-            "prob": 0.08045977011494253
+            "prob": 0.08247422680412371
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.07216494845360825
           },
           {
             "home": 2,
             "away": 3,
-            "prob": 0.045977011494252866
+            "prob": 0.030927835051546393
           }
         ]
       },
-      "reasoning": "Morocco are clear favourites (FIFA #6 vs #30), with superior quality across the pitch and proven knockout composure, though both sides are defensively organized so a low-scoring, tight game is likely. Canada's discipline, home crowd in Houston, and a returning Alphonso Davies keep them live, but they lean heavily on Jonathan David and lost midfielder Koné to injury. Draw mass is realistic given both teams' defensive setups, and Morocco (who beat the Netherlands on penalties) are strongly favoured to prevail if the tie reaches extra time or shootout.",
+      "reasoning": "Morocco are clear favorites with an intact, elite defense (allowing under 1.0 xGA per game) and strong knockout pedigree, matching the market's ~52% regulation win and Opta's 51.8% simulation edge. Canada get a home crowd boost with Alphonso Davies likely making his first start plus in-form Jonathan David, keeping them live as underdogs. Morocco's stifling defense and both teams' late-drama tendencies point to a low-scoring game with heavy draw mass, so a 0-0 or 1-1 into extra time is very plausible. Given Morocco's shootout mastery (Bounou), if it reaches penalties they are strong favorites t",
       "modelVersion": "claude-opus-4-8",
-      "generatedAt": "2026-07-02T19:16:54.344Z",
-      "lockedAt": null,
-      "locked": false,
+      "generatedAt": "2026-07-04T15:53:09.693Z",
+      "lockedAt": "2026-07-04T15:53:09.693Z",
+      "locked": true,
       "webSearchUsed": true,
       "actual": null,
       "scored": null
@@ -3272,8 +3272,8 @@
     "matchesScored": 16,
     "machinePoints": 35,
     "maxPoints": 112,
-    "expectedTotal": 37.64,
-    "lastUpdatedAt": "2026-07-04T13:12:40.027Z",
+    "expectedTotal": 37.59,
+    "lastUpdatedAt": "2026-07-04T15:53:09.693Z",
     "calibration": {
       "expected": {
         "p1": 11.41,
