@@ -1849,20 +1849,34 @@
     "stage": "R32",
     "matchday": null,
     "kickoff": "2026-07-03T18:00:00.000Z",
-    "status": "live",
+    "status": "finished",
     "homeTeam": "Australia",
     "awayTeam": "Egypt",
     "homeTeamId": 20,
     "awayTeamId": 32,
     "homeScore": 1,
     "awayScore": 1,
-    "elapsed": null,
+    "elapsed": 120,
     "venue": {
       "name": "AT&T Stadium",
       "city": "Dallas",
       "country": null
     },
-    "koScore": null,
+    "koScore": {
+      "rt": {
+        "home": 1,
+        "away": 1
+      },
+      "et": {
+        "home": 1,
+        "away": 1
+      },
+      "pens": {
+        "home": 2,
+        "away": 4
+      },
+      "advanced": "away"
+    },
     "homeSlot": "W:J",
     "awaySlot": "RU:H"
   },
@@ -1871,20 +1885,31 @@
     "stage": "R32",
     "matchday": null,
     "kickoff": "2026-07-03T22:00:00.000Z",
-    "status": "live",
+    "status": "finished",
     "homeTeam": "Argentina",
     "awayTeam": "Cape Verde Islands",
     "homeTeamId": 26,
     "awayTeamId": 1533,
     "homeScore": 3,
     "awayScore": 2,
-    "elapsed": 121,
+    "elapsed": 120,
     "venue": {
       "name": "Hard Rock Stadium",
       "city": "Miami",
       "country": null
     },
-    "koScore": null,
+    "koScore": {
+      "rt": {
+        "home": 1,
+        "away": 1
+      },
+      "et": {
+        "home": 3,
+        "away": 2
+      },
+      "pens": null,
+      "advanced": "home"
+    },
     "homeSlot": "W:K",
     "awaySlot": "3:D/E/I/J/L"
   },

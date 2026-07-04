@@ -2248,5 +2248,55 @@
     "generatedAt": "2026-07-03T02:28:34.331Z",
     "locked": false,
     "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1568100",
+    "probs": {
+      "homeWin": 0.53,
+      "draw": 0.25,
+      "awayWin": 0.22
+    },
+    "scoreline": {
+      "home": 2,
+      "away": 1
+    },
+    "confidence": "Medium",
+    "reasoning": "Brazil have the deeper, higher-quality squad with a settled backline and Vinicius Junior in outstanding form, but they've looked brittle in midfield and are missing Raphinha and Paqueta, with Casemiro also carrying a knock. Norway are fully fit and dangerous, with a clinical Haaland (five goals) and a creative Odegaard leading a direct, physical attack that can punish Brazil's counter-attacking vulnerability. Both defenses have leaked goals, so a competitive, open game with goals at both ends is likely, but Brazil's superior individual quality and bench depth should just edge them through. A tight one-goal margin or a draw pushed to extra time is very plausible.",
+    "market": {
+      "homeWin": 0.51,
+      "draw": 0.256,
+      "awayWin": 0.234,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-opus-4-8",
+    "generatedAt": "2026-07-04T02:26:52.971Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1570714",
+    "probs": {
+      "homeWin": 0.345,
+      "draw": 0.315,
+      "awayWin": 0.34
+    },
+    "scoreline": {
+      "home": 1,
+      "away": 1
+    },
+    "confidence": "Low",
+    "reasoning": "Mexico arrive in red-hot form with four straight clean sheets and the huge edge of altitude at their Mexico City fortress, where they've never lost a World Cup match, and they're fully fit. England have the deeper, more talented squad but look shaky (a nervy comeback win over DR Congo, a goalless draw with Ghana) and are hit by a right-back crisis with James and Quansah out and Rice's fitness in doubt. Those factors close the quality gap the market assumes, making a tight, low-scoring game with an elevated draw chance the most likely outcome. This looks like a genuine coin-flip that could easily hinge on a single Kane moment or a Mexican set-piece, so confidence is low.",
+    "market": {
+      "homeWin": 0.313,
+      "draw": 0.296,
+      "awayWin": 0.392,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-opus-4-8",
+    "generatedAt": "2026-07-04T02:26:52.971Z",
+    "locked": false,
+    "webSearchUsed": true
   }
 ]

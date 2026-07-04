@@ -2398,8 +2398,27 @@
       "lockedAt": "2026-07-03T17:11:15.294Z",
       "locked": true,
       "webSearchUsed": true,
-      "actual": null,
-      "scored": null
+      "actual": {
+        "rt": {
+          "home": 1,
+          "away": 1
+        },
+        "et": {
+          "home": 1,
+          "away": 1
+        },
+        "pens": {
+          "home": 2,
+          "away": 4
+        },
+        "advanced": "away"
+      },
+      "scored": {
+        "p1": 1,
+        "p2": 1,
+        "p3": 1,
+        "total": 3
+      }
     },
     {
       "fixtureId": "1565179",
@@ -2531,8 +2550,24 @@
       "lockedAt": "2026-07-03T20:14:12.169Z",
       "locked": true,
       "webSearchUsed": true,
-      "actual": null,
-      "scored": null
+      "actual": {
+        "rt": {
+          "home": 1,
+          "away": 1
+        },
+        "et": {
+          "home": 3,
+          "away": 2
+        },
+        "pens": null,
+        "advanced": "home"
+      },
+      "scored": {
+        "p1": 1,
+        "p2": 0,
+        "p3": 1,
+        "total": 2
+      }
     },
     {
       "fixtureId": "1567310",
@@ -2932,26 +2967,312 @@
       "webSearchUsed": true,
       "actual": null,
       "scored": null
+    },
+    {
+      "fixtureId": "1568100",
+      "stage": "R16",
+      "homeTeam": "Brazil",
+      "awayTeam": "Norway",
+      "kickoff": "2026-07-05T20:00:00.000Z",
+      "pred1Advance": "home",
+      "pred1Team": "Brazil",
+      "pred2Reg": {
+        "home": 1,
+        "away": 0
+      },
+      "pred3Et": {
+        "home": 1,
+        "away": 1
+      },
+      "ev": {
+        "p1": 0.575,
+        "p2": 0.778,
+        "p3": 0.241,
+        "total": 1.594
+      },
+      "pEtUsed": 0.306,
+      "distributions": {
+        "advance": {
+          "home": 0.575,
+          "away": 0.425
+        },
+        "regulation": [
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.15
+          },
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.1388888888888889
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.11666666666666665
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.10555555555555556
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.10555555555555556
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.07222222222222223
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.08333333333333333
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.06111111111111111
+          },
+          {
+            "home": 3,
+            "away": 1,
+            "prob": 0.05555555555555556
+          },
+          {
+            "home": 3,
+            "away": 0,
+            "prob": 0.049999999999999996
+          },
+          {
+            "home": 0,
+            "away": 2,
+            "prob": 0.03888888888888889
+          },
+          {
+            "home": 1,
+            "away": 3,
+            "prob": 0.022222222222222223
+          }
+        ],
+        "extraTimeProb": 0.3,
+        "extraTime": [
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.19000000000000003
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.15000000000000002
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.12000000000000001
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.11000000000000001
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.11000000000000001
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.08000000000000002
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.060000000000000005
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.08000000000000002
+          },
+          {
+            "home": 3,
+            "away": 2,
+            "prob": 0.05000000000000001
+          },
+          {
+            "home": 2,
+            "away": 3,
+            "prob": 0.05000000000000001
+          }
+        ]
+      },
+      "reasoning": "Brazil are favorites on pedigree and depth (market ~51%) but are missing Raphinha and Paqueta with only a half-fit Neymar, blunting their creativity. Norway carry a real threat through in-form Haaland (4 goals) and Odegaard against a Brazil defense that is settled but a Norwegian side historically unbeaten vs Brazil, so an upset or draw has genuine mass. Low-scoring outcomes and draws are weighted heavily given the tight knockout context, with a meaningful ~30% chance of extra time. Regulation leans toward narrow Brazil wins (1-0, 2-1) while keeping 1-1 and 0-0 prominent.",
+      "modelVersion": "claude-opus-4-8",
+      "generatedAt": "2026-07-04T02:26:52.971Z",
+      "lockedAt": null,
+      "locked": false,
+      "webSearchUsed": true,
+      "actual": null,
+      "scored": null
+    },
+    {
+      "fixtureId": "1570714",
+      "stage": "R16",
+      "homeTeam": "Mexico",
+      "awayTeam": "England",
+      "kickoff": "2026-07-06T00:00:00.000Z",
+      "pred1Advance": "away",
+      "pred1Team": "England",
+      "pred2Reg": {
+        "home": 1,
+        "away": 1
+      },
+      "pred3Et": {
+        "home": 1,
+        "away": 1
+      },
+      "ev": {
+        "p1": 0.56,
+        "p2": 0.667,
+        "p3": 0.314,
+        "total": 1.54
+      },
+      "pEtUsed": 0.339,
+      "distributions": {
+        "advance": {
+          "home": 0.44,
+          "away": 0.56
+        },
+        "regulation": [
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.16363636363636364
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.13939393939393938
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.12727272727272726
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.12121212121212122
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.10909090909090907
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.0909090909090909
+          },
+          {
+            "home": 0,
+            "away": 2,
+            "prob": 0.08484848484848485
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.06666666666666667
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.054545454545454536
+          },
+          {
+            "home": 1,
+            "away": 3,
+            "prob": 0.04242424242424243
+          }
+        ],
+        "extraTimeProb": 0.3,
+        "extraTime": [
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.2173913043478261
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.16304347826086957
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.14130434782608697
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.14130434782608697
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.10869565217391305
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.08695652173913045
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.08695652173913045
+          },
+          {
+            "home": 3,
+            "away": 2,
+            "prob": 0.05434782608695653
+          }
+        ]
+      },
+      "reasoning": "England are narrow favourites with superior individual quality and Harry Kane's knockout pedigree, but they carry a shaky, injury-hit defence with a right-back crisis (James and Quansah out, Rice managing a back issue). Mexico have conceded zero goals across four games and enjoy a fierce home-altitude edge at the Azteca, keeping this tight and low-scoring. Regulation draws carry heavy mass given both defences and the market's near-even 1X2, so extra time is a real possibility around 30%. Scoring leans modest, with 1-1, single-goal outcomes and 0-0 most likely.",
+      "modelVersion": "claude-opus-4-8",
+      "generatedAt": "2026-07-04T02:26:52.971Z",
+      "lockedAt": null,
+      "locked": false,
+      "webSearchUsed": true,
+      "actual": null,
+      "scored": null
     }
   ],
   "summary": {
-    "matchesScored": 13,
-    "machinePoints": 26,
-    "maxPoints": 91,
-    "expectedTotal": 34.5,
-    "lastUpdatedAt": "2026-07-04T02:26:07.467Z",
+    "matchesScored": 15,
+    "machinePoints": 31,
+    "maxPoints": 105,
+    "expectedTotal": 37.64,
+    "lastUpdatedAt": "2026-07-04T02:26:52.971Z",
     "calibration": {
       "expected": {
-        "p1": 9.12,
-        "p2": 11.75,
-        "p3": 3.35,
-        "total": 24.22
+        "p1": 10.62,
+        "p2": 13.8,
+        "p3": 3.85,
+        "total": 28.27
       },
       "realised": {
-        "p1": 11,
-        "p2": 12,
-        "p3": 3,
-        "total": 26
+        "p1": 13,
+        "p2": 13,
+        "p3": 5,
+        "total": 31
       }
     }
   }
