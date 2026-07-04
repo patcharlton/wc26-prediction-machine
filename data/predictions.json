@@ -2298,5 +2298,30 @@
     "generatedAt": "2026-07-04T02:26:52.971Z",
     "locked": false,
     "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1576756",
+    "probs": {
+      "homeWin": 0.26,
+      "draw": 0.28,
+      "awayWin": 0.46
+    },
+    "scoreline": {
+      "home": 1,
+      "away": 2
+    },
+    "confidence": "Medium",
+    "reasoning": "Spain have been the tournament's most complete side—unbeaten and yet to concede—with an elite Rodri-Pedri midfield and a fully fit Lamine Yamal, and only Nico Williams is a notable absentee. Portugal are near full strength with Ronaldo and Dias available, but they've looked less fluent, needing a late winner to edge Croatia and struggling to score outside their Uzbekistan rout. The neutral, air-conditioned Dallas venue removes any altitude or heat edge for either Iberian side, so this is a genuine coin-flip-plus-lean toward the more in-form Spain.",
+    "market": {
+      "homeWin": 0.243,
+      "draw": 0.264,
+      "awayWin": 0.493,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-opus-4-8",
+    "generatedAt": "2026-07-04T19:02:41.773Z",
+    "locked": false,
+    "webSearchUsed": true
   }
 ]
