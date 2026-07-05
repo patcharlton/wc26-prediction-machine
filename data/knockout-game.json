@@ -3578,14 +3578,147 @@
       "webSearchUsed": true,
       "actual": null,
       "scored": null
+    },
+    {
+      "fixtureId": "1576804",
+      "stage": "R16",
+      "homeTeam": "Argentina",
+      "awayTeam": "Egypt",
+      "kickoff": "2026-07-07T16:00:00.000Z",
+      "pred1Advance": "home",
+      "pred1Team": "Argentina",
+      "pred2Reg": {
+        "home": 2,
+        "away": 0
+      },
+      "pred3Et": {
+        "home": 2,
+        "away": 1
+      },
+      "ev": {
+        "p1": 0.85,
+        "p2": 1.133,
+        "p3": 0.192,
+        "total": 2.176
+      },
+      "pEtUsed": 0.206,
+      "distributions": {
+        "advance": {
+          "home": 0.85,
+          "away": 0.15
+        },
+        "regulation": [
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.18787878787878787
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.17575757575757572
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.13939393939393938
+          },
+          {
+            "home": 3,
+            "away": 0,
+            "prob": 0.11515151515151514
+          },
+          {
+            "home": 3,
+            "away": 1,
+            "prob": 0.0909090909090909
+          },
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.0909090909090909
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.07272727272727272
+          },
+          {
+            "home": 3,
+            "away": 2,
+            "prob": 0.048484848484848485
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.04242424242424243
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.03636363636363636
+          }
+        ],
+        "extraTimeProb": 0.19,
+        "extraTime": [
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.17582417582417584
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.19780219780219782
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.13186813186813187
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.1208791208791209
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.1098901098901099
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.1098901098901099
+          },
+          {
+            "home": 3,
+            "away": 1,
+            "prob": 0.08791208791208792
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.06593406593406594
+          }
+        ]
+      },
+      "reasoning": "Argentina enter in dominant form with four straight wins and a healthy squad including a fit Messi and Romero, and the de-vigged market makes them heavy favorites (0.678). Egypt reached this round via a penalty shootout over Australia with Salah managing a hamstring issue, so they are more likely to sit deep and defend than win outright. Regulation mass tilts strongly to narrow-to-comfortable Argentina wins, with realistic draw mass reflecting knockout caution. If it reaches extra time, Argentina's superior depth favors them edging a low-scoring 120-minute result.",
+      "modelVersion": "claude-opus-4-8",
+      "generatedAt": "2026-07-05T19:08:54.627Z",
+      "lockedAt": null,
+      "locked": false,
+      "webSearchUsed": true,
+      "actual": null,
+      "scored": null
     }
   ],
   "summary": {
     "matchesScored": 18,
     "machinePoints": 41,
     "maxPoints": 126,
-    "expectedTotal": 41.03,
-    "lastUpdatedAt": "2026-07-05T18:59:05.829Z",
+    "expectedTotal": 43.2,
+    "lastUpdatedAt": "2026-07-05T19:08:54.627Z",
     "calibration": {
       "expected": {
         "p1": 12.93,

@@ -2348,5 +2348,30 @@
     "generatedAt": "2026-07-05T02:36:04.419Z",
     "locked": false,
     "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1576804",
+    "probs": {
+      "homeWin": 0.7,
+      "draw": 0.2,
+      "awayWin": 0.1
+    },
+    "scoreline": {
+      "home": 2,
+      "away": 0
+    },
+    "confidence": "Medium-High",
+    "reasoning": "Argentina are far deeper and stronger than Egypt, with Messi rested and fully fit after sitting out the Cape Verde win, and they carry momentum from winning every group game. Egypt reached the last 16 through gritty defending and Salah's individual brilliance, but their back line is patched up with several absences and they concede regularly, which plays into Argentina's multiple-goal scoring form. The main risks to Argentina are extra-time fatigue after their 120-minute slog past Cape Verde and Egypt's genuine counter-attacking threat if Salah lasts the full game, which is why the draw stays honestly weighted.",
+    "market": {
+      "homeWin": 0.678,
+      "draw": 0.212,
+      "awayWin": 0.11,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-opus-4-8",
+    "generatedAt": "2026-07-05T19:08:54.627Z",
+    "locked": false,
+    "webSearchUsed": true
   }
 ]
