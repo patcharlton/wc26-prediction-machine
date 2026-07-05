@@ -6,39 +6,39 @@
   "contenders": [
     {
       "team": "France",
-      "prob": 0.28
+      "prob": 0.2
     },
     {
       "team": "Argentina",
-      "prob": 0.19
+      "prob": 0.16
     },
     {
       "team": "Spain",
-      "prob": 0.13
+      "prob": 0.135
     },
     {
       "team": "England",
-      "prob": 0.09
+      "prob": 0.1
     },
     {
       "team": "Brazil",
-      "prob": 0.08
+      "prob": 0.085
     },
     {
       "team": "Portugal",
-      "prob": 0.05
+      "prob": 0.06
     },
     {
-      "team": "Mexico",
-      "prob": 0.035
+      "team": "Colombia",
+      "prob": 0.04
     },
     {
       "team": "Morocco",
-      "prob": 0.03
+      "prob": 0.035
     }
   ],
-  "reasoning": "France are the clear market and model favorites after a perfect group stage and a dominant 3-0 round-of-32 win over Sweden, with their outright price shortening to around +180 and their reach-the-final odds dipping under even money for the first time; scoring three-plus goals in nearly every match, Les Bleus have both firepower and depth. Argentina, the defending champions, drew the softer side of the bracket after winning Group J 3-0-0 and are the next shortest at roughly +400-425, setting up a potential 2022 final rematch that could only occur in the quarterfinals. Spain remain the highest-ceiling third option with Yamal and Pedri but have looked labored (a 0-0 with Cape Verde), while England, Brazil and Portugal round out the top tier without yet convincing.",
+  "reasoning": "France have been the tournament's standout side, winning all four matches and outscoring opponents 13-2, and both bookmakers and the Opta supercomputer now install Deschamps' deep, Mbappe-led squad as clear favorites (around 18.7% and market-leading odds). Argentina are the biggest beneficiary of a soft bracket path (Egypt, then Colombia/Switzerland before a likely Brazil/England semi), but the 3-2 extra-time scare against Cape Verde exposed some fragility for the defending champions. Spain remain the most complete possession side yet face a brutal early Portugal test and a demanding route, while England and Brazil have looked capable but inconsistent. Morocco are the live outsider: having reached a second straight quarterfinal by knocking out the Netherlands and Canada, their organization and rising confidence make them dangerous, and shock exits by Germany and the Netherlands show this knockout stage is volatile.",
   "basis": "knockout stage",
   "modelVersion": "claude-opus-4-8",
-  "updatedAt": "2026-07-03T08:51:19.199Z"
+  "updatedAt": "2026-07-05T08:42:46.421Z"
 }

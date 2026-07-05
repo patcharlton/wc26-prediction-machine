@@ -1822,5 +1822,24 @@
     "machineBrierScore": null,
     "marketBrierScore": null,
     "resolvedAt": null
+  },
+  {
+    "fixtureId": "1578539",
+    "status": "scheduled",
+    "kickoff": "2026-07-09T20:00:00.000Z",
+    "stage": "QF",
+    "homeTeam": "France",
+    "awayTeam": "Morocco",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
   }
 ]

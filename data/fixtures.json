@@ -2134,5 +2134,27 @@
     "koScore": null,
     "homeSlot": "WM:85",
     "awaySlot": "WM:87"
+  },
+  {
+    "fixtureId": "1578539",
+    "stage": "QF",
+    "matchday": null,
+    "kickoff": "2026-07-09T20:00:00.000Z",
+    "status": "scheduled",
+    "homeTeam": "France",
+    "awayTeam": "Morocco",
+    "homeTeamId": 2,
+    "awayTeamId": 31,
+    "homeScore": null,
+    "awayScore": null,
+    "elapsed": null,
+    "venue": {
+      "name": null,
+      "city": null,
+      "country": null
+    },
+    "koScore": null,
+    "homeSlot": "WM:89",
+    "awaySlot": "WM:90"
   }
 ]
