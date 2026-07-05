@@ -2014,8 +2014,8 @@
     "homeTeamId": 6,
     "awayTeamId": 1090,
     "homeScore": 0,
-    "awayScore": 0,
-    "elapsed": 79,
+    "awayScore": 1,
+    "elapsed": 84,
     "venue": {
       "name": "MetLife Stadium",
       "city": "East Rutherford",
