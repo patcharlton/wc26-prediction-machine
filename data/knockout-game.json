@@ -3024,138 +3024,138 @@
         "away": 1
       },
       "ev": {
-        "p1": 0.575,
-        "p2": 0.778,
-        "p3": 0.241,
-        "total": 1.594
+        "p1": 0.665,
+        "p2": 0.885,
+        "p3": 0.296,
+        "total": 1.846
       },
-      "pEtUsed": 0.306,
+      "pEtUsed": 0.282,
       "distributions": {
         "advance": {
-          "home": 0.575,
-          "away": 0.425
+          "home": 0.665,
+          "away": 0.335
         },
         "regulation": [
           {
             "home": 1,
             "away": 0,
-            "prob": 0.15
+            "prob": 0.15517241379310345
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.132183908045977
           },
           {
             "home": 1,
             "away": 1,
-            "prob": 0.1388888888888889
-          },
-          {
-            "home": 2,
-            "away": 1,
-            "prob": 0.11666666666666665
-          },
-          {
-            "home": 0,
-            "away": 0,
-            "prob": 0.10555555555555556
+            "prob": 0.1264367816091954
           },
           {
             "home": 2,
             "away": 0,
-            "prob": 0.10555555555555556
-          },
-          {
-            "home": 1,
-            "away": 2,
-            "prob": 0.07222222222222223
+            "prob": 0.12068965517241377
           },
           {
             "home": 0,
-            "away": 1,
-            "prob": 0.08333333333333333
+            "away": 0,
+            "prob": 0.08620689655172413
           },
           {
             "home": 2,
             "away": 2,
-            "prob": 0.06111111111111111
+            "prob": 0.0689655172413793
           },
           {
             "home": 3,
             "away": 1,
-            "prob": 0.05555555555555556
+            "prob": 0.0689655172413793
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.0632183908045977
           },
           {
             "home": 3,
             "away": 0,
-            "prob": 0.049999999999999996
+            "prob": 0.05747126436781609
           },
           {
             "home": 0,
-            "away": 2,
-            "prob": 0.03888888888888889
+            "away": 1,
+            "prob": 0.05747126436781609
           },
           {
-            "home": 1,
+            "home": 3,
+            "away": 2,
+            "prob": 0.040229885057471264
+          },
+          {
+            "home": 2,
             "away": 3,
-            "prob": 0.022222222222222223
+            "prob": 0.022988505747126433
           }
         ],
-        "extraTimeProb": 0.3,
+        "extraTimeProb": 0.255,
         "extraTime": [
           {
             "home": 1,
             "away": 1,
-            "prob": 0.19000000000000003
-          },
-          {
-            "home": 2,
-            "away": 1,
-            "prob": 0.15000000000000002
-          },
-          {
-            "home": 1,
-            "away": 2,
-            "prob": 0.12000000000000001
-          },
-          {
-            "home": 0,
-            "away": 0,
-            "prob": 0.11000000000000001
+            "prob": 0.23999999999999994
           },
           {
             "home": 2,
             "away": 2,
-            "prob": 0.11000000000000001
-          },
-          {
-            "home": 2,
-            "away": 0,
-            "prob": 0.08000000000000002
+            "prob": 0.14999999999999997
           },
           {
             "home": 0,
+            "away": 0,
+            "prob": 0.13999999999999999
+          },
+          {
+            "home": 2,
             "away": 1,
-            "prob": 0.060000000000000005
+            "prob": 0.13999999999999999
           },
           {
             "home": 1,
-            "away": 0,
-            "prob": 0.08000000000000002
+            "away": 2,
+            "prob": 0.10999999999999997
           },
           {
             "home": 3,
             "away": 2,
-            "prob": 0.05000000000000001
+            "prob": 0.054999999999999986
           },
           {
             "home": 2,
             "away": 3,
-            "prob": 0.05000000000000001
+            "prob": 0.04499999999999999
+          },
+          {
+            "home": 3,
+            "away": 3,
+            "prob": 0.039999999999999994
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.039999999999999994
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.039999999999999994
           }
         ]
       },
-      "reasoning": "Brazil are favorites on pedigree and depth (market ~51%) but are missing Raphinha and Paqueta with only a half-fit Neymar, blunting their creativity. Norway carry a real threat through in-form Haaland (4 goals) and Odegaard against a Brazil defense that is settled but a Norwegian side historically unbeaten vs Brazil, so an upset or draw has genuine mass. Low-scoring outcomes and draws are weighted heavily given the tight knockout context, with a meaningful ~30% chance of extra time. Regulation leans toward narrow Brazil wins (1-0, 2-1) while keeping 1-1 and 0-0 prominent.",
+      "reasoning": "Brazil are clear favorites given superior depth and momentum, but they're weakened by the absence of Raphinha and Paquetá, with Endrick/Rayan filling in. Norway are fully fit and dangerous through in-form Haaland (five goals) and Ødegaard, and have scored and conceded in every match this tournament, so both teams finding the net is likely. The de-vigged market (home 0.537) plus knockout caution supports meaningful draw mass and a real chance of extra time, where Brazil's individual quality still tips advancement in their favor.",
       "modelVersion": "claude-opus-4-8",
-      "generatedAt": "2026-07-04T02:26:52.971Z",
-      "lockedAt": null,
-      "locked": false,
+      "generatedAt": "2026-07-05T18:59:05.829Z",
+      "lockedAt": "2026-07-05T18:59:05.829Z",
+      "locked": true,
       "webSearchUsed": true,
       "actual": null,
       "scored": null
@@ -3584,8 +3584,8 @@
     "matchesScored": 18,
     "machinePoints": 41,
     "maxPoints": 126,
-    "expectedTotal": 40.77,
-    "lastUpdatedAt": "2026-07-05T13:20:36.089Z",
+    "expectedTotal": 41.03,
+    "lastUpdatedAt": "2026-07-05T18:59:05.829Z",
     "calibration": {
       "expected": {
         "p1": 12.93,

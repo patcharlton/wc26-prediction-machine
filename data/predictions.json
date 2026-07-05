@@ -2252,26 +2252,26 @@
   {
     "fixtureId": "1568100",
     "probs": {
-      "homeWin": 0.53,
+      "homeWin": 0.55,
       "draw": 0.25,
-      "awayWin": 0.22
+      "awayWin": 0.2
     },
     "scoreline": {
       "home": 2,
       "away": 1
     },
     "confidence": "Medium",
-    "reasoning": "Brazil have the deeper, higher-quality squad with a settled backline and Vinicius Junior in outstanding form, but they've looked brittle in midfield and are missing Raphinha and Paqueta, with Casemiro also carrying a knock. Norway are fully fit and dangerous, with a clinical Haaland (five goals) and a creative Odegaard leading a direct, physical attack that can punish Brazil's counter-attacking vulnerability. Both defenses have leaked goals, so a competitive, open game with goals at both ends is likely, but Brazil's superior individual quality and bench depth should just edge them through. A tight one-goal margin or a draw pushed to extra time is very plausible.",
+    "reasoning": "Brazil have the stronger overall squad and home-crowd edge, and although injuries to Rodrygo, Estêvão, Raphinha and Paquetá thin their attack, Vinícius Júnior is fit and in excellent form with four tournament goals. Norway arrive fully healthy with Haaland, Ødegaard and Nusa all available and a proven ability to punish on counters, which keeps this closer than the gap in pedigree suggests. Norway had one day less rest and lean on efficiency over dominance, so I expect Brazil to edge a tight game but a Norwegian goal is likely. My view sits essentially in line with the market, respecting real draw and upset risk in a knockout tie.",
     "market": {
-      "homeWin": 0.51,
+      "homeWin": 0.537,
       "draw": 0.256,
-      "awayWin": 0.234,
+      "awayWin": 0.208,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-07-05T18:59:05.829Z",
     "modelVersion": "claude-opus-4-8",
-    "generatedAt": "2026-07-04T02:26:52.971Z",
-    "locked": false,
+    "generatedAt": "2026-07-05T18:59:05.829Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {
