@@ -1948,20 +1948,28 @@
     "stage": "R16",
     "matchday": null,
     "kickoff": "2026-07-04T17:00:00.000Z",
-    "status": "live",
+    "status": "finished",
     "homeTeam": "Canada",
     "awayTeam": "Morocco",
     "homeTeamId": 5529,
     "awayTeamId": 31,
     "homeScore": 0,
-    "awayScore": 2,
+    "awayScore": 3,
     "elapsed": 90,
     "venue": {
       "name": "NRG Stadium",
       "city": "Houston",
       "country": null
     },
-    "koScore": null,
+    "koScore": {
+      "rt": {
+        "home": 0,
+        "away": 3
+      },
+      "et": null,
+      "pens": null,
+      "advanced": "away"
+    },
     "homeSlot": "WM:74",
     "awaySlot": "WM:77"
   },
@@ -1970,7 +1978,7 @@
     "stage": "R16",
     "matchday": null,
     "kickoff": "2026-07-04T21:00:00.000Z",
-    "status": "live",
+    "status": "finished",
     "homeTeam": "Paraguay",
     "awayTeam": "France",
     "homeTeamId": 2380,
@@ -1983,7 +1991,15 @@
       "city": "Philadelphia",
       "country": null
     },
-    "koScore": null,
+    "koScore": {
+      "rt": {
+        "home": 0,
+        "away": 1
+      },
+      "et": null,
+      "pens": null,
+      "advanced": "away"
+    },
     "homeSlot": "WM:73",
     "awaySlot": "WM:75"
   },

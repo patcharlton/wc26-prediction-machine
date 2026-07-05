@@ -3,12 +3,12 @@
     "daily-housekeeping": "2026-07-04T08:26:23.967Z",
     "live-status": "2026-07-04T23:57:39.564Z",
     "lock-job": "2026-07-04T20:03:51.672Z",
-    "main-update": "2026-07-04T19:02:41.773Z"
+    "main-update": "2026-07-05T02:36:04.419Z"
   },
   "apiFootball": {
-    "requestsToday": 150,
-    "dayUtc": "2026-07-04",
-    "lastResetAt": "2026-07-04T00:01:59.499Z"
+    "requestsToday": 4,
+    "dayUtc": "2026-07-05",
+    "lastResetAt": "2026-07-05T02:36:04.420Z"
   },
   "tournament": {
     "startsAt": "2026-06-11T00:00:00Z",

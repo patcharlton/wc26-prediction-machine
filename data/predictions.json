@@ -2323,5 +2323,30 @@
     "generatedAt": "2026-07-04T19:02:41.773Z",
     "locked": false,
     "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1570715",
+    "probs": {
+      "homeWin": 0.35,
+      "draw": 0.28,
+      "awayWin": 0.37
+    },
+    "scoreline": {
+      "home": 1,
+      "away": 1
+    },
+    "confidence": "Low",
+    "reasoning": "This is a genuine coin-flip: the USA have strong recent form and clear home-crowd support in Seattle, but they lose their tournament-leading scorer Balogun to suspension, forcing Pepi into a role that fits Pochettino's system less naturally. Belgium arrive fully healthy with a more talented attack (De Bruyne, Doku, Trossard, Lukaku) and have won six of the last seven meetings, though they needed a late comeback and extra time just to survive Senegal, hinting at fragility and heavy legs.",
+    "market": {
+      "homeWin": 0.36,
+      "draw": 0.28,
+      "awayWin": 0.36,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-opus-4-8",
+    "generatedAt": "2026-07-05T02:36:04.419Z",
+    "locked": false,
+    "webSearchUsed": true
   }
 ]
