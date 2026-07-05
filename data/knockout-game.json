@@ -3169,126 +3169,146 @@
       "pred1Advance": "away",
       "pred1Team": "England",
       "pred2Reg": {
-        "home": 1,
-        "away": 1
+        "home": 0,
+        "away": 0
       },
       "pred3Et": {
         "home": 1,
         "away": 1
       },
       "ev": {
-        "p1": 0.56,
-        "p2": 0.667,
-        "p3": 0.314,
-        "total": 1.54
+        "p1": 0.53,
+        "p2": 0.674,
+        "p3": 0.296,
+        "total": 1.5
       },
-      "pEtUsed": 0.339,
+      "pEtUsed": 0.36,
       "distributions": {
         "advance": {
-          "home": 0.44,
-          "away": 0.56
+          "home": 0.47,
+          "away": 0.53
         },
         "regulation": [
           {
-            "home": 1,
-            "away": 1,
-            "prob": 0.16363636363636364
-          },
-          {
             "home": 0,
-            "away": 1,
-            "prob": 0.13939393939393938
+            "away": 0,
+            "prob": 0.1569767441860465
           },
           {
             "home": 1,
             "away": 0,
-            "prob": 0.12727272727272726
+            "prob": 0.13372093023255816
           },
           {
             "home": 0,
-            "away": 0,
-            "prob": 0.12121212121212122
+            "away": 1,
+            "prob": 0.14534883720930233
           },
           {
             "home": 1,
-            "away": 2,
-            "prob": 0.10909090909090907
+            "away": 1,
+            "prob": 0.15116279069767444
           },
           {
             "home": 2,
             "away": 1,
-            "prob": 0.0909090909090909
+            "prob": 0.08139534883720931
           },
           {
-            "home": 0,
+            "home": 1,
             "away": 2,
-            "prob": 0.08484848484848485
+            "prob": 0.0872093023255814
           },
           {
             "home": 2,
             "away": 0,
-            "prob": 0.06666666666666667
+            "prob": 0.06395348837209303
+          },
+          {
+            "home": 0,
+            "away": 2,
+            "prob": 0.06976744186046512
           },
           {
             "home": 2,
             "away": 2,
-            "prob": 0.054545454545454536
+            "prob": 0.05232558139534883
           },
           {
             "home": 1,
             "away": 3,
-            "prob": 0.04242424242424243
+            "prob": 0.023255813953488372
+          },
+          {
+            "home": 3,
+            "away": 1,
+            "prob": 0.020930232558139535
+          },
+          {
+            "home": 0,
+            "away": 3,
+            "prob": 0.013953488372093023
           }
         ],
-        "extraTimeProb": 0.3,
+        "extraTimeProb": 0.32,
         "extraTime": [
           {
             "home": 1,
             "away": 1,
-            "prob": 0.2173913043478261
+            "prob": 0.19
           },
           {
             "home": 0,
             "away": 0,
-            "prob": 0.16304347826086957
+            "prob": 0.15
           },
           {
             "home": 2,
             "away": 1,
-            "prob": 0.14130434782608697
+            "prob": 0.13
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.14130434782608697
+            "prob": 0.13
           },
           {
             "home": 2,
             "away": 2,
-            "prob": 0.10869565217391305
+            "prob": 0.1
           },
           {
             "home": 1,
             "away": 0,
-            "prob": 0.08695652173913045
+            "prob": 0.08
           },
           {
             "home": 0,
             "away": 1,
-            "prob": 0.08695652173913045
+            "prob": 0.08
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.05
+          },
+          {
+            "home": 0,
+            "away": 2,
+            "prob": 0.05
           },
           {
             "home": 3,
             "away": 2,
-            "prob": 0.05434782608695653
+            "prob": 0.04
           }
         ]
       },
-      "reasoning": "England are narrow favourites with superior individual quality and Harry Kane's knockout pedigree, but they carry a shaky, injury-hit defence with a right-back crisis (James and Quansah out, Rice managing a back issue). Mexico have conceded zero goals across four games and enjoy a fierce home-altitude edge at the Azteca, keeping this tight and low-scoring. Regulation draws carry heavy mass given both defences and the market's near-even 1X2, so extra time is a real possibility around 30%. Scoring leans modest, with 1-1, single-goal outcomes and 0-0 most likely.",
+      "reasoning": "Mexico is unbeaten and yet to concede at the tournament, backed by a euphoric Azteca crowd and a 2,200m altitude edge that saps visiting teams, though England's individual quality (Kane, Bellingham, Saka) makes them slight market favorites at 0.363. England carry a genuine right-back crisis with James and Quansah injured, forcing makeshift solutions against Mexico's relentless press. Both sides defend well and England have looked laboured, so I weight low-scoring lines and give the 0-0/1-1 draws realistic mass, pushing a meaningful extra-time probability. In a knockout that goes to the wire I ",
       "modelVersion": "claude-opus-4-8",
-      "generatedAt": "2026-07-04T02:26:52.971Z",
-      "lockedAt": null,
-      "locked": false,
+      "generatedAt": "2026-07-05T22:49:59.950Z",
+      "lockedAt": "2026-07-05T22:49:59.950Z",
+      "locked": true,
       "webSearchUsed": true,
       "actual": null,
       "scored": null
@@ -3717,8 +3737,8 @@
     "matchesScored": 18,
     "machinePoints": 41,
     "maxPoints": 126,
-    "expectedTotal": 43.2,
-    "lastUpdatedAt": "2026-07-05T22:02:03.099Z",
+    "expectedTotal": 43.16,
+    "lastUpdatedAt": "2026-07-05T22:49:59.950Z",
     "calibration": {
       "expected": {
         "p1": 12.93,
