@@ -2077,8 +2077,8 @@
     "awayScore": 0,
     "elapsed": 45,
     "venue": {
-      "name": null,
-      "city": null,
+      "name": "AT&T Stadium",
+      "city": "Dallas",
       "country": null
     },
     "koScore": null,
@@ -2100,7 +2100,7 @@
     "elapsed": null,
     "venue": {
       "name": "Lumen Field",
-      "city": null,
+      "city": "Seattle",
       "country": null
     },
     "koScore": null,
@@ -2122,7 +2122,7 @@
     "elapsed": null,
     "venue": {
       "name": "Mercedes-Benz Stadium",
-      "city": null,
+      "city": "Atlanta",
       "country": null
     },
     "koScore": null,
@@ -2144,7 +2144,7 @@
     "elapsed": null,
     "venue": {
       "name": "BC Place",
-      "city": null,
+      "city": "Vancouver",
       "country": null
     },
     "koScore": null,
@@ -2166,7 +2166,7 @@
     "elapsed": null,
     "venue": {
       "name": "Gillette Stadium",
-      "city": null,
+      "city": "Boston",
       "country": null
     },
     "koScore": null,
@@ -2187,8 +2187,8 @@
     "awayScore": null,
     "elapsed": null,
     "venue": {
-      "name": null,
-      "city": null,
+      "name": "Hard Rock Stadium",
+      "city": "Miami",
       "country": null
     },
     "koScore": null,
