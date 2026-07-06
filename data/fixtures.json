@@ -2038,7 +2038,7 @@
     "stage": "R16",
     "matchday": null,
     "kickoff": "2026-07-06T01:00:00.000Z",
-    "status": "live",
+    "status": "finished",
     "homeTeam": "Mexico",
     "awayTeam": "England",
     "homeTeamId": 16,
@@ -2051,7 +2051,15 @@
       "city": "Mexico City",
       "country": null
     },
-    "koScore": null,
+    "koScore": {
+      "rt": {
+        "home": 2,
+        "away": 3
+      },
+      "et": null,
+      "pens": null,
+      "advanced": "away"
+    },
     "homeSlot": "WM:79",
     "awaySlot": "WM:80"
   },
@@ -2164,5 +2172,27 @@
     "koScore": null,
     "homeSlot": "WM:89",
     "awaySlot": "WM:90"
+  },
+  {
+    "fixtureId": "1581037",
+    "stage": "QF",
+    "matchday": null,
+    "kickoff": "2026-07-11T21:00:00.000Z",
+    "status": "scheduled",
+    "homeTeam": "Norway",
+    "awayTeam": "England",
+    "homeTeamId": 1090,
+    "awayTeamId": 10,
+    "homeScore": null,
+    "awayScore": null,
+    "elapsed": null,
+    "venue": {
+      "name": null,
+      "city": null,
+      "country": null
+    },
+    "koScore": null,
+    "homeSlot": "WM:93",
+    "awaySlot": "WM:94"
   }
 ]
