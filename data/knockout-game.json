@@ -3481,20 +3481,20 @@
       "pred1Advance": "home",
       "pred1Team": "USA",
       "pred2Reg": {
-        "home": 2,
-        "away": 1
+        "home": 1,
+        "away": 0
       },
       "pred3Et": {
-        "home": 2,
+        "home": 1,
         "away": 1
       },
       "ev": {
         "p1": 0.53,
-        "p2": 0.62,
-        "p3": 0.193,
-        "total": 1.343
+        "p2": 0.647,
+        "p3": 0.28,
+        "total": 1.457
       },
-      "pEtUsed": 0.28,
+      "pEtUsed": 0.324,
       "distributions": {
         "advance": {
           "home": 0.53,
@@ -3502,140 +3502,105 @@
         },
         "regulation": [
           {
-            "home": 2,
-            "away": 1,
-            "prob": 0.12
-          },
-          {
             "home": 1,
             "away": 1,
-            "prob": 0.13
-          },
-          {
-            "home": 1,
-            "away": 2,
-            "prob": 0.11
+            "prob": 0.15882352941176475
           },
           {
             "home": 1,
             "away": 0,
-            "prob": 0.1
+            "prob": 0.13529411764705884
           },
           {
             "home": 0,
             "away": 1,
-            "prob": 0.09
+            "prob": 0.1235294117647059
           },
           {
             "home": 2,
+            "away": 1,
+            "prob": 0.11176470588235296
+          },
+          {
+            "home": 1,
             "away": 2,
-            "prob": 0.08
-          },
-          {
-            "home": 2,
-            "away": 0,
-            "prob": 0.07
+            "prob": 0.10000000000000002
           },
           {
             "home": 0,
             "away": 0,
-            "prob": 0.07
+            "prob": 0.10000000000000002
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.08823529411764706
           },
           {
             "home": 0,
             "away": 2,
-            "prob": 0.06
+            "prob": 0.07647058823529414
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.06470588235294118
           },
           {
             "home": 3,
             "away": 1,
-            "prob": 0.05
-          },
-          {
-            "home": 3,
-            "away": 2,
-            "prob": 0.04
-          },
-          {
-            "home": 1,
-            "away": 3,
-            "prob": 0.04
-          },
-          {
-            "home": 2,
-            "away": 3,
-            "prob": 0.04
+            "prob": 0.04117647058823531
           }
         ],
-        "extraTimeProb": 0.28,
+        "extraTimeProb": 0.31,
         "extraTime": [
           {
+            "home": 1,
+            "away": 1,
+            "prob": 0.20833333333333334
+          },
+          {
             "home": 2,
             "away": 1,
-            "prob": 0.15
+            "prob": 0.16666666666666669
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.14
+            "prob": 0.14583333333333334
           },
           {
             "home": 2,
             "away": 2,
-            "prob": 0.13
-          },
-          {
-            "home": 1,
-            "away": 1,
-            "prob": 0.12
-          },
-          {
-            "home": 3,
-            "away": 2,
-            "prob": 0.08
-          },
-          {
-            "home": 2,
-            "away": 3,
-            "prob": 0.08
-          },
-          {
-            "home": 3,
-            "away": 1,
-            "prob": 0.06
-          },
-          {
-            "home": 1,
-            "away": 3,
-            "prob": 0.05
-          },
-          {
-            "home": 1,
-            "away": 0,
-            "prob": 0.05
-          },
-          {
-            "home": 0,
-            "away": 1,
-            "prob": 0.05
-          },
-          {
-            "home": 2,
-            "away": 0,
-            "prob": 0.05
+            "prob": 0.125
           },
           {
             "home": 0,
             "away": 0,
-            "prob": 0.04
+            "prob": 0.11458333333333334
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.09375
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.09375
+          },
+          {
+            "home": 3,
+            "away": 2,
+            "prob": 0.052083333333333336
           }
         ]
       },
-      "reasoning": "FIFA overturned Folarin Balogun's red card, so the USA's top scorer (3 goals) is available and set to start — a big boost that flipped the market: the USMNT are now slight favourites to advance (~-124) and in regulation (+150 vs Belgium +180), backed by a home Seattle crowd. Belgium stay dangerous at full strength with De Bruyne, Doku and Trossard starting and Lukaku off the bench. Both attack and concede, so goals and a real draw threat keep extra time (~28%) in play.",
+      "reasoning": "Balogun's suspension was overturned, restoring USA's leading scorer, and with home advantage at Lumen Field the Americans are now slight favorites over an aging Belgium side whose stars (Lukaku, De Bruyne, Doku) have struggled for fitness and form. Belgium retains individual quality and big-game pedigree, so this is close to a coin-flip. Both teams' cohesion and defensive solidity give meaningful draw mass, and knockout tension makes extra time a real possibility (~31%), where USA's crowd and bench tilt things marginally their way.",
       "modelVersion": "claude-opus-4-8",
-      "generatedAt": "2026-07-06T17:10:32.667Z",
-      "lockedAt": null,
-      "locked": false,
+      "generatedAt": "2026-07-06T22:55:44.552Z",
+      "lockedAt": "2026-07-06T22:55:44.552Z",
+      "locked": true,
       "webSearchUsed": true,
       "actual": null,
       "scored": null
@@ -3911,8 +3876,8 @@
     "matchesScored": 20,
     "machinePoints": 42,
     "maxPoints": 140,
-    "expectedTotal": 44.62,
-    "lastUpdatedAt": "2026-07-06T20:57:29.619Z",
+    "expectedTotal": 44.74,
+    "lastUpdatedAt": "2026-07-06T22:55:44.552Z",
     "calibration": {
       "expected": {
         "p1": 14.12,
