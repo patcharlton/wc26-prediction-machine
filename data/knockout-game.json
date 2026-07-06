@@ -3356,118 +3356,118 @@
         "away": 1
       },
       "ev": {
-        "p1": 0.64,
-        "p2": 0.749,
-        "p3": 0.353,
-        "total": 1.742
+        "p1": 0.63,
+        "p2": 0.722,
+        "p3": 0.307,
+        "total": 1.659
       },
-      "pEtUsed": 0.353,
+      "pEtUsed": 0.337,
       "distributions": {
         "advance": {
-          "home": 0.36,
-          "away": 0.64
+          "home": 0.37,
+          "away": 0.63
         },
         "regulation": [
           {
             "home": 0,
             "away": 1,
-            "prob": 0.17365269461077842
+            "prob": 0.15976331360946747
           },
           {
             "home": 1,
             "away": 1,
-            "prob": 0.16167664670658682
+            "prob": 0.14201183431952663
           },
           {
             "home": 0,
             "away": 0,
-            "prob": 0.1497005988023952
+            "prob": 0.13609467455621302
           },
           {
             "home": 1,
             "away": 0,
-            "prob": 0.12574850299401197
-          },
-          {
-            "home": 0,
-            "away": 2,
-            "prob": 0.10778443113772454
+            "prob": 0.1242603550295858
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.08383233532934131
+            "prob": 0.10650887573964497
+          },
+          {
+            "home": 0,
+            "away": 2,
+            "prob": 0.09467455621301776
           },
           {
             "home": 2,
             "away": 1,
-            "prob": 0.06586826347305388
-          },
-          {
-            "home": 2,
-            "away": 0,
-            "prob": 0.05389221556886227
+            "prob": 0.08284023668639054
           },
           {
             "home": 2,
             "away": 2,
-            "prob": 0.041916167664670656
+            "prob": 0.0591715976331361
           },
           {
-            "home": 0,
+            "home": 1,
             "away": 3,
-            "prob": 0.03592814371257485
+            "prob": 0.04142011834319527
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.05325443786982249
           }
         ],
-        "extraTimeProb": 0.3,
+        "extraTimeProb": 0.27,
         "extraTime": [
           {
             "home": 1,
             "away": 1,
-            "prob": 0.24
+            "prob": 0.20786516853932585
           },
           {
             "home": 0,
             "away": 0,
-            "prob": 0.2
+            "prob": 0.16292134831460675
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.12
+            "prob": 0.1460674157303371
           },
           {
             "home": 2,
             "away": 1,
-            "prob": 0.11
+            "prob": 0.1348314606741573
           },
           {
-            "home": 0,
-            "away": 1,
-            "prob": 0.1
+            "home": 2,
+            "away": 2,
+            "prob": 0.12359550561797754
           },
           {
             "home": 1,
             "away": 0,
-            "prob": 0.09
-          },
-          {
-            "home": 2,
-            "away": 2,
-            "prob": 0.08
+            "prob": 0.08426966292134833
           },
           {
             "home": 0,
-            "away": 2,
-            "prob": 0.06
+            "away": 1,
+            "prob": 0.08426966292134833
+          },
+          {
+            "home": 2,
+            "away": 3,
+            "prob": 0.05617977528089889
           }
         ]
       },
-      "reasoning": "Spain are clear favorites, unbeaten and yet to concede this tournament, though they miss wingers Nico Williams and Pino while Yamal is fit and Portugal are near full strength. Both are possession-heavy, low-scoring sides, so a tight, cagey match is expected with substantial mass on draws like 1-1 and 0-0. That elevates extra-time probability to around 30%, where Spain's superior quality and depth still tilt the advance edge in their favor despite Portugal's individual talent and Ronaldo threat.",
+      "reasoning": "Spain enter as clear favorites (de-vigged ~49% away, Opta ~48.6% inside 90'), unbeaten in 34 with four clean sheets and controlling midfield, while Portugal have looked defensively vulnerable and lack attacking fluency. Nico Williams and Yeremy Pino are doubtful for Spain but an otherwise strong XI is expected; Portugal are fully fit. Low-scoring outcomes carry heavy mass given Spain's stinginess and the historically tight head-to-head, so 0-0, 1-1 and 1-0 results are prominent. Portugal's shootout pedigree (beat Spain on penalties in the 2025 Nations League final) lifts their advance chance a",
       "modelVersion": "claude-opus-4-8",
-      "generatedAt": "2026-07-04T19:02:41.773Z",
-      "lockedAt": null,
-      "locked": false,
+      "generatedAt": "2026-07-06T17:33:44.486Z",
+      "lockedAt": "2026-07-06T17:33:44.486Z",
+      "locked": true,
       "webSearchUsed": true,
       "actual": null,
       "scored": null
@@ -3911,8 +3911,8 @@
     "matchesScored": 20,
     "machinePoints": 42,
     "maxPoints": 140,
-    "expectedTotal": 44.71,
-    "lastUpdatedAt": "2026-07-06T17:10:32.667Z",
+    "expectedTotal": 44.62,
+    "lastUpdatedAt": "2026-07-06T17:33:44.486Z",
     "calibration": {
       "expected": {
         "p1": 14.12,

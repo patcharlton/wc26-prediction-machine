@@ -2311,17 +2311,17 @@
       "away": 2
     },
     "confidence": "Medium",
-    "reasoning": "Spain have been the tournament's most complete side—unbeaten and yet to concede—with an elite Rodri-Pedri midfield and a fully fit Lamine Yamal, and only Nico Williams is a notable absentee. Portugal are near full strength with Ronaldo and Dias available, but they've looked less fluent, needing a late winner to edge Croatia and struggling to score outside their Uzbekistan rout. The neutral, air-conditioned Dallas venue removes any altitude or heat edge for either Iberian side, so this is a genuine coin-flip-plus-lean toward the more in-form Spain.",
+    "reasoning": "Spain enter as favorites with superior squad depth, cleaner recent form (no goals conceded across the tournament) and a settled midfield built around Rodri and Pedri, and their injuries to Williams and Pino only cost rotation options rather than starters. Portugal have looked unconvincing at times, leaning on a late winner against Croatia and a 41-year-old Ronaldo whose form is middling, though they are otherwise fully fit. The style clash is two possession-heavy sides, which can compress the game and raises draw chances in a knockout that could go to extra time.",
     "market": {
-      "homeWin": 0.243,
-      "draw": 0.264,
+      "homeWin": 0.24,
+      "draw": 0.267,
       "awayWin": 0.493,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-07-06T17:33:44.486Z",
     "modelVersion": "claude-opus-4-8",
-    "generatedAt": "2026-07-04T19:02:41.773Z",
-    "locked": false,
+    "generatedAt": "2026-07-06T17:33:44.486Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {
