@@ -2035,9 +2035,9 @@
     "awayTeam": "England",
     "homeTeamId": 16,
     "awayTeamId": 10,
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 2,
-    "elapsed": 42,
+    "elapsed": 45,
     "venue": {
       "name": "Estadio Banorte",
       "city": "Mexico City",
