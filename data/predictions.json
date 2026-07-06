@@ -2373,5 +2373,30 @@
     "generatedAt": "2026-07-05T19:08:54.627Z",
     "locked": false,
     "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1576805",
+    "probs": {
+      "homeWin": 0.29,
+      "draw": 0.3,
+      "awayWin": 0.41
+    },
+    "scoreline": {
+      "home": 1,
+      "away": 1
+    },
+    "confidence": "Medium-Low",
+    "reasoning": "Colombia carry the greater squad quality and a genuinely elite defense that has conceded just once all tournament, so they deserve favorite status even after losing striker Jhon Cordoba to a hamstring injury, since Luis Suarez and Cucho Hernandez provide cover. Switzerland are dangerous going forward with Manzambi, Vargas and Embolo, are unbeaten with three straight wins, and enjoy real venue familiarity at BC Place in Vancouver, where the roof and sea-level setting neutralize any heat or altitude factor. This shapes up as a tight, low-scoring knockout tie that both the market and multiple models see as the closest fixture of the round, with a real chance of extra time.",
+    "market": {
+      "homeWin": 0.283,
+      "draw": 0.296,
+      "awayWin": 0.421,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-opus-4-8",
+    "generatedAt": "2026-07-06T02:40:26.596Z",
+    "locked": false,
+    "webSearchUsed": true
   }
 ]

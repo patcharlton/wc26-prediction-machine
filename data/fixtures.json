@@ -2008,12 +2008,12 @@
     "stage": "R16",
     "matchday": null,
     "kickoff": "2026-07-05T20:00:00.000Z",
-    "status": "live",
+    "status": "finished",
     "homeTeam": "Brazil",
     "awayTeam": "Norway",
     "homeTeamId": 6,
     "awayTeamId": 1090,
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 2,
     "elapsed": 90,
     "venue": {
@@ -2021,7 +2021,15 @@
       "city": "East Rutherford",
       "country": null
     },
-    "koScore": null,
+    "koScore": {
+      "rt": {
+        "home": 1,
+        "away": 2
+      },
+      "et": null,
+      "pens": null,
+      "advanced": "away"
+    },
     "homeSlot": "WM:76",
     "awaySlot": "WM:78"
   },
@@ -2029,7 +2037,7 @@
     "fixtureId": "1570714",
     "stage": "R16",
     "matchday": null,
-    "kickoff": "2026-07-06T00:00:00.000Z",
+    "kickoff": "2026-07-06T01:00:00.000Z",
     "status": "live",
     "homeTeam": "Mexico",
     "awayTeam": "England",
@@ -2037,9 +2045,9 @@
     "awayTeamId": 10,
     "homeScore": 2,
     "awayScore": 3,
-    "elapsed": 75,
+    "elapsed": 76,
     "venue": {
-      "name": "Estadio Banorte",
+      "name": "Estadio Azteca",
       "city": "Mexico City",
       "country": null
     },

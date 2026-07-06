@@ -3157,8 +3157,21 @@
       "lockedAt": "2026-07-05T18:59:05.829Z",
       "locked": true,
       "webSearchUsed": true,
-      "actual": null,
-      "scored": null
+      "actual": {
+        "rt": {
+          "home": 1,
+          "away": 2
+        },
+        "et": null,
+        "pens": null,
+        "advanced": "away"
+      },
+      "scored": {
+        "p1": 0,
+        "p2": 0,
+        "p3": 0,
+        "total": 0
+      }
     },
     {
       "fixtureId": "1570714",
@@ -3731,20 +3744,153 @@
       "webSearchUsed": true,
       "actual": null,
       "scored": null
+    },
+    {
+      "fixtureId": "1576805",
+      "stage": "R16",
+      "homeTeam": "Switzerland",
+      "awayTeam": "Colombia",
+      "kickoff": "2026-07-07T20:00:00.000Z",
+      "pred1Advance": "away",
+      "pred1Team": "Colombia",
+      "pred2Reg": {
+        "home": 0,
+        "away": 1
+      },
+      "pred3Et": {
+        "home": 1,
+        "away": 1
+      },
+      "ev": {
+        "p1": 0.6,
+        "p2": 0.68,
+        "p3": 0.311,
+        "total": 1.591
+      },
+      "pEtUsed": 0.36,
+      "distributions": {
+        "advance": {
+          "home": 0.4,
+          "away": 0.6
+        },
+        "regulation": [
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.1542857142857143
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.13142857142857142
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.1542857142857143
+          },
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.1542857142857143
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.09714285714285716
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.07428571428571429
+          },
+          {
+            "home": 0,
+            "away": 2,
+            "prob": 0.08571428571428572
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.06285714285714286
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.05142857142857143
+          },
+          {
+            "home": 1,
+            "away": 3,
+            "prob": 0.03428571428571429
+          }
+        ],
+        "extraTimeProb": 0.34,
+        "extraTime": [
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.2105263157894737
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.1473684210526316
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.1368421052631579
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.12631578947368421
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.11578947368421053
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.10526315789473685
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.08421052631578949
+          },
+          {
+            "home": 0,
+            "away": 2,
+            "prob": 0.0736842105263158
+          }
+        ]
+      },
+      "reasoning": "Both sides reached the last 16 unbeaten as disciplined, low-scoring teams, with Colombia the slight favourites carrying greater attacking quality through Luis Diaz, James Rodriguez and Daniel Munoz, while Switzerland rely on defensive shape and threats from Embolo and Manzambi. Colombia are missing striker Jhon Cordoba (out for the tournament), but Luis Suarez slots in; Switzerland monitor Aebischer's fitness. The de-vigged market (away 0.421, draw 0.296) plus model reads point to a tight, cagey contest likely settled by one goal or extra time, so draws carry substantial mass and I assign a me",
+      "modelVersion": "claude-opus-4-8",
+      "generatedAt": "2026-07-06T02:40:26.596Z",
+      "lockedAt": null,
+      "locked": false,
+      "webSearchUsed": true,
+      "actual": null,
+      "scored": null
     }
   ],
   "summary": {
-    "matchesScored": 18,
+    "matchesScored": 19,
     "machinePoints": 41,
-    "maxPoints": 126,
-    "expectedTotal": 43.16,
-    "lastUpdatedAt": "2026-07-06T02:37:31.122Z",
+    "maxPoints": 133,
+    "expectedTotal": 44.75,
+    "lastUpdatedAt": "2026-07-06T02:40:26.596Z",
     "calibration": {
       "expected": {
-        "p1": 12.93,
-        "p2": 16.91,
-        "p3": 4.67,
-        "total": 34.51
+        "p1": 13.59,
+        "p2": 17.8,
+        "p3": 4.96,
+        "total": 36.35
       },
       "realised": {
         "p1": 16,
