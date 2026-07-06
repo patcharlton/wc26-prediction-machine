@@ -3478,147 +3478,162 @@
       "homeTeam": "USA",
       "awayTeam": "Belgium",
       "kickoff": "2026-07-07T00:00:00.000Z",
-      "pred1Advance": "away",
-      "pred1Team": "Belgium",
+      "pred1Advance": "home",
+      "pred1Team": "USA",
       "pred2Reg": {
-        "home": 1,
-        "away": 2
+        "home": 2,
+        "away": 1
       },
       "pred3Et": {
-        "home": 1,
-        "away": 2
+        "home": 2,
+        "away": 1
       },
       "ev": {
-        "p1": 0.55,
-        "p2": 0.622,
-        "p3": 0.22,
-        "total": 1.391
+        "p1": 0.53,
+        "p2": 0.62,
+        "p3": 0.193,
+        "total": 1.343
       },
-      "pEtUsed": 0.308,
+      "pEtUsed": 0.28,
       "distributions": {
         "advance": {
-          "home": 0.45,
-          "away": 0.55
+          "home": 0.53,
+          "away": 0.47
         },
         "regulation": [
           {
+            "home": 2,
+            "away": 1,
+            "prob": 0.12
+          },
+          {
             "home": 1,
             "away": 1,
-            "prob": 0.14594594594594595
+            "prob": 0.13
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.11891891891891893
-          },
-          {
-            "home": 2,
-            "away": 1,
-            "prob": 0.10810810810810813
-          },
-          {
-            "home": 0,
-            "away": 1,
-            "prob": 0.10270270270270271
+            "prob": 0.11
           },
           {
             "home": 1,
             "away": 0,
-            "prob": 0.09189189189189191
+            "prob": 0.1
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.09
           },
           {
             "home": 2,
             "away": 2,
-            "prob": 0.08108108108108109
-          },
-          {
-            "home": 0,
-            "away": 0,
-            "prob": 0.08108108108108109
+            "prob": 0.08
           },
           {
             "home": 2,
             "away": 0,
-            "prob": 0.06486486486486487
+            "prob": 0.07
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.07
           },
           {
             "home": 0,
             "away": 2,
-            "prob": 0.07027027027027027
-          },
-          {
-            "home": 1,
-            "away": 3,
-            "prob": 0.054054054054054064
+            "prob": 0.06
           },
           {
             "home": 3,
             "away": 1,
-            "prob": 0.043243243243243246
+            "prob": 0.05
+          },
+          {
+            "home": 3,
+            "away": 2,
+            "prob": 0.04
+          },
+          {
+            "home": 1,
+            "away": 3,
+            "prob": 0.04
           },
           {
             "home": 2,
             "away": 3,
-            "prob": 0.03783783783783785
+            "prob": 0.04
           }
         ],
-        "extraTimeProb": 0.3,
+        "extraTimeProb": 0.28,
         "extraTime": [
           {
             "home": 2,
             "away": 1,
-            "prob": 0.17021276595744678
+            "prob": 0.15
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.17021276595744678
+            "prob": 0.14
           },
           {
             "home": 2,
             "away": 2,
-            "prob": 0.1382978723404255
+            "prob": 0.13
           },
           {
             "home": 1,
             "away": 1,
-            "prob": 0.12765957446808507
+            "prob": 0.12
           },
           {
             "home": 3,
             "away": 2,
-            "prob": 0.09574468085106382
+            "prob": 0.08
           },
           {
             "home": 2,
             "away": 3,
-            "prob": 0.09574468085106382
+            "prob": 0.08
           },
           {
-            "home": 0,
+            "home": 3,
             "away": 1,
-            "prob": 0.06382978723404253
+            "prob": 0.06
+          },
+          {
+            "home": 1,
+            "away": 3,
+            "prob": 0.05
           },
           {
             "home": 1,
             "away": 0,
-            "prob": 0.05319148936170212
+            "prob": 0.05
           },
           {
-            "home": 3,
+            "home": 0,
             "away": 1,
-            "prob": 0.042553191489361694
+            "prob": 0.05
           },
           {
-            "home": 1,
-            "away": 3,
-            "prob": 0.042553191489361694
+            "home": 2,
+            "away": 0,
+            "prob": 0.05
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.04
           }
         ]
       },
-      "reasoning": "The market is essentially a coin-flip, but the USA lose suspended top scorer Balogun while Belgium retain elite match-winners in De Bruyne, Trossard and a bench-option Lukaku, giving the visitors a slight edge that models like Squawka's 57% back. Both are attack-minded sides that concede chances, so goals and both-teams-to-score are likely, keeping draws realistic. Given the knockout context and Belgium's recent extra-time habit, a meaningful chance the tie is unresolved in 90 minutes is warranted, with Seattle's home crowd keeping the USA competitive.",
+      "reasoning": "FIFA overturned Folarin Balogun's red card, so the USA's top scorer (3 goals) is available and set to start — a big boost that flipped the market: the USMNT are now slight favourites to advance (~-124) and in regulation (+150 vs Belgium +180), backed by a home Seattle crowd. Belgium stay dangerous at full strength with De Bruyne, Doku and Trossard starting and Lukaku off the bench. Both attack and concede, so goals and a real draw threat keep extra time (~28%) in play.",
       "modelVersion": "claude-opus-4-8",
-      "generatedAt": "2026-07-05T02:36:04.419Z",
+      "generatedAt": "2026-07-06T17:10:32.667Z",
       "lockedAt": null,
       "locked": false,
       "webSearchUsed": true,
@@ -3896,8 +3911,8 @@
     "matchesScored": 20,
     "machinePoints": 42,
     "maxPoints": 140,
-    "expectedTotal": 44.75,
-    "lastUpdatedAt": "2026-07-06T15:20:35.597Z",
+    "expectedTotal": 44.71,
+    "lastUpdatedAt": "2026-07-06T17:10:32.667Z",
     "calibration": {
       "expected": {
         "p1": 14.12,
