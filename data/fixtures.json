@@ -2165,7 +2165,7 @@
     "awayTeamId": 8,
     "homeScore": 0,
     "awayScore": 0,
-    "elapsed": 90,
+    "elapsed": null,
     "venue": {
       "name": "BC Place",
       "city": "Vancouver",
