@@ -2203,8 +2203,8 @@
     "awayScore": null,
     "elapsed": null,
     "venue": {
-      "name": null,
-      "city": null,
+      "name": "SoFi Stadium",
+      "city": "Los Angeles",
       "country": null
     },
     "koScore": null,

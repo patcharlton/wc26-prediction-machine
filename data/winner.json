@@ -1,35 +1,35 @@
 {
   "champion": "France",
-  "runnerUp": "Argentina",
+  "runnerUp": "Spain",
   "darkHorse": "Norway",
   "confidence": "Medium",
   "contenders": [
     {
       "team": "France",
-      "prob": 0.33
-    },
-    {
-      "team": "Argentina",
-      "prob": 0.15
+      "prob": 0.3
     },
     {
       "team": "Spain",
-      "prob": 0.13
+      "prob": 0.17
+    },
+    {
+      "team": "Argentina",
+      "prob": 0.16
     },
     {
       "team": "England",
-      "prob": 0.1
-    },
-    {
-      "team": "Portugal",
-      "prob": 0.06
-    },
-    {
-      "team": "Morocco",
-      "prob": 0.05
+      "prob": 0.15
     },
     {
       "team": "Norway",
+      "prob": 0.06
+    },
+    {
+      "team": "Colombia",
+      "prob": 0.05
+    },
+    {
+      "team": "Portugal",
       "prob": 0.04
     },
     {
@@ -37,8 +37,8 @@
       "prob": 0.03
     }
   ],
-  "reasoning": "France are the clear market and model favorites (roughly +164 to +188, ~33-35% on prediction markets), having won all four matches, scoring 13 and conceding just twice, with Mbappé on six goals and Olise leading assists. Their toughest hurdle is a semifinal-level gauntlet — a quarterfinal against a tough Morocco side and a likely semifinal against Spain — but their depth and clean-sheet knockout run make them the strongest pick. Argentina (defending champions) have a comparatively kind route to the last four via Egypt then Switzerland/Colombia despite an unconvincing scrape past Cape Verde, making them my runner-up, while Spain and England remain the main European threats. Norway is the live dark horse: Haaland is on a scoring rampage with three braces, they stunned Brazil in the Round of 16, but they face England in the quarterfinals.",
+  "reasoning": "France is the clear market favorite after reaching the quarterfinals without conceding a goal, with a deep, star-laden squad and a proven finalist pedigree. Its next test is Morocco, a genuine banana-skin, but the model and market both rate Les Bleus highest. Spain surged to second after eliminating Portugal, carrying elite young talent in Yamal and Pedri, while defending champions Argentina and a resurgent England (fresh off beating Mexico at altitude in Azteca) are the main threats. My dark horse is Norway, who stunned Brazil in the Round of 16 and ride Erling Haaland's goalscoring form with everything to gain and no pressure, though they face England next. The wide-open bracket and knockout volatility keep confidence at Medium.",
   "basis": "knockout stage",
   "modelVersion": "claude-opus-4-8",
-  "updatedAt": "2026-07-06T09:59:02.051Z"
+  "updatedAt": "2026-07-07T09:26:48.962Z"
 }
