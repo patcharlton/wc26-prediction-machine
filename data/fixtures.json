@@ -2068,7 +2068,7 @@
     "stage": "R16",
     "matchday": null,
     "kickoff": "2026-07-06T19:00:00.000Z",
-    "status": "live",
+    "status": "finished",
     "homeTeam": "Portugal",
     "awayTeam": "Spain",
     "homeTeamId": 27,
@@ -2081,7 +2081,15 @@
       "city": "Dallas",
       "country": null
     },
-    "koScore": null,
+    "koScore": {
+      "rt": {
+        "home": 0,
+        "away": 1
+      },
+      "et": null,
+      "pens": null,
+      "advanced": "away"
+    },
     "homeSlot": "WM:83",
     "awaySlot": "WM:84"
   },
@@ -2090,7 +2098,7 @@
     "stage": "R16",
     "matchday": null,
     "kickoff": "2026-07-07T00:00:00.000Z",
-    "status": "live",
+    "status": "finished",
     "homeTeam": "USA",
     "awayTeam": "Belgium",
     "homeTeamId": 2384,
@@ -2103,7 +2111,15 @@
       "city": "Seattle",
       "country": null
     },
-    "koScore": null,
+    "koScore": {
+      "rt": {
+        "home": 1,
+        "away": 4
+      },
+      "et": null,
+      "pens": null,
+      "advanced": "away"
+    },
     "homeSlot": "WM:81",
     "awaySlot": "WM:82"
   },
@@ -2174,6 +2190,28 @@
     "awaySlot": "WM:90"
   },
   {
+    "fixtureId": "1581821",
+    "stage": "QF",
+    "matchday": null,
+    "kickoff": "2026-07-10T19:00:00.000Z",
+    "status": "scheduled",
+    "homeTeam": "Spain",
+    "awayTeam": "Belgium",
+    "homeTeamId": 9,
+    "awayTeamId": 1,
+    "homeScore": null,
+    "awayScore": null,
+    "elapsed": null,
+    "venue": {
+      "name": null,
+      "city": null,
+      "country": null
+    },
+    "koScore": null,
+    "homeSlot": "WM:93",
+    "awaySlot": "WM:94"
+  },
+  {
     "fixtureId": "1581037",
     "stage": "QF",
     "matchday": null,
@@ -2192,7 +2230,7 @@
       "country": null
     },
     "koScore": null,
-    "homeSlot": "WM:93",
-    "awaySlot": "WM:94"
+    "homeSlot": "WM:91",
+    "awaySlot": "WM:92"
   }
 ]

@@ -1749,41 +1749,41 @@
   },
   {
     "fixtureId": "1576756",
-    "status": "live",
+    "status": "finished",
     "kickoff": "2026-07-06T19:00:00.000Z",
     "stage": "R16",
     "homeTeam": "Portugal",
     "awayTeam": "Spain",
     "actualScore": {
-      "home": null,
-      "away": null
+      "home": 0,
+      "away": 1
     },
-    "actualOutcome": null,
-    "machineOutcomeHit": null,
-    "marketOutcomeHit": null,
-    "exactScoreHit": null,
-    "machineBrierScore": null,
-    "marketBrierScore": null,
-    "resolvedAt": null
+    "actualOutcome": "awayWin",
+    "machineOutcomeHit": true,
+    "marketOutcomeHit": true,
+    "exactScoreHit": false,
+    "machineBrierScore": 0.438,
+    "marketBrierScore": 0.386,
+    "resolvedAt": "2026-07-07T02:36:44.844Z"
   },
   {
     "fixtureId": "1570715",
-    "status": "live",
+    "status": "finished",
     "kickoff": "2026-07-07T00:00:00.000Z",
     "stage": "R16",
     "homeTeam": "USA",
     "awayTeam": "Belgium",
     "actualScore": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 4
     },
-    "actualOutcome": null,
-    "machineOutcomeHit": null,
-    "marketOutcomeHit": null,
-    "exactScoreHit": null,
-    "machineBrierScore": null,
-    "marketBrierScore": null,
-    "resolvedAt": null
+    "actualOutcome": "awayWin",
+    "machineOutcomeHit": false,
+    "marketOutcomeHit": false,
+    "exactScoreHit": false,
+    "machineBrierScore": 0.677,
+    "marketBrierScore": 0.639,
+    "resolvedAt": "2026-07-07T02:36:44.844Z"
   },
   {
     "fixtureId": "1576804",
@@ -1830,6 +1830,25 @@
     "stage": "QF",
     "homeTeam": "France",
     "awayTeam": "Morocco",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1581821",
+    "status": "scheduled",
+    "kickoff": "2026-07-10T19:00:00.000Z",
+    "stage": "QF",
+    "homeTeam": "Spain",
+    "awayTeam": "Belgium",
     "actualScore": {
       "home": null,
       "away": null

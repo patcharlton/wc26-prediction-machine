@@ -3469,8 +3469,21 @@
       "lockedAt": "2026-07-06T17:33:44.486Z",
       "locked": true,
       "webSearchUsed": true,
-      "actual": null,
-      "scored": null
+      "actual": {
+        "rt": {
+          "home": 0,
+          "away": 1
+        },
+        "et": null,
+        "pens": null,
+        "advanced": "away"
+      },
+      "scored": {
+        "p1": 1,
+        "p2": 3,
+        "p3": 0,
+        "total": 4
+      }
     },
     {
       "fixtureId": "1570715",
@@ -3602,8 +3615,21 @@
       "lockedAt": "2026-07-06T22:55:44.552Z",
       "locked": true,
       "webSearchUsed": true,
-      "actual": null,
-      "scored": null
+      "actual": {
+        "rt": {
+          "home": 1,
+          "away": 4
+        },
+        "et": null,
+        "pens": null,
+        "advanced": "away"
+      },
+      "scored": {
+        "p1": 0,
+        "p2": 0,
+        "p3": 0,
+        "total": 0
+      }
     },
     {
       "fixtureId": "1576804",
@@ -3873,23 +3899,23 @@
     }
   ],
   "summary": {
-    "matchesScored": 20,
-    "machinePoints": 42,
-    "maxPoints": 140,
+    "matchesScored": 22,
+    "machinePoints": 46,
+    "maxPoints": 154,
     "expectedTotal": 44.74,
-    "lastUpdatedAt": "2026-07-07T01:57:14.689Z",
+    "lastUpdatedAt": "2026-07-07T02:36:44.844Z",
     "calibration": {
       "expected": {
-        "p1": 14.12,
-        "p2": 18.47,
-        "p3": 5.26,
-        "total": 37.85
+        "p1": 15.28,
+        "p2": 19.84,
+        "p3": 5.84,
+        "total": 40.97
       },
       "realised": {
-        "p1": 17,
-        "p2": 20,
+        "p1": 18,
+        "p2": 23,
         "p3": 5,
-        "total": 42
+        "total": 46
       }
     }
   }
