@@ -2134,8 +2134,8 @@
     "homeTeamId": 26,
     "awayTeamId": 32,
     "homeScore": 0,
-    "awayScore": 0,
-    "elapsed": 14,
+    "awayScore": 1,
+    "elapsed": 19,
     "venue": {
       "name": "Mercedes-Benz Stadium",
       "city": "Atlanta",
