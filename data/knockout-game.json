@@ -3781,118 +3781,118 @@
         "away": 1
       },
       "ev": {
-        "p1": 0.6,
-        "p2": 0.68,
-        "p3": 0.311,
-        "total": 1.591
+        "p1": 0.585,
+        "p2": 0.704,
+        "p3": 0.343,
+        "total": 1.632
       },
-      "pEtUsed": 0.36,
+      "pEtUsed": 0.343,
       "distributions": {
         "advance": {
-          "home": 0.4,
-          "away": 0.6
+          "home": 0.415,
+          "away": 0.585
         },
         "regulation": [
           {
             "home": 0,
-            "away": 0,
-            "prob": 0.1542857142857143
-          },
-          {
-            "home": 1,
-            "away": 0,
-            "prob": 0.13142857142857142
+            "away": 1,
+            "prob": 0.15976331360946744
           },
           {
             "home": 0,
-            "away": 1,
-            "prob": 0.1542857142857143
+            "away": 0,
+            "prob": 0.14792899408284022
           },
           {
             "home": 1,
             "away": 1,
-            "prob": 0.1542857142857143
+            "prob": 0.14201183431952658
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.12426035502958577
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.09714285714285716
+            "prob": 0.10650887573964495
           },
           {
             "home": 2,
             "away": 1,
-            "prob": 0.07428571428571429
+            "prob": 0.08284023668639053
           },
           {
             "home": 0,
             "away": 2,
-            "prob": 0.08571428571428572
+            "prob": 0.08284023668639053
           },
           {
             "home": 2,
             "away": 0,
-            "prob": 0.06285714285714286
+            "prob": 0.06508875739644969
           },
           {
             "home": 2,
             "away": 2,
-            "prob": 0.05142857142857143
+            "prob": 0.05325443786982247
           },
           {
             "home": 1,
             "away": 3,
-            "prob": 0.03428571428571429
+            "prob": 0.035502958579881644
           }
         ],
-        "extraTimeProb": 0.34,
+        "extraTimeProb": 0.3,
         "extraTime": [
           {
             "home": 1,
             "away": 1,
-            "prob": 0.2105263157894737
+            "prob": 0.23958333333333334
           },
           {
             "home": 0,
             "away": 0,
-            "prob": 0.1473684210526316
+            "prob": 0.1875
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.1368421052631579
+            "prob": 0.13541666666666669
           },
           {
             "home": 2,
             "away": 1,
-            "prob": 0.12631578947368421
+            "prob": 0.125
           },
           {
-            "home": 0,
-            "away": 1,
-            "prob": 0.11578947368421053
+            "home": 2,
+            "away": 2,
+            "prob": 0.09375
           },
           {
             "home": 1,
             "away": 0,
-            "prob": 0.10526315789473685
-          },
-          {
-            "home": 2,
-            "away": 2,
-            "prob": 0.08421052631578949
+            "prob": 0.08854166666666667
           },
           {
             "home": 0,
-            "away": 2,
-            "prob": 0.0736842105263158
+            "away": 1,
+            "prob": 0.08854166666666667
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.04166666666666667
           }
         ]
       },
-      "reasoning": "Both sides reached the last 16 unbeaten as disciplined, low-scoring teams, with Colombia the slight favourites carrying greater attacking quality through Luis Diaz, James Rodriguez and Daniel Munoz, while Switzerland rely on defensive shape and threats from Embolo and Manzambi. Colombia are missing striker Jhon Cordoba (out for the tournament), but Luis Suarez slots in; Switzerland monitor Aebischer's fitness. The de-vigged market (away 0.421, draw 0.296) plus model reads point to a tight, cagey contest likely settled by one goal or extra time, so draws carry substantial mass and I assign a me",
+      "reasoning": "Both sides are defensively solid, low-scoring and reached the last 16 unbeaten, so draws carry real mass in what previews call the tightest tie of the round. Colombia are marginal favorites (market ~43% regulation win, model ~52% to advance) with Luis Diaz the likely difference-maker, though they lost striker Jhon Cordoba to injury and James Rodriguez was managing illness. Switzerland lose creative No.10 Manzambi and possibly Aebischer/Jaquez, blunting their attack, but keep an efficient spine around Xhaka and Embolo. Given the tactical, low-scoring nature and knockout format, extra time is a ",
       "modelVersion": "claude-opus-4-8",
-      "generatedAt": "2026-07-06T02:40:26.596Z",
-      "lockedAt": null,
-      "locked": false,
+      "generatedAt": "2026-07-07T18:54:00.754Z",
+      "lockedAt": "2026-07-07T18:54:00.754Z",
+      "locked": true,
       "webSearchUsed": true,
       "actual": null,
       "scored": null
@@ -3902,8 +3902,8 @@
     "matchesScored": 22,
     "machinePoints": 46,
     "maxPoints": 154,
-    "expectedTotal": 44.74,
-    "lastUpdatedAt": "2026-07-07T18:02:21.716Z",
+    "expectedTotal": 44.78,
+    "lastUpdatedAt": "2026-07-07T18:54:00.754Z",
     "calibration": {
       "expected": {
         "p1": 15.28,

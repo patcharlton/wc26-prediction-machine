@@ -2377,26 +2377,26 @@
   {
     "fixtureId": "1576805",
     "probs": {
-      "homeWin": 0.29,
-      "draw": 0.3,
-      "awayWin": 0.41
+      "homeWin": 0.25,
+      "draw": 0.32,
+      "awayWin": 0.43
     },
     "scoreline": {
-      "home": 1,
+      "home": 0,
       "away": 1
     },
     "confidence": "Medium-Low",
-    "reasoning": "Colombia carry the greater squad quality and a genuinely elite defense that has conceded just once all tournament, so they deserve favorite status even after losing striker Jhon Cordoba to a hamstring injury, since Luis Suarez and Cucho Hernandez provide cover. Switzerland are dangerous going forward with Manzambi, Vargas and Embolo, are unbeaten with three straight wins, and enjoy real venue familiarity at BC Place in Vancouver, where the roof and sea-level setting neutralize any heat or altitude factor. This shapes up as a tight, low-scoring knockout tie that both the market and multiple models see as the closest fixture of the round, with a real chance of extra time.",
+    "reasoning": "Switzerland lost breakout playmaker Manzambi to injury and are also missing winger Vargas, stripping out two of the four attackers who scored eight of their nine tournament goals and blunting their counter-attack. Colombia arrive unbeaten with the tournament's stingiest defense and more individual attacking quality through Díaz and James, giving them a genuine edge despite the Swiss playing a third straight match at the same Vancouver venue. Switzerland's disciplined mid-block should keep this tight and low-scoring, so a draw and a route to extra time is very live. On balance the away side is narrowly favored to find the decisive moment.",
     "market": {
-      "homeWin": 0.283,
-      "draw": 0.296,
-      "awayWin": 0.421,
+      "homeWin": 0.263,
+      "draw": 0.312,
+      "awayWin": 0.425,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-07-07T18:54:00.754Z",
     "modelVersion": "claude-opus-4-8",
-    "generatedAt": "2026-07-06T02:40:26.596Z",
-    "locked": false,
+    "generatedAt": "2026-07-07T18:54:00.754Z",
+    "locked": true,
     "webSearchUsed": true
   }
 ]
