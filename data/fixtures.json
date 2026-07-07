@@ -2095,9 +2095,9 @@
     "awayTeam": "Belgium",
     "homeTeamId": 2384,
     "awayTeamId": 1,
-    "homeScore": 0,
-    "awayScore": 1,
-    "elapsed": 31,
+    "homeScore": 1,
+    "awayScore": 2,
+    "elapsed": 36,
     "venue": {
       "name": "Lumen Field",
       "city": "Seattle",
