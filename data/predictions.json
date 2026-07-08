@@ -2398,5 +2398,30 @@
     "generatedAt": "2026-07-07T18:54:00.754Z",
     "locked": true,
     "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1578539",
+    "probs": {
+      "homeWin": 0.6,
+      "draw": 0.25,
+      "awayWin": 0.15
+    },
+    "scoreline": {
+      "home": 2,
+      "away": 0
+    },
+    "confidence": "Medium-High",
+    "reasoning": "France arrive in the strongest form, having won all five matches and scoring freely behind Mbappe, Dembele and Olise, though Tchouameni is only just returning from a thigh problem and may be eased in. Morocco are well-organized, dangerous on the counter and unbeaten in a long run, but they likely lose top scorer Saibari to a hamstring strain and have a doubt over defender Riad, and France have won every competitive meeting between the sides including the 2022 semifinal. This is a classic favorite-versus-stubborn-underdog matchup, so a low-scoring or one-goal outcome is very plausible, which keeps the draw honestly in play; France's superior depth and quality should still edge it.",
+    "market": {
+      "homeWin": 0.605,
+      "draw": 0.245,
+      "awayWin": 0.149,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-opus-4-8",
+    "generatedAt": "2026-07-08T02:10:02.206Z",
+    "locked": false,
+    "webSearchUsed": true
   }
 ]

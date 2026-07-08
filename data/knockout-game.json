@@ -3907,28 +3907,180 @@
       "lockedAt": "2026-07-07T18:54:00.754Z",
       "locked": true,
       "webSearchUsed": true,
+      "actual": {
+        "rt": {
+          "home": 0,
+          "away": 0
+        },
+        "et": {
+          "home": 0,
+          "away": 0
+        },
+        "pens": {
+          "home": 4,
+          "away": 3
+        },
+        "advanced": "home"
+      },
+      "scored": {
+        "p1": 0,
+        "p2": 0,
+        "p3": 1,
+        "total": 1
+      }
+    },
+    {
+      "fixtureId": "1578539",
+      "stage": "QF",
+      "homeTeam": "France",
+      "awayTeam": "Morocco",
+      "kickoff": "2026-07-09T20:00:00.000Z",
+      "pred1Advance": "home",
+      "pred1Team": "France",
+      "pred2Reg": {
+        "home": 1,
+        "away": 0
+      },
+      "pred3Et": {
+        "home": 1,
+        "away": 1
+      },
+      "ev": {
+        "p1": 0.735,
+        "p2": 1,
+        "p3": 0.248,
+        "total": 1.983
+      },
+      "pEtUsed": 0.278,
+      "distributions": {
+        "advance": {
+          "home": 0.735,
+          "away": 0.265
+        },
+        "regulation": [
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.19135802469135801
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.1419753086419753
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.12962962962962962
+          },
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.12962962962962962
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.10493827160493827
+          },
+          {
+            "home": 3,
+            "away": 0,
+            "prob": 0.08024691358024691
+          },
+          {
+            "home": 3,
+            "away": 1,
+            "prob": 0.07407407407407407
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.06790123456790123
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.04320987654320988
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.037037037037037035
+          }
+        ],
+        "extraTimeProb": 0.245,
+        "extraTime": [
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.21505376344086027
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.16129032258064518
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.10752688172043014
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.13978494623655918
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.10752688172043014
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.09677419354838711
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.0860215053763441
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.0860215053763441
+          }
+        ]
+      },
+      "reasoning": "France are clear favorites at home in Boston with elite attacking form (Mbappe, Dembele, Olise) but ground out a tight 1-0 versus Paraguay, showing knockout games tighten up. Morocco boast a strong, disciplined defense and reached this stage via a penalty win over the Netherlands, and likely miss injured scorer Saibari. Draw mass is meaningful given Morocco's defensive resilience, so extra time carries realistic probability; if drawn, France's superior quality still favors them in ET or shootout.",
+      "modelVersion": "claude-opus-4-8",
+      "generatedAt": "2026-07-08T02:10:02.206Z",
+      "lockedAt": null,
+      "locked": false,
+      "webSearchUsed": true,
       "actual": null,
       "scored": null
     }
   ],
   "summary": {
-    "matchesScored": 23,
-    "machinePoints": 48,
-    "maxPoints": 161,
-    "expectedTotal": 44.78,
-    "lastUpdatedAt": "2026-07-07T22:48:28.315Z",
+    "matchesScored": 24,
+    "machinePoints": 49,
+    "maxPoints": 168,
+    "expectedTotal": 46.76,
+    "lastUpdatedAt": "2026-07-08T02:10:02.206Z",
     "calibration": {
       "expected": {
-        "p1": 16.13,
-        "p2": 20.98,
-        "p3": 6.04,
-        "total": 43.15
+        "p1": 16.72,
+        "p2": 21.68,
+        "p3": 6.38,
+        "total": 44.78
       },
       "realised": {
         "p1": 19,
         "p2": 24,
-        "p3": 5,
-        "total": 48
+        "p3": 6,
+        "total": 49
       }
     }
   }

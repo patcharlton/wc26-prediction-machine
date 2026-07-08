@@ -1806,22 +1806,22 @@
   },
   {
     "fixtureId": "1576805",
-    "status": "live",
+    "status": "finished",
     "kickoff": "2026-07-07T20:00:00.000Z",
     "stage": "R16",
     "homeTeam": "Switzerland",
     "awayTeam": "Colombia",
     "actualScore": {
-      "home": null,
-      "away": null
+      "home": 0,
+      "away": 0
     },
-    "actualOutcome": null,
-    "machineOutcomeHit": null,
-    "marketOutcomeHit": null,
-    "exactScoreHit": null,
-    "machineBrierScore": null,
-    "marketBrierScore": null,
-    "resolvedAt": null
+    "actualOutcome": "draw",
+    "machineOutcomeHit": false,
+    "marketOutcomeHit": false,
+    "exactScoreHit": false,
+    "machineBrierScore": 0.71,
+    "marketBrierScore": 0.723,
+    "resolvedAt": "2026-07-08T02:10:02.206Z"
   },
   {
     "fixtureId": "1578539",
@@ -1868,6 +1868,25 @@
     "stage": "QF",
     "homeTeam": "Norway",
     "awayTeam": "England",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1582681",
+    "status": "scheduled",
+    "kickoff": "2026-07-12T01:00:00.000Z",
+    "stage": "QF",
+    "homeTeam": "Argentina",
+    "awayTeam": "Switzerland",
     "actualScore": {
       "home": null,
       "away": null
