@@ -2269,8 +2269,8 @@
     "awayScore": null,
     "elapsed": null,
     "venue": {
-      "name": null,
-      "city": null,
+      "name": "Arrowhead Stadium",
+      "city": "Kansas City",
       "country": null
     },
     "koScore": null,
