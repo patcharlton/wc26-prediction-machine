@@ -4061,14 +4061,147 @@
       "webSearchUsed": true,
       "actual": null,
       "scored": null
+    },
+    {
+      "fixtureId": "1581821",
+      "stage": "QF",
+      "homeTeam": "Spain",
+      "awayTeam": "Belgium",
+      "kickoff": "2026-07-10T19:00:00.000Z",
+      "pred1Advance": "home",
+      "pred1Team": "Spain",
+      "pred2Reg": {
+        "home": 1,
+        "away": 0
+      },
+      "pred3Et": {
+        "home": 1,
+        "away": 1
+      },
+      "ev": {
+        "p1": 0.66,
+        "p2": 1.042,
+        "p3": 0.293,
+        "total": 1.995
+      },
+      "pEtUsed": 0.303,
+      "distributions": {
+        "advance": {
+          "home": 0.66,
+          "away": 0.34
+        },
+        "regulation": [
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.2242424242424242
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.13939393939393938
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.13939393939393938
+          },
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.12727272727272723
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.11515151515151513
+          },
+          {
+            "home": 3,
+            "away": 0,
+            "prob": 0.06666666666666665
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.060606060606060594
+          },
+          {
+            "home": 3,
+            "away": 1,
+            "prob": 0.04848484848484848
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.04242424242424242
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.036363636363636355
+          }
+        ],
+        "extraTimeProb": 0.27,
+        "extraTime": [
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.22222222222222227
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.1888888888888889
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.14444444444444446
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.11111111111111113
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.11111111111111113
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.0888888888888889
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.07777777777777779
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.055555555555555566
+          }
+        ]
+      },
+      "reasoning": "Spain enter as clear favorites with the tournament's best defense — five clean sheets and no goals conceded across five games — versus a Belgium side that scores freely but leaks at the back and lost Onana to an ACL injury. Spain's own attack is slightly blunted by injuries to wingers Nico Williams and Yeremy Pino, so a low-scoring, controlled game favoring 1-0/2-0 Spain and realistic draw mass is expected. If level after 90', extra time is likely and could stay tight, with Spain's control and finishers giving them the edge in a possible shootout.",
+      "modelVersion": "claude-opus-4-8",
+      "generatedAt": "2026-07-08T19:16:55.955Z",
+      "lockedAt": null,
+      "locked": false,
+      "webSearchUsed": true,
+      "actual": null,
+      "scored": null
     }
   ],
   "summary": {
     "matchesScored": 24,
     "machinePoints": 49,
     "maxPoints": 168,
-    "expectedTotal": 46.76,
-    "lastUpdatedAt": "2026-07-08T13:50:58.628Z",
+    "expectedTotal": 48.76,
+    "lastUpdatedAt": "2026-07-08T19:16:55.955Z",
     "calibration": {
       "expected": {
         "p1": 16.72,

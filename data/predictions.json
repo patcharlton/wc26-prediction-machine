@@ -2423,5 +2423,30 @@
     "generatedAt": "2026-07-08T02:10:02.206Z",
     "locked": false,
     "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1581821",
+    "probs": {
+      "homeWin": 0.6,
+      "draw": 0.24,
+      "awayWin": 0.16
+    },
+    "scoreline": {
+      "home": 2,
+      "away": 0
+    },
+    "confidence": "Medium-High",
+    "reasoning": "Spain arrive as reigning European champions with the tournament's best defense, having conceded just twice and kept clean sheets in their last four while their midfield of Rodri, Pedri and Merino controls tempo. Belgium have scored freely but look shaky at the back and lost midfield anchor Amadou Onana to a tournament-ending ACL injury, weakening their protection against Spain's press just as De Bruyne likely returns from being rested. The sea-level LA venue neutralizes any altitude factor and both sides had similar rest, so the edge is squarely Spain's quality and stability.",
+    "market": {
+      "homeWin": 0.583,
+      "draw": 0.239,
+      "awayWin": 0.178,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-opus-4-8",
+    "generatedAt": "2026-07-08T19:16:55.955Z",
+    "locked": false,
+    "webSearchUsed": true
   }
 ]
