@@ -1,44 +1,44 @@
 {
   "champion": "France",
-  "runnerUp": "Spain",
+  "runnerUp": "Argentina",
   "darkHorse": "Norway",
   "confidence": "Medium",
   "contenders": [
     {
       "team": "France",
-      "prob": 0.3
+      "prob": 0.34
     },
     {
       "team": "Spain",
-      "prob": 0.17
+      "prob": 0.22
     },
     {
       "team": "Argentina",
-      "prob": 0.16
+      "prob": 0.2
     },
     {
       "team": "England",
-      "prob": 0.15
+      "prob": 0.16
     },
     {
       "team": "Norway",
       "prob": 0.06
     },
     {
-      "team": "Colombia",
-      "prob": 0.05
-    },
-    {
-      "team": "Portugal",
+      "team": "Morocco",
       "prob": 0.04
     },
     {
       "team": "Belgium",
       "prob": 0.03
+    },
+    {
+      "team": "Switzerland",
+      "prob": 0.02
     }
   ],
-  "reasoning": "France is the clear market favorite after reaching the quarterfinals without conceding a goal, with a deep, star-laden squad and a proven finalist pedigree. Its next test is Morocco, a genuine banana-skin, but the model and market both rate Les Bleus highest. Spain surged to second after eliminating Portugal, carrying elite young talent in Yamal and Pedri, while defending champions Argentina and a resurgent England (fresh off beating Mexico at altitude in Azteca) are the main threats. My dark horse is Norway, who stunned Brazil in the Round of 16 and ride Erling Haaland's goalscoring form with everything to gain and no pressure, though they face England next. The wide-open bracket and knockout volatility keep confidence at Medium.",
+  "reasoning": "France are the clear market favorites at around 15/8 after an unbeaten run, with Mbappé in Golden Boot form and a favorable path opened up by the shock exits of Germany and the Netherlands on their side of the draw. Spain are the biggest threat — European champions on a 35-match unbeaten streak who have yet to concede a goal all tournament — but they face a stiffer bracket, meeting Belgium next and likely France in the semis. Argentina, the reigning champions, have survived scares (needing extra time versus Cape Verde and a late comeback from 2-0 down against Egypt) and share the softer bottom half of the draw with England, Norway and Switzerland, making them the likeliest finalist opposite France. Norway are the live dark horse after Haaland knocked out Brazil, sitting in the weaker half where a run to the final is realistic. The main risks to France are Spain's relentless form and the ever-present knockout resilience of Messi's Argentina.",
   "basis": "knockout stage",
   "modelVersion": "claude-opus-4-8",
-  "updatedAt": "2026-07-07T09:26:48.962Z"
+  "updatedAt": "2026-07-08T08:11:04.909Z"
 }
