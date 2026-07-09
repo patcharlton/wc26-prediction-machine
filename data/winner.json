@@ -1,6 +1,6 @@
 {
   "champion": "France",
-  "runnerUp": "Argentina",
+  "runnerUp": "Spain",
   "darkHorse": "Norway",
   "confidence": "Medium",
   "contenders": [
@@ -14,7 +14,7 @@
     },
     {
       "team": "Argentina",
-      "prob": 0.2
+      "prob": 0.19
     },
     {
       "team": "England",
@@ -26,19 +26,19 @@
     },
     {
       "team": "Morocco",
-      "prob": 0.04
+      "prob": 0.03
     },
     {
       "team": "Belgium",
-      "prob": 0.03
+      "prob": 0.02
     },
     {
       "team": "Switzerland",
       "prob": 0.02
     }
   ],
-  "reasoning": "France are the clear market favorites at around 15/8 after an unbeaten run, with Mbappé in Golden Boot form and a favorable path opened up by the shock exits of Germany and the Netherlands on their side of the draw. Spain are the biggest threat — European champions on a 35-match unbeaten streak who have yet to concede a goal all tournament — but they face a stiffer bracket, meeting Belgium next and likely France in the semis. Argentina, the reigning champions, have survived scares (needing extra time versus Cape Verde and a late comeback from 2-0 down against Egypt) and share the softer bottom half of the draw with England, Norway and Switzerland, making them the likeliest finalist opposite France. Norway are the live dark horse after Haaland knocked out Brazil, sitting in the weaker half where a run to the final is realistic. The main risks to France are Spain's relentless form and the ever-present knockout resilience of Messi's Argentina.",
+  "reasoning": "France are the clear market favorites, shortening to around +180 (roughly 15/8), and are the only side to win all five matches so far without needing extra time, powered by the tournament's deepest attack in Mbappé, Dembélé, Olise and Doué. Spain rate as the strongest challenger with an elite young core and a record clean-sheet run, having conceded zero goals across five games, though they must first navigate Belgium and a likely semifinal against France. Argentina and England remain live at roughly +390 and +470 respectively, but both looked vulnerable in the round of 16—Argentina relying on a dramatic comeback and heavily on Messi, England edging Mexico at altitude with ten men—so I rate them just behind. Norway are the standout dark horse after Haaland's brace knocked out Brazil; they sit on the softer side of the bracket and could reach the final, but their reliance on one striker and fortunate finishing margins caps the ceiling.",
   "basis": "knockout stage",
   "modelVersion": "claude-opus-4-8",
-  "updatedAt": "2026-07-08T08:11:04.909Z"
+  "updatedAt": "2026-07-09T09:23:37.241Z"
 }
