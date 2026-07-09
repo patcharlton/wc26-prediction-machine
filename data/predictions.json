@@ -2402,26 +2402,26 @@
   {
     "fixtureId": "1578539",
     "probs": {
-      "homeWin": 0.6,
-      "draw": 0.25,
-      "awayWin": 0.15
+      "homeWin": 0.57,
+      "draw": 0.26,
+      "awayWin": 0.17
     },
     "scoreline": {
       "home": 2,
-      "away": 0
+      "away": 1
     },
-    "confidence": "Medium-High",
-    "reasoning": "France arrive in the strongest form, having won all five matches and scoring freely behind Mbappe, Dembele and Olise, though Tchouameni is only just returning from a thigh problem and may be eased in. Morocco are well-organized, dangerous on the counter and unbeaten in a long run, but they likely lose top scorer Saibari to a hamstring strain and have a doubt over defender Riad, and France have won every competitive meeting between the sides including the 2022 semifinal. This is a classic favorite-versus-stubborn-underdog matchup, so a low-scoring or one-goal outcome is very plausible, which keeps the draw honestly in play; France's superior depth and quality should still edge it.",
+    "confidence": "Medium",
+    "reasoning": "France arrive as clear favorites with a perfect run of six wins, having scored 14 and conceded just 2, and Mbappé in Golden Boot form. Both teams lose a key man: Tchouaméni is highly unlikely for France with an adductor/thigh tear, while Morocco's Saibari is confirmed out with a hamstring injury, blunting their counter-attack and shifting creative load onto Ounahi and El Khannouss. Morocco's elite defense, near-equal possession numbers and knockout pedigree (Brazil, Netherlands) make an upset live, but France's superior squad depth should edge a tight game at a neutral sea-level venue.",
     "market": {
-      "homeWin": 0.605,
-      "draw": 0.245,
-      "awayWin": 0.149,
+      "homeWin": 0.6,
+      "draw": 0.25,
+      "awayWin": 0.15,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-07-09T19:19:53.834Z",
     "modelVersion": "claude-opus-4-8",
-    "generatedAt": "2026-07-08T02:10:02.206Z",
-    "locked": false,
+    "generatedAt": "2026-07-09T19:19:53.834Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {

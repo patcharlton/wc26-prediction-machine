@@ -3946,118 +3946,118 @@
         "away": 1
       },
       "ev": {
-        "p1": 0.735,
-        "p2": 1,
-        "p3": 0.248,
-        "total": 1.983
+        "p1": 0.71,
+        "p2": 0.964,
+        "p3": 0.23,
+        "total": 1.904
       },
-      "pEtUsed": 0.278,
+      "pEtUsed": 0.286,
       "distributions": {
         "advance": {
-          "home": 0.735,
-          "away": 0.265
+          "home": 0.71,
+          "away": 0.29
         },
         "regulation": [
           {
             "home": 1,
             "away": 0,
-            "prob": 0.19135802469135801
+            "prob": 0.17857142857142855
           },
           {
             "home": 2,
             "away": 0,
-            "prob": 0.1419753086419753
-          },
-          {
-            "home": 2,
-            "away": 1,
-            "prob": 0.12962962962962962
+            "prob": 0.14285714285714285
           },
           {
             "home": 1,
             "away": 1,
-            "prob": 0.12962962962962962
+            "prob": 0.13095238095238093
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.13095238095238093
           },
           {
             "home": 0,
             "away": 0,
-            "prob": 0.10493827160493827
+            "prob": 0.10714285714285712
           },
           {
             "home": 3,
             "away": 0,
-            "prob": 0.08024691358024691
+            "prob": 0.08333333333333333
           },
           {
             "home": 3,
             "away": 1,
-            "prob": 0.07407407407407407
+            "prob": 0.07142857142857142
           },
           {
             "home": 0,
             "away": 1,
-            "prob": 0.06790123456790123
+            "prob": 0.06547619047619047
           },
           {
             "home": 2,
             "away": 2,
-            "prob": 0.04320987654320988
+            "prob": 0.047619047619047616
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.037037037037037035
+            "prob": 0.041666666666666664
           }
         ],
-        "extraTimeProb": 0.245,
+        "extraTimeProb": 0.26,
         "extraTime": [
           {
             "home": 1,
             "away": 1,
-            "prob": 0.21505376344086027
-          },
-          {
-            "home": 2,
-            "away": 1,
-            "prob": 0.16129032258064518
-          },
-          {
-            "home": 1,
-            "away": 2,
-            "prob": 0.10752688172043014
+            "prob": 0.1847826086956522
           },
           {
             "home": 0,
             "away": 0,
-            "prob": 0.13978494623655918
+            "prob": 0.14130434782608697
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.1521739130434783
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.10869565217391305
           },
           {
             "home": 2,
             "away": 2,
-            "prob": 0.10752688172043014
+            "prob": 0.10869565217391305
           },
           {
             "home": 1,
             "away": 0,
-            "prob": 0.09677419354838711
-          },
-          {
-            "home": 2,
-            "away": 0,
-            "prob": 0.0860215053763441
+            "prob": 0.11956521739130435
           },
           {
             "home": 0,
             "away": 1,
-            "prob": 0.0860215053763441
+            "prob": 0.09782608695652174
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.08695652173913045
           }
         ]
       },
-      "reasoning": "France are clear favorites at home in Boston with elite attacking form (Mbappe, Dembele, Olise) but ground out a tight 1-0 versus Paraguay, showing knockout games tighten up. Morocco boast a strong, disciplined defense and reached this stage via a penalty win over the Netherlands, and likely miss injured scorer Saibari. Draw mass is meaningful given Morocco's defensive resilience, so extra time carries realistic probability; if drawn, France's superior quality still favors them in ET or shootout.",
+      "reasoning": "France are clear favorites and the only team to win all five matches so far, with Mbappe in Golden Boot form, and the market prices them around 60% in 90 minutes plus extra-time/penalty edge pushing advancement near 71%. Morocco lose top scorer Saibari to a hamstring injury, blunting their transition threat, though they bring an elite defense and a 34-match unbeaten run that keeps low-scoring and draw outcomes live. Regulation draws (0-0, 1-1) carry meaningful mass given Morocco's defensive record and knockout caution, so extra time is a realistic ~26%. If it goes to extra time, tight one- and",
       "modelVersion": "claude-opus-4-8",
-      "generatedAt": "2026-07-08T02:10:02.206Z",
-      "lockedAt": null,
-      "locked": false,
+      "generatedAt": "2026-07-09T19:19:53.834Z",
+      "lockedAt": "2026-07-09T19:19:53.834Z",
+      "locked": true,
       "webSearchUsed": true,
       "actual": null,
       "scored": null
@@ -4200,8 +4200,8 @@
     "matchesScored": 24,
     "machinePoints": 49,
     "maxPoints": 168,
-    "expectedTotal": 48.76,
-    "lastUpdatedAt": "2026-07-09T14:45:51.620Z",
+    "expectedTotal": 48.68,
+    "lastUpdatedAt": "2026-07-09T19:19:53.834Z",
     "calibration": {
       "expected": {
         "p1": 16.72,
