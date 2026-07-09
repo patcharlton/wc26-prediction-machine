@@ -2199,9 +2199,9 @@
     "awayTeam": "Morocco",
     "homeTeamId": 2,
     "awayTeamId": 31,
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 0,
-    "elapsed": 57,
+    "elapsed": 63,
     "venue": {
       "name": "Gillette Stadium",
       "city": "Boston",
