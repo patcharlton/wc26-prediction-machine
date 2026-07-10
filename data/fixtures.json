@@ -2194,7 +2194,7 @@
     "stage": "QF",
     "matchday": null,
     "kickoff": "2026-07-09T20:00:00.000Z",
-    "status": "live",
+    "status": "finished",
     "homeTeam": "France",
     "awayTeam": "Morocco",
     "homeTeamId": 2,
@@ -2207,7 +2207,15 @@
       "city": "Boston",
       "country": null
     },
-    "koScore": null,
+    "koScore": {
+      "rt": {
+        "home": 2,
+        "away": 0
+      },
+      "et": null,
+      "pens": null,
+      "advanced": "home"
+    },
     "homeSlot": "WM:89",
     "awaySlot": "WM:90"
   },

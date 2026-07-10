@@ -4059,8 +4059,21 @@
       "lockedAt": "2026-07-09T19:19:53.834Z",
       "locked": true,
       "webSearchUsed": true,
-      "actual": null,
-      "scored": null
+      "actual": {
+        "rt": {
+          "home": 2,
+          "away": 0
+        },
+        "et": null,
+        "pens": null,
+        "advanced": "home"
+      },
+      "scored": {
+        "p1": 1,
+        "p2": 1,
+        "p3": 0,
+        "total": 2
+      }
     },
     {
       "fixtureId": "1581821",
@@ -4194,26 +4207,302 @@
       "webSearchUsed": true,
       "actual": null,
       "scored": null
+    },
+    {
+      "fixtureId": "1581037",
+      "stage": "QF",
+      "homeTeam": "Norway",
+      "awayTeam": "England",
+      "kickoff": "2026-07-11T21:00:00.000Z",
+      "pred1Advance": "away",
+      "pred1Team": "England",
+      "pred2Reg": {
+        "home": 1,
+        "away": 2
+      },
+      "pred3Et": {
+        "home": 1,
+        "away": 1
+      },
+      "ev": {
+        "p1": 0.64,
+        "p2": 0.698,
+        "p3": 0.253,
+        "total": 1.591
+      },
+      "pEtUsed": 0.296,
+      "distributions": {
+        "advance": {
+          "home": 0.36,
+          "away": 0.64
+        },
+        "regulation": [
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.14465408805031443
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.13207547169811318
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.10691823899371068
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.09433962264150941
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.0880503144654088
+          },
+          {
+            "home": 0,
+            "away": 2,
+            "prob": 0.0880503144654088
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.08176100628930816
+          },
+          {
+            "home": 1,
+            "away": 3,
+            "prob": 0.0691823899371069
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.0691823899371069
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.05031446540880502
+          },
+          {
+            "home": 3,
+            "away": 1,
+            "prob": 0.037735849056603765
+          },
+          {
+            "home": 2,
+            "away": 3,
+            "prob": 0.037735849056603765
+          }
+        ],
+        "extraTimeProb": 0.27,
+        "extraTime": [
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.19277108433734938
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.1566265060240964
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.14457831325301204
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.13855421686746988
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.12048192771084337
+          },
+          {
+            "home": 2,
+            "away": 3,
+            "prob": 0.09036144578313252
+          },
+          {
+            "home": 3,
+            "away": 2,
+            "prob": 0.08433734939759036
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.07228915662650602
+          }
+        ]
+      },
+      "reasoning": "England are clear favorites (de-vigged ~0.50) with superior squad depth and big-game experience, while Norway lean heavily on Erling Haaland, who has seven goals but plays behind a vulnerable defense. Norway have been hit by illness and fatigue from tournament travel, and have never beaten a European side at a World Cup. Both teams have scored and conceded in every match, pointing to an open, goal-heavy game with meaningful draw mass, and given knockout tension a shootout would be no surprise, so extra time carries realistic weight.",
+      "modelVersion": "claude-opus-4-8",
+      "generatedAt": "2026-07-10T02:30:36.117Z",
+      "lockedAt": null,
+      "locked": false,
+      "webSearchUsed": true,
+      "actual": null,
+      "scored": null
+    },
+    {
+      "fixtureId": "1582681",
+      "stage": "QF",
+      "homeTeam": "Argentina",
+      "awayTeam": "Switzerland",
+      "kickoff": "2026-07-12T01:00:00.000Z",
+      "pred1Advance": "home",
+      "pred1Team": "Argentina",
+      "pred2Reg": {
+        "home": 1,
+        "away": 0
+      },
+      "pred3Et": {
+        "home": 1,
+        "away": 1
+      },
+      "ev": {
+        "p1": 0.775,
+        "p2": 0.973,
+        "p3": 0.27,
+        "total": 2.018
+      },
+      "pEtUsed": 0.285,
+      "distributions": {
+        "advance": {
+          "home": 0.775,
+          "away": 0.225
+        },
+        "regulation": [
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.1841746248294679
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.13642564802182808
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.1336971350613915
+          },
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.1255115961800818
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.11186903137789901
+          },
+          {
+            "home": 3,
+            "away": 1,
+            "prob": 0.07912687585266028
+          },
+          {
+            "home": 3,
+            "away": 0,
+            "prob": 0.07094133697135059
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.04774897680763983
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.061391541609822624
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.0491132332878581
+          }
+        ],
+        "extraTimeProb": 0.267,
+        "extraTime": [
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.22023809523809523
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.17857142857142858
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.16666666666666669
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.1130952380952381
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.10714285714285714
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.08928571428571429
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.06547619047619048
+          },
+          {
+            "home": 3,
+            "away": 1,
+            "prob": 0.05952380952380953
+          }
+        ]
+      },
+      "reasoning": "Argentina are clear favourites (market 0.556) and progress with high probability including shootout edge behind Emi Martinez, but recent knockout games show real defensive frailty against direct, pacey opponents which Switzerland can exploit, especially if Manzambi returns. Romero is a knee doubt and Medina is managing fatigue, adding uncertainty to Argentina's backline. Switzerland are defensively disciplined (0-0 vs Colombia), so low-scoring outcomes and draws carry meaningful mass, keeping extra-time probability around the market draw figure of 0.267. If tied after 90', Argentina's superior",
+      "modelVersion": "claude-opus-4-8",
+      "generatedAt": "2026-07-10T02:30:36.117Z",
+      "lockedAt": null,
+      "locked": false,
+      "webSearchUsed": true,
+      "actual": null,
+      "scored": null
     }
   ],
   "summary": {
-    "matchesScored": 24,
-    "machinePoints": 49,
-    "maxPoints": 168,
-    "expectedTotal": 48.68,
-    "lastUpdatedAt": "2026-07-09T21:57:21.196Z",
+    "matchesScored": 25,
+    "machinePoints": 51,
+    "maxPoints": 175,
+    "expectedTotal": 52.29,
+    "lastUpdatedAt": "2026-07-10T02:30:36.117Z",
     "calibration": {
       "expected": {
-        "p1": 16.72,
-        "p2": 21.68,
-        "p3": 6.38,
-        "total": 44.78
+        "p1": 17.43,
+        "p2": 22.64,
+        "p3": 6.61,
+        "total": 46.68
       },
       "realised": {
-        "p1": 19,
-        "p2": 24,
+        "p1": 20,
+        "p2": 25,
         "p3": 6,
-        "total": 49
+        "total": 51
       }
     }
   }

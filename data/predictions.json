@@ -2448,5 +2448,55 @@
     "generatedAt": "2026-07-08T19:16:55.955Z",
     "locked": false,
     "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1581037",
+    "probs": {
+      "homeWin": 0.25,
+      "draw": 0.27,
+      "awayWin": 0.48
+    },
+    "scoreline": {
+      "home": 1,
+      "away": 2
+    },
+    "confidence": "Medium",
+    "reasoning": "England are deserved favorites thanks to a deeper squad and midfield control from Rice and Bellingham, and they arrive fresher after a settled camp while Norway battled travel fatigue and a sickness bug that has now reportedly cleared. However, England's right-back crisis (Quansah suspended, James touch-and-go) is exactly the kind of weakness Haaland and Norway's direct counterattacking can punish, as they showed by beating Brazil. Expect an open, high-scoring game in the Miami heat, with England edging it but Norway capable of an upset. A narrow England win or a draw are both very plausible.",
+    "market": {
+      "homeWin": 0.233,
+      "draw": 0.262,
+      "awayWin": 0.505,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-opus-4-8",
+    "generatedAt": "2026-07-10T02:30:36.117Z",
+    "locked": false,
+    "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1582681",
+    "probs": {
+      "homeWin": 0.58,
+      "draw": 0.27,
+      "awayWin": 0.15
+    },
+    "scoreline": {
+      "home": 2,
+      "away": 1
+    },
+    "confidence": "Medium",
+    "reasoning": "Argentina have won all five knockout/group matches and still have Messi as a match-decider, but they've been shaky defensively — leaking early direct-running goals against Cape Verde and Egypt — and centre-back Romero is managing a knee issue while Medina battled fatigue, so this is far from the 2022 machine. Switzerland are organized and hard to break down (a clean sheet against Colombia), and their best counter-attacking weapon Manzambi is a significant doubt after a training knee injury, which blunts the one route most likely to punish Argentina's flanks.",
+    "market": {
+      "homeWin": 0.556,
+      "draw": 0.267,
+      "awayWin": 0.178,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-opus-4-8",
+    "generatedAt": "2026-07-10T02:30:36.117Z",
+    "locked": false,
+    "webSearchUsed": true
   }
 ]

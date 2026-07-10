@@ -1825,22 +1825,22 @@
   },
   {
     "fixtureId": "1578539",
-    "status": "live",
+    "status": "finished",
     "kickoff": "2026-07-09T20:00:00.000Z",
     "stage": "QF",
     "homeTeam": "France",
     "awayTeam": "Morocco",
     "actualScore": {
-      "home": null,
-      "away": null
+      "home": 2,
+      "away": 0
     },
-    "actualOutcome": null,
-    "machineOutcomeHit": null,
-    "marketOutcomeHit": null,
-    "exactScoreHit": null,
-    "machineBrierScore": null,
-    "marketBrierScore": null,
-    "resolvedAt": null
+    "actualOutcome": "homeWin",
+    "machineOutcomeHit": true,
+    "marketOutcomeHit": true,
+    "exactScoreHit": false,
+    "machineBrierScore": 0.281,
+    "marketBrierScore": 0.245,
+    "resolvedAt": "2026-07-10T02:30:36.117Z"
   },
   {
     "fixtureId": "1581821",
