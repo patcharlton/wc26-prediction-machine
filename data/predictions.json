@@ -2436,17 +2436,17 @@
       "away": 0
     },
     "confidence": "Medium-High",
-    "reasoning": "Spain arrive as reigning European champions with the tournament's best defense, having conceded just twice and kept clean sheets in their last four while their midfield of Rodri, Pedri and Merino controls tempo. Belgium have scored freely but look shaky at the back and lost midfield anchor Amadou Onana to a tournament-ending ACL injury, weakening their protection against Spain's press just as De Bruyne likely returns from being rested. The sea-level LA venue neutralizes any altitude factor and both sides had similar rest, so the edge is squarely Spain's quality and stability.",
+    "reasoning": "Spain arrive with a fully fit squad and a historic defensive run, having yet to concede all tournament, while their midfield control through Rodri and Pedri should smother Belgium's transitions. Belgium are dangerous going forward and get Kevin De Bruyne back, but they suffered a major blow losing Amadou Onana to an ACL injury, weakening the midfield shield needed to slow Spain. The sea-level LA venue neutralizes any altitude factor, and Spain's superior squad depth and cohesion make them clear favorites, though Belgium's attacking quality and De Bruyne's set-piece threat keep the draw live. I lean to a controlled Spain win, roughly in line with the market.",
     "market": {
-      "homeWin": 0.583,
-      "draw": 0.239,
-      "awayWin": 0.178,
+      "homeWin": 0.587,
+      "draw": 0.236,
+      "awayWin": 0.176,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-07-10T18:16:18.299Z",
     "modelVersion": "claude-opus-4-8",
-    "generatedAt": "2026-07-08T19:16:55.955Z",
-    "locked": false,
+    "generatedAt": "2026-07-10T18:16:18.299Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {

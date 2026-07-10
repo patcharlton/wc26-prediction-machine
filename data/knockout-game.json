@@ -4092,118 +4092,118 @@
         "away": 1
       },
       "ev": {
-        "p1": 0.66,
-        "p2": 1.042,
-        "p3": 0.293,
-        "total": 1.995
+        "p1": 0.685,
+        "p2": 1.012,
+        "p3": 0.267,
+        "total": 1.965
       },
-      "pEtUsed": 0.303,
+      "pEtUsed": 0.315,
       "distributions": {
         "advance": {
-          "home": 0.66,
-          "away": 0.34
+          "home": 0.685,
+          "away": 0.315
         },
         "regulation": [
           {
             "home": 1,
             "away": 0,
-            "prob": 0.2242424242424242
+            "prob": 0.2098765432098765
           },
           {
             "home": 0,
             "away": 0,
-            "prob": 0.13939393939393938
-          },
-          {
-            "home": 2,
-            "away": 0,
-            "prob": 0.13939393939393938
+            "prob": 0.14197530864197527
           },
           {
             "home": 1,
             "away": 1,
-            "prob": 0.12727272727272723
+            "prob": 0.1296296296296296
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.14197530864197527
           },
           {
             "home": 2,
             "away": 1,
-            "prob": 0.11515151515151513
+            "prob": 0.11728395061728393
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.03703703703703703
           },
           {
             "home": 3,
             "away": 0,
-            "prob": 0.06666666666666665
+            "prob": 0.06790123456790122
+          },
+          {
+            "home": 3,
+            "away": 1,
+            "prob": 0.055555555555555546
           },
           {
             "home": 0,
             "away": 1,
-            "prob": 0.060606060606060594
-          },
-          {
-            "home": 3,
-            "away": 1,
-            "prob": 0.04848484848484848
-          },
-          {
-            "home": 1,
-            "away": 2,
-            "prob": 0.04242424242424242
+            "prob": 0.055555555555555546
           },
           {
             "home": 2,
             "away": 2,
-            "prob": 0.036363636363636355
+            "prob": 0.043209876543209874
           }
         ],
-        "extraTimeProb": 0.27,
+        "extraTimeProb": 0.245,
         "extraTime": [
           {
             "home": 1,
             "away": 1,
-            "prob": 0.22222222222222227
+            "prob": 0.1907894736842105
           },
           {
             "home": 0,
             "away": 0,
-            "prob": 0.1888888888888889
+            "prob": 0.1842105263157895
           },
           {
             "home": 2,
             "away": 1,
-            "prob": 0.14444444444444446
+            "prob": 0.17105263157894737
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.11111111111111113
+            "prob": 0.09868421052631579
           },
           {
             "home": 2,
             "away": 2,
-            "prob": 0.11111111111111113
+            "prob": 0.09210526315789475
           },
           {
             "home": 2,
             "away": 0,
-            "prob": 0.0888888888888889
+            "prob": 0.09868421052631579
           },
           {
             "home": 1,
             "away": 0,
-            "prob": 0.07777777777777779
+            "prob": 0.10526315789473684
           },
           {
-            "home": 0,
+            "home": 3,
             "away": 1,
-            "prob": 0.055555555555555566
+            "prob": 0.05921052631578947
           }
         ]
       },
-      "reasoning": "Spain enter as clear favorites with the tournament's best defense — five clean sheets and no goals conceded across five games — versus a Belgium side that scores freely but leaks at the back and lost Onana to an ACL injury. Spain's own attack is slightly blunted by injuries to wingers Nico Williams and Yeremy Pino, so a low-scoring, controlled game favoring 1-0/2-0 Spain and realistic draw mass is expected. If level after 90', extra time is likely and could stay tight, with Spain's control and finishers giving them the edge in a possible shootout.",
+      "reasoning": "Spain enter as heavy favorites, unbeaten and yet to concede all tournament with a record clean-sheet run behind Unai Simon, and their possession-based control with Rodri, Pedri and in-form Oyarzabal suits low-scoring, tight wins. Belgium lost midfielder Amadou Onana to an ACL injury, weakening their defensive shielding, though De Bruyne and Courtois give them genuine upset potential on transitions. Spain's stingy defense makes low-scoring outcomes (1-0, 0-0, clean-sheet wins) most likely, while knockout tension supports meaningful draw mass and a moderate chance of extra time. Advance probabil",
       "modelVersion": "claude-opus-4-8",
-      "generatedAt": "2026-07-08T19:16:55.955Z",
-      "lockedAt": null,
-      "locked": false,
+      "generatedAt": "2026-07-10T18:16:18.299Z",
+      "lockedAt": "2026-07-10T18:16:18.299Z",
+      "locked": true,
       "webSearchUsed": true,
       "actual": null,
       "scored": null
@@ -4489,8 +4489,8 @@
     "matchesScored": 25,
     "machinePoints": 51,
     "maxPoints": 175,
-    "expectedTotal": 52.29,
-    "lastUpdatedAt": "2026-07-10T14:10:04.853Z",
+    "expectedTotal": 52.26,
+    "lastUpdatedAt": "2026-07-10T18:16:18.299Z",
     "calibration": {
       "expected": {
         "p1": 17.43,
