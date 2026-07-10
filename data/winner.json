@@ -6,7 +6,7 @@
   "contenders": [
     {
       "team": "France",
-      "prob": 0.34
+      "prob": 0.33
     },
     {
       "team": "Spain",
@@ -14,11 +14,11 @@
     },
     {
       "team": "Argentina",
-      "prob": 0.19
+      "prob": 0.16
     },
     {
       "team": "England",
-      "prob": 0.16
+      "prob": 0.14
     },
     {
       "team": "Norway",
@@ -30,15 +30,15 @@
     },
     {
       "team": "Belgium",
-      "prob": 0.02
+      "prob": 0.025
     },
     {
       "team": "Switzerland",
       "prob": 0.02
     }
   ],
-  "reasoning": "France are the clear market favorites, shortening to around +180 (roughly 15/8), and are the only side to win all five matches so far without needing extra time, powered by the tournament's deepest attack in Mbappé, Dembélé, Olise and Doué. Spain rate as the strongest challenger with an elite young core and a record clean-sheet run, having conceded zero goals across five games, though they must first navigate Belgium and a likely semifinal against France. Argentina and England remain live at roughly +390 and +470 respectively, but both looked vulnerable in the round of 16—Argentina relying on a dramatic comeback and heavily on Messi, England edging Mexico at altitude with ten men—so I rate them just behind. Norway are the standout dark horse after Haaland's brace knocked out Brazil; they sit on the softer side of the bracket and could reach the final, but their reliance on one striker and fortunate finishing margins caps the ceiling.",
+  "reasoning": "France have taken clear control as favorites, shortening to around +180 after reaching the final eight without conceding a goal in either knockout match, with Mbappe and Dembele in form and only Morocco standing before the semis. Spain are the strongest challenger: unbeaten in 35 straight matches and yet to concede all tournament, though their scoreless draw with Cape Verde flagged occasional finishing issues against a favorable path through Belgium. Argentina remain dangerous champions carried by a record-breaking Messi and elite knockout experience, but they have looked distinctly beatable, needing late 3-2 comebacks against both Cape Verde and Egypt, while England (Bellingham, Kane) carry talent but perennial mentality doubts and face a tricky Norway tie. Norway are the live dark horse, riding Haaland's seven goals and a Round-of-16 upset of Brazil, playing with freedom as underdogs against England.",
   "basis": "knockout stage",
   "modelVersion": "claude-opus-4-8",
-  "updatedAt": "2026-07-09T09:23:37.241Z"
+  "updatedAt": "2026-07-10T09:20:56.669Z"
 }
