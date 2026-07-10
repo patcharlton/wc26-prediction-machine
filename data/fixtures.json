@@ -2229,9 +2229,9 @@
     "awayTeam": "Belgium",
     "homeTeamId": 9,
     "awayTeamId": 1,
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 0,
-    "elapsed": 25,
+    "elapsed": 30,
     "venue": {
       "name": "SoFi Stadium",
       "city": "Los Angeles",
