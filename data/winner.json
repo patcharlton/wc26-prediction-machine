@@ -1,16 +1,16 @@
 {
   "champion": "France",
-  "runnerUp": "Spain",
+  "runnerUp": "England",
   "darkHorse": "Norway",
-  "confidence": "Medium",
+  "confidence": "Medium-High",
   "contenders": [
     {
       "team": "France",
-      "prob": 0.33
+      "prob": 0.4
     },
     {
       "team": "Spain",
-      "prob": 0.22
+      "prob": 0.24
     },
     {
       "team": "Argentina",
@@ -22,23 +22,15 @@
     },
     {
       "team": "Norway",
-      "prob": 0.06
-    },
-    {
-      "team": "Morocco",
-      "prob": 0.03
-    },
-    {
-      "team": "Belgium",
-      "prob": 0.025
+      "prob": 0.05
     },
     {
       "team": "Switzerland",
       "prob": 0.02
     }
   ],
-  "reasoning": "France have taken clear control as favorites, shortening to around +180 after reaching the final eight without conceding a goal in either knockout match, with Mbappe and Dembele in form and only Morocco standing before the semis. Spain are the strongest challenger: unbeaten in 35 straight matches and yet to concede all tournament, though their scoreless draw with Cape Verde flagged occasional finishing issues against a favorable path through Belgium. Argentina remain dangerous champions carried by a record-breaking Messi and elite knockout experience, but they have looked distinctly beatable, needing late 3-2 comebacks against both Cape Verde and Egypt, while England (Bellingham, Kane) carry talent but perennial mentality doubts and face a tricky Norway tie. Norway are the live dark horse, riding Haaland's seven goals and a Round-of-16 upset of Brazil, playing with freedom as underdogs against England.",
+  "reasoning": "France are the clear market and model favorite (around +150), already booked into the semifinals as the only side to win all five matches in normal time while outscoring opponents 16-2 behind Mbappé, Dembélé and Olise. Their sternest remaining threat is a semifinal against Spain, who are unbeaten in 36 games and boast a record World Cup clean-sheet streak, so that tie effectively functions as an early final on the tougher half of the draw. The opposite bracket is weaker and more open: England edged Mexico at altitude and rely on Kane and Bellingham, while defending champions Argentina have looked ragged, needing dramatic comebacks against Cape Verde and Egypt with an aging squad. Norway are the live outsider — Haaland is in devastating form after knocking out Brazil, and they sit on the softer side of the bracket with all the pressure on their opponents.",
   "basis": "knockout stage",
   "modelVersion": "claude-opus-4-8",
-  "updatedAt": "2026-07-10T09:20:56.669Z"
+  "updatedAt": "2026-07-11T07:42:12.573Z"
 }
