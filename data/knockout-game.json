@@ -4392,11 +4392,11 @@
       },
       "ev": {
         "p1": 0.775,
-        "p2": 0.973,
-        "p3": 0.27,
-        "total": 2.018
+        "p2": 0.943,
+        "p3": 0.235,
+        "total": 1.953
       },
-      "pEtUsed": 0.285,
+      "pEtUsed": 0.291,
       "distributions": {
         "advance": {
           "home": 0.775,
@@ -4406,103 +4406,103 @@
           {
             "home": 1,
             "away": 0,
-            "prob": 0.1841746248294679
+            "prob": 0.17088607594936706
           },
           {
             "home": 2,
             "away": 0,
-            "prob": 0.13642564802182808
-          },
-          {
-            "home": 2,
-            "away": 1,
-            "prob": 0.1336971350613915
+            "prob": 0.14556962025316453
           },
           {
             "home": 1,
             "away": 1,
-            "prob": 0.1255115961800818
+            "prob": 0.13291139240506325
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.1392405063291139
           },
           {
             "home": 0,
             "away": 0,
-            "prob": 0.11186903137789901
-          },
-          {
-            "home": 3,
-            "away": 1,
-            "prob": 0.07912687585266028
+            "prob": 0.11392405063291136
           },
           {
             "home": 3,
             "away": 0,
-            "prob": 0.07094133697135059
+            "prob": 0.07594936708860758
+          },
+          {
+            "home": 3,
+            "away": 1,
+            "prob": 0.06962025316455694
           },
           {
             "home": 2,
             "away": 2,
-            "prob": 0.04774897680763983
+            "prob": 0.044303797468354424
           },
           {
             "home": 0,
             "away": 1,
-            "prob": 0.061391541609822624
+            "prob": 0.06329113924050632
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.0491132332878581
+            "prob": 0.044303797468354424
           }
         ],
-        "extraTimeProb": 0.267,
+        "extraTimeProb": 0.27,
         "extraTime": [
           {
             "home": 1,
             "away": 1,
-            "prob": 0.22023809523809523
+            "prob": 0.18181818181818185
           },
           {
             "home": 0,
             "away": 0,
-            "prob": 0.17857142857142858
+            "prob": 0.14772727272727276
           },
           {
             "home": 2,
             "away": 1,
-            "prob": 0.16666666666666669
+            "prob": 0.17045454545454547
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.1130952380952381
+            "prob": 0.10227272727272728
           },
           {
             "home": 2,
             "away": 2,
-            "prob": 0.10714285714285714
-          },
-          {
-            "home": 2,
-            "away": 0,
-            "prob": 0.08928571428571429
+            "prob": 0.11363636363636366
           },
           {
             "home": 1,
             "away": 0,
-            "prob": 0.06547619047619048
+            "prob": 0.11363636363636366
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.10227272727272728
           },
           {
             "home": 3,
             "away": 1,
-            "prob": 0.05952380952380953
+            "prob": 0.06818181818181819
           }
         ]
       },
-      "reasoning": "Argentina are clear favourites (market 0.556) and progress with high probability including shootout edge behind Emi Martinez, but recent knockout games show real defensive frailty against direct, pacey opponents which Switzerland can exploit, especially if Manzambi returns. Romero is a knee doubt and Medina is managing fatigue, adding uncertainty to Argentina's backline. Switzerland are defensively disciplined (0-0 vs Colombia), so low-scoring outcomes and draws carry meaningful mass, keeping extra-time probability around the market draw figure of 0.267. If tied after 90', Argentina's superior",
+      "reasoning": "Argentina are fully fit with Messi leading the Golden Boot race and are heavy favorites, though their knockout run has been shaky. Switzerland are defensively solid (consecutive clean sheets, penalty win over Colombia) but lose key playmaker Manzambi plus Jaquez and Aebischer, blunting their counter-attack. Expect Argentina to dominate but a pragmatic Swiss side plus Argentina's tendency to concede gives realistic draw mass and elevated extra-time chances. Most likely a narrow Argentina regulation win, with penalties a real fallback if it goes deep.",
       "modelVersion": "claude-opus-4-8",
-      "generatedAt": "2026-07-10T02:30:36.117Z",
-      "lockedAt": null,
-      "locked": false,
+      "generatedAt": "2026-07-11T23:42:00.883Z",
+      "lockedAt": "2026-07-11T23:42:00.883Z",
+      "locked": true,
       "webSearchUsed": true,
       "actual": null,
       "scored": null
@@ -4512,8 +4512,8 @@
     "matchesScored": 26,
     "machinePoints": 53,
     "maxPoints": 182,
-    "expectedTotal": 52.27,
-    "lastUpdatedAt": "2026-07-11T23:37:37.219Z",
+    "expectedTotal": 52.21,
+    "lastUpdatedAt": "2026-07-11T23:42:00.883Z",
     "calibration": {
       "expected": {
         "p1": 18.11,

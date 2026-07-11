@@ -2477,26 +2477,26 @@
   {
     "fixtureId": "1582681",
     "probs": {
-      "homeWin": 0.58,
-      "draw": 0.27,
-      "awayWin": 0.15
+      "homeWin": 0.55,
+      "draw": 0.28,
+      "awayWin": 0.17
     },
     "scoreline": {
       "home": 2,
       "away": 1
     },
-    "confidence": "Medium",
-    "reasoning": "Argentina have won all five knockout/group matches and still have Messi as a match-decider, but they've been shaky defensively — leaking early direct-running goals against Cape Verde and Egypt — and centre-back Romero is managing a knee issue while Medina battled fatigue, so this is far from the 2022 machine. Switzerland are organized and hard to break down (a clean sheet against Colombia), and their best counter-attacking weapon Manzambi is a significant doubt after a training knee injury, which blunts the one route most likely to punish Argentina's flanks.",
+    "confidence": "Medium-High",
+    "reasoning": "Argentina have won all five matches and lean on Messi, the tournament's top scorer with eight goals, plus a strong keeper in Emiliano Martinez and a virtual home crowd in Kansas City. Switzerland are organized and reached their first quarterfinal in 72 years, but they lose their breakout attacker Johan Manzambi to a knee injury, blunting exactly the pace-and-direct-running threat that troubled Argentina's flat midfield against Cape Verde and Egypt. Those two knockout scares show Argentina can be opened up, and Switzerland have the defensive steel to keep it tight for long spells, so a Swiss goal and real draw risk are live.",
     "market": {
-      "homeWin": 0.556,
-      "draw": 0.267,
-      "awayWin": 0.178,
+      "homeWin": 0.541,
+      "draw": 0.271,
+      "awayWin": 0.187,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-07-11T23:42:00.883Z",
     "modelVersion": "claude-opus-4-8",
-    "generatedAt": "2026-07-10T02:30:36.117Z",
-    "locked": false,
+    "generatedAt": "2026-07-11T23:42:00.883Z",
+    "locked": true,
     "webSearchUsed": true
   }
 ]
