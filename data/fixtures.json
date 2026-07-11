@@ -2259,9 +2259,9 @@
     "awayTeam": "England",
     "homeTeamId": 1090,
     "awayTeamId": 10,
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 0,
-    "elapsed": 34,
+    "elapsed": 40,
     "venue": {
       "name": "Hard Rock Stadium",
       "city": "Miami",
