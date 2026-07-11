@@ -2261,7 +2261,7 @@
     "awayTeamId": 10,
     "homeScore": 1,
     "awayScore": 1,
-    "elapsed": 90,
+    "elapsed": null,
     "venue": {
       "name": "Hard Rock Stadium",
       "city": "Miami",
