@@ -4238,77 +4238,77 @@
         "away": 1
       },
       "ev": {
-        "p1": 0.64,
-        "p2": 0.698,
-        "p3": 0.253,
-        "total": 1.591
+        "p1": 0.665,
+        "p2": 0.7,
+        "p3": 0.243,
+        "total": 1.608
       },
-      "pEtUsed": 0.296,
+      "pEtUsed": 0.326,
       "distributions": {
         "advance": {
-          "home": 0.36,
-          "away": 0.64
+          "home": 0.335,
+          "away": 0.665
         },
         "regulation": [
           {
             "home": 1,
             "away": 1,
-            "prob": 0.14465408805031443
+            "prob": 0.15826494724501758
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.13207547169811318
+            "prob": 0.13481828839390386
           },
           {
             "home": 0,
             "away": 1,
-            "prob": 0.10691823899371068
+            "prob": 0.12309495896834699
           },
           {
             "home": 2,
-            "away": 1,
-            "prob": 0.09433962264150941
+            "away": 2,
+            "prob": 0.08792497069167643
           },
           {
             "home": 1,
             "away": 0,
-            "prob": 0.0880503144654088
+            "prob": 0.08206330597889801
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.07971864009378664
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.08792497069167643
           },
           {
             "home": 0,
             "away": 2,
-            "prob": 0.0880503144654088
-          },
-          {
-            "home": 2,
-            "away": 2,
-            "prob": 0.08176100628930816
+            "prob": 0.07620164126611957
           },
           {
             "home": 1,
             "away": 3,
-            "prob": 0.0691823899371069
-          },
-          {
-            "home": 0,
-            "away": 0,
-            "prob": 0.0691823899371069
+            "prob": 0.05861664712778429
           },
           {
             "home": 2,
             "away": 0,
-            "prob": 0.05031446540880502
+            "prob": 0.041031652989449004
+          },
+          {
+            "home": 2,
+            "away": 3,
+            "prob": 0.03751465416178194
           },
           {
             "home": 3,
-            "away": 1,
-            "prob": 0.037735849056603765
-          },
-          {
-            "home": 2,
-            "away": 3,
-            "prob": 0.037735849056603765
+            "away": 2,
+            "prob": 0.0328253223915592
           }
         ],
         "extraTimeProb": 0.27,
@@ -4316,50 +4316,60 @@
           {
             "home": 1,
             "away": 1,
-            "prob": 0.19277108433734938
+            "prob": 0.17021276595744678
           },
           {
             "home": 2,
             "away": 2,
-            "prob": 0.1566265060240964
-          },
-          {
-            "home": 1,
-            "away": 2,
-            "prob": 0.14457831325301204
+            "prob": 0.12765957446808507
           },
           {
             "home": 2,
             "away": 1,
-            "prob": 0.13855421686746988
+            "prob": 0.14893617021276595
           },
           {
-            "home": 0,
-            "away": 0,
-            "prob": 0.12048192771084337
-          },
-          {
-            "home": 2,
-            "away": 3,
-            "prob": 0.09036144578313252
+            "home": 1,
+            "away": 2,
+            "prob": 0.15957446808510634
           },
           {
             "home": 3,
             "away": 2,
-            "prob": 0.08433734939759036
+            "prob": 0.08510638297872339
+          },
+          {
+            "home": 2,
+            "away": 3,
+            "prob": 0.09574468085106382
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.06382978723404253
           },
           {
             "home": 1,
             "away": 0,
-            "prob": 0.07228915662650602
+            "prob": 0.05319148936170212
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.05319148936170212
+          },
+          {
+            "home": 3,
+            "away": 3,
+            "prob": 0.042553191489361694
           }
         ]
       },
-      "reasoning": "England are clear favorites (de-vigged ~0.50) with superior squad depth and big-game experience, while Norway lean heavily on Erling Haaland, who has seven goals but plays behind a vulnerable defense. Norway have been hit by illness and fatigue from tournament travel, and have never beaten a European side at a World Cup. Both teams have scored and conceded in every match, pointing to an open, goal-heavy game with meaningful draw mass, and given knockout tension a shootout would be no surprise, so extra time carries realistic weight.",
+      "reasoning": "Market makes England clear favorites (de-vigged ~49% win vs Norway 25%), reflecting deeper squad quality despite Norway's Haaland-fueled run and both Guéhi and Rice passing fitness tests to start. Norway have both scored and conceded in all five games and haven't kept a clean sheet, while Haaland has scored in every match, so goals are likely at both ends and a low-scoring shutout is unlikely. I weighted draws realistically given knockout tension and two elite strikers, with 1-1 and narrow England wins most probable. Extra-time distribution favors England on advancing via depth, but Norway's m",
       "modelVersion": "claude-opus-4-8",
-      "generatedAt": "2026-07-10T02:30:36.117Z",
-      "lockedAt": null,
-      "locked": false,
+      "generatedAt": "2026-07-11T19:57:58.738Z",
+      "lockedAt": "2026-07-11T19:57:58.738Z",
+      "locked": true,
       "webSearchUsed": true,
       "actual": null,
       "scored": null
@@ -4502,8 +4512,8 @@
     "matchesScored": 26,
     "machinePoints": 53,
     "maxPoints": 182,
-    "expectedTotal": 52.26,
-    "lastUpdatedAt": "2026-07-11T18:53:57.776Z",
+    "expectedTotal": 52.27,
+    "lastUpdatedAt": "2026-07-11T19:57:58.738Z",
     "calibration": {
       "expected": {
         "p1": 18.11,

@@ -2452,26 +2452,26 @@
   {
     "fixtureId": "1581037",
     "probs": {
-      "homeWin": 0.25,
-      "draw": 0.27,
-      "awayWin": 0.48
+      "homeWin": 0.24,
+      "draw": 0.25,
+      "awayWin": 0.51
     },
     "scoreline": {
       "home": 1,
       "away": 2
     },
     "confidence": "Medium",
-    "reasoning": "England are deserved favorites thanks to a deeper squad and midfield control from Rice and Bellingham, and they arrive fresher after a settled camp while Norway battled travel fatigue and a sickness bug that has now reportedly cleared. However, England's right-back crisis (Quansah suspended, James touch-and-go) is exactly the kind of weakness Haaland and Norway's direct counterattacking can punish, as they showed by beating Brazil. Expect an open, high-scoring game in the Miami heat, with England edging it but Norway capable of an upset. A narrow England win or a draw are both very plausible.",
+    "reasoning": "England have deeper squad quality and are in strong form, and although they lost right-back Jarell Quansah to suspension and are sweating on Reece James, Declan Rice and Marc Guehi, most key men are expected to be available. Norway have ridden a hot streak capped by Haaland's brace to beat Brazil, but reports of a lingering sickness bug and heavy travel fatigue in their smaller squad tilt this toward England. In neutral Miami heat with both sea-level sides, the venue is a wash, so this comes down to talent and depth, which favor the Three Lions. A one-goal England win is most likely, but Haaland alone keeps Norway dangerous and the draw is a real possibility.",
     "market": {
-      "homeWin": 0.233,
-      "draw": 0.262,
-      "awayWin": 0.505,
+      "homeWin": 0.249,
+      "draw": 0.259,
+      "awayWin": 0.492,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-07-11T19:57:58.738Z",
     "modelVersion": "claude-opus-4-8",
-    "generatedAt": "2026-07-10T02:30:36.117Z",
-    "locked": false,
+    "generatedAt": "2026-07-11T19:57:58.738Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {
