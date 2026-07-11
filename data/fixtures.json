@@ -2224,7 +2224,7 @@
     "stage": "QF",
     "matchday": null,
     "kickoff": "2026-07-10T19:00:00.000Z",
-    "status": "live",
+    "status": "finished",
     "homeTeam": "Spain",
     "awayTeam": "Belgium",
     "homeTeamId": 9,
@@ -2237,7 +2237,15 @@
       "city": "Los Angeles",
       "country": null
     },
-    "koScore": null,
+    "koScore": {
+      "rt": {
+        "home": 2,
+        "away": 1
+      },
+      "et": null,
+      "pens": null,
+      "advanced": "home"
+    },
     "homeSlot": "WM:93",
     "awaySlot": "WM:94"
   },
@@ -2284,5 +2292,27 @@
     "koScore": null,
     "homeSlot": "WM:95",
     "awaySlot": "WM:96"
+  },
+  {
+    "fixtureId": "1585131",
+    "stage": "SF",
+    "matchday": null,
+    "kickoff": "2026-07-14T19:00:00.000Z",
+    "status": "scheduled",
+    "homeTeam": "France",
+    "awayTeam": "Spain",
+    "homeTeamId": 2,
+    "awayTeamId": 9,
+    "homeScore": null,
+    "awayScore": null,
+    "elapsed": null,
+    "venue": {
+      "name": null,
+      "city": null,
+      "country": null
+    },
+    "koScore": null,
+    "homeSlot": "WM:97",
+    "awaySlot": "WM:98"
   }
 ]

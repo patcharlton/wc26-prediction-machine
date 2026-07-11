@@ -1,22 +1,22 @@
 {
   "totals": {
-    "completed": 97,
-    "machineCorrect": 65,
-    "marketCorrect": 67,
+    "completed": 98,
+    "machineCorrect": 66,
+    "marketCorrect": 68,
     "exactScoreHits": 12
   },
   "rates": {
-    "machineOutcomeAccuracy": 0.67,
-    "marketOutcomeAccuracy": 0.691,
-    "exactScoreAccuracy": 0.124
+    "machineOutcomeAccuracy": 0.673,
+    "marketOutcomeAccuracy": 0.694,
+    "exactScoreAccuracy": 0.122
   },
   "brier": {
-    "machineAvg": 0.478,
-    "marketAvg": 0.465
+    "machineAvg": 0.475,
+    "marketAvg": 0.463
   },
   "headToHead": {
     "machineLead": 0,
-    "level": 95,
+    "level": 96,
     "marketLead": 2,
     "verdict": "market leading"
   },
@@ -46,12 +46,12 @@
       "marketBrierAvg": 0.49
     },
     "QF": {
-      "completed": 1,
-      "machineCorrect": 1,
-      "marketCorrect": 1,
+      "completed": 2,
+      "machineCorrect": 2,
+      "marketCorrect": 2,
       "exactScoreHits": 0,
-      "machineBrierAvg": 0.281,
-      "marketBrierAvg": 0.245
+      "machineBrierAvg": 0.262,
+      "marketBrierAvg": 0.251
     },
     "SF": {
       "completed": 0,
@@ -96,5 +96,5 @@
       "marketBrierAvg": 0.41
     }
   },
-  "lastUpdatedAt": "2026-07-10T20:57:15.446Z"
+  "lastUpdatedAt": "2026-07-11T02:07:36.398Z"
 }

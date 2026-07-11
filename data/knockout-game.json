@@ -4205,8 +4205,21 @@
       "lockedAt": "2026-07-10T18:16:18.299Z",
       "locked": true,
       "webSearchUsed": true,
-      "actual": null,
-      "scored": null
+      "actual": {
+        "rt": {
+          "home": 2,
+          "away": 1
+        },
+        "et": null,
+        "pens": null,
+        "advanced": "home"
+      },
+      "scored": {
+        "p1": 1,
+        "p2": 1,
+        "p3": 0,
+        "total": 2
+      }
     },
     {
       "fixtureId": "1581037",
@@ -4486,23 +4499,23 @@
     }
   ],
   "summary": {
-    "matchesScored": 25,
-    "machinePoints": 51,
-    "maxPoints": 175,
+    "matchesScored": 26,
+    "machinePoints": 53,
+    "maxPoints": 182,
     "expectedTotal": 52.26,
-    "lastUpdatedAt": "2026-07-10T20:57:15.446Z",
+    "lastUpdatedAt": "2026-07-11T02:07:36.398Z",
     "calibration": {
       "expected": {
-        "p1": 17.43,
-        "p2": 22.64,
-        "p3": 6.61,
-        "total": 46.68
+        "p1": 18.11,
+        "p2": 23.66,
+        "p3": 6.88,
+        "total": 48.65
       },
       "realised": {
-        "p1": 20,
-        "p2": 25,
+        "p1": 21,
+        "p2": 26,
         "p3": 6,
-        "total": 51
+        "total": 53
       }
     }
   }
