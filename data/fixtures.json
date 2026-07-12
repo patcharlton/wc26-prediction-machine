@@ -2254,20 +2254,31 @@
     "stage": "QF",
     "matchday": null,
     "kickoff": "2026-07-11T21:00:00.000Z",
-    "status": "live",
+    "status": "finished",
     "homeTeam": "Norway",
     "awayTeam": "England",
     "homeTeamId": 1090,
     "awayTeamId": 10,
     "homeScore": 1,
     "awayScore": 2,
-    "elapsed": 118,
+    "elapsed": 120,
     "venue": {
       "name": "Hard Rock Stadium",
       "city": "Miami",
       "country": null
     },
-    "koScore": null,
+    "koScore": {
+      "rt": {
+        "home": 1,
+        "away": 1
+      },
+      "et": {
+        "home": 1,
+        "away": 2
+      },
+      "pens": null,
+      "advanced": "away"
+    },
     "homeSlot": "WM:91",
     "awaySlot": "WM:92"
   },
@@ -2283,7 +2294,7 @@
     "awayTeamId": 15,
     "homeScore": 1,
     "awayScore": 0,
-    "elapsed": 50,
+    "elapsed": 51,
     "venue": {
       "name": "Arrowhead Stadium",
       "city": "Kansas City",

@@ -1863,22 +1863,22 @@
   },
   {
     "fixtureId": "1581037",
-    "status": "live",
+    "status": "finished",
     "kickoff": "2026-07-11T21:00:00.000Z",
     "stage": "QF",
     "homeTeam": "Norway",
     "awayTeam": "England",
     "actualScore": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 2
     },
-    "actualOutcome": null,
-    "machineOutcomeHit": null,
-    "marketOutcomeHit": null,
-    "exactScoreHit": null,
-    "machineBrierScore": null,
-    "marketBrierScore": null,
-    "resolvedAt": null
+    "actualOutcome": "awayWin",
+    "machineOutcomeHit": true,
+    "marketOutcomeHit": true,
+    "exactScoreHit": true,
+    "machineBrierScore": 0.36,
+    "marketBrierScore": 0.387,
+    "resolvedAt": "2026-07-12T02:11:46.120Z"
   },
   {
     "fixtureId": "1582681",
