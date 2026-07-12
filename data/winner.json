@@ -1,36 +1,28 @@
 {
   "champion": "France",
-  "runnerUp": "England",
+  "runnerUp": "Argentina",
   "darkHorse": "Norway",
-  "confidence": "Medium-High",
+  "confidence": "Medium",
   "contenders": [
     {
       "team": "France",
       "prob": 0.4
     },
     {
-      "team": "Spain",
+      "team": "Argentina",
       "prob": 0.24
     },
     {
-      "team": "Argentina",
-      "prob": 0.16
+      "team": "Spain",
+      "prob": 0.22
     },
     {
       "team": "England",
-      "prob": 0.14
-    },
-    {
-      "team": "Norway",
-      "prob": 0.05
-    },
-    {
-      "team": "Switzerland",
-      "prob": 0.02
+      "prob": 0.2
     }
   ],
-  "reasoning": "France are the clear market and model favorite (around +150), already booked into the semifinals as the only side to win all five matches in normal time while outscoring opponents 16-2 behind Mbappé, Dembélé and Olise. Their sternest remaining threat is a semifinal against Spain, who are unbeaten in 36 games and boast a record World Cup clean-sheet streak, so that tie effectively functions as an early final on the tougher half of the draw. The opposite bracket is weaker and more open: England edged Mexico at altitude and rely on Kane and Bellingham, while defending champions Argentina have looked ragged, needing dramatic comebacks against Cape Verde and Egypt with an aging squad. Norway are the live outsider — Haaland is in devastating form after knocking out Brazil, and they sit on the softer side of the bracket with all the pressure on their opponents.",
+  "reasoning": "France are the clear market and performance leader, having reached three straight semifinals while outscoring opponents 16-2 and clearing every knockout tie without conceding, with Mbappé, Dembélé and Olise all in scoring form. They face Spain in a Dallas semifinal, so one elite side is eliminated before the final, leaving Argentina vs England on the other half; I favor the resilient, tournament-tested Argentina despite two nervy knockout wins over Egypt and Switzerland. Spain's balanced possession game and England's improved form (a gutsy 3-2 win at altitude in Mexico City) make both live threats to flip this pick. Norway is the dark horse: Haaland is on fire and they already dumped out Brazil, but they must get past England to matter. Confidence is Medium because the four remaining sides are tightly priced and knockout football at neutral, sometimes hot venues adds volatility.",
   "basis": "knockout stage",
   "modelVersion": "claude-opus-4-8",
-  "updatedAt": "2026-07-11T07:42:12.573Z"
+  "updatedAt": "2026-07-12T08:02:36.961Z"
 }

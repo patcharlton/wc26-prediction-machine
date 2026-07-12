@@ -4520,28 +4520,44 @@
       "lockedAt": "2026-07-11T23:42:00.883Z",
       "locked": true,
       "webSearchUsed": true,
-      "actual": null,
-      "scored": null
+      "actual": {
+        "rt": {
+          "home": 1,
+          "away": 1
+        },
+        "et": {
+          "home": 3,
+          "away": 1
+        },
+        "pens": null,
+        "advanced": "home"
+      },
+      "scored": {
+        "p1": 1,
+        "p2": 0,
+        "p3": 0,
+        "total": 1
+      }
     }
   ],
   "summary": {
-    "matchesScored": 27,
-    "machinePoints": 54,
-    "maxPoints": 189,
+    "matchesScored": 28,
+    "machinePoints": 55,
+    "maxPoints": 196,
     "expectedTotal": 52.21,
-    "lastUpdatedAt": "2026-07-12T03:42:41.884Z",
+    "lastUpdatedAt": "2026-07-12T08:02:36.961Z",
     "calibration": {
       "expected": {
-        "p1": 18.78,
-        "p2": 24.36,
-        "p3": 7.12,
-        "total": 50.26
+        "p1": 19.55,
+        "p2": 25.3,
+        "p3": 7.35,
+        "total": 52.21
       },
       "realised": {
-        "p1": 22,
+        "p1": 23,
         "p2": 26,
         "p3": 6,
-        "total": 54
+        "total": 55
       }
     }
   }
