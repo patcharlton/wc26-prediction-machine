@@ -4538,14 +4538,147 @@
         "p3": 0,
         "total": 1
       }
+    },
+    {
+      "fixtureId": "1585131",
+      "stage": "SF",
+      "homeTeam": "France",
+      "awayTeam": "Spain",
+      "kickoff": "2026-07-14T19:00:00.000Z",
+      "pred1Advance": "home",
+      "pred1Team": "France",
+      "pred2Reg": {
+        "home": 1,
+        "away": 0
+      },
+      "pred3Et": {
+        "home": 1,
+        "away": 1
+      },
+      "ev": {
+        "p1": 0.55,
+        "p2": 0.74,
+        "p3": 0.318,
+        "total": 1.608
+      },
+      "pEtUsed": 0.337,
+      "distributions": {
+        "advance": {
+          "home": 0.55,
+          "away": 0.45
+        },
+        "regulation": [
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.15976331360946744
+          },
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.14792899408284022
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.1301775147928994
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.11834319526627218
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.11242603550295857
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.10059171597633136
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.08284023668639053
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.05917159763313609
+          },
+          {
+            "home": 0,
+            "away": 2,
+            "prob": 0.047337278106508875
+          },
+          {
+            "home": 3,
+            "away": 1,
+            "prob": 0.04142011834319526
+          }
+        ],
+        "extraTimeProb": 0.3,
+        "extraTime": [
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.21839080459770113
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.17241379310344826
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.14942528735632182
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.1379310344827586
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.11494252873563218
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.08045977011494253
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.0689655172413793
+          },
+          {
+            "home": 3,
+            "away": 2,
+            "prob": 0.05747126436781609
+          }
+        ]
+      },
+      "reasoning": "Two unbeaten pre-tournament favorites in a near coin-flip; the market makes France a slight favorite (to advance ~-148) with Mbappé playing through a minor ankle knock, while Spain's midfield control via Rodri/Pedri and Tchouameni's fitness doubt narrow the gap. Both defenses are elite and the total is priced right at 2.5, so low-scoring lines and draws carry heavy mass. Spain's repeated late-goal escapes and the tight nature of recent meetings make extra time a real possibility (~30%).",
+      "modelVersion": "claude-opus-4-8",
+      "generatedAt": "2026-07-13T02:13:16.101Z",
+      "lockedAt": null,
+      "locked": false,
+      "webSearchUsed": true,
+      "actual": null,
+      "scored": null
     }
   ],
   "summary": {
     "matchesScored": 28,
     "machinePoints": 55,
     "maxPoints": 196,
-    "expectedTotal": 52.21,
-    "lastUpdatedAt": "2026-07-12T18:58:26.428Z",
+    "expectedTotal": 53.82,
+    "lastUpdatedAt": "2026-07-13T02:13:16.101Z",
     "calibration": {
       "expected": {
         "p1": 19.55,

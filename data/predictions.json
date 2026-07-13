@@ -2498,5 +2498,30 @@
     "generatedAt": "2026-07-11T23:42:00.883Z",
     "locked": true,
     "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1585131",
+    "probs": {
+      "homeWin": 0.4,
+      "draw": 0.29,
+      "awayWin": 0.31
+    },
+    "scoreline": {
+      "home": 1,
+      "away": 1
+    },
+    "confidence": "Low",
+    "reasoning": "Both fitness worries for France are resolved — L'Equipe reports Mbappe and Tchouameni will be available, so France keeps its full attack and its midfield anchor for the Rodri-Pedri battle. Spain owns the recent head-to-head (Euro 2024 and Nations League wins) and is unbeaten in 37 with a historically stingy defense, but they lack their group-stage attacking spark with Nico Williams and Pino out and Yamal still short of his best. France's transition threat and depth give them a slim edge on a neutral Dallas surface, but the midfield tilts Spanish, so I shade slightly above the market on the draw and land on a tight 1-1 that could easily go to extra time.",
+    "market": {
+      "homeWin": 0.409,
+      "draw": 0.296,
+      "awayWin": 0.296,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-opus-4-8",
+    "generatedAt": "2026-07-13T02:13:16.101Z",
+    "locked": false,
+    "webSearchUsed": true
   }
 ]
