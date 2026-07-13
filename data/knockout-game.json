@@ -4671,14 +4671,162 @@
       "webSearchUsed": true,
       "actual": null,
       "scored": null
+    },
+    {
+      "fixtureId": "1586077",
+      "stage": "SF",
+      "homeTeam": "England",
+      "awayTeam": "Argentina",
+      "kickoff": "2026-07-15T19:00:00.000Z",
+      "pred1Advance": "home",
+      "pred1Team": "England",
+      "pred2Reg": {
+        "home": 1,
+        "away": 1
+      },
+      "pred3Et": {
+        "home": 1,
+        "away": 1
+      },
+      "ev": {
+        "p1": 0.505,
+        "p2": 0.645,
+        "p3": 0.265,
+        "total": 1.415
+      },
+      "pEtUsed": 0.334,
+      "distributions": {
+        "advance": {
+          "home": 0.505,
+          "away": 0.495
+        },
+        "regulation": [
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.1555299539170507
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.13248847926267282
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.12096774193548386
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.1152073732718894
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.10368663594470046
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.09216589861751152
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.08064516129032259
+          },
+          {
+            "home": 0,
+            "away": 2,
+            "prob": 0.06912442396313363
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.06336405529953917
+          },
+          {
+            "home": 3,
+            "away": 1,
+            "prob": 0.034562211981566816
+          },
+          {
+            "home": 1,
+            "away": 3,
+            "prob": 0.03225806451612903
+          }
+        ],
+        "extraTimeProb": 0.35,
+        "extraTime": [
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.18556701030927833
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.15463917525773194
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.1443298969072165
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.12371134020618556
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.11340206185567009
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.07216494845360825
+          },
+          {
+            "home": 0,
+            "away": 2,
+            "prob": 0.06701030927835051
+          },
+          {
+            "home": 3,
+            "away": 2,
+            "prob": 0.056701030927835044
+          },
+          {
+            "home": 2,
+            "away": 3,
+            "prob": 0.05154639175257732
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.03092783505154639
+          }
+        ]
+      },
+      "reasoning": "This is a genuine coin-flip semifinal in Atlanta, with a pundit calling it 50-50 and de-vigged odds near even; both squads are essentially fully fit, with Messi cleared after an eye knock and England's Rice/Saka expected to start. Draws carry heavy mass because both teams have needed extra time repeatedly this knockout stage (Argentina in the R32 and QF, England in the QF) and neither has been dominant. I lean England fractionally on advance due to home billing, fresher legs and Bellingham's form, while Argentina's tournament pedigree and Messi keep it razor-thin. Extra time is elevated (~35%)",
+      "modelVersion": "claude-opus-4-8",
+      "generatedAt": "2026-07-13T19:17:46.788Z",
+      "lockedAt": null,
+      "locked": false,
+      "webSearchUsed": true,
+      "actual": null,
+      "scored": null
     }
   ],
   "summary": {
     "matchesScored": 28,
     "machinePoints": 55,
     "maxPoints": 196,
-    "expectedTotal": 53.82,
-    "lastUpdatedAt": "2026-07-13T14:21:49.853Z",
+    "expectedTotal": 55.23,
+    "lastUpdatedAt": "2026-07-13T19:17:46.788Z",
     "calibration": {
       "expected": {
         "p1": 19.55,

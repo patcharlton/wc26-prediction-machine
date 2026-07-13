@@ -2523,5 +2523,30 @@
     "generatedAt": "2026-07-13T02:13:16.101Z",
     "locked": false,
     "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1586077",
+    "probs": {
+      "homeWin": 0.34,
+      "draw": 0.33,
+      "awayWin": 0.33
+    },
+    "scoreline": {
+      "home": 1,
+      "away": 1
+    },
+    "confidence": "Low",
+    "reasoning": "This is a near coin-flip between two in-form heavyweights, both of whom needed extra time to win gruelling quarterfinals. Argentina have a cleaner bill of health with Messi fit and Lautaro escaping suspension, while England lost Henderson and carry defensive doubts (Konsa) but benefit from Rice and Reece James returning plus a day's extra rest. Argentina's threat in behind England's high line is a real edge, but England's freshness and squad depth balance it out. Expect a tight, cagey knockout tie that could well go to extra time, so a 1-1 draw is the single most likely result.",
+    "market": {
+      "homeWin": 0.357,
+      "draw": 0.325,
+      "awayWin": 0.318,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-opus-4-8",
+    "generatedAt": "2026-07-13T19:17:46.788Z",
+    "locked": false,
+    "webSearchUsed": true
   }
 ]
