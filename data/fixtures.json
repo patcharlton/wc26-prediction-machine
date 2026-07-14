@@ -2326,8 +2326,8 @@
     "homeTeamId": 2,
     "awayTeamId": 9,
     "homeScore": 0,
-    "awayScore": 1,
-    "elapsed": 55,
+    "awayScore": 2,
+    "elapsed": 60,
     "venue": {
       "name": null,
       "city": null,
