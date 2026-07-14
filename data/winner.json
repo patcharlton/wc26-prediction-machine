@@ -1,6 +1,6 @@
 {
   "champion": "France",
-  "runnerUp": "Spain",
+  "runnerUp": "England",
   "darkHorse": "England",
   "confidence": "Medium-High",
   "contenders": [
@@ -9,20 +9,20 @@
       "prob": 0.4
     },
     {
+      "team": "England",
+      "prob": 0.24
+    },
+    {
       "team": "Spain",
       "prob": 0.22
     },
     {
       "team": "Argentina",
-      "prob": 0.19
-    },
-    {
-      "team": "England",
-      "prob": 0.18
+      "prob": 0.16
     }
   ],
-  "reasoning": "France are the clear market favorites, having moved to roughly +135/+150 after reaching a third straight semifinal, and they've been utterly dominant, outscoring opponents 16-2 without conceding in any knockout match while Mbappé (8 goals) and Dembélé (5) tear it up. Spain are arguably the tournament's best pure footballing side (outscoring rivals 11-1) but must beat France in the semifinal, and if they advance the draw makes them a strong runner-up bet. On the other half of the bracket, Argentina's defending-champion pedigree and Messi/Martínez experience are real, but back-to-back nervy comeback wins over Egypt and 10-man Switzerland exposed vulnerabilities. England, surging after a gutsy 3-2 win at the Azteca and Bellingham's knockout-stage rampage, are a live outsider and slight favorite over Argentina in their semi. The main threats to France are Spain's control in the semifinal and a rejuvenated England should the bracket break their way.",
+  "reasoning": "France are the clear market favorites at around +140-165 after reaching a third straight World Cup semifinal without conceding a goal in the knockout rounds, outscoring opponents 16-2 behind the tournament's most fearsome attacking trio in Mbappé, Dembélé and Olise. Their semifinal against Spain (the tournament's stingiest defense, having conceded just one goal in five matches) is effectively the true final, as the winner becomes the overwhelming favorite to lift the trophy. On the other side, England have surged up the board after a Bellingham-inspired extra-time win over Norway and now face a defending champion Argentina side that has looked shaky, relying heavily on Messi and surviving repeated late scares against weaker opponents.",
   "basis": "knockout stage",
   "modelVersion": "claude-opus-4-8",
-  "updatedAt": "2026-07-13T08:52:38.746Z"
+  "updatedAt": "2026-07-14T07:49:24.504Z"
 }
