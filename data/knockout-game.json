@@ -4548,75 +4548,75 @@
       "pred1Advance": "home",
       "pred1Team": "France",
       "pred2Reg": {
-        "home": 1,
-        "away": 0
+        "home": 2,
+        "away": 1
       },
       "pred3Et": {
         "home": 1,
         "away": 1
       },
       "ev": {
-        "p1": 0.55,
-        "p2": 0.74,
-        "p3": 0.318,
-        "total": 1.608
+        "p1": 0.575,
+        "p2": 0.702,
+        "p3": 0.313,
+        "total": 1.59
       },
-      "pEtUsed": 0.337,
+      "pEtUsed": 0.339,
       "distributions": {
         "advance": {
-          "home": 0.55,
-          "away": 0.45
+          "home": 0.575,
+          "away": 0.425
         },
         "regulation": [
           {
             "home": 1,
-            "away": 0,
-            "prob": 0.15976331360946744
+            "away": 1,
+            "prob": 0.16071428571428573
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.13690476190476192
           },
           {
             "home": 1,
-            "away": 1,
-            "prob": 0.14792899408284022
-          },
-          {
-            "home": 0,
             "away": 0,
-            "prob": 0.1301775147928994
-          },
-          {
-            "home": 2,
-            "away": 1,
-            "prob": 0.11834319526627218
-          },
-          {
-            "home": 0,
-            "away": 1,
-            "prob": 0.11242603550295857
+            "prob": 0.125
           },
           {
             "home": 2,
             "away": 0,
-            "prob": 0.10059171597633136
+            "prob": 0.10714285714285714
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.1011904761904762
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.08284023668639053
+            "prob": 0.08333333333333334
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.09523809523809525
           },
           {
             "home": 2,
             "away": 2,
-            "prob": 0.05917159763313609
-          },
-          {
-            "home": 0,
-            "away": 2,
-            "prob": 0.047337278106508875
+            "prob": 0.07738095238095238
           },
           {
             "home": 3,
             "away": 1,
-            "prob": 0.04142011834319526
+            "prob": 0.05952380952380953
+          },
+          {
+            "home": 0,
+            "away": 2,
+            "prob": 0.05357142857142857
           }
         ],
         "extraTimeProb": 0.3,
@@ -4624,50 +4624,50 @@
           {
             "home": 1,
             "away": 1,
-            "prob": 0.21839080459770113
-          },
-          {
-            "home": 0,
-            "away": 0,
-            "prob": 0.17241379310344826
+            "prob": 0.2247191011235955
           },
           {
             "home": 2,
             "away": 1,
-            "prob": 0.14942528735632182
+            "prob": 0.17977528089887637
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.1379310344827586
+            "prob": 0.14606741573033707
           },
           {
             "home": 2,
             "away": 2,
-            "prob": 0.11494252873563218
-          },
-          {
-            "home": 1,
-            "away": 0,
-            "prob": 0.08045977011494253
+            "prob": 0.13483146067415727
           },
           {
             "home": 0,
-            "away": 1,
-            "prob": 0.0689655172413793
+            "away": 0,
+            "prob": 0.11235955056179775
           },
           {
             "home": 3,
             "away": 2,
-            "prob": 0.05747126436781609
+            "prob": 0.07865168539325842
+          },
+          {
+            "home": 2,
+            "away": 3,
+            "prob": 0.06741573033707864
+          },
+          {
+            "home": 3,
+            "away": 1,
+            "prob": 0.056179775280898875
           }
         ]
       },
-      "reasoning": "Two unbeaten pre-tournament favorites in a near coin-flip; the market makes France a slight favorite (to advance ~-148) with Mbappé playing through a minor ankle knock, while Spain's midfield control via Rodri/Pedri and Tchouameni's fitness doubt narrow the gap. Both defenses are elite and the total is priced right at 2.5, so low-scoring lines and draws carry heavy mass. Spain's repeated late-goal escapes and the tight nature of recent meetings make extra time a real possibility (~30%).",
+      "reasoning": "France enter in superb form with a lethal front three (Mbappe, Dembele, Olise) and are slight favorites at roughly -140 to advance, though key midfielders Tchouameni and Kone are only just returning from injury. Spain are European champions, unbeaten in 36 games, but their attack has been stagnant, relying on late super-sub Merino goals in the knockouts. Given the sides' recent high-scoring history and both attacks' quality, over 2.5 goals and both teams scoring is favored, so draws carry meaningful mass while lopsided low scores are less likely. Knockout tension keeps a realistic ~30% chance ",
       "modelVersion": "claude-opus-4-8",
-      "generatedAt": "2026-07-13T02:13:16.101Z",
-      "lockedAt": null,
-      "locked": false,
+      "generatedAt": "2026-07-14T17:01:19.287Z",
+      "lockedAt": "2026-07-14T17:01:19.287Z",
+      "locked": true,
       "webSearchUsed": true,
       "actual": null,
       "scored": null
@@ -4825,8 +4825,8 @@
     "matchesScored": 28,
     "machinePoints": 55,
     "maxPoints": 196,
-    "expectedTotal": 55.23,
-    "lastUpdatedAt": "2026-07-14T13:22:08.779Z",
+    "expectedTotal": 55.21,
+    "lastUpdatedAt": "2026-07-14T17:01:19.287Z",
     "calibration": {
       "expected": {
         "p1": 19.55,
