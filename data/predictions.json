@@ -2527,26 +2527,26 @@
   {
     "fixtureId": "1586077",
     "probs": {
-      "homeWin": 0.34,
+      "homeWin": 0.35,
       "draw": 0.33,
-      "awayWin": 0.33
+      "awayWin": 0.32
     },
     "scoreline": {
       "home": 1,
       "away": 1
     },
     "confidence": "Low",
-    "reasoning": "This is a near coin-flip between two in-form heavyweights, both of whom needed extra time to win gruelling quarterfinals. Argentina have a cleaner bill of health with Messi fit and Lautaro escaping suspension, while England lost Henderson and carry defensive doubts (Konsa) but benefit from Rice and Reece James returning plus a day's extra rest. Argentina's threat in behind England's high line is a real edge, but England's freshness and squad depth balance it out. Expect a tight, cagey knockout tie that could well go to extra time, so a 1-1 draw is the single most likely result.",
+    "reasoning": "This is essentially a coin-flip between two in-form heavyweights, both arriving near full strength: England have only Quansah (suspended) and Henderson (broken wrist) out, with Rice recovered, while Argentina keep a fit Messi who has been directly involved in most of their goals. Neither shows a decisive edge, and Atlanta's sea-level indoor venue neutralizes any altitude or heat factor, leaving a small home-crowd nudge for England against Argentina's champion pedigree. Cautious knockout football between elite defenses makes a draw (and likely extra time) genuinely probable, so I stay very close to the market. Most likely a tight 1-1 that could be settled beyond 90 minutes.",
     "market": {
-      "homeWin": 0.357,
-      "draw": 0.325,
-      "awayWin": 0.318,
+      "homeWin": 0.354,
+      "draw": 0.327,
+      "awayWin": 0.32,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-07-15T17:03:40.843Z",
     "modelVersion": "claude-opus-4-8",
-    "generatedAt": "2026-07-13T19:17:46.788Z",
-    "locked": false,
+    "generatedAt": "2026-07-15T17:03:40.843Z",
+    "locked": true,
     "webSearchUsed": true
   }
 ]

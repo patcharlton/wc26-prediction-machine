@@ -4695,140 +4695,125 @@
       "pred1Team": "England",
       "pred2Reg": {
         "home": 1,
-        "away": 1
+        "away": 0
       },
       "pred3Et": {
         "home": 1,
         "away": 1
       },
       "ev": {
-        "p1": 0.505,
-        "p2": 0.645,
-        "p3": 0.265,
-        "total": 1.415
+        "p1": 0.53,
+        "p2": 0.663,
+        "p3": 0.285,
+        "total": 1.477
       },
-      "pEtUsed": 0.334,
+      "pEtUsed": 0.325,
       "distributions": {
         "advance": {
-          "home": 0.505,
-          "away": 0.495
+          "home": 0.53,
+          "away": 0.47
         },
         "regulation": [
           {
             "home": 1,
             "away": 1,
-            "prob": 0.1555299539170507
+            "prob": 0.15976331360946747
           },
           {
             "home": 1,
             "away": 0,
-            "prob": 0.13248847926267282
+            "prob": 0.13609467455621302
           },
           {
             "home": 0,
             "away": 1,
-            "prob": 0.12096774193548386
-          },
-          {
-            "home": 0,
-            "away": 0,
-            "prob": 0.1152073732718894
+            "prob": 0.1183431952662722
           },
           {
             "home": 2,
             "away": 1,
-            "prob": 0.10368663594470046
+            "prob": 0.1183431952662722
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.09216589861751152
+            "prob": 0.10059171597633138
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.10059171597633138
           },
           {
             "home": 2,
             "away": 0,
-            "prob": 0.08064516129032259
+            "prob": 0.08875739644970414
           },
           {
             "home": 0,
             "away": 2,
-            "prob": 0.06912442396313363
+            "prob": 0.0650887573964497
           },
           {
             "home": 2,
             "away": 2,
-            "prob": 0.06336405529953917
+            "prob": 0.0650887573964497
           },
           {
             "home": 3,
             "away": 1,
-            "prob": 0.034562211981566816
-          },
-          {
-            "home": 1,
-            "away": 3,
-            "prob": 0.03225806451612903
+            "prob": 0.04733727810650888
           }
         ],
-        "extraTimeProb": 0.35,
+        "extraTimeProb": 0.34,
         "extraTime": [
           {
             "home": 1,
             "away": 1,
-            "prob": 0.18556701030927833
+            "prob": 0.20833333333333334
           },
           {
             "home": 2,
             "away": 1,
-            "prob": 0.15463917525773194
+            "prob": 0.16666666666666669
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.1443298969072165
+            "prob": 0.15625
           },
           {
             "home": 0,
             "away": 0,
-            "prob": 0.12371134020618556
+            "prob": 0.13541666666666669
           },
           {
             "home": 2,
             "away": 2,
-            "prob": 0.11340206185567009
-          },
-          {
-            "home": 2,
-            "away": 0,
-            "prob": 0.07216494845360825
-          },
-          {
-            "home": 0,
-            "away": 2,
-            "prob": 0.06701030927835051
-          },
-          {
-            "home": 3,
-            "away": 2,
-            "prob": 0.056701030927835044
-          },
-          {
-            "home": 2,
-            "away": 3,
-            "prob": 0.05154639175257732
+            "prob": 0.11458333333333334
           },
           {
             "home": 1,
             "away": 0,
-            "prob": 0.03092783505154639
+            "prob": 0.08333333333333334
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.08333333333333334
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.052083333333333336
           }
         ]
       },
-      "reasoning": "This is a genuine coin-flip semifinal in Atlanta, with a pundit calling it 50-50 and de-vigged odds near even; both squads are essentially fully fit, with Messi cleared after an eye knock and England's Rice/Saka expected to start. Draws carry heavy mass because both teams have needed extra time repeatedly this knockout stage (Argentina in the R32 and QF, England in the QF) and neither has been dominant. I lean England fractionally on advance due to home billing, fresher legs and Bellingham's form, while Argentina's tournament pedigree and Messi keep it razor-thin. Extra time is elevated (~35%)",
+      "reasoning": "The de-vigged market is essentially a coin flip, with England very slightly favored to advance (roughly -125 to -132) partly due to a full, in-form squad minus only suspended Quansah, while Messi is confirmed fit for Argentina. Both attacks are potent but both defenses have leaked all tournament, yet the clearest market lean is Under 2.5 with tight, single-moment scorelines expected, so low-scoring lines and draws carry heavy mass. Both teams needed extra time in their quarterfinals and semis tend to tighten, justifying an elevated ~34% chance of extra time. If it reaches ET, expect low-scorin",
       "modelVersion": "claude-opus-4-8",
-      "generatedAt": "2026-07-13T19:17:46.788Z",
-      "lockedAt": null,
-      "locked": false,
+      "generatedAt": "2026-07-15T17:03:40.843Z",
+      "lockedAt": "2026-07-15T17:03:40.843Z",
+      "locked": true,
       "webSearchUsed": true,
       "actual": null,
       "scored": null
@@ -4838,8 +4823,8 @@
     "matchesScored": 29,
     "machinePoints": 55,
     "maxPoints": 203,
-    "expectedTotal": 55.21,
-    "lastUpdatedAt": "2026-07-15T13:24:47.716Z",
+    "expectedTotal": 55.28,
+    "lastUpdatedAt": "2026-07-15T17:03:40.843Z",
     "calibration": {
       "expected": {
         "p1": 20.13,
