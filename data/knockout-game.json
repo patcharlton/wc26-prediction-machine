@@ -4839,7 +4839,7 @@
     "machinePoints": 55,
     "maxPoints": 203,
     "expectedTotal": 55.21,
-    "lastUpdatedAt": "2026-07-15T07:52:37.059Z",
+    "lastUpdatedAt": "2026-07-15T07:58:32.632Z",
     "calibration": {
       "expected": {
         "p1": 20.13,
