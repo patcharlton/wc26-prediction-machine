@@ -2355,9 +2355,9 @@
     "awayTeam": "Argentina",
     "homeTeamId": 10,
     "awayTeamId": 26,
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 0,
-    "elapsed": 51,
+    "elapsed": 56,
     "venue": {
       "name": "Mercedes-Benz Stadium",
       "city": "Atlanta",
