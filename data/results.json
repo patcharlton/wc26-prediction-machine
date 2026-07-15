@@ -1901,22 +1901,22 @@
   },
   {
     "fixtureId": "1585131",
-    "status": "live",
+    "status": "finished",
     "kickoff": "2026-07-14T19:00:00.000Z",
     "stage": "SF",
     "homeTeam": "France",
     "awayTeam": "Spain",
     "actualScore": {
-      "home": null,
-      "away": null
+      "home": 0,
+      "away": 2
     },
-    "actualOutcome": null,
-    "machineOutcomeHit": null,
-    "marketOutcomeHit": null,
-    "exactScoreHit": null,
-    "machineBrierScore": null,
-    "marketBrierScore": null,
-    "resolvedAt": null
+    "actualOutcome": "awayWin",
+    "machineOutcomeHit": false,
+    "marketOutcomeHit": false,
+    "exactScoreHit": false,
+    "machineBrierScore": 0.74,
+    "marketBrierScore": 0.745,
+    "resolvedAt": "2026-07-15T01:55:16.452Z"
   },
   {
     "fixtureId": "1586077",
