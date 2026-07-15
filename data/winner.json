@@ -1,28 +1,24 @@
 {
-  "champion": "France",
+  "champion": "Spain",
   "runnerUp": "England",
-  "darkHorse": "England",
+  "darkHorse": "Argentina",
   "confidence": "Medium-High",
   "contenders": [
     {
-      "team": "France",
-      "prob": 0.4
+      "team": "Spain",
+      "prob": 0.55
     },
     {
       "team": "England",
       "prob": 0.24
     },
     {
-      "team": "Spain",
-      "prob": 0.22
-    },
-    {
       "team": "Argentina",
-      "prob": 0.16
+      "prob": 0.21
     }
   ],
-  "reasoning": "France are the clear market favorites at around +140-165 after reaching a third straight World Cup semifinal without conceding a goal in the knockout rounds, outscoring opponents 16-2 behind the tournament's most fearsome attacking trio in Mbappé, Dembélé and Olise. Their semifinal against Spain (the tournament's stingiest defense, having conceded just one goal in five matches) is effectively the true final, as the winner becomes the overwhelming favorite to lift the trophy. On the other side, England have surged up the board after a Bellingham-inspired extra-time win over Norway and now face a defending champion Argentina side that has looked shaky, relying heavily on Messi and surviving repeated late scares against weaker opponents.",
+  "reasoning": "Spain have already reached the final and are odds-on favourites after a dominant 2-0 win over France, with ESPN showing them at -156 to lift the trophy and riding a 37-game unbeaten streak that ties the longest in international football history. Their midfield control and tournament-best defence have carried them through comfortably, and they now await the winner of England vs Argentina, whom bookmakers price as roughly even with England the slimmest of favourites (around -125). I lean England as the likelier finalist and runner-up given their more well-rounded, resilient squad, Kane and Bellingham both on six goals, and Argentina's notably soft route plus a defence exposed at the fullbacks; several ESPN writers also see Messi's side running out of gas. Argentina remain the live dark horse: a 39-year-old Messi in the form of his life (a tournament-leading eight goals) plus Emiliano Martinez's penalty pedigree make them lethal in a one-off knockout.",
   "basis": "knockout stage",
   "modelVersion": "claude-opus-4-8",
-  "updatedAt": "2026-07-14T07:49:24.504Z"
+  "updatedAt": "2026-07-15T07:52:37.059Z"
 }
