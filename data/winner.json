@@ -1,24 +1,20 @@
 {
   "champion": "Spain",
-  "runnerUp": "England",
-  "darkHorse": "Argentina",
-  "confidence": "Medium-High",
+  "runnerUp": "Argentina",
+  "darkHorse": "Morocco",
+  "confidence": "High",
   "contenders": [
     {
       "team": "Spain",
-      "prob": 0.55
-    },
-    {
-      "team": "England",
-      "prob": 0.24
+      "prob": 0.62
     },
     {
       "team": "Argentina",
-      "prob": 0.21
+      "prob": 0.38
     }
   ],
-  "reasoning": "Spain have already reached the final and are odds-on favourites after a dominant 2-0 win over France, with ESPN showing them at -156 to lift the trophy and riding a 37-game unbeaten streak that ties the longest in international football history. Their midfield control and tournament-best defence have carried them through comfortably, and they now await the winner of England vs Argentina, whom bookmakers price as roughly even with England the slimmest of favourites (around -125). I lean England as the likelier finalist and runner-up given their more well-rounded, resilient squad, Kane and Bellingham both on six goals, and Argentina's notably soft route plus a defence exposed at the fullbacks; several ESPN writers also see Messi's side running out of gas. Argentina remain the live dark horse: a 39-year-old Messi in the form of his life (a tournament-leading eight goals) plus Emiliano Martinez's penalty pedigree make them lethal in a one-off knockout.",
+  "reasoning": "The tournament has reached its final, and the current market has Spain as clear favorite over defending champion Argentina. Spain opened as roughly -164 favorites to lift the trophy, with Argentina installed as a +134 underdog, and La Roja rode a record-tying 37-match unbeaten streak into the final after dispatching France 2-0. Spain's edge comes from elite midfield control, tactical precision and squad depth, while Argentina's threat is knockout pedigree and Lionel Messi, who assisted both goals in the comeback semifinal win over England. All three co-hosts were eliminated by the round of 16, so home advantage is no longer a live factor; Morocco is listed only as a nominal dark horse since no genuine outsiders remain with just two teams left.",
   "basis": "knockout stage",
   "modelVersion": "claude-opus-4-8",
-  "updatedAt": "2026-07-15T07:52:37.059Z"
+  "updatedAt": "2026-07-16T07:58:26.148Z"
 }
