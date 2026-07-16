@@ -1920,10 +1920,48 @@
   },
   {
     "fixtureId": "1586077",
-    "status": "live",
+    "status": "finished",
     "kickoff": "2026-07-15T19:00:00.000Z",
     "stage": "SF",
     "homeTeam": "England",
+    "awayTeam": "Argentina",
+    "actualScore": {
+      "home": 1,
+      "away": 2
+    },
+    "actualOutcome": "awayWin",
+    "machineOutcomeHit": false,
+    "marketOutcomeHit": false,
+    "exactScoreHit": false,
+    "machineBrierScore": 0.694,
+    "marketBrierScore": 0.695,
+    "resolvedAt": "2026-07-16T02:06:06.303Z"
+  },
+  {
+    "fixtureId": "1591865",
+    "status": "scheduled",
+    "kickoff": "2026-07-18T21:00:00.000Z",
+    "stage": "Final",
+    "homeTeam": "France",
+    "awayTeam": "England",
+    "actualScore": {
+      "home": null,
+      "away": null
+    },
+    "actualOutcome": null,
+    "machineOutcomeHit": null,
+    "marketOutcomeHit": null,
+    "exactScoreHit": null,
+    "machineBrierScore": null,
+    "marketBrierScore": null,
+    "resolvedAt": null
+  },
+  {
+    "fixtureId": "1591866",
+    "status": "scheduled",
+    "kickoff": "2026-07-19T19:00:00.000Z",
+    "stage": "Final",
+    "homeTeam": "Spain",
     "awayTeam": "Argentina",
     "actualScore": {
       "home": null,

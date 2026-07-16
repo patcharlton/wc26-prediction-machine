@@ -2350,7 +2350,7 @@
     "stage": "SF",
     "matchday": null,
     "kickoff": "2026-07-15T19:00:00.000Z",
-    "status": "live",
+    "status": "finished",
     "homeTeam": "England",
     "awayTeam": "Argentina",
     "homeTeamId": 10,
@@ -2363,8 +2363,60 @@
       "city": "Atlanta",
       "country": null
     },
-    "koScore": null,
+    "koScore": {
+      "rt": {
+        "home": 1,
+        "away": 2
+      },
+      "et": null,
+      "pens": null,
+      "advanced": "away"
+    },
     "homeSlot": "WM:99",
     "awaySlot": "WM:100"
+  },
+  {
+    "fixtureId": "1591865",
+    "stage": "Final",
+    "matchday": null,
+    "kickoff": "2026-07-18T21:00:00.000Z",
+    "status": "scheduled",
+    "homeTeam": "France",
+    "awayTeam": "England",
+    "homeTeamId": 2,
+    "awayTeamId": 10,
+    "homeScore": null,
+    "awayScore": null,
+    "elapsed": null,
+    "venue": {
+      "name": null,
+      "city": null,
+      "country": null
+    },
+    "koScore": null,
+    "homeSlot": "LM:101",
+    "awaySlot": "LM:102"
+  },
+  {
+    "fixtureId": "1591866",
+    "stage": "Final",
+    "matchday": null,
+    "kickoff": "2026-07-19T19:00:00.000Z",
+    "status": "scheduled",
+    "homeTeam": "Spain",
+    "awayTeam": "Argentina",
+    "homeTeamId": 9,
+    "awayTeamId": 26,
+    "homeScore": null,
+    "awayScore": null,
+    "elapsed": null,
+    "venue": {
+      "name": null,
+      "city": null,
+      "country": null
+    },
+    "koScore": null,
+    "homeSlot": "WM:101",
+    "awaySlot": "WM:102"
   }
 ]
