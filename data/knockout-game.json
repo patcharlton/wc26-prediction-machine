@@ -4830,14 +4830,167 @@
         "p3": 0,
         "total": 0
       }
+    },
+    {
+      "fixtureId": "1591865",
+      "stage": "Final",
+      "homeTeam": "France",
+      "awayTeam": "England",
+      "kickoff": "2026-07-18T21:00:00.000Z",
+      "pred1Advance": "home",
+      "pred1Team": "France",
+      "pred2Reg": {
+        "home": 2,
+        "away": 1
+      },
+      "pred3Et": {
+        "home": 2,
+        "away": 2
+      },
+      "ev": {
+        "p1": 0.555,
+        "p2": 0.693,
+        "p3": 0.233,
+        "total": 1.481
+      },
+      "pEtUsed": 0.31,
+      "distributions": {
+        "advance": {
+          "home": 0.555,
+          "away": 0.445
+        },
+        "regulation": [
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.1477024070021882
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.12582056892778995
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.11487964989059081
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.09846827133479212
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.08752735229759301
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.08533916849015317
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.08205689277899345
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.07658643326039388
+          },
+          {
+            "home": 3,
+            "away": 1,
+            "prob": 0.06017505470459519
+          },
+          {
+            "home": 0,
+            "away": 2,
+            "prob": 0.04923413566739606
+          },
+          {
+            "home": 3,
+            "away": 0,
+            "prob": 0.04157549234135668
+          },
+          {
+            "home": 1,
+            "away": 3,
+            "prob": 0.03063457330415755
+          }
+        ],
+        "extraTimeProb": 0.3,
+        "extraTime": [
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.1648351648351648
+          },
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.15384615384615383
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.14835164835164835
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.12087912087912087
+          },
+          {
+            "home": 3,
+            "away": 2,
+            "prob": 0.09890109890109888
+          },
+          {
+            "home": 2,
+            "away": 3,
+            "prob": 0.0824175824175824
+          },
+          {
+            "home": 3,
+            "away": 1,
+            "prob": 0.07692307692307691
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.06593406593406592
+          },
+          {
+            "home": 1,
+            "away": 3,
+            "prob": 0.04945054945054944
+          },
+          {
+            "home": 3,
+            "away": 3,
+            "prob": 0.03846153846153846
+          }
+        ]
+      },
+      "reasoning": "This is the World Cup 2026 bronze-medal match; France are modest favourites per the de-vigged market (0.493/0.243/0.264) despite losing Saliba to injury, while England may rest Kane and possibly Bellingham with a strong-ish XI. Both sides have leaky knockout defences (England kept no clean sheets), and third-place playoffs historically produce goals, so 1-1, 2-1 and 1-0 carry most mass. Historically these bronze games rarely reach extra time (only one ever), so I set extraTimeProb below typical knockout levels; if drawn, open play favours a higher-scoring 120' result.",
+      "modelVersion": "claude-opus-4-8",
+      "generatedAt": "2026-07-17T02:09:10.631Z",
+      "lockedAt": null,
+      "locked": false,
+      "webSearchUsed": true,
+      "actual": null,
+      "scored": null
     }
   ],
   "summary": {
     "matchesScored": 30,
     "machinePoints": 55,
     "maxPoints": 210,
-    "expectedTotal": 55.28,
-    "lastUpdatedAt": "2026-07-16T19:02:01.017Z",
+    "expectedTotal": 56.76,
+    "lastUpdatedAt": "2026-07-17T02:09:10.631Z",
     "calibration": {
       "expected": {
         "p1": 20.66,

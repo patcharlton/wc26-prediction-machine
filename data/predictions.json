@@ -2548,5 +2548,30 @@
     "generatedAt": "2026-07-15T17:03:40.843Z",
     "locked": true,
     "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1591865",
+    "probs": {
+      "homeWin": 0.47,
+      "draw": 0.25,
+      "awayWin": 0.28
+    },
+    "scoreline": {
+      "home": 1,
+      "away": 1
+    },
+    "confidence": "Low",
+    "reasoning": "Note: in reality neither side reached the final — France lost to Spain and England lost to Argentina in the semis, so this is scored as a hypothetical neutral-venue match. France's superior squad depth and in-form Mbappé make them modest favorites, but the loss of Saliba to injury and doubts over Upamecano weaken their normally elite defense. England's own defensive injury crisis and Rice's fitness questions offset their attacking momentum, so a tight, low-scoring game with real draw potential is the fair read, keeping me close to the market.",
+    "market": {
+      "homeWin": 0.493,
+      "draw": 0.243,
+      "awayWin": 0.264,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-opus-4-8",
+    "generatedAt": "2026-07-17T02:09:10.631Z",
+    "locked": false,
+    "webSearchUsed": true
   }
 ]
