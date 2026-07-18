@@ -4983,14 +4983,147 @@
       "webSearchUsed": true,
       "actual": null,
       "scored": null
+    },
+    {
+      "fixtureId": "1591866",
+      "stage": "Final",
+      "homeTeam": "Spain",
+      "awayTeam": "Argentina",
+      "kickoff": "2026-07-19T19:00:00.000Z",
+      "pred1Advance": "home",
+      "pred1Team": "Spain",
+      "pred2Reg": {
+        "home": 1,
+        "away": 0
+      },
+      "pred3Et": {
+        "home": 1,
+        "away": 1
+      },
+      "ev": {
+        "p1": 0.565,
+        "p2": 0.734,
+        "p3": 0.343,
+        "total": 1.642
+      },
+      "pEtUsed": 0.37,
+      "distributions": {
+        "advance": {
+          "home": 0.565,
+          "away": 0.435
+        },
+        "regulation": [
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.17919075144508667
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.15606936416184972
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.1329479768786127
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.1213872832369942
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.10982658959537571
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.09826589595375722
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.06936416184971098
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.057803468208092484
+          },
+          {
+            "home": 0,
+            "away": 2,
+            "prob": 0.04046242774566474
+          },
+          {
+            "home": 3,
+            "away": 1,
+            "prob": 0.03468208092485549
+          }
+        ],
+        "extraTimeProb": 0.34,
+        "extraTime": [
+          {
+            "home": 1,
+            "away": 1,
+            "prob": 0.23157894736842108
+          },
+          {
+            "home": 2,
+            "away": 1,
+            "prob": 0.14736842105263162
+          },
+          {
+            "home": 1,
+            "away": 2,
+            "prob": 0.12631578947368421
+          },
+          {
+            "home": 0,
+            "away": 0,
+            "prob": 0.12631578947368421
+          },
+          {
+            "home": 2,
+            "away": 2,
+            "prob": 0.10526315789473686
+          },
+          {
+            "home": 2,
+            "away": 0,
+            "prob": 0.09473684210526317
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.08421052631578949
+          },
+          {
+            "home": 1,
+            "away": 0,
+            "prob": 0.08421052631578949
+          }
+        ]
+      },
+      "reasoning": "Both teams are near full strength with only Spain's Pino out and minor knocks (Yamal, Porro, Romero, Paredes) all cleared for the final. Spain is a modest favorite behind the tournament's best defense (one goal conceded in seven games), while Argentina owns the most productive attack and a proven habit of scoring late, so I weight draws and extra time heavily. The market anchors on a cautious, low-scoring final with 1-1 modal (~17%) and Under 2.5 favored, so I concentrate regulation mass on 1-1, 1-0, 0-0 and 2-1. Given both sides' late-goal tendencies and Spain's greater control, I lean the ad",
+      "modelVersion": "claude-opus-4-8",
+      "generatedAt": "2026-07-18T01:58:22.080Z",
+      "lockedAt": null,
+      "locked": false,
+      "webSearchUsed": true,
+      "actual": null,
+      "scored": null
     }
   ],
   "summary": {
     "matchesScored": 30,
     "machinePoints": 55,
     "maxPoints": 210,
-    "expectedTotal": 56.76,
-    "lastUpdatedAt": "2026-07-17T18:59:52.486Z",
+    "expectedTotal": 58.4,
+    "lastUpdatedAt": "2026-07-18T01:58:22.080Z",
     "calibration": {
       "expected": {
         "p1": 20.66,

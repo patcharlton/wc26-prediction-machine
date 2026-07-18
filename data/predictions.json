@@ -2573,5 +2573,30 @@
     "generatedAt": "2026-07-17T02:09:10.631Z",
     "locked": false,
     "webSearchUsed": true
+  },
+  {
+    "fixtureId": "1591866",
+    "probs": {
+      "homeWin": 0.42,
+      "draw": 0.3,
+      "awayWin": 0.28
+    },
+    "scoreline": {
+      "home": 2,
+      "away": 1
+    },
+    "confidence": "Medium",
+    "reasoning": "Spain arrive as the tournament's most complete side, having conceded just once in seven games while controlling matches through Rodri and the settled Yamal-Oyarzabal attack, and they enter the final with no fresh injury concerns. Argentina, the holders, have won all seven games but rarely comfortably, leaking seven goals and leaning heavily on an in-form Messi, so their defense looks more vulnerable against Spain's possession game. Both squads are essentially healthy, the neutral sea-level MetLife venue removes any altitude edge, and rest is even, so Spain's edge is structural rather than circumstantial.",
+    "market": {
+      "homeWin": 0.41,
+      "draw": 0.311,
+      "awayWin": 0.279,
+      "source": "book"
+    },
+    "lockedAt": null,
+    "modelVersion": "claude-opus-4-8",
+    "generatedAt": "2026-07-18T01:58:22.080Z",
+    "locked": false,
+    "webSearchUsed": true
   }
 ]
