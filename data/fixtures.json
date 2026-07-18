@@ -2385,9 +2385,9 @@
     "awayTeam": "England",
     "homeTeamId": 2,
     "awayTeamId": 10,
-    "homeScore": 1,
+    "homeScore": 2,
     "awayScore": 4,
-    "elapsed": 54,
+    "elapsed": 58,
     "venue": {
       "name": null,
       "city": null,
