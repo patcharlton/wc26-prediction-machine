@@ -1,7 +1,7 @@
 {
   "champion": "Spain",
   "runnerUp": "Argentina",
-  "darkHorse": "Morocco",
+  "darkHorse": "England",
   "confidence": "Medium-High",
   "contenders": [
     {
@@ -13,8 +13,8 @@
       "prob": 0.42
     }
   ],
-  "reasoning": "The tournament has reached the final, and only two teams remain: Spain and Argentina. Spain is the clear favorite, having entered as the pre-tournament favorite at +450 and reaching the final in the same position, opening at -164 to -175 to lift the trophy, backed by a record-tying 37-game unbeaten streak after beating France 2-0 in the semifinal. Argentina are live underdogs at roughly +125 (about 42% on prediction markets), having repeatedly produced late comebacks—most recently two goals in under 10 minutes to beat England 2-1—with Messi setting up both. The main threat to Spain is exactly that Argentine resilience and big-game pedigree as defending champions, plus Messi's proven ability to elevate in finals; my darkhorse label goes to Morocco as the tournament's most credible outsider run, though they are already eliminated at this stage.",
+  "reasoning": "The tournament has reached the final, which is set between Spain and Argentina after Spain beat France 2-0 and Argentina came from behind to defeat England 2-1. Spain enters as the favorite (around -164, roughly 58% implied) on the strength of a 37-game unbeaten streak, elite midfield depth in Pedri and Yamal, and a dominant 13-1 goal aggregate through the knockout rounds. Argentina remain a serious threat as defending champions with proven knockout pedigree, Messi's playmaking (three assists in the last two games), and Emiliano Martinez in goal, though their run has relied on late comebacks. England are named the dark horse only nominally as the strongest of the eliminated sides—having pushed Argentina to the wire—but they and France are already out, leaving this a genuine two-horse race that tilts toward Spain's consistency.",
   "basis": "knockout stage",
   "modelVersion": "claude-opus-4-8",
-  "updatedAt": "2026-07-17T07:54:20.957Z"
+  "updatedAt": "2026-07-18T07:29:16.405Z"
 }
