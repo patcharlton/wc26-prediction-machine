@@ -4848,138 +4848,138 @@
         "away": 2
       },
       "ev": {
-        "p1": 0.555,
-        "p2": 0.693,
-        "p3": 0.233,
-        "total": 1.481
+        "p1": 0.585,
+        "p2": 0.708,
+        "p3": 0.222,
+        "total": 1.515
       },
-      "pEtUsed": 0.31,
+      "pEtUsed": 0.304,
       "distributions": {
         "advance": {
-          "home": 0.555,
-          "away": 0.445
+          "home": 0.585,
+          "away": 0.415
         },
         "regulation": [
           {
             "home": 1,
             "away": 1,
-            "prob": 0.1477024070021882
+            "prob": 0.1369047619047619
           },
           {
             "home": 2,
             "away": 1,
-            "prob": 0.12582056892778995
+            "prob": 0.12499999999999997
           },
           {
             "home": 1,
             "away": 0,
-            "prob": 0.11487964989059081
+            "prob": 0.11904761904761903
           },
           {
             "home": 2,
             "away": 0,
-            "prob": 0.09846827133479212
+            "prob": 0.10119047619047618
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.08752735229759301
+            "prob": 0.08928571428571426
           },
           {
             "home": 0,
             "away": 0,
-            "prob": 0.08533916849015317
-          },
-          {
-            "home": 0,
-            "away": 1,
-            "prob": 0.08205689277899345
+            "prob": 0.08928571428571426
           },
           {
             "home": 2,
             "away": 2,
-            "prob": 0.07658643326039388
+            "prob": 0.07738095238095237
+          },
+          {
+            "home": 0,
+            "away": 1,
+            "prob": 0.07738095238095237
           },
           {
             "home": 3,
             "away": 1,
-            "prob": 0.06017505470459519
-          },
-          {
-            "home": 0,
-            "away": 2,
-            "prob": 0.04923413566739606
+            "prob": 0.06547619047619047
           },
           {
             "home": 3,
             "away": 0,
-            "prob": 0.04157549234135668
+            "prob": 0.04761904761904761
           },
           {
             "home": 1,
             "away": 3,
-            "prob": 0.03063457330415755
+            "prob": 0.035714285714285705
+          },
+          {
+            "home": 0,
+            "away": 2,
+            "prob": 0.035714285714285705
           }
         ],
-        "extraTimeProb": 0.3,
+        "extraTimeProb": 0.29,
         "extraTime": [
           {
             "home": 2,
             "away": 2,
-            "prob": 0.1648351648351648
+            "prob": 0.1567567567567567
           },
           {
             "home": 1,
             "away": 1,
-            "prob": 0.15384615384615383
+            "prob": 0.15135135135135133
           },
           {
             "home": 2,
             "away": 1,
-            "prob": 0.14835164835164835
+            "prob": 0.14594594594594593
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.12087912087912087
+            "prob": 0.1189189189189189
           },
           {
             "home": 3,
             "away": 2,
-            "prob": 0.09890109890109888
+            "prob": 0.10270270270270268
           },
           {
             "home": 2,
             "away": 3,
-            "prob": 0.0824175824175824
+            "prob": 0.08108108108108106
           },
           {
             "home": 3,
             "away": 1,
-            "prob": 0.07692307692307691
+            "prob": 0.07567567567567567
           },
           {
             "home": 0,
             "away": 0,
-            "prob": 0.06593406593406592
+            "prob": 0.06486486486486485
           },
           {
             "home": 1,
-            "away": 3,
-            "prob": 0.04945054945054944
+            "away": 0,
+            "prob": 0.05945945945945945
           },
           {
             "home": 3,
             "away": 3,
-            "prob": 0.03846153846153846
+            "prob": 0.04324324324324324
           }
         ]
       },
-      "reasoning": "This is the World Cup 2026 bronze-medal match; France are modest favourites per the de-vigged market (0.493/0.243/0.264) despite losing Saliba to injury, while England may rest Kane and possibly Bellingham with a strong-ish XI. Both sides have leaky knockout defences (England kept no clean sheets), and third-place playoffs historically produce goals, so 1-1, 2-1 and 1-0 carry most mass. Historically these bronze games rarely reach extra time (only one ever), so I set extraTimeProb below typical knockout levels; if drawn, open play favours a higher-scoring 120' result.",
+      "reasoning": "This is the bronze/third-place playoff in Miami, with both sides rotating and reduced motivation—France lose Saliba (Lacroix starts) but a Golden-Boot-chasing Mbappé keeps their attack dangerous, while England make heavy changes amid reported camp dissent and injuries to Reece James. De-vigged 1X2 favors France (0.515), and I lean slightly more toward France given England's shaky knockout defending and low motivation. Dead-rubber playoffs tend to be open with realistic draw mass, so extra time carries meaningful probability if regulation ends level.",
       "modelVersion": "claude-opus-4-8",
-      "generatedAt": "2026-07-17T02:09:10.631Z",
-      "lockedAt": null,
-      "locked": false,
+      "generatedAt": "2026-07-18T19:58:04.576Z",
+      "lockedAt": "2026-07-18T19:58:04.576Z",
+      "locked": true,
       "webSearchUsed": true,
       "actual": null,
       "scored": null
@@ -5122,8 +5122,8 @@
     "matchesScored": 30,
     "machinePoints": 55,
     "maxPoints": 210,
-    "expectedTotal": 58.4,
-    "lastUpdatedAt": "2026-07-18T18:55:12.761Z",
+    "expectedTotal": 58.43,
+    "lastUpdatedAt": "2026-07-18T19:58:04.576Z",
     "calibration": {
       "expected": {
         "p1": 20.66,

@@ -2552,26 +2552,26 @@
   {
     "fixtureId": "1591865",
     "probs": {
-      "homeWin": 0.47,
+      "homeWin": 0.5,
       "draw": 0.25,
-      "awayWin": 0.28
+      "awayWin": 0.25
     },
     "scoreline": {
-      "home": 1,
+      "home": 2,
       "away": 1
     },
     "confidence": "Low",
-    "reasoning": "Note: in reality neither side reached the final — France lost to Spain and England lost to Argentina in the semis, so this is scored as a hypothetical neutral-venue match. France's superior squad depth and in-form Mbappé make them modest favorites, but the loss of Saliba to injury and doubts over Upamecano weaken their normally elite defense. England's own defensive injury crisis and Rice's fitness questions offset their attacking momentum, so a tight, low-scoring game with real draw potential is the fair read, keeping me close to the market.",
+    "reasoning": "This is actually the third-place play-off in hot Miami, not the final, so both sides are rotating and low on motivation after semi-final defeats, which widens the range of outcomes. France still hold the edge because their attacking depth barely drops when rotated and Kylian Mbappe is expected to start chasing the Golden Boot, giving him and France a real incentive to score, while England lose Reece James and rest key men. Both are missing a first-choice centre-back (Saliba for France, Henderson long out for England), but France's finishing quality tips it.",
     "market": {
-      "homeWin": 0.493,
-      "draw": 0.243,
-      "awayWin": 0.264,
+      "homeWin": 0.515,
+      "draw": 0.236,
+      "awayWin": 0.249,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-07-18T19:58:04.576Z",
     "modelVersion": "claude-opus-4-8",
-    "generatedAt": "2026-07-17T02:09:10.631Z",
-    "locked": false,
+    "generatedAt": "2026-07-18T19:58:04.576Z",
+    "locked": true,
     "webSearchUsed": true
   },
   {
