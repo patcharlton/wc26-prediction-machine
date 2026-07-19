@@ -2578,25 +2578,25 @@
     "fixtureId": "1591866",
     "probs": {
       "homeWin": 0.42,
-      "draw": 0.3,
-      "awayWin": 0.28
+      "draw": 0.33,
+      "awayWin": 0.25
     },
     "scoreline": {
-      "home": 2,
-      "away": 1
+      "home": 1,
+      "away": 0
     },
     "confidence": "Medium",
-    "reasoning": "Spain arrive as the tournament's most complete side, having conceded just once in seven games while controlling matches through Rodri and the settled Yamal-Oyarzabal attack, and they enter the final with no fresh injury concerns. Argentina, the holders, have won all seven games but rarely comfortably, leaking seven goals and leaning heavily on an in-form Messi, so their defense looks more vulnerable against Spain's possession game. Both squads are essentially healthy, the neutral sea-level MetLife venue removes any altitude edge, and rest is even, so Spain's edge is structural rather than circumstantial.",
+    "reasoning": "Spain arrive as the tournament's best defense, conceding just once in seven games, with a near-fully-fit squad and a controlled possession style that limits the transition chances Argentina thrive on. Argentina have won every match but repeatedly conceded and needed comebacks, and carry a day less rest into the final, though Messi's creativity and their proven big-game nerve keep them dangerous. Finals are cagey and draws are common, so a tight, low-scoring game favoring Spain's solidity is most likely, with extra time and penalties a real possibility. I lean slightly to Spain over the neutral MetLife venue but keep confidence at Medium given how evenly matched these champions are.",
     "market": {
-      "homeWin": 0.41,
-      "draw": 0.311,
-      "awayWin": 0.279,
+      "homeWin": 0.416,
+      "draw": 0.316,
+      "awayWin": 0.268,
       "source": "book"
     },
-    "lockedAt": null,
+    "lockedAt": "2026-07-19T17:46:57.538Z",
     "modelVersion": "claude-opus-4-8",
-    "generatedAt": "2026-07-18T01:58:22.080Z",
-    "locked": false,
+    "generatedAt": "2026-07-19T17:46:57.538Z",
+    "locked": true,
     "webSearchUsed": true
   }
 ]

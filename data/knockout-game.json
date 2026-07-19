@@ -5015,11 +5015,11 @@
       },
       "ev": {
         "p1": 0.565,
-        "p2": 0.734,
-        "p3": 0.343,
-        "total": 1.642
+        "p2": 0.814,
+        "p3": 0.304,
+        "total": 1.683
       },
-      "pEtUsed": 0.37,
+      "pEtUsed": 0.349,
       "distributions": {
         "advance": {
           "home": 0.565,
@@ -5028,104 +5028,104 @@
         "regulation": [
           {
             "home": 1,
-            "away": 1,
-            "prob": 0.17919075144508667
+            "away": 0,
+            "prob": 0.18023255813953487
           },
           {
             "home": 1,
-            "away": 0,
-            "prob": 0.15606936416184972
+            "away": 1,
+            "prob": 0.1569767441860465
           },
           {
             "home": 0,
             "away": 0,
-            "prob": 0.1329479768786127
+            "prob": 0.13372093023255813
           },
           {
             "home": 2,
             "away": 1,
-            "prob": 0.1213872832369942
+            "prob": 0.12209302325581393
           },
           {
             "home": 2,
             "away": 0,
-            "prob": 0.10982658959537571
+            "prob": 0.11046511627906976
           },
           {
             "home": 0,
             "away": 1,
-            "prob": 0.09826589595375722
+            "prob": 0.08720930232558138
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.06936416184971098
+            "prob": 0.0697674418604651
           },
           {
             "home": 2,
             "away": 2,
-            "prob": 0.057803468208092484
+            "prob": 0.05813953488372093
           },
           {
             "home": 0,
             "away": 2,
-            "prob": 0.04046242774566474
+            "prob": 0.04069767441860465
           },
           {
             "home": 3,
             "away": 1,
-            "prob": 0.03468208092485549
+            "prob": 0.04069767441860465
           }
         ],
-        "extraTimeProb": 0.34,
+        "extraTimeProb": 0.3,
         "extraTime": [
           {
             "home": 1,
             "away": 1,
-            "prob": 0.23157894736842108
+            "prob": 0.21276595744680854
           },
           {
             "home": 2,
             "away": 1,
-            "prob": 0.14736842105263162
+            "prob": 0.1595744680851064
           },
           {
             "home": 1,
             "away": 2,
-            "prob": 0.12631578947368421
+            "prob": 0.1276595744680851
           },
           {
             "home": 0,
             "away": 0,
-            "prob": 0.12631578947368421
+            "prob": 0.1276595744680851
           },
           {
             "home": 2,
             "away": 2,
-            "prob": 0.10526315789473686
+            "prob": 0.10638297872340427
           },
           {
-            "home": 2,
+            "home": 1,
             "away": 0,
-            "prob": 0.09473684210526317
+            "prob": 0.10638297872340427
           },
           {
             "home": 0,
             "away": 1,
-            "prob": 0.08421052631578949
+            "prob": 0.09574468085106383
           },
           {
-            "home": 1,
+            "home": 2,
             "away": 0,
-            "prob": 0.08421052631578949
+            "prob": 0.06382978723404255
           }
         ]
       },
-      "reasoning": "Both teams are near full strength with only Spain's Pino out and minor knocks (Yamal, Porro, Romero, Paredes) all cleared for the final. Spain is a modest favorite behind the tournament's best defense (one goal conceded in seven games), while Argentina owns the most productive attack and a proven habit of scoring late, so I weight draws and extra time heavily. The market anchors on a cautious, low-scoring final with 1-1 modal (~17%) and Under 2.5 favored, so I concentrate regulation mass on 1-1, 1-0, 0-0 and 2-1. Given both sides' late-goal tendencies and Spain's greater control, I lean the ad",
+      "reasoning": "Spain enters as a modest favorite (market ~0.42, Opta ~45% in 90', prediction markets ~58% overall) on a 37-match unbeaten run with an elite defense conceding just one goal all tournament, while Argentina scores freely but leaks chances and thrives in tight, late-decided games. Both camps report no significant injuries, with Yamal and Porro expected fit and Messi central for Argentina. Low-scoring, control-oriented outcomes (1-0, 0-0, 2-1) carry the most mass, with realistic draw probability. Given four of the last five World Cup finals went past regulation, extra time gets meaningful weight (",
       "modelVersion": "claude-opus-4-8",
-      "generatedAt": "2026-07-18T01:58:22.080Z",
-      "lockedAt": null,
-      "locked": false,
+      "generatedAt": "2026-07-19T17:46:57.538Z",
+      "lockedAt": "2026-07-19T17:46:57.538Z",
+      "locked": true,
       "webSearchUsed": true,
       "actual": null,
       "scored": null
@@ -5135,8 +5135,8 @@
     "matchesScored": 31,
     "machinePoints": 55,
     "maxPoints": 217,
-    "expectedTotal": 58.43,
-    "lastUpdatedAt": "2026-07-19T13:04:55.374Z",
+    "expectedTotal": 58.47,
+    "lastUpdatedAt": "2026-07-19T17:46:57.538Z",
     "calibration": {
       "expected": {
         "p1": 21.24,
