@@ -1,7 +1,7 @@
 {
   "champion": "Spain",
   "runnerUp": "Argentina",
-  "darkHorse": "England",
+  "darkHorse": "Morocco",
   "confidence": "Medium-High",
   "contenders": [
     {
@@ -13,8 +13,8 @@
       "prob": 0.42
     }
   ],
-  "reasoning": "The tournament has reached the final, which is set between Spain and Argentina after Spain beat France 2-0 and Argentina came from behind to defeat England 2-1. Spain enters as the favorite (around -164, roughly 58% implied) on the strength of a 37-game unbeaten streak, elite midfield depth in Pedri and Yamal, and a dominant 13-1 goal aggregate through the knockout rounds. Argentina remain a serious threat as defending champions with proven knockout pedigree, Messi's playmaking (three assists in the last two games), and Emiliano Martinez in goal, though their run has relied on late comebacks. England are named the dark horse only nominally as the strongest of the eliminated sides—having pushed Argentina to the wire—but they and France are already out, leaving this a genuine two-horse race that tilts toward Spain's consistency.",
+  "reasoning": "The tournament has reached its final, set for July 19 in New Jersey between Spain and Argentina, so the field is now just two teams. Spain sits atop the market as favorite (roughly 8/15, with Kalshi giving them about 58% versus Argentina's ~43%), riding a 37-game unbeaten streak, the tournament's best defense (conceding just one goal), and controlled dominance capped by a 2-0 semifinal win over France. Argentina remain live as reigning champions with Messi's brilliance and unmatched knockout pedigree, but their path has been chaotic—three consecutive comeback wins after trailing, most recently 2-1 over England—suggesting they have ridden their luck. Spain's midfield depth (Rodri, Pedri), possession control, and composure in big matches make them the pick, with Argentina's Messi-driven magic the main threat. Morocco is listed as the notional dark horse per the format, though both host nations and traditional powers like Brazil and Germany have already been eliminated.",
   "basis": "knockout stage",
   "modelVersion": "claude-opus-4-8",
-  "updatedAt": "2026-07-18T07:29:16.405Z"
+  "updatedAt": "2026-07-19T08:02:04.933Z"
 }
