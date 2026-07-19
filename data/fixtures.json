@@ -2415,9 +2415,9 @@
     "awayTeam": "Argentina",
     "homeTeamId": 9,
     "awayTeamId": 26,
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 0,
-    "elapsed": 106,
+    "elapsed": 111,
     "venue": {
       "name": "MetLife Stadium",
       "city": "East Rutherford",
