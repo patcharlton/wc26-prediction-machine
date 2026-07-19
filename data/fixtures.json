@@ -2380,20 +2380,28 @@
     "stage": "Final",
     "matchday": null,
     "kickoff": "2026-07-18T21:00:00.000Z",
-    "status": "live",
+    "status": "finished",
     "homeTeam": "France",
     "awayTeam": "England",
     "homeTeamId": 2,
     "awayTeamId": 10,
-    "homeScore": 3,
-    "awayScore": 5,
+    "homeScore": 4,
+    "awayScore": 6,
     "elapsed": 90,
     "venue": {
-      "name": null,
-      "city": null,
+      "name": "Hard Rock Stadium, Miami Garden",
+      "city": "Miami",
       "country": null
     },
-    "koScore": null,
+    "koScore": {
+      "rt": {
+        "home": 4,
+        "away": 6
+      },
+      "et": null,
+      "pens": null,
+      "advanced": "away"
+    },
     "homeSlot": "LM:101",
     "awaySlot": "LM:102"
   },

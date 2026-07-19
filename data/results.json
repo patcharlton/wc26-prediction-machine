@@ -1939,22 +1939,22 @@
   },
   {
     "fixtureId": "1591865",
-    "status": "live",
+    "status": "finished",
     "kickoff": "2026-07-18T21:00:00.000Z",
     "stage": "Final",
     "homeTeam": "France",
     "awayTeam": "England",
     "actualScore": {
-      "home": null,
-      "away": null
+      "home": 4,
+      "away": 6
     },
-    "actualOutcome": null,
-    "machineOutcomeHit": null,
-    "marketOutcomeHit": null,
-    "exactScoreHit": null,
-    "machineBrierScore": null,
-    "marketBrierScore": null,
-    "resolvedAt": null
+    "actualOutcome": "awayWin",
+    "machineOutcomeHit": false,
+    "marketOutcomeHit": false,
+    "exactScoreHit": false,
+    "machineBrierScore": 0.875,
+    "marketBrierScore": 0.885,
+    "resolvedAt": "2026-07-19T02:09:29.865Z"
   },
   {
     "fixtureId": "1591866",
