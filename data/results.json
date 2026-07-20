@@ -1958,21 +1958,21 @@
   },
   {
     "fixtureId": "1591866",
-    "status": "live",
+    "status": "finished",
     "kickoff": "2026-07-19T19:00:00.000Z",
     "stage": "Final",
     "homeTeam": "Spain",
     "awayTeam": "Argentina",
     "actualScore": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 0
     },
-    "actualOutcome": null,
-    "machineOutcomeHit": null,
-    "marketOutcomeHit": null,
-    "exactScoreHit": null,
-    "machineBrierScore": null,
-    "marketBrierScore": null,
-    "resolvedAt": null
+    "actualOutcome": "homeWin",
+    "machineOutcomeHit": true,
+    "marketOutcomeHit": true,
+    "exactScoreHit": true,
+    "machineBrierScore": 0.508,
+    "marketBrierScore": 0.513,
+    "resolvedAt": "2026-07-20T02:30:13.054Z"
   }
 ]
