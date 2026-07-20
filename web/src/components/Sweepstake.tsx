@@ -21,8 +21,6 @@ export function Sweepstake({ data }: { data: AppData }) {
     return <div className="empty">The sweepstake draw hasn't been published yet.</div>;
   }
 
-  const sb = sweep.scoring.stageBonus;
-
   return (
     <div className="br-brand">
       <div className="br-masthead">
@@ -103,10 +101,9 @@ export function Sweepstake({ data }: { data: AppData }) {
       <div className="standings" style={{ marginTop: 16 }}>
         <h3>How points work</h3>
         <p style={{ fontSize: 13, color: "var(--ink-dim)", lineHeight: 1.7, margin: 0 }}>
-          Each of your teams earns <b>{sweep.scoring.win} pts</b> per win and <b>{sweep.scoring.draw}</b> per draw,
-          in the group stage and knockouts. Knockout-reach bonuses stack up:
-          R32 +{sb.R32}, R16 +{sb.R16}, QF +{sb.QF}, SF +{sb.SF}, Final +{sb.Final},
-          and <b>lifting the cup +{sb.Champion}</b>. Ties broken by total goals scored, then teams still alive.
+          Pure match points: each of your teams earns <b>{sweep.scoring.win} pts</b> per win and{" "}
+          <b>{sweep.scoring.draw}</b> per draw, across the group stage and knockouts —{" "}
+          <b>no stage or champion bonuses</b>. Ties broken by total goals scored, then teams still alive.
           The draw was random — chips turn <span style={{ color: "var(--machine)" }}>green</span> as teams win,
           grey when knocked out. Updates automatically as results come in.
         </p>
