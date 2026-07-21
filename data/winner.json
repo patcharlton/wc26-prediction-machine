@@ -2,19 +2,19 @@
   "champion": "Spain",
   "runnerUp": "Argentina",
   "darkHorse": "Morocco",
-  "confidence": "High",
+  "confidence": "Medium-High",
   "contenders": [
     {
       "team": "Spain",
-      "prob": 1
+      "prob": 0.6
     },
     {
       "team": "Argentina",
-      "prob": 0
+      "prob": 0.4
     }
   ],
-  "reasoning": "This is no longer a live forecast — the tournament has concluded, with Spain defeating Argentina 1-0 via a Ferran Torres goal in the second period of extra time to claim their second World Cup title. Spain finished as the tournament's most complete side, conceding just one goal across the whole event and closing on a record-tying 37-plus match unbeaten run built on Rodri's midfield control and a historically miserly defense. Argentina, the defending champions, reached the final on Messi-inspired late heroics but couldn't break down Spain's defense in the decider, taking runner-up. Morocco is listed as the retrospective dark horse, having again reached the last eight as the standout outsider of the field. With the result final, confidence is High because the outcome is settled fact rather than a projection.",
+  "reasoning": "The tournament has reached the final, and the market makes Spain the clear favorite: they are priced around 8/13 (roughly -164) versus Argentina's 13/10, after eliminating France 2-0 in the semifinal. Spain carry the best pedigree and form of anyone left, as reigning European champions unbeaten in 37 straight games (tying the all-time national-team record) with the best defensive record in the competition, conceding just one goal in seven matches behind an elite spine of Cubarsi, Laporte, Rodri, Pedri and Yamal. The main threat is defending champion Argentina, who showed knockout resilience by erasing a 1-0 deficit to beat England late, with Messi's scoring surge keeping them dangerous in a one-off final. Only two teams remain live, so probabilities reflect the head-to-head; the risk to Spain is that short odds leave little margin against a battle-tested opponent, though their control and depth should decide it.",
   "basis": "knockout stage",
   "modelVersion": "claude-opus-4-8",
-  "updatedAt": "2026-07-20T08:43:19.613Z"
+  "updatedAt": "2026-07-21T08:10:39.989Z"
 }
