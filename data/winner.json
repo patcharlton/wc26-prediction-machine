@@ -2,19 +2,19 @@
   "champion": "Spain",
   "runnerUp": "Argentina",
   "darkHorse": "Morocco",
-  "confidence": "Medium-High",
+  "confidence": "High",
   "contenders": [
     {
       "team": "Spain",
-      "prob": 0.6
+      "prob": 1
     },
     {
       "team": "Argentina",
-      "prob": 0.4
+      "prob": 0
     }
   ],
-  "reasoning": "The tournament has reached the final, and the market makes Spain the clear favorite: they are priced around 8/13 (roughly -164) versus Argentina's 13/10, after eliminating France 2-0 in the semifinal. Spain carry the best pedigree and form of anyone left, as reigning European champions unbeaten in 37 straight games (tying the all-time national-team record) with the best defensive record in the competition, conceding just one goal in seven matches behind an elite spine of Cubarsi, Laporte, Rodri, Pedri and Yamal. The main threat is defending champion Argentina, who showed knockout resilience by erasing a 1-0 deficit to beat England late, with Messi's scoring surge keeping them dangerous in a one-off final. Only two teams remain live, so probabilities reflect the head-to-head; the risk to Spain is that short odds leave little margin against a battle-tested opponent, though their control and depth should decide it.",
+  "reasoning": "The 2026 World Cup is already decided: Spain beat Argentina 1-0 after extra time in the July 19 final at MetLife Stadium, with substitute Ferran Torres scoring the winner early in the second period of extra time. This is Spain's second World Cup title and their first since 2010, adding to their Euro 2024 crown under Luis de la Fuente. Spain dominated the final with 20 shots and roughly 1.94 xG, and their run was defined by elite midfield depth (Rodri, Pedri, Zubimendi) and the tournament's best defense, while a 10-man Argentina—reduced by Enzo Fernández's late red card—managed just two shots despite Emi Martínez's record 11 saves. With the trophy already lifted, this forecast reflects a settled outcome rather than a probabilistic projection; Morocco's run to the final eight was the standout outsider story of the tournament.",
   "basis": "knockout stage",
   "modelVersion": "claude-opus-4-8",
-  "updatedAt": "2026-07-21T08:10:39.989Z"
+  "updatedAt": "2026-07-23T08:14:15.986Z"
 }
