@@ -2,19 +2,43 @@
   "champion": "Spain",
   "runnerUp": "Argentina",
   "darkHorse": "Morocco",
-  "confidence": "High",
+  "confidence": "Medium-High",
   "contenders": [
     {
       "team": "Spain",
-      "prob": 1
+      "prob": 0.3
+    },
+    {
+      "team": "France",
+      "prob": 0.2
     },
     {
       "team": "Argentina",
-      "prob": 0
+      "prob": 0.16
+    },
+    {
+      "team": "England",
+      "prob": 0.1
+    },
+    {
+      "team": "Brazil",
+      "prob": 0.06
+    },
+    {
+      "team": "Portugal",
+      "prob": 0.05
+    },
+    {
+      "team": "Colombia",
+      "prob": 0.035
+    },
+    {
+      "team": "Morocco",
+      "prob": 0.03
     }
   ],
-  "reasoning": "The 2026 World Cup is already decided: Spain beat Argentina 1-0 after extra time in the July 19 final at MetLife Stadium, with substitute Ferran Torres scoring the winner early in the second period of extra time. This is Spain's second World Cup title and their first since 2010, adding to their Euro 2024 crown under Luis de la Fuente. Spain dominated the final with 20 shots and roughly 1.94 xG, and their run was defined by elite midfield depth (Rodri, Pedri, Zubimendi) and the tournament's best defense, while a 10-man Argentina—reduced by Enzo Fernández's late red card—managed just two shots despite Emi Martínez's record 11 saves. With the trophy already lifted, this forecast reflects a settled outcome rather than a probabilistic projection; Morocco's run to the final eight was the standout outsider story of the tournament.",
+  "reasoning": "Spain is the market favorite and the best team on the evidence so far, carrying a historic winning streak, elite depth built around Rodri, Pedri and Lamine Yamal, and reigning-champion pedigree from Euro 2024. France remain the bookmakers' other clear pick with the deepest squad, calm knockout pedigree under Deschamps and a relatively kind bracket path, while defending champions Argentina — powered by Messi's scoring surge — are the most dangerous obstacle and my projected runner-up. England are the strongest of the next tier, and Brazil and Portugal loom in Spain's half as genuine threats. Morocco at long odds is the live outsider, having reached the final eight again and proven capable of upsetting elite European sides, though the altitude/heat edge favors the Latin American and warm-climate teams overall.",
   "basis": "knockout stage",
   "modelVersion": "claude-opus-4-8",
-  "updatedAt": "2026-07-23T08:14:15.986Z"
+  "updatedAt": "2026-07-24T08:10:19.794Z"
 }
