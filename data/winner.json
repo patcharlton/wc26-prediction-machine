@@ -6,15 +6,39 @@
   "contenders": [
     {
       "team": "Spain",
-      "prob": 0.58
+      "prob": 0.3
     },
     {
       "team": "Argentina",
-      "prob": 0.42
+      "prob": 0.2
+    },
+    {
+      "team": "France",
+      "prob": 0.13
+    },
+    {
+      "team": "England",
+      "prob": 0.1
+    },
+    {
+      "team": "Brazil",
+      "prob": 0.07
+    },
+    {
+      "team": "Germany",
+      "prob": 0.05
+    },
+    {
+      "team": "Portugal",
+      "prob": 0.04
+    },
+    {
+      "team": "Morocco",
+      "prob": 0.03
     }
   ],
-  "reasoning": "The tournament has reached the final in New Jersey, with Spain facing defending champions Argentina, so the field is now just these two. Markets and prediction exchanges make Spain the favorite at roughly 58% (around -154) versus Argentina near 42% (+134), reflecting Spain's dominance as the most complete side — they reached the final unbeaten in 37 matches, recorded a record six clean sheets, and controlled France 2-0 in the semifinal. Argentina remain a serious threat because of their never-say-die knockout pedigree and Messi's match-winning ability, having survived two extra-time games and stoppage-time comebacks (including 2-1 over England), though fatigue could tell. I lean Spain on tactical control and defensive record while respecting Argentina's resilience; Morocco is flagged as the tournament's notable overachiever earlier in the bracket.",
+  "reasoning": "Spain top the market as reigning European champions with arguably the deepest squad in the field — an elite Rodri/Pedri midfield, a returning-to-fitness Lamine Yamal and a defense that conceded very little in qualifying — and enter the knockouts unbeaten and topping Group H. Argentina are the strongest counter as defending champions who won all three group games with a positive goal difference and have Messi in scoring form, making a Spain-Argentina title clash the most likely outcome. The main threats are France (perfect group record, GD +8) and an in-form England, though France's leaky defense was exposed in a wild 4-6 loss to England, and both could meet Spain or Argentina before the final. Morocco is the live outsider: they matched Brazil for points in Group C, have shown knockout resilience, and could exploit heat, altitude and travel factors in the North American host venues.",
   "basis": "knockout stage",
   "modelVersion": "claude-opus-4-8",
-  "updatedAt": "2026-07-25T07:52:26.373Z"
+  "updatedAt": "2026-07-26T08:10:53.855Z"
 }
