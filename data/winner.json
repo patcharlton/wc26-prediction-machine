@@ -6,39 +6,39 @@
   "contenders": [
     {
       "team": "Spain",
-      "prob": 0.3
+      "prob": 0.4
     },
     {
       "team": "Argentina",
-      "prob": 0.2
+      "prob": 0.24
     },
     {
       "team": "France",
-      "prob": 0.13
-    },
-    {
-      "team": "England",
       "prob": 0.1
     },
     {
-      "team": "Brazil",
-      "prob": 0.07
+      "team": "England",
+      "prob": 0.08
     },
     {
-      "team": "Germany",
+      "team": "Brazil",
       "prob": 0.05
     },
     {
-      "team": "Portugal",
+      "team": "Germany",
       "prob": 0.04
     },
     {
+      "team": "Netherlands",
+      "prob": 0.035
+    },
+    {
       "team": "Morocco",
-      "prob": 0.03
+      "prob": 0.025
     }
   ],
-  "reasoning": "Spain top the market as reigning European champions with arguably the deepest squad in the field — an elite Rodri/Pedri midfield, a returning-to-fitness Lamine Yamal and a defense that conceded very little in qualifying — and enter the knockouts unbeaten and topping Group H. Argentina are the strongest counter as defending champions who won all three group games with a positive goal difference and have Messi in scoring form, making a Spain-Argentina title clash the most likely outcome. The main threats are France (perfect group record, GD +8) and an in-form England, though France's leaky defense was exposed in a wild 4-6 loss to England, and both could meet Spain or Argentina before the final. Morocco is the live outsider: they matched Brazil for points in Group C, have shown knockout resilience, and could exploit heat, altitude and travel factors in the North American host venues.",
+  "reasoning": "Spain are the clear market favorites as reigning European champions riding a record 37-match unbeaten run, with the best defensive record left in the field (one goal conceded across their matches) and arguably the deepest squad in world football even with Yamal and Williams managing knocks. Argentina are the standout threat: the defending champions have the knockout pedigree and match-winners in Messi and Lautaro, and given they beat England in the semis they clearly have the resilience to trouble Spain, though their squad is carrying more injury baggage (Romero, Martinez, several muscle issues). France, England and Brazil are the next tier, but France have already lost their head-to-head to Spain and Brazil exited early in the live picture, leaving the top two as the dominant pair. Morocco is the live outsider given their group-winning form and their proven ability to run deep in a tournament.",
   "basis": "knockout stage",
   "modelVersion": "claude-opus-4-8",
-  "updatedAt": "2026-07-26T08:10:53.855Z"
+  "updatedAt": "2026-07-27T09:34:29.518Z"
 }
