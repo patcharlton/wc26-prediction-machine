@@ -6,39 +6,39 @@
   "contenders": [
     {
       "team": "Spain",
-      "prob": 0.4
-    },
-    {
-      "team": "Argentina",
       "prob": 0.24
     },
     {
+      "team": "Argentina",
+      "prob": 0.19
+    },
+    {
       "team": "France",
-      "prob": 0.1
+      "prob": 0.14
     },
     {
       "team": "England",
-      "prob": 0.08
+      "prob": 0.12
     },
     {
       "team": "Brazil",
-      "prob": 0.05
+      "prob": 0.07
     },
     {
       "team": "Germany",
+      "prob": 0.05
+    },
+    {
+      "team": "Portugal",
       "prob": 0.04
     },
     {
-      "team": "Netherlands",
-      "prob": 0.035
-    },
-    {
       "team": "Morocco",
-      "prob": 0.025
+      "prob": 0.03
     }
   ],
-  "reasoning": "Spain are the clear market favorites as reigning European champions riding a record 37-match unbeaten run, with the best defensive record left in the field (one goal conceded across their matches) and arguably the deepest squad in world football even with Yamal and Williams managing knocks. Argentina are the standout threat: the defending champions have the knockout pedigree and match-winners in Messi and Lautaro, and given they beat England in the semis they clearly have the resilience to trouble Spain, though their squad is carrying more injury baggage (Romero, Martinez, several muscle issues). France, England and Brazil are the next tier, but France have already lost their head-to-head to Spain and Brazil exited early in the live picture, leaving the top two as the dominant pair. Morocco is the live outsider given their group-winning form and their proven ability to run deep in a tournament.",
+  "reasoning": "Spain are the clear market favorites, having entered the tournament as the top pick at +450 and remaining atop futures markets on the back of an outstanding defensive run and a squad blending youth like Lamine Yamal with veterans such as Rodri and Pedri. Argentina, the defending champions, are the strongest threat with elite talent and a proven winning formula led by Messi, and they have shown knockout resilience with dramatic comebacks against England. France and England are the next tier, both boasting deep, talented squads and realistic paths to the final, while Brazil and Germany remain dangerous if they click. Morocco is my dark horse, having reached the final eight and carrying the tournament pedigree that saw them stun favorites in 2022. The main risks to Spain are fatigue and the fine margins of knockout football, where a single goal or shootout can flip the outcome.",
   "basis": "knockout stage",
   "modelVersion": "claude-opus-4-8",
-  "updatedAt": "2026-07-27T09:34:29.518Z"
+  "updatedAt": "2026-07-28T08:18:14.660Z"
 }
