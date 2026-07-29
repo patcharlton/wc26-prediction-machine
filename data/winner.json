@@ -6,39 +6,39 @@
   "contenders": [
     {
       "team": "Spain",
-      "prob": 0.24
+      "prob": 0.3
     },
     {
       "team": "Argentina",
-      "prob": 0.19
+      "prob": 0.2
     },
     {
       "team": "France",
-      "prob": 0.14
+      "prob": 0.13
     },
     {
       "team": "England",
-      "prob": 0.12
-    },
-    {
-      "team": "Brazil",
-      "prob": 0.07
-    },
-    {
-      "team": "Germany",
-      "prob": 0.05
+      "prob": 0.11
     },
     {
       "team": "Portugal",
+      "prob": 0.05
+    },
+    {
+      "team": "Netherlands",
       "prob": 0.04
+    },
+    {
+      "team": "Germany",
+      "prob": 0.035
     },
     {
       "team": "Morocco",
       "prob": 0.03
     }
   ],
-  "reasoning": "Spain are the clear market favorites, having entered the tournament as the top pick at +450 and remaining atop futures markets on the back of an outstanding defensive run and a squad blending youth like Lamine Yamal with veterans such as Rodri and Pedri. Argentina, the defending champions, are the strongest threat with elite talent and a proven winning formula led by Messi, and they have shown knockout resilience with dramatic comebacks against England. France and England are the next tier, both boasting deep, talented squads and realistic paths to the final, while Brazil and Germany remain dangerous if they click. Morocco is my dark horse, having reached the final eight and carrying the tournament pedigree that saw them stun favorites in 2022. The main risks to Spain are fatigue and the fine margins of knockout football, where a single goal or shootout can flip the outcome.",
+  "reasoning": "Spain are the market favorites and enter the knockouts in commanding form, with head-to-head wins over Argentina, England and France in the recent results, backed by arguably the deepest midfield and defense in the tournament under De la Fuente, plus a returning Lamine Yamal. Defending champions Argentina are the clearest threat, carrying Messi's scoring surge and proven knockout nerve after edging England, while France and England both boast elite squads and dangerous paths despite Spain's edge over both in recent meetings. The main risks to the pick are knockout volatility (extra time and penalties can eliminate any favorite in a single tie) and fatigue/travel across the sprawling three-nation host map, with Mexico City's altitude a wildcard for any side routed through it. Morocco is the live outsider, having again reached the latter stages and shown the resilience that took them deep in 2022.",
   "basis": "knockout stage",
   "modelVersion": "claude-opus-4-8",
-  "updatedAt": "2026-07-28T08:18:14.660Z"
+  "updatedAt": "2026-07-29T08:24:14.954Z"
 }
