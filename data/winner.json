@@ -2,43 +2,43 @@
   "champion": "Spain",
   "runnerUp": "Argentina",
   "darkHorse": "Morocco",
-  "confidence": "Medium-High",
+  "confidence": "Medium",
   "contenders": [
     {
       "team": "Spain",
-      "prob": 0.3
+      "prob": 0.24
     },
     {
       "team": "Argentina",
-      "prob": 0.2
+      "prob": 0.17
     },
     {
       "team": "France",
-      "prob": 0.13
+      "prob": 0.15
     },
     {
       "team": "England",
       "prob": 0.11
     },
     {
-      "team": "Portugal",
-      "prob": 0.05
-    },
-    {
-      "team": "Netherlands",
-      "prob": 0.04
+      "team": "Brazil",
+      "prob": 0.08
     },
     {
       "team": "Germany",
-      "prob": 0.035
+      "prob": 0.06
     },
     {
-      "team": "Morocco",
-      "prob": 0.03
+      "team": "Netherlands",
+      "prob": 0.05
+    },
+    {
+      "team": "Portugal",
+      "prob": 0.04
     }
   ],
-  "reasoning": "Spain are the market favorites and enter the knockouts in commanding form, with head-to-head wins over Argentina, England and France in the recent results, backed by arguably the deepest midfield and defense in the tournament under De la Fuente, plus a returning Lamine Yamal. Defending champions Argentina are the clearest threat, carrying Messi's scoring surge and proven knockout nerve after edging England, while France and England both boast elite squads and dangerous paths despite Spain's edge over both in recent meetings. The main risks to the pick are knockout volatility (extra time and penalties can eliminate any favorite in a single tie) and fatigue/travel across the sprawling three-nation host map, with Mexico City's altitude a wildcard for any side routed through it. Morocco is the live outsider, having again reached the latter stages and shown the resilience that took them deep in 2022.",
+  "reasoning": "Spain enters the knockouts as the market's clear favorite, having been installed as the pre-tournament pick at around +450 and topping Group H with the tightest defense and elite possession control led by Rodri and Yamal. Argentina (perfect 9pts in Group J) and France (perfect 9pts, GD +8 in Group I) are the strongest chasers, with England also unbeaten and dangerous, forming a 'big four' at the top. The main threats to Spain are France's firepower and Argentina's knockout pedigree and Messi's form, plus bracket-path variance and Mexico's altitude venues that can neutralize possession sides. I rate Morocco as the live dark horse: they matched Brazil for points in Group C, reached the semis in 2022, and thrive as a compact counter-attacking unit that can upset a fatigued favorite in a single-game knockout.",
   "basis": "knockout stage",
   "modelVersion": "claude-opus-4-8",
-  "updatedAt": "2026-07-29T08:24:14.954Z"
+  "updatedAt": "2026-07-30T08:09:37.245Z"
 }
