@@ -2,19 +2,19 @@
   "champion": "Spain",
   "runnerUp": "Argentina",
   "darkHorse": "Morocco",
-  "confidence": "Medium",
+  "confidence": "Medium-High",
   "contenders": [
     {
       "team": "Spain",
-      "prob": 0.24
+      "prob": 0.3
     },
     {
       "team": "Argentina",
-      "prob": 0.17
+      "prob": 0.22
     },
     {
       "team": "France",
-      "prob": 0.15
+      "prob": 0.12
     },
     {
       "team": "England",
@@ -22,23 +22,23 @@
     },
     {
       "team": "Brazil",
-      "prob": 0.08
-    },
-    {
-      "team": "Germany",
       "prob": 0.06
     },
     {
-      "team": "Netherlands",
+      "team": "Portugal",
       "prob": 0.05
     },
     {
-      "team": "Portugal",
+      "team": "Germany",
       "prob": 0.04
+    },
+    {
+      "team": "Netherlands",
+      "prob": 0.03
     }
   ],
-  "reasoning": "Spain enters the knockouts as the market's clear favorite, having been installed as the pre-tournament pick at around +450 and topping Group H with the tightest defense and elite possession control led by Rodri and Yamal. Argentina (perfect 9pts in Group J) and France (perfect 9pts, GD +8 in Group I) are the strongest chasers, with England also unbeaten and dangerous, forming a 'big four' at the top. The main threats to Spain are France's firepower and Argentina's knockout pedigree and Messi's form, plus bracket-path variance and Mexico's altitude venues that can neutralize possession sides. I rate Morocco as the live dark horse: they matched Brazil for points in Group C, reached the semis in 2022, and thrive as a compact counter-attacking unit that can upset a fatigued favorite in a single-game knockout.",
+  "reasoning": "Spain are the clear market favourites and boast arguably the deepest squad in the tournament, with an elite midfield of Rodri, Pedri and Zubimendi plus a strong goalkeeping and defensive core, and they have already beaten both France and Argentina in recent decisive fixtures despite lingering Yamal and Williams fitness concerns. Argentina, the defending champions, remain the primary threat with Messi in scoring form and proven knockout pedigree, having won Group J with a perfect record. France and England are the strongest chasers — England's high-scoring win over France and Norway shows attacking firepower, while France retain elite talent — but both sit a clear tier below the top two. Morocco is the standout dark horse: they topped their group ahead of Scotland and pushed deep, and their combination of organization and big-game experience makes them a genuine outsider capable of an upset run.",
   "basis": "knockout stage",
   "modelVersion": "claude-opus-4-8",
-  "updatedAt": "2026-07-30T08:09:37.245Z"
+  "updatedAt": "2026-07-31T08:37:11.732Z"
 }
