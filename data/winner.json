@@ -6,23 +6,23 @@
   "contenders": [
     {
       "team": "Spain",
-      "prob": 0.3
+      "prob": 0.28
     },
     {
       "team": "Argentina",
-      "prob": 0.22
+      "prob": 0.2
     },
     {
       "team": "France",
-      "prob": 0.12
+      "prob": 0.14
     },
     {
       "team": "England",
-      "prob": 0.11
+      "prob": 0.12
     },
     {
       "team": "Brazil",
-      "prob": 0.06
+      "prob": 0.07
     },
     {
       "team": "Portugal",
@@ -33,12 +33,12 @@
       "prob": 0.04
     },
     {
-      "team": "Netherlands",
+      "team": "Morocco",
       "prob": 0.03
     }
   ],
-  "reasoning": "Spain are the clear market favourites and boast arguably the deepest squad in the tournament, with an elite midfield of Rodri, Pedri and Zubimendi plus a strong goalkeeping and defensive core, and they have already beaten both France and Argentina in recent decisive fixtures despite lingering Yamal and Williams fitness concerns. Argentina, the defending champions, remain the primary threat with Messi in scoring form and proven knockout pedigree, having won Group J with a perfect record. France and England are the strongest chasers — England's high-scoring win over France and Norway shows attacking firepower, while France retain elite talent — but both sit a clear tier below the top two. Morocco is the standout dark horse: they topped their group ahead of Scotland and pushed deep, and their combination of organization and big-game experience makes them a genuine outsider capable of an upset run.",
+  "reasoning": "Spain are the reigning European champions with the best defensive record left in the field, an unbeaten run stretching nearly two years, and the deepest midfield in world football through Rodri and Pedri, and the head-to-head results shown (2-0 over France, 1-0 over Argentina) confirm they can beat every rival. Argentina, the defending champions, are the clear second favorite behind an in-form Messi and proven knockout pedigree, though they have survived several scares and rely heavily on individual moments. France and England remain the biggest threats given elite squad depth and firepower, but both have already lost to the top two in provided results. Morocco are my dark horse: they topped a tricky group ahead of Scotland and pushed Brazil close, and their disciplined defensive structure plus knockout experience make them a live outsider capable of another deep run.",
   "basis": "knockout stage",
   "modelVersion": "claude-opus-4-8",
-  "updatedAt": "2026-07-31T08:37:11.732Z"
+  "updatedAt": "2026-08-01T08:06:02.865Z"
 }
