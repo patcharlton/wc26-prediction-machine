@@ -6,7 +6,7 @@
   "contenders": [
     {
       "team": "Spain",
-      "prob": 0.28
+      "prob": 0.3
     },
     {
       "team": "Argentina",
@@ -18,27 +18,27 @@
     },
     {
       "team": "England",
-      "prob": 0.12
+      "prob": 0.11
     },
     {
       "team": "Brazil",
-      "prob": 0.07
-    },
-    {
-      "team": "Portugal",
-      "prob": 0.05
+      "prob": 0.06
     },
     {
       "team": "Germany",
+      "prob": 0.05
+    },
+    {
+      "team": "Portugal",
       "prob": 0.04
     },
     {
-      "team": "Morocco",
+      "team": "Netherlands",
       "prob": 0.03
     }
   ],
-  "reasoning": "Spain are the reigning European champions with the best defensive record left in the field, an unbeaten run stretching nearly two years, and the deepest midfield in world football through Rodri and Pedri, and the head-to-head results shown (2-0 over France, 1-0 over Argentina) confirm they can beat every rival. Argentina, the defending champions, are the clear second favorite behind an in-form Messi and proven knockout pedigree, though they have survived several scares and rely heavily on individual moments. France and England remain the biggest threats given elite squad depth and firepower, but both have already lost to the top two in provided results. Morocco are my dark horse: they topped a tricky group ahead of Scotland and pushed Brazil close, and their disciplined defensive structure plus knockout experience make them a live outsider capable of another deep run.",
+  "reasoning": "Spain enter the knockouts as the strongest all-round side: European champions on a lengthy unbeaten run, boasting arguably the deepest midfield in world football (Rodri, Pedri, Zubimendi, Olmo) and the tournament's best defensive record, having topped Group H and already beaten Argentina, France and Belgium in recent meetings. Argentina are the clear second pick — defending champions with Messi still decisive and a proven knockout formula — but their aging squad and Spain's head-to-head edge tilt the final their opponents' way. France and England have the squad quality to reach the semis and punish any Spanish slip, making them the main alternative threats. Morocco is the live outsider: they matched Brazil in Group C, carry 2022 semifinal pedigree, and could ride a favorable bracket run deep, especially with strong North African fan support across host venues. Key risks to the pick are a Yamal/key-player injury and the altitude/travel demands of Mexican venues disrupting rhythm.",
   "basis": "knockout stage",
   "modelVersion": "claude-opus-4-8",
-  "updatedAt": "2026-08-01T08:06:02.865Z"
+  "updatedAt": "2026-08-02T08:07:57.590Z"
 }
